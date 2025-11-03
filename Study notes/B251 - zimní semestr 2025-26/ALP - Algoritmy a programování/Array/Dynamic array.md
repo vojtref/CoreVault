@@ -6,5 +6,3 @@
 ---
 - např. `std::vector` v C++
 - v Python nesprávně nazváno `List`
-
-#B3B33ALP

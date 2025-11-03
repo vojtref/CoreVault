@@ -21,5 +21,3 @@
 
 [^1]: Dressler RL. 1967. Why do euglossine bees visit orchid flowers? *Atlas Simp. Biota Amazon. (Zool.)* 5:176. Retrieved from https://www.researchgate.net/publication/256692531_Why_do_euglossine_bees_visit_orchid_flowers
 [^2]: Roberts, D., Alecrim, W., Heller, J. _et al._ Male _Eufriesia purpurata_, a DDT-collecting euglossine bee in Brazil. _Nature_ **297**, 62–63 (1982). https://doi.org/10.1038/297062a0
-
-#neat-things 

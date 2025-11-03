@@ -15,5 +15,3 @@
 <br>
 
 - v Python nestandardní, dostupné v knihovnách
-
-#B3B33ALP

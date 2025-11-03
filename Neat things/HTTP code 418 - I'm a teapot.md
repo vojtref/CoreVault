@@ -1,5 +1,3 @@
 - Response code in HTCPCP (**H**yper **T**ext **C**offee **P**ot **C**ontrol **P**rotocol) as defined in [IETF RFC 2324](https://datatracker.ietf.org/doc/html/rfc2324)
 - Indicates that the client attempted to brew coffee with a teapot, and that the entity may be short and stout
 - Expanded in the extension HTCPCP-TEA (**H**yper **T**ext **C**offee **P**ot **C**ontrol **P**rotocol for **T**ea **E**fflux **A**ppliances), defined in [IETF RFC 7168](https://datatracker.ietf.org/doc/html/rfc7168), as indicating a permanent inability to brew coffee, as opposed to a temporary inability indicated by response code 503 (Service Unavailable); see [RFC 7168 section 2.3.3](https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.3)
-
-#neat-things

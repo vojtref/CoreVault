@@ -61,5 +61,3 @@ class LinkedList:
 			tmp = tmp.next
 		return None
 ```  
-
-#B3B33ALP
