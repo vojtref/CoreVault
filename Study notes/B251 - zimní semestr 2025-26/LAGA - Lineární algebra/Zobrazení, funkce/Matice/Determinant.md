@@ -1,5 +1,6 @@
-- Leibnizův vzorec$$\det A = \sum_{\pi \in S_n} \sign \pi \prod_{n=1}^{s} a_{\pi(n),n}$$
-- $S_n$ - množina všech permutací $n$-prvkové množiny
+- Leibnizův vzorec $$\det A = \sum_{\pi \in S_n} \sign \pi \prod_{n=1}^{s} a_{\pi(n),n}$$
+	- Velebil rozepsal ten součin po položkách, ale proč to dělat když to jde s dalším hieroglyfem
+- zopakování: $S_n$ - množina všech permutací $n$-prvkové množiny
 	- $\card S_n = n!$
 	- př. $S_2$
 		- $\mathbf{A} = \pmatrix{a_{11} & a_{12} \\ a_{21} & a_{22}}$
@@ -8,7 +9,7 @@
 	- př. $S_3$
 		- TODO: doplnit, 3 věže
 	- Sarrusovo pravidlo, snadný pattern dle hlavní a vedlejší diagonály neplatí pro $n \ge 4$
-- TODO: doplnit kosodélníky v $\R^2$
+- TODO: doplnit rovnoběžníky v $\R^2$
 - determinant počítá *orientovaný obsah* rovnoběžníku (resp. *orientovaný objem* rovnoběžnostěnu) se stranami ze sloupců matic
 	- $P(\vec{e_1}, \vec{e_2}) = 1$
 		- konvence
@@ -18,7 +19,7 @@
 	- TODO: důkaz skrz komutativitu sčítání, a $\pi \to \pi^{-1}$ pouze přehodí pořadí (vše se stejně sečte)
 - př.
 	- $\mathbf{A}$ je čtvercová matice v horním blokovém tvaru
-		- $\mathbf{A} = \pmatrix{a_{11} & & & \\ 0 & a_{22} & &  \\ 0 & 0 & a_{33} & \\ \vdots & \vdots & \vdots & \ddots}$
+		- $\mathbf{A} = \pmatrix{a_{11} \\ 0 & a_{22} \\ 0 & 0 & a_{33} \\ \vdots & \vdots & \vdots & \ddots \\ 0 & 0 & 0 & 0 & a_{nn}}$
 		- $\therefore$
 		- $\det \mathbf{A} = a_{11} \cdots a_{nn}$
 - při počítání determinantu převedením do horního blokového tvaru skrz GEM nutno kompenzovat elementární řádkové úpravy korekčními faktory (**"opatrná" GEM**)
