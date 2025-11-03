@@ -24,7 +24,7 @@
 		- $\det \mathbf{A} = a_{11} \cdots a_{nn}$
 			- všechny ostatní součiny jsou s min. jednou nulou, hlavní diagonála jediná nenulová
 - při počítání determinantu převedením do horního blokového tvaru skrz [[Gaussova eliminační metoda|GEM]] nutno kompenzovat elementární řádkové úpravy korekčními faktory (takřeč. **"opatrná" GEM**) danými před determinant
-	- prohození řádků (prohození) os mění znaménko permutace (šroubujeme opačným směrem), nutno kompenzovat $-1$
+	- prohození řádků (prohození os) mění znaménko permutace (šroubujeme opačným směrem), nutno kompenzovat $-1$
 	- násobení řádků (= škálování os, změna měřítka) inverzním skalárem
 		- roztáhnutí osy vynásobí objem, proto $\sim \; \ne \; =$
 	- zkosení (přičtení násobku řádku) není nutno kompenzovat, zkosení plochu nemění
