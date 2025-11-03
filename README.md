@@ -1,5 +1,9 @@
 # CoreVault
 - můj hlavní repozitář zápisek, určeno pro [Obsidian](https://obsidian.md/)
+	- ["Study notes"](https://github.com/vojtref/CoreVault/tree/master/Study%20notes) jsou vyloženě studijní zápisky
+		- obor *Lékařská elektronika a bioinformatika* na FEL ČVUT
+		- trochu atypické pořadí (např. genetika hned 1. semestr)
+	- ["Neat things"](https://github.com/vojtref/CoreVault/tree/master/Neat%20things) je cokoli, co mi přijde zajímavý (celkem dead, ale občas něco třeba přidám)
 - závisí na následujících Obsidian pluginech:
 	- [Extended MathJax](https://github.com/wei2912/obsidian-latex)
 		- umožňuje použití `preamble.sty` na vlastní LaTeXové zápisy
