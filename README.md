@@ -7,4 +7,4 @@
 	- [Folder notes](https://github.com/LostPaul/obsidian-folder-notes)
 		- dovoluje pěknější strukturu zápisek
 		- jde to i bez něj, ale navigace otravnější
-- jde trochu zobrazit i na GitHub, ale čím je to matematičtější, tím hůř se LaTeX zobrazuje, GitHub nepodporuje `preamble.sty` a renderuje LaTeX trochu jinak; tohle je fakt dělaný na stažení a zobrazení v Obsidianu
+- jde trochu zobrazit i na GitHub, ale čím je to matematičtější, tím hůř se LaTeX zobrazuje, GitHub nepodporuje `preamble.sty` a renderuje jak LaTeX, tak Markdown o dost jinak; tohle je fakt dělaný na stažení a zobrazení v Obsidianu
