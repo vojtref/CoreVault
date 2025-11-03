@@ -14,7 +14,7 @@
 - $\R^n$
 	- př. $n=5$
 		- $L = \R^5$
-		- $\begin{pmatrix} -1 \\ \sqrt{2} \\ 0 \\ 4 \\ 3 \end{pmatrix} \in \R^5$
+		- $\pmatrix{-1 \\ \sqrt{2} \\ 0 \\ 4 \\ 3} \in \R^5$
 		- $\vec{x}=\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{pmatrix}$
 	- prvek v $\R^n$ možné znázornit nejen jako klasický vektor v $n$-dimenzionálním prostoru (v podstatě nemožné pro $n > 3$), ale i jako $n$-krát vzorkovaný signál $\ref{AKLA 1.1.8}$
 - $\R[x]$ - množina všech polynomů o neurčité $x$ s reálnými koeficienty
