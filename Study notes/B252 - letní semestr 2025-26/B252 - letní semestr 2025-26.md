@@ -1,6 +1,48 @@
 - #BAB31AF2 — Základy anatomie a fyziologie II.
+	- [sylabus](https://kos.cvut.cz/course-syllabus/BAB31AF2/B252)
+	- 
+	- ROKYTA, R. Fyziologie: pro bakalářská studia v medicíně, přírodovědných a tělovýchovných oborech. Praha: ISV nakladatelství, 2008, 426 s. ISBN 80-858-6645-5. 
+	- MYSLIVEČEK, Jaromír; RILJAK, Vladimír. Fyziologie: repetitorium. Stanislav Juhaňák-Triton, 2022.
+	- OTOMAR, Kittnar, et al. Lékařská fyziologie: 2., přepracované a doplněné vydání. Grada Publishing as, 2020.
+	- SILBERNAGL, Stefan, et al. Atlas fyziologie člověka (Překlad 8. německého vydání). Praha, Česká republika: Grada Publishing, 2016.
 - #B0B01DRN — Diferenciální rovnice a numerika
+	- [sylabus](https://kos.cvut.cz/course-syllabus/B0B01DRN/B252)
+	- 
+	- Habala P.: Ordinary Differential Equations And Numerical Analysis, online, 2020, popřípadě kratší verze v češtině.
+	- Tkadlec, J.: Diferenciální rovnice. Laplaceova transformace. ČVUT, Praha, 2005.
+	- Navara, M., Němeček, A.: Numerické metody. FEL ČVUT, Praha, 2003.
+	- Epperson, J.F.: An Introduction to Numerical Methods and Analysis. John Wiley & Sons, 2013.
+	- William E. Boyce, Richard C. DiPrima, Douglas B. Meade: Boyce's Elementary Differential Equations and Boundary Value Problems, 11. vydání, 2017.
 - #B0B01MA2 — Matematická analýza 2
+	- [sylabus](https://kos.cvut.cz/course-syllabus/B0B01MA2/B252)
+	- 
+	- Hamhalter J. Tišer J.: Diferenciální počet funkcí více proměnných, ČVUT 2005. 
+	- Hamhalter J., Tišer J.: Integrální počet funkcí více proměnných, ČVUT 2005.
 - #B3B02FY1A — Fyzika 1
+	- [sylabus](https://kos.cvut.cz/course-syllabus/B3B02FY1A/B252)
+	- 
+	- Halliday, D., Resnick, R., Walker, J.: Fyzika, VUTIUM-PROMETHEUS, 2000.
+	- Kvasnica, J., Havránek, A., Lukáč, P., Sprášil, B.: Mechanika, ACADEMIA, 2004.
+	- Sedlák, B., Štoll, I.: Elektřina a magnetismus, ACADEMIA, 2002.
+	- Fyzika I a II - fyzikální praktikum, M. Bednařík, P. Koníček, O. Jiříček.
+	- Physics I, S. Pekárek, M. Murla, Dept. of Physics FEE CTU, 1992.
+	- Physics I - Seminars, M. Murla, S. Pekárek, Vydavatelství ČVUT, 1995.
+	- Physics I - II, Laboratory manual, S. Pekárek, M. Murla, Vydavatelství ČVUT, 2002.
 - #B2B31ZEOA — Základy elektrických obvodů
+	- [sylabus](https://kos.cvut.cz/course-syllabus/B2B31ZEOA/B252)
+	- 
+	- V. Havlíček, M. Pokorný, I. Zemánek : Elektrické obvody 1,Nakladatelství ČVUT Praha 2005
+	- V. Havlíček, I. Zemánek : Elektrické obvody 2, Nakladatelství ČVUT Praha 2008
+	- R. Čmejla, V. Havlíček, I. Zemánek : Základy teorie obvodů 1 - cvičení, Vydavatelství ČVUT, Praha 2000
+	- R. Čmejla, V. Havlíček, I. Zemánek : Základy teorie obvodů 2 - cvičení, Vydavatelství ČVUT, Praha 1999
+	- M. Mikulec : Teorie obvodů - přednášky, Ediční středisko ČVUT, Praha 1992
+	- J. D. Irwin, R. M. Nelms: Basic engineering circuit analysis: / 9th ed., Wiley, 2008.
+
 - #BAB36PRGA — Programování v C
+	- [sylabus](https://kos.cvut.cz/course-syllabus/BAB36PRGA/B252)
+	- 
+	- King: C Programming: A Modern Approach, (2nd Edition or later), 2008. 
+	- Kochan: Programming in C, (3rd Edition or later), 2014.
+	- Klemens: 21st Century C: C Tips from the New School, 2012.
+	- Sedgewick, Wayne: Algorithms (4th Edition or later), 2011.
+	- Cormen, Leiserson, Rivest, and Stein: Introduction to Algorithms, (3rd Edition or later), 2009.
