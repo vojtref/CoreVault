@@ -46,7 +46,7 @@
 					- vzácně i dvojřetězcové RNA (dsRNA, double stranded), např. u některých virů
 				- vlákno se může "smotat" na úseku i do dvojvlákna samo s sebou - tzv. duplexní struktura 
 	- proteiny
-		- česky bílkoviny, překladem z německého "Eiweisskörper" ("tělíska vaječného bílku")
+		- česky bílkoviny, částečný kalk z německého "Eiweisskörper" ("tělíska vaječného bílku")
 		- protein z řeckého "πρώτειος" ("první" či "vedoucí"), vycházející z mylného přesvědčení, že první organismy byly z jednotlivých proteinových makromolekul
 			- momentální vůdčí teorie je, že počátky života byly v tzv. RNA světě, kde první formy života byly sebereplikující makromolekuly RNA (ne bílkovin)
 		- řetězce aminokyselin, příp. dalších dílčích molekul (glykoproteiny apod.)

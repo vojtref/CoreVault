@@ -1,10 +1,10 @@
 - #BAB31AF1 — Základy anatomie a fyziologie 1.
 	- [sylabus](https://www.kos.cvut.cz/course-syllabus/BAB31AF1/B251)
-	- MUDr. Salavová (sarka.salavova@lfmotol.cuni.cz)
+	- Mgr. Salavová (sarka.salavova@lfmotol.cuni.cz)
 	- MUDr. Čížková (kamila.cizkova@lfmotol.cuni.cz)
 	- 
-	- Kachlík, David. Anatomie pro nelékařské zdravotnické obory. 1. vyd. Praha: Nakladatelství Karolinum, 2018. 154 s. ISBN 978-80-2464-058-7.
-	- Naňka, O.; Elišková, M.: Přehled anatomie. Praha: Galén, Karolinum – ISBN 978-80-7262-612-0.
+	- Kachlík, David. Anatomie pro nelékařské zdravotnické obory. 1. vyd. Praha: Nakladatelství Karolinum, 2018. ISBN 978-80-2464-058-7.
+	- Naňka, O.; Elišková, M.: Přehled anatomie. Praha: Galén, Karolinum. ISBN 978-80-7262-612-0.
 - #BAB31UBI — Úvod do bioinženýrství
 	- [sylabus](https://www.kos.cvut.cz/course-syllabus/BAB31UBI/B251)
 	- Ing. Novotný, Ph.D. (novotm26@fel.cvut.cz)

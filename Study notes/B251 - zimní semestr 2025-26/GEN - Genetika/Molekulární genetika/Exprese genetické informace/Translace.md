@@ -1,4 +1,3 @@
-#BAB31GEN 
 - přeložení maturovaného mRNA na protein
 - probíhá v buněčné cytoplasmě a na hrubém endoplazmatickém retikulu (v omezené míře i na hladkém) 
 - iniciační, terminační faktory
