@@ -1,0 +1,54 @@
+- $f$ funkce na prstencovém okolí bodu $x_0 \in \ER$
+- $a \in \ER$ je *limitou funkce $f$ v bodě $x_0$* $$\iff \forall{U_{\varepsilon}(a)}\exists{P_{\delta}(x_0) \subseteq D(f)}: \forall{x}({x \in P_{\delta}(x_0)} \implies f(x) \in U_{\varepsilon}(a))$$
+- zápis:
+	- $$\lim_{x \to x_0} f(x) = a$$
+	- $$f(x) \xrightarrow{x \to x_0} a$$
+	- $$f(x) \to a \text{ pro } x \to x_0$$
+- př., procvičit (TODO)
+	- ukažte, že $\lim_{x \to 2}(3x-1)=5$
+		- $D(f) = \R, x_0 = 2, a = 5$
+	- $$\lim_{x \to 0}\frac{1}{x^2}=\infty$$
+	- $$\lim_{x \to \infty}{x^\alpha}=\infty, \alpha \gt 0$$
+	- $$\lim_{x \to \infty}{\frac{1}{x}}=0$$
+-  limita zprava $\lim_{x \to x_0^+}{f(x)} = a$, zleva $\lim_{x \to x_0^-}{f(x)} = a$
+	- $$\exists{\lim_{x \to x_0}}{f(x)} \iff \exists{\lim_{x \to x_0^+}{f(x)}, \lim_{x \to x_0^-}{f(x)}} \land \lim_{x \to x_0^+}{f(x)} = \lim_{x \to x_0^-}{f(x)}$$
+	- oboustranná limita existuje právě tehdy kdy existuje limita zleva i zprava a jsou si rovny
+- limita podílů polynomů v nekonečnu
+	- "vyhrává" polynom vyššího stupně
+	- pokud stejný stupeň, limitou je podíl vedoucích koeficientů
+	- např.
+		- $\lim_{x \to \infty}{\frac{x^2+7x}{x^3}}=0$
+		- $\lim_{x \to \infty}{\frac{x^2+7x}{2x^2}}=\frac{1}{2}$
+		- $\lim_{x \to \infty}{\frac{0.1x^5}{8x^4+7x^3+x^2}}=\infty$
+- Heineova/Heineho věta 3.2
+- věta 3.4: $\lim_{x \to x_0}f(x) = a > 0 \implies \exists{P_{\varepsilon}(x_0)}\forall{x \in P_{\varepsilon}(x_0):f(x)>0}$, analog. pro $a < 0$
+	- $\forall{\varepsilon > 0}:\exists{P(x_0)}\forall{x \in P(x_0)}:|f(x) - a| < \varepsilon$
+	- TODO: doplnit
+- věta 3.5: pokud má $f$ vlastní limitu $a$ v bodě $x_0$, tak je na nějakém okolí $P(x)$ omezená
+	- $a \in \R \mid a \ne \pm\infty$
+	- např. $\varepsilon=1$
+		- z def. limity: $\exists P(x_0) \forall x \in P(x_0): |f(x) - a| < 1 \implies a-1 < f(x) < a+1$, tzn. omezená shora i sdola $\QED$
+- věta 3.6: $f$ monotónní na $\intvloo{a}{b} \implies \exists \lim_{x \to a+}f(x) \land \exists \lim_{x \to b-}f(x)$
+- aritmetika vlastních limit
+	- $\lim_{x \to x_0}f(x)=a,\ \lim_{x \to x_0}g(x)=b$
+	- $\lim_{x \to x_0}(f(x)+g(x))=a+b$
+	- $\lim_{x \to x_0}(f(x)g(x))=ab$
+	- $\lim_{x \to x_0}\frac{f(x)}{g(x)}=\frac{a}{b}$
+	- $\lim_{x \to x_0}(f(x)-a) = 0$
+	- TODO: doplnit z prez a skript
+- pokud $f, g$ spojité v $x_0$, spojité i $f+g$, $f-g$, $f \cdot g$
+- $\lim_{x \to x_0}f(x)=0 \land (f(x) \in P(x_0)) > 0 \implies \lim_{x \to x_0}\frac{1}{f(x)} = \infty$
+	- analog. pro $-\infty$
+- věta 3.12
+	- $f \le g$ na nějakém $P(x_0)$, $\lim_{x \to x_0}f(x)=a$, $\lim_{x \to x_0}g(x)=b$ $\implies a \le b$
+	- $f \le g$ na nějakém $P(x_0)$, $\lim_{x \to x_0}f(x)=\infty \implies \lim_{x \to x_0}g(x)=\infty$
+	- $f \le g$ na nějakém $P(x_0)$, $\lim_{x \to x_0}g(x)=-\infty \implies \lim_{x \to x_0}f(x)=\infty$
+	- $f \le g \le h$ na $P(x_0) \land \lim_{x \to x_0}f(x)=\lim_{x \to x_0}h(x)=a \implies \lim_{x \to x_0}g(x)=a$
+	- $|f| \le |g| \land \lim_{x \to x_0}g(x)=0 \implies \lim_{x \to x_0}f(x)=0$
+- věta 3.13 - TODO doplnit
+- věta 3.14 - TODO doplnit
+- $h(x) = (f(x))^{g(x)},\ D(h)=D(g) \cup \{x \in D(f) \mid f(x) > 0\}$
+	- $\lim$
+- L'Hôpitalovo pravidlo
+	- pro funkce typu $\langles \frac{0}{0} \rangles$ a $\langles \frac{\infty}{\infty} \rangles$
+	- $\lim_{x \to x_0}{\frac{f(x)}{g(x)}} = \lim_{x \to x_0}{\frac{f'(x)}{g'(x)}}$

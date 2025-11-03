@@ -1,0 +1,40 @@
+- obecná struktura
+	- vstupy (senzory)
+		- analogové
+		- digitální/číslicové
+	- obvody zpracovávající signál
+	- řídící obvody
+	- zobrazovací obvody
+	- obvody rozhraní
+		- RS-232, Ethernet, USB, Bluetooth...
+	- výstupy (aktuátory)
+		- analogové
+		- digitální/číslicové
+- legislativa
+	- definuje povinná kritéria, certifikace, standardy
+	- liší se regionálně
+		- Evropa - CE
+		- Sev. Amerika - UL
+		- Čína - CCC
+		- $\vdots$
+	- vyžaduje prvotní certifikaci a následné pravidelné audity
+	- v EU:
+		- získat CB certifikát potvrzující soulad s normami
+		- získat CE certifikát (prohlášení o shodě) na základě auditu
+- třídy přístrojů
+	- z pohledu rizika zranění pacienta
+	- z pohledu elektrické bezpečnosti
+	- z pohledu EMC
+- nutno balancovat bezpečnost a výrobní náklady
+- různé techniky pro různé podmínky a scénáře, např.:
+	- galvanická izolace DC skrze synchronní modulaci a transformátor, nebo skrze modulační izolační zesilovač s optickou vazbou
+	- elektrostatické stínění Faradayovou klecí
+		- pro stínění časově neměnného, tedy statického el.mag. pole
+	- magnetické stínění
+		- pro stínění časově proměnného, tedy dynamického el.mag. pole
+		- pomocí magneticky měkkých materiálů, např. permalloy PY76 (24 Fe : 76 Ni)
+	- guarding - aktivní stínění
+		- TODO: nastudovat
+		- např. EKG, EEG, EMG - kdekoli kde je jemný vstupní signál, zvlášť u diferenčních čidel
+	- proudově kompenzovaná tlumivka
+		- potlačuje veškeré střídavé proudy, resp. časové derivace proudů, které nejsou vyvážené proudem v opačném směru (zejm. uzavřená zemní smyčka u napájecího zdroje)

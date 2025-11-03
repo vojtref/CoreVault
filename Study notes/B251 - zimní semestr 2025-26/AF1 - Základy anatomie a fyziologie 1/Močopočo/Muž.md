@@ -1,0 +1,59 @@
+- testes (sg. testis)
+	- lobuli testis - lalůčky
+		- tubuli seminiferi contorti - v každém lalůčku několik metrů
+- epididymis - nadvarle
+- scrotum
+	- kožovitý obal varlat, umožňuje vnější uložení pro termoregulaci
+		- viz funkce m. cremaster
+	- vývojově odpovída labiae majores
+		- raphe - srůstový šev šourku
+- descensus testium - sestup varlat
+	- okolo 26. týdne těhotenství
+	- sestup do canalis inguinalis, prochází skrz a ukládají se do šourku
+		- bere s sebou i části peritonea vč. m. cremaster
+- ductus/vas deferens
+	- součástí semenného provazce, spolu s cévami, žilními plexy
+		- a. testicularis
+- spermatogeneze
+	- proces vývoje spermatozoat ze spermatogonií
+	- 64-72 dnů do dozrání spermatozoa
+	- spermatozoa
+		- hlavička
+		- bičík
+			- pohyb?? popsala bakteriální
+	- stimulována testosteronem
+	- nutná nižší tělesná teplota
+	- plodnost teoreticky od puberty do smrti (s věkem však klesá četnost, kvalita)
+	- spermatografie
+		- kontrola četnosti, morfologie a motility
+- glandula vesiculosa
+- ductus ejaculatori
+- prostata
+	- zespoda naléhá na močový měchýř
+	- skrz prochází urethra
+	- klinika: proto často způsobuje potíže s močením u mužů nad 50 let, s věkem zduřuje (riziko rakoviny, nutné každoroční vyšetření)
+		- zdravá prostata není hmatná, proto vyšetření per rectum
+- mužská urethra
+	- pars intramuralis
+	- pars prostatica
+	- pars membranacea/intermedia
+		- průchod přes diaphragma pelvis
+	- pars spongiosa
+		- ohraničeno corpus spongiosum
+		- strukturně podpořeno skrz corpora cavernosa
+			- cévní zásobení z a. profunda penis (v každém dutinkovém tělísku jedna)
+		- fossa navicularis
+		- hypospadias, epispadias
+- corpus spongiosum
+	- proximálně se rozšiřuje na bulbus
+	- distálně na glans penis
+		- ostium externum urethrae
+- urethra
+	- rozšíření a zúžení
+		- ostium externum - zú
+		- fossa navicularis - roz
+		- pars spongiosa - zú
+		- ampula urethrae - roz, pak zú
+		- pars membranacea - zú
+		- TODO: doplnit
+- excavatio rectovesicalis

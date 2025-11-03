@@ -1,0 +1,26 @@
+- přepis DNA na RNA
+- syntéza RNA dle DNA
+- v eukaryotách probíhá zejm. v buněčném jádře
+- proces:
+	- DNA rozpleteno DNA helikázou
+	- RNA polymeráza syntetizuje pre-mRNA (= hnRNA, heterogenní nukleární RNA), primární transkript
+		- podle templátového řetězce DNA (-DNA) syntetizováno komplementární pre-mRNA
+		- druhý řetězec DNA, tzv. kódující řetězec (+DNA), není zapojen do transkripce, ale sekvencí odpovídá vytvořenému transkriptu
+		- **[[Epigenetika|epigenetická]] vložka** - RNA polymeráza **netranskribuje** methylované CpG dinukleotidy
+			- methylací se tedy může gen "vypnout" (angl. silencing the gene)
+			- methylaci CpG dinukleotidů provádí enzym DNA-methyltransferáza navázáním methylu na cytosin (skupina brána z S-adenosylmethioninu)
+				- probíhá jak fyziologicky (a nejen v eukaryotech, do menší míry i např. bakteriálně), tak patologicky
+					- např. cigaretový kouř zvyšuje míru methylace
+				- určitá místa v sekvenci obsahují opakované CpG dinukleotidy, naznačující evoluční výhodnost methylace a epigenetických procesů
+		- hnRNA může být rovnou využito (tzv. funkční RNA, např. tRNA), nebo dále modifikováno
+	- post-transkripční modifikace
+		- tzv. splicing (= sestřih), "vystříhání" intronů z pre-mRNA
+			- označeny určitými sekvencemi nukleotidů
+			- odstraněny pomocí snRNP
+				- small nuclear ribonucleoprotein
+				- ribonukleoproteiny obsahující snRNA (small nuclear RNA)
+			- jedno snRNP se napojí na donorové místo, další na akceptorové místo (resp. na tzv. branching site, branchpoint)
+			- intron vystřižen, snRNP se napojí na sebe a spojí konce mRNA k sobě 
+			- komplex obsahující vystřižený intron odchází v lasovité struktuře zvané lariát
+		- výsledná *maturovaná* mRNA obsahuje pouze exony ohraničené UTR
+- maturovaná mRNA opouští jádro skrz jaderné póry do cytoplazmy, kde probíhá další exprese

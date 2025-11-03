@@ -1,0 +1,75 @@
+- morálka
+	- vychází z praktického pozorování lidského chování a jak je dané chování vnímáno
+- etika
+	- snaha najít chování co nejlepší
+	- normativní etika
+		- etika ctnosti (Aristoteles)
+			- etické je chovat se dle ctností stanovených jejich nositelem
+			- důraz na vlastní charakter
+			- např. lhaní: ano i ne
+		- deontologie (Kant)
+			- etické je chovat se dle vnitřních zásad, které si každý vytváří tak, aby platily co nejobecněji a ostatním neškodily
+			- důraz na dodržování platných norem
+			- základní principy
+				- heteronomie × autonomie
+				- maximy × platný zákon
+				- hypotetický × kategorický imperativ
+			- např. lhaní: ne
+		- utilitarianismus (Bentham)
+			- "účel světí prostředky"
+			- důraz na důsledky jednání; směrovací princip je co nejvíce dobra pro co nejvíce lidí
+			- např. lhaní: ano i ne
+	- aplikovaná etika
+		- lékařská etika
+			- zásady
+				- beneficience
+					- výsledek musí být pro pacienta prospěšný
+				- nonmaleficience
+					- výsledek nesmí pacienta celkově poškodit
+				- autonomie
+					- pacient má vždy právo rozhodovat o své péči
+					- rozhodovací proces
+						- získat fakta
+						- pochopit možnosti, jejich dopady
+						- ohodnotit možné postupy v závislosti na vlastních hodnotách
+					- rozhodují v tomto pořadí:
+						- pacient
+						- pacient skrz stanovené pokyny (dopis, závěť apod)
+						- zástupci pacienta
+						- soudy, úřední aparát
+				- spravedlnost
+					- každému se musí dostávat stejného, co nejvyššího standardu péče
+			- smrt, euthanasie
+				- obtížné definovat smrt (selhání vitálních funkcí? mozkové aktivity? mozkového kmene?)
+				- kvalita života (viz QALY - quality adjusted life years)
+				- lidské právo rozhodovat o životu a smrti
+					- dobré či špatné přerušit léčbu, podat smrtelnou dávku?
+					- "hraní si na boha"
+				- euthanasie
+					- aktivní × pasivní
+					- dobrovolná × nedobrovolná
+			- experimentování na lidech
+				- mělo by být? za jakých podmínek?
+				- informovaný souhlas
+					- základní předpoklad pro etický a zákonný experiment
+					- viz tzv. Helsinská deklarace
+				- schválení a kontrola etickou komisí
+				- typy
+					- podle cíle
+						- terapeutické × neterapeutické
+						- deskriptivní
+						- intervenční × observační
+						- korelační
+					- podle designu
+						- case study (n=1)
+						- cross-sectional study
+						- longitudinal study
+						- blinded study
+							- double-blinded study
+				- principy
+					- založený na předešlém výzkumu
+					- musí být využity vhodné metody na zodpovězení daných otázek
+					- prováděn kvalifikovanými osobami
+					- rizika i zisky musí být zváženy, rizika mají větší váhu a prioritu
+					- účast dobrovolná, vědomá, potvrzená souhlasem
+					- experiment ukončen okamžitě, když pacient odebere souhlas, nebo když se odhalí riziko pro pacienta

@@ -1,0 +1,65 @@
+- elektrotechnika
+	- viz Wikipedia https://cs.wikipedia.org/wiki/Elektrotechnika
+	- praktické využití elektrické energie
+- základní dělení dle výkonu
+	- slaboproud - "malé výkony"
+	- silnoproud - "velké výkony"
+	- dnes spíše zastaralé dělení
+		- hranice čím dál mlhavější
+		- přesné dělení se liší dle oboru, někdy je až subjektivní
+- elektrotechnické obory
+	- elektroenergetika
+		- výroba
+		- rozvod
+	- elektrické stroje
+		- převádí elektrickou energii na jinou (příp. opět na elektrickou)
+		- transformátor, zářivka, přímotop, elektromotor...
+	- elektrické přístroje
+		- ovládá, řídí a regulují elektrické stroje
+		- vypínač, rheostat...
+		- voltmetr, ampérmetr, wattmetr...
+	- pohony
+	- výkonová elektrotechnika
+	- řízení
+	- elektronika
+- průmysl
+	- integrovanější systém výroby
+	- "verze"
+		- průmysl 1.0 - parní stroje
+			- továrny průmyslové revoluce
+			- v továrních halách mechanické transmise
+		- průmysl 2.0 - pásová výroba, elektrifikace
+			- v počátcích parní stroj nepohání stroje přímo, pohání generátor
+			- místo transmisního pohonu elektrické rozvody
+			- výraznější flexibilita
+		- průmysl 3.0 - informační technologie, elektronika
+			- počítačové zpracování výrobních dat
+			- první modely výroby
+		- průmysl 4.0 - inteligentní připojení všeho do sítě
+			- propracovanější výrobní modely
+			- automatizace logistiky
+			- i věci typu augmentovaná realita
+- jazyk
+	- sémantický a semiotický dorozumívací systém na popis věcí, akcí, myšlenek
+	- čeština, angličtina, smajlíky, schématické značky...
+	- technický jazyk
+		- přizpůsobený pro potřeby techniků, technicky orientovaných lidí, technických oborů
+		- vlastní specifika formy a terminologie
+- technické kreslení
+	- procházelo výrazným vývojem
+		- počátky např. Da Vinciho realistická perokresba svých vynálezů
+		- později zjednodušení a schématizace (opomenutí stínování apod.), zavedení kótování
+		- v 19. stol. vynález diazotypie
+			- fotochemické množení ručně kreslených technických nákresů
+			- tzv. "modráky" (blueprints)
+		- dnes velko- i maloformátový tisk digitálních projekcí CAD modelů
+			- objektový přístup - každý prvek schématu má vlastní základní parametry, je pouze instancí nějakého "platonického ideálu" (často specifikován výrobcem), u kterého lze parametry příp. měnit (instance tyto pozměněné parametry dědí) a dále zpracovat
+- blokové schéma
+	- nevyjadřuje mechanické provedení, ale systémové vztahy
+- obvodové schéma
+	- opět nevyjadřuje mechanické provedení (či pouze částečně), ale elektrická propojení
+	- některé značky regionálně závislé (např. rezistory americké vs evropské)
+		- standard IEC 60617DB - pokud možno, na ČVUT pouze tyto!
+			- projít, dříve také dostupné jako ČSN 60617
+			- ojedinělé značky výjimka, používány spíš americké než evropské i na ČVUT, třeba operační zesilovače
+	- dnes zejm. CAD software, např. KiCAD (schémata, PCB layout, SPICE simulace), profiCAD (český software, umí i obecné nákresy)

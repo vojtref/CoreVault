@@ -1,0 +1,2 @@
+- psán oznamovacími větami v přirozeném jazyce ^[často včetně symbolického zápisu, který však lze přirozeným jazykem přepsat]
+- konečná a korektní argumentace o pravdivosti dokazovaného tvrzení ^[neformální popis důkazu; formální popis je v matematické logice]

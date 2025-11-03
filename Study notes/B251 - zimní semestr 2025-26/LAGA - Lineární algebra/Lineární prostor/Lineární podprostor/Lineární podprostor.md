@@ -1,0 +1,21 @@
+- $W \subseteq L$ je lineární podprostor prostoru $L \iff \span W = W$
+	- podprostor je sám o sobě [[Lineární prostor|prostorem]] a má veškeré vlastnosti prostoru
+	- $\vec{o} \in W$ - uzavřenost na nulový vektor
+	- $\forall{x,y \in W}: \vec{x} + \vec{y} \in W$ - uzavřenost na součet vektorů
+	- $\forall{a \in \F, \vec{x} \in W}: a \cdot \vec{x} \in W$ - uzavřenost na násobení skalárem
+	- z lineárního podprostoru nelze "utéct"
+- $W_1 \vee W_2 = \span (W_1 \cup W_2)$
+	- obecněji $\bigvee_{i \in I}{W_i}=\span\left(\bigcup_{i \in I}{W_i}\right)$
+	- tzv. **spojení** neboli **join** podprostorů
+	- $\dim V + \dim W = \dim(V \vee W) + \dim(V \cap W)$
+		- princip inkluze a exkluze podprostorů 
+- př.
+	- $W = \left\{\begin{pmatrix} x \\ y \\ 0 \end{pmatrix} \mid x, y \in \R\right\}$
+- lineární podprostory prostoru $\R^3$
+	- jednoprvková množina s počátkem
+	- každá přímka procházející počátkem
+	- každá rovina procházející počátkem
+	- celá množina $\R^3$
+	- dokážeme později
+- každý lineární prostor je svým vlastním podprostorem
+- $\{\vec{o}\}$ je vždy podprostorem každého prostoru

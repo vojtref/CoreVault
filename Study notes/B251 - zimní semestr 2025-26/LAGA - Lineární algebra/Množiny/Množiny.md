@@ -1,0 +1,25 @@
+- množina $M$ je *konečná* právě tehdy, když má $n \in \N_0$ prvků
+- $M$ je *nekonečná* množina právě tehdy, když není konečná (lol)
+- $\card M$ - **kardinalita** $M$, počet prvků
+	- také zapisovatelné jako $|M|$
+	- $\card \O = 0$
+- $\R$ nekonečná množina
+	- důkaz sporem
+		- těleso $\R$ není prázdné: $(\R = \O) \land (1 \in \R) \implies \bot$
+		- vždy lze vytvořit nový prvek: dopsat
+- $A \cup B$ nejmenší společná nadmnožina
+- $A \cap B$ největší společná podmnožina
+- [[Výpočty v obecném lineárním prostoru|lineární (ne)závislost]] i u množin
+	- $\O$ lineárně nezávislá
+	- $\{\vec{o}\}$ lineárně závislá ve všech lin. prostorech
+	- obecněji: $\vec{o} \in M \implies M\ \text{je lineárně závislá množina}$
+	- $\R^3$
+		- báze $\vec{e_1}=\hat{\imath}=\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}, \vec{e_2}=\hat{\jmath}=\begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}, \vec{e_3}=\hat{k}=\begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$ lineárně nezávislé
+	- $M$ je lineárně nezávislá množina vektorů v prostoru $L$
+		- $N \subseteq M \implies N$ také lineárně nezávislá množina
+		- $\vec{v} \notin \span{M} \implies M \cup \{\vec{v}\}$ také lineárně nezávislá množina
+	- $M$ je lineárně závislá množina vektorů v prostoru $L$
+		- $M \subseteq N \implies N$ také lineárně závislá množina
+		- $M \text{ lineárně závislá} \implies \exists{\vec{v} \in M}: \span M = \span(M \setminus \{\vec{v}\})$ - v množině je alespoň jeden "přebytečný" vektor získatelný škálováním; je možné "opatrné" zmenšení lineárně závislé množiny odebráním "přebytečného" vektoru
+- TODO: Doplnit!
+

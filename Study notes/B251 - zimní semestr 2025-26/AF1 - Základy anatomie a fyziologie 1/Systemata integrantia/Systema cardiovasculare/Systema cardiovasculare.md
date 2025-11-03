@@ -1,0 +1,114 @@
+- oběhová soustava
+- fetální krevní oběh
+	- zásobení placentou
+		- 2x aa. umbilicales
+		- 1x v. umbilicalis
+	- ve srdci
+		- otevřené foramen ovale
+		- ductus arteriosus Botalli - Botallova dučej
+			- spojení arcus aortae a a. pulmonaria sinistra
+	- TODO: doplnit
+- dospělý krevní oběh
+	- malý - plicní
+	- velký - tělní
+		- TODO: fix this mess!!!! To asi půjde jenom skrz obrázky, achjo
+		- arteriální
+			- aorta
+				- aorta ascendens
+					- odstup aa. coronariae
+					- arcus aortae
+					- truncus brachiocephalicus
+						- a. carotis comunnis sinistra
+							- trigonum caroticum - zhruba úroveň C4, zde se větví
+							- a. carotis externa
+								- zásobení obličeje, krku
+								- a. occipitalis
+								- a. facials
+								- a. temporalis superficialis
+								- a. maxillaris
+							- a. carotis interna
+						- a. subclavia
+							- truncus thyreocervicalis
+							- a. vertebralis
+								- syndrom katedrál
+							- a. thoracica interna
+								- využívaná na srdeční bypass
+							- a. axillaris
+								- a. brachialis
+									- a. ulnaris
+									- a. radialis
+				- aorta descendens
+					- aorta thoracica
+						- odstupy aa. intercostales
+					- aorta abdominalis
+						- parietální větve
+							- a. phrenica inferior
+							- aa. lumbales (4x)
+						- viscerální větve
+							- nepárové
+								- truncus coeliacus
+									- a. hepatica comunnis
+									- a. gastrica sinistra
+									- a. splenica (= a. lienalis)
+								- a. mesenterica superior
+									- zásobuje část duodena a pankreatu, jejunum, ileum, colon ascendens et transversum
+								- a. mesenterica inferior
+									- zásobuje colon descendens, sigmoideum, část rekta
+							- párové
+								- a. suprarenalis media
+								- a. renalis
+								- a. testicularis/ovarica
+						- bifurkace na úrovni L4
+							- a. iliaca comunnis
+								- a. iliaca interna
+								- a. iliaca externa
+									- a. femoralis
+										- a. poplitea
+											- v oblasti kolenního kloubu
+											- elastická
+											- a. tibialis anterior
+											- a. tibialis posterior
+												- aa. plantares
+													- arcus arteriosus plantaris
+		- venózní - TODO: doplnit
+			- v. cava superior
+				- v. azygos - dexktrálně
+				- v. hemiazygos - sinistrálně
+					- v. hemiazygos accessoria
+				- v. brachiocephalica
+					- v. jugularis interna
+						- přítoky
+							- sinus sagitallis superior et inferior
+								- confluens sinuum
+					- v končetinách nomenklatura hlubokých žil odpovídá tepnám
+					- rete venosum palmare
+						- v. basilica
+						- v. cephalica
+						- v. mediana cubiti, variabilní anastamózy
+			- v. cava inferior
+				- největší žíla v těle
+				- vv. hepaticae
+				- v. iliaca comunnis
+					- v. iliaca interna
+						- u žen perfuze uteru
+					- v. iliaca externa
+						- v. saphena magna
+							- mediální strana stehna, lýtka
+						- v. saphena parva
+							- laterální až dorzální strana
+						- na vv. saphenae parvae et magnae varixy v pozdějším věku, časté trombózy
+				- v. portae
+					- vytváří tzv. portální systém
+					- portokavální anastamózy
+						- spojky mezi v. portae a vv. cavae
+						- při zhoršeném průtoku v. portae (resp. játry) se zvětšují
+						- vv. gastricae, vv. esophageae
+						- vv. paraumbilicales
+						- v. rectalis superior et media
+						- spojky z jater do vv. phrenicae
+						- spojky v retroperitoneu
+- lymfatický systém
+	- lymfa - míza
+		- vzniká z tkáňového moku
+		- vstřebávání bílkovin, cholesterolu, tuků (ve formě mastných kyselin), nepolárních vitaminů (ADEK), steroidních hormonů, železa, mědi, vápníku
+		- interendotelovými štěrbinami prostupují do lymfy imunitní buňky: lymfocyty, leukocyty, makrofágy

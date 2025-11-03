@@ -1,0 +1,27 @@
+- průběžné testy (body $T$; z každého min. $\floor{\frac{max}{4}}$ b)
+	- 5\. týden
+		- 2 příklady na limity
+		- min. 2 b
+		- max. 10 b
+	- 9\. – 10\. týden
+		- 1 příklady na lokální extrema, monotonii
+		- min. 2 b
+		- max. 8 b
+	- 13\. týden
+		- 2 příklady na integrály
+		- min. 3 b
+		- max. 12 b
+- zápočet
+	- účast atd
+	- test na derivace
+		- 4 příklady
+		- musí být bez chyby
+		- 3 pokusy
+- zkouška
+	- písemná část (body $P$)
+		- 6 příkladů
+		- min. 30 b
+		- max. 60 b
+	- ústní část (body $U$; volitelná; možná pokud $P + T \ge 42$)
+		- max. 10 b
+		- při skvělém výkonu může zkoušející zlepšit klasifikaci o další stupeň, než by daly jen body

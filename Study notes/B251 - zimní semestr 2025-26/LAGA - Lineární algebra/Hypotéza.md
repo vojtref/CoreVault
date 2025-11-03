@@ -1,0 +1,6 @@
+- psaná oznamovacími větami v přirozeném jazyce
+- forma úsudku o definovaných pojmech
+- části:
+	- předpoklad(y)
+	- závěr
+- může být pravdivá či nepravdivá

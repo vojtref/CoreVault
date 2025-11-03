@@ -1,0 +1,12 @@
+- kosti hrudního koše
+- costae - žebra
+	- costae verae (7)
+	- costae spuriae (3)
+	- costae fluctuantes (2)
+- sternum - hrudní kost
+	- partes
+		- manubrium sterni
+		- angulus sterni
+		- corpus sterni
+		- processus xiphoideus
+		- incisurae costales

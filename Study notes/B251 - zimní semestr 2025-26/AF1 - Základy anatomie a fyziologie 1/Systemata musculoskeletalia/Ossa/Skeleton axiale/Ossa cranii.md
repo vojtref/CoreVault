@@ -1,0 +1,31 @@
+- kosti lebeční
+- cranium
+	- neurocranium - mozkovna
+		- calvaria - lebeční klenba
+			- os frontale - kost čelní
+			- os parietale - kost temenní
+			- os occipitale - kost týlní
+		- basis cranii - lebeční spodina
+			- os temporale - kost spánková
+			- os scaphoideum - kost klínová
+			- os ethmoidale - kost čichová
+	- viscerocranium, splanchnocranium - obličejová část
+		- os nasale - kost nosní
+		- os lacrimale - kost slzní
+		- os zygomaticum - kost lícní
+		- vomer - kost radličná
+		- concha nasalis inferior - dolní skořepa nosní
+		- os palatinum - kost patrová
+		- maxilla - horní čelist
+		- mandibula - dolní čelist
+		- os hyoideum - jazylka
+- vývoj
+	- neonatální lebka
+	- fonticuli spojené vazivovými proužky
+		- umožňují flexibilitu lebky na průchod porodními cestami
+		- fonticulus major - kraniálně
+		- fonticulus minor - dorzálně
+		- fonticulus sphenoidalis - laterálně
+		- fonticulus mastoideus - dorzolaterálně
+	- velké neurocranium
+	- malé viscerocranium

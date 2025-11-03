@@ -1,0 +1,1 @@
+- TODO: fucking everything jfc tyhle zápisky jsou chaos

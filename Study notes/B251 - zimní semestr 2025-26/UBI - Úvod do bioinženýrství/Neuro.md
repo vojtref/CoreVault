@@ -1,0 +1,209 @@
+- v kombinaci s imunitním a endokrinním systému udržuje homeostázu
+	- spolu s endokrinním systémem přímo řídí organismus
+- zprostředkovává kontakt mezi vnitřním a vnějším prostředím
+- funkce
+	- senzorické
+	- motorické
+	- asociační/integrační
+- strukturální části
+	- centrální nervový systém (CNS)
+		- mozek, mícha
+	- periferní nervový systém (PNS)
+- základní stavební kameny
+	- neurony
+		- základní funkční prvek nervové soustavy
+		- vysoce specializovaná buňka
+		- struktura
+			- soma = tělo
+				- obsahuje veškeré organely
+				- zodpovědné za vznik vzruchu
+			- výběžky
+				- dendrity (aferentní)
+					- dendron - svazek dendritů, zejm. u pseudounipolárních a bipolárních neuronů
+				- neurity (eferentní)
+					- axon - svazek neuritů, zejm. u unipolárních, pseudounipolárních, bipolárních a multipolárních neuronů
+						- gliová myelinová pochva
+							- Schwannovy buňky
+							- mezi nimi Ranvierovy zářezy
+							- elektrická izolace
+							- urychluje přenos akčního potenciálu
+		- synapse - spojení mezi neurony, příp. neuronu na efektor (sval, žláza)
+			- typy dle napojení
+				- axosekreční
+				- axoaxonní
+				- axodendritická
+				- TODO: doplnit
+			- typy dle mechanismu
+				- elektrická
+					- u obratlovců téměř neexistuje
+					- čistě elektrické spojení
+				- chemická
+					- pomalejší než elektrická
+					- většinou jednosměrná
+					- na jednom neuronu vesikuly s neurotransmitery (e.g. oxytocin, acetylcholin...), které uvolní Ca ionty po doputování akčního potenciálu
+					- vesikula splyne s membránou a neurotransmitery se "vylijí", doputují k receptorům přes synaptickou štěrbinu (synaptic cleft; 10-30 nm)
+					- aktivované receptory buď spustí kaskádu akčního potenciálu (excitace), nebo spustí mechanismus blokující jiný (inhibice)
+		- kódování informace - "všechno nebo nic," iontové kanály se buď otevřou nebo ne
+	- neuroglie
+		- "chůvičky pro neurony"
+		- udržují homeostázu, správné prostředí pro funkci neuronů
+		- vytváří myelin
+		- chrání neurony
+		- funkce
+			- strukturní podpora
+			- dodávání živin, kyslíku
+			- elektrochemická izolace neuronů myelinem
+			- eliminace patogenů
+			- vyplavování metabolitů
+- dráhy PNS
+	- dle směru
+		- aferentní (dostředivé)
+			- senzorické
+		- eferentní (odstředivé)
+			- motorické
+			- žlázové
+	- dle ovládání
+		- somatické - volní
+			- vedení impulzů ke kosternímu svalstvu
+		- autonomní
+			- vedení impulzů ke hladké a srdeční svalovině, žlázám
+	- dle stimulačního efektu
+		- sympatikus - fight or flight
+			- stimuluje tělo k aktivitě
+		- parasympatikus - rest and digest
+			- zachovává energii, podporuje regeneraci
+- CNS
+	- tkáně
+		- šedá hmota
+			- somata neuronů
+		- bílá hmota
+			- axony neuronů, glie
+	- části
+		- mozek
+			- v číslech
+				- 2% těl. hm. (1.2 – 1.4 kg)
+				- 15% srdečního výdeje
+				- 20% energetického výdeje
+				- 25% spotřeba krevní glukózy
+				- 86 mld. neuronů
+				- 85 mld. glií
+			- morfologie
+				- diencephalon - mozkový kmen
+					- regulace kardiovaskulárního systému, respiračního systému, zákl. živ. funkce
+					- vývojově nejstarší, "ještěří mozek"
+				- mesencephalon - mezimozek
+					- TODO: doplnit, prezentace moc zjednodušuje, míchá dohromady funkce mezimozku a koncového mozku
+				- telencephalon - koncový mozek
+					- dělený na 2 hemisféry, 4 laloky (lobi)
+					- vyšší kognitivní a asociační funkce
+						- např. řeč, učení, abstraktní myšlení, komplexnější emoce, epizodická paměť
+				- mozeček - cerebellum
+					- různé funkční teorie - dříve předpokládána čistě motorická funkce (různé motorické reflexy, koordinace pohybů), novější výzkum toto vyvrací
+					- klinické příznaky poškození
+						- nestabilita, narušená rovnováha a chůze, široký postoj
+			- funkce
+				- autonomní funkce
+					- udržení základních životních funkcí a potřeb
+				- senzorické funkce
+					- taktilní podněty
+					- propriocepce
+					- $\vdots$
+				- motorické funkce
+					- bazální ganglia, mozeček - plánování, synchronizace a koordinace pohybů
+				- kognice
+					- pozornost
+					- učení
+					- paměť
+					- úsudek, logické myšlení
+					- počítání
+					- porozumění a produkce jazyka
+					- 
+					- hodnoceno např. dle MoCA (Montreal cognitive assessment)
+				- emoce
+					- limbický systém
+					- jeden z nejstarších systémů mozku
+					- úzce propojený se všemi vrstvami mozku
+						- při emoční aktivitě aktivovány evolučně přednastavené okruhy
+				- jazyk
+					- dva okruhy
+						- ventrální
+							- rozpoznání zvuků
+							- porozumění slovům, obsahům větu
+						- dorsální
+							- produkce řeči
+							- řečové mimikry
+							- hodnocení kvality řeči
+							- přiřazení pohybů úst a jazyka ke hláskám
+			- lateralizace
+				- kontralaterální organizace koncového mozku - levá hemisféra inervuje pravou stranu těla, pravá levou
+					- v případě očí komplikovanější, levá hemisféra inervuje levou polovinu sítnice každého oka, pravá pravou - viz schéma chiasma opticum
+				- asymetrie v případě řeči, auditorních funkcí, zrakové pozornosti, hmatu
+					- potenciální výhoda např. v případě hluboké mozkové stimulace
+		- mícha
+- výzkum mozku
+	- experimenty na lidech, zvířatech
+	- z výzkumu úrazů, iktů
+		- např. Phineas Gage → funkce čelního laloku
+	- fMRI, PET, DaT scan
+- klinické jevy
+	- trauma
+	- ictus (= mrtvice)
+		- ischemický
+		- hemoragický
+	- epilepsie
+	- nádory (benigní i maligní)
+	- vrozené vady (aneurysma, hypoplasie, i epilepsie...)
+	- duševní poruchy
+	- neurodegenerativní nemoci
+		- progradujicí ztráta funkce nebo struktury neuronů
+		- např.
+			- Alzheimerova nemoc
+				- prevalence >85 let: 33%
+			- amyotrofní laterální skleróza
+				- ztráta neuronů zodpovědných za volní ovládání svalů
+				- cca. 50% pacientů má narušené i kognitivní funkce, většina pociťuje chronickou bolest
+			- roztroušená skleróza
+				- autoimunitní nemoc, záněty se vyskytují roztroušeně kdekoli po mozku
+				- svalová slabost, dočasná či trvalá slepota (částečná i celková)...
+			- onemocnění bazálních ganglií
+				- hypokinetická - pohyby nadměrně utlumené, tzv. hypokinetický syndrom
+					- Parkinsonova nemoc
+						- chronické neurodegenerativní onemocnění
+						- progresivní úbytek dopaminergních neuronů v substantia nigra
+							- v typické době diagnózy již 80% nenávratně poškozeno
+						- epidemiologie
+							- cca. 100 na 100 000 (v ČR cca. 10 000 – 20 000 pacientů, světově >8 mil)
+							- 1.6% lidí nad 65 let
+						- klinický obraz
+							- hypokineze
+							- bradykineze
+							- až akineze - v pozdních stadiích
+							- rigidita
+							- klidový třes - 4–6 Hz
+								- horní i dolní končetiny
+								- není nejčastější příznak, ale jeden z prvních popsaných a nejlépe známých
+							- poruchy chůze
+								- typický šoupavý krok
+								- náhlé zárazy, tzv. freezingy
+							- dopady motorických obtíží
+								- mikrografie
+								- hypomimie
+									- absence grimasování
+								- poruchy řeči (afázie, parafázie)
+						- prvotní projevy většinou asymetrické
+						- vliv farmak
+							- dopaminová analoga (např. L-dopa) → fluktuace hybnosti, dyskineze; zkrácení efektu dávek, náhlé výpadky účinku
+				- hyperkinetická - pohyby nedostatečně tlumené, přehnané, tzv. hyperkinetický syndrom
+					- Huntingtonova chorea
+						- autosomálně dominantní genetická nemoc
+						- epidemiologie
+							- cca. 1 v 15 000
+						- diagnóza okolo 40. roku věku
+						- přežití 15 – 20 let po diagnóze
+							- častá smrt udušením kvůli narušení polykacích pohybů
+						- klinický obraz
+							- chorea
+							- dyskineze
+							- agrese, emoční nestabilita
+						- TODO: doplnit
+- Dr Sieger, Dr Novák

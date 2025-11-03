@@ -1,0 +1,62 @@
+- **genom** - soubor všech molekul DNA v dané buňce, resp. organismu, studována oborem **genomika**
+	- Human Genome Project
+		- timeline:
+			- 1990 - zahájení
+			- 2000 - preliminární verze
+				- "Den G" - 26/6/2000
+				- nekompletní, mnoho chyb - "draft"
+			- 2003 - publikována finální verze sekvence
+		- účast 20 univerzit a výzkumných pracovišť z US, JP, UK, FR, DE, CA, CN
+		- urychleno za pomoci automatické analýzy DNA, pokrocích v informačních technologií, kompeticí se soukromou společností Celera Genomics se stejným cílem
+			- kompetice se soukromou společností i z důvodu snahy zamezit duševnímu vlastnictví lidského genomu jako takového
+		- výsledky
+			- lidský genom tvoří >3.2 mld. bp, cca. **20 000** genů kódujících proteiny (původní odhad byl cca. 100 000; porovnání s Drosophila s ~10 000 geny)
+				- odhad genů kódujících funkční RNA obtížný\
+				- podíl exonů těchto genů pouhých **1.5%**
+					- "poušť s oázami genů"
+			- projekt neodhalil význam mnohých záhadných sekvencí, ani složité intergenové interakce
+			- více otázek než odpovědí
+- studuje komplexní znaky, které se tvoří na základě většího počtu genů (tzv. polygenní znaky)
+	- např. tělesná výška, barva vlasů, barva očí, atd atd...
+	- i monogenní znaky jsou však expresovány na základě jiných
+	- základní problém - složité interakce mezi geny a proteiny způsobují, že prakticky neexistuje ryze monogenní znak
+		- klasická genetika spíše zastaralý model?
+- zabývá se i komplexním studiem genomů jak člověka, tak jiných organismů
+	- využití v lékařské genetice - genetická vyšetření, porovnávání s tzv. standardním lidským genomem
+	- využití i v evoluční biologii
+- složité genové interakce tvoří tzv. gene networks popisující různé vztahy mezi geny
+	- co přesně daný gen kóduje, jaký má produkt význam, jak produkt interaguje s jinými geny, jinými produkty...
+- lidský genom nesmírně složitý
+	- ![[slozeni_genomu.png]]
+	- jedinečné genomové sekvence - zejm. geny kódující proteiny
+		- řada genů tvoří tzv. **genové rodiny**
+			- skupiny sekvenčně podobných genů
+			- většinou i stejná či velmi podobná funkce
+			- evolučně vznikly opakovanou duplikací genů^[Ohno, Susumu. _Evolution by Gene Duplication_. 1970]
+			- např. hlavní histokompatibilní komplexy (třída I, II, III), immunoglobuliny...
+				- velmi velké rodiny se nazývají i **superrodiny** (např. cytochromy C450)
+		- **pseudogeny** - geny, které ztratily svou funkci
+			- sekvenčně podobné funkčním genům
+			- mohou vzniknout jak z kódujících, tak nekódujících genů
+	- repetetivní sekvence
+		- většinou nic nekódující (s obzvláště důležitou výjimkou!)
+		- v mnohých případech vyloženě nemají význam, někdy však ano
+		- poměrně dlouhé
+		- tandemové sekvence (angl. tandem repeats)
+			- jednotky tvořící repetice následují samy za sebou
+			- satelitní DNA
+				- nekódují nic
+				- mikro-, mini- a makrosatelity
+			- **ribozomální RNA** - v krátkých raménkách akrocentrických chromozomů
+				- kódující!
+		- rozptýlené sekvence (angl. interspersed repeats)
+			- **transpozony**
+				- objevitelka Barbara McClintock ve 40. a 50. letech
+				- tzv. transpozabilní elementy neboli "jumping genes"
+				- sekvence které *mění pozici v genomu*
+				- celkem asi 44% lidského genomu?????
+				- některé nejspíš virového původu (tzv. retrotranspozony)
+					- vytváří i své kopie, kódují reverzní transkriptázu která svou mRNA opět zařadí zpět do genomu
+						- buňka má však mechanismy i na lýzu retrotranspozonů
+						- mohou být i patogenní, byť vzácně (tzv. mutace vyvolané transpozony)
+					- tvoří většinu transpozonů v lidském genomu

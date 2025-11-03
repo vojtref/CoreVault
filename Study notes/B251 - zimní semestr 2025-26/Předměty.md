@@ -1,0 +1,63 @@
+- #BAB31AF1 — Základy anatomie a fyziologie 1.
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/BAB31AF1/B251)
+	- MUDr. Salavová (sarka.salavova@lfmotol.cuni.cz)
+	- MUDr. Čížková (kamila.cizkova@lfmotol.cuni.cz)
+	- 
+	- Kachlík, David. Anatomie pro nelékařské zdravotnické obory. 1. vyd. Praha: Nakladatelství Karolinum, 2018. 154 s. ISBN 978-80-2464-058-7.
+	- Naňka, O.; Elišková, M.: Přehled anatomie. Praha: Galén, Karolinum – ISBN 978-80-7262-612-0.
+- #BAB31UBI — Úvod do bioinženýrství
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/BAB31UBI/B251)
+	- Ing. Novotný, Ph.D. (novotm26@fel.cvut.cz)
+	- 
+	- Rozman, J. (2006) Elektronické přístroje v lékařství. Praha. Academia, Česká matice technická, č. spisu 494, roč. 111. ISBN 80-200-1308-3.
+	- Enderle, J. D., & Bronzino, J. D. (2012). Introduction to biomedical engineering (3rd ed.). Burlington, Mass.: Academic Press.
+	- Bronzino, J., Peterson, D. (2015). Biomedical Engineering Fundamentals. Boca Raton: CRC Press, https://doi.org/10.1201/b15482
+- #B2B15UELA — Úvod do elektrotechniky
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/B2B15UELA/B251)
+	- doc. Ing. Müller, Ph.D. (zdenek.muller@fel.cvut.cz)
+	- Ing. Hrzina, Ph.D. (hrzinap@fel.cvut.cz)
+	- 
+	- Studijní materiály na Moodle
+- #B0B01LAGA — Lineární algebra
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/B0B01LAGA/B251)
+	- doc. RNDr. Velebil, Ph.D. (velebil@fel.cvut.cz)
+	- 
+	- Velebil, J: Abstraktní a konkrétní lineární algebra, http://math.fel.cvut.cz/en/people/velebil/akla.html
+	- Pták, P.: Introduction to Linear Algebra. ČVUT, Praha, 2005.
+	- Krajník, E.: Základy maticového počtu. ČVUT Praha, 2006.
+	- Olšák, P.: Úvod do algebry, zejména lineární, skriptum FEL ČVUT, Praha 2007.
+- #B0B01MA1A — Matematická analýza 1
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/B0B01MA1A/B251)
+	- doc. RNDr. Sobotíková, CSc. (sobotik@fel.cvut.cz)
+	- 
+	- J. Tkadlec: Diferenciální a integrální počet funkcí jedné proměnné. ČVUT Praha, 2004, 2011.
+	- L. Průcha: Řady, ČVUT Praha, 2005.
+	- J. Tkadlec: Diferenciální rovnice. Laplaceova transformace. ČVUT Praha, 2005.
+- #B3B33ALP — Algoritmy a programování
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/B3B33ALP/B251)
+	- Ing. Vonásek, Ph.D. (vonasvoj@fel.cvut.cz)
+	- [CourseWare](https://cw.fel.cvut.cz/b251/courses/b3b33alp/start)
+	- 
+	- Wentworth, Peter, Elkner, Jeffrey and Downey, Allen B. and Meyers, Chris. 2012. How To Think Like a Computer Scientist - Learning with Python 3 (RLE), 3. vyd. Dostupné z: http://openbookproject.net/thinkcs/python/english3e/. Česká verze: http://howto.py.cz/index.htm
+	- Downey, Allen B. 2016. Think Python: How to Think Like a Computer Scientist. 2. vyd. Sebastopol, CA: O’Reilly Media. Dostupné z: https://greenteapress.com/thinkpython2/html/index.html.
+	- Zelle, John. 2016. Python Programming: An Introduction to Computer Science. 3. vyd. Portland, Oregon: Franklin, Beedle & Associates. Dostupné z: https://mcsp.wartburg.edu/zelle/python/.
+	- Sedgewick, Robert, Kevin Wayne, Robert Dondero. 2015. Introduction to Programming in Python: An Interdisciplinary Approach. New York: Addison-Wesley Professional.
+- #BAB31GEN — Genetika
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/BAB31GEN/B251)
+	- RNDr. Kočárek, Ph.D. (eduard.kocarek@lfmotol.cuni.cz)
+	- 
+	- Kočárek, E. Genetika. 2. vydání, Scientia, Praha, 2008.
+- #BEZB — Bezpečnost práce v elektrotechnice pro bakaláře
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/BEZB/B251)
+	- 
+	- Cipra, Kříž, Kůla: Elektrotechnická kvalifikace, ČVUT, Praha, 2011.
+	- https://bezpecnost.feld.cvut.cz/
+- #BEZZ — Základní školení BOZP
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/BEZZ/B251)
+	- 
+	- Cipra, Kříž, Kůla: Elektrotechnická kvalifikace, ČVUT, Praha, 2011.
+	- https://bezpecnost.feld.cvut.cz/
+- #B0B04B1K — Anglický jazyk B1 - klasifikovaný zápočet
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/B0B04B1K/B251)
+- #B0B04B2Z — Anglický jazyk B2 - zkouška
+	- [sylabus](https://www.kos.cvut.cz/course-syllabus/B0B04B2Z/B251)

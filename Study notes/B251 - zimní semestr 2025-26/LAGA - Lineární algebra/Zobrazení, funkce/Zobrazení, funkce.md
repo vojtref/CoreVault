@@ -1,0 +1,77 @@
+- $X \xrightarrow{f} Y$
+	- $\forall(x \in X)\exists(f(x) \in Y): x \mapsto f(x)$
+- př.
+	1. $\varnothing \xrightarrow{f} Y$
+		- právě jedna taková funkce
+	2. $X \xrightarrow{f} \varnothing$
+		- neexistuje
+	3. $\varnothing \xrightarrow{f} \varnothing$
+		- totožné s 1.
+	4. $X \xrightarrow{id_x} X$
+		- $x \mapsto x$
+		- **identita na $X$**
+- $X \xrightarrow{f} Y \xrightarrow{g} Z = X \xrightarrow{g \cdot f} Z$
+	- **složené zobrazení**
+	- $x \mapsto g(f(x)) = (g \cdot f)(x)$
+- skládání jako násobení
+	- asociativita $h \cdot (g \cdot f) = (h \cdot g) \cdot f$
+	- neutrální jednotka
+		- $X \xrightarrow{id_x} X \xrightarrow{f} Y = X \xrightarrow{f} Y$
+		- $X \xrightarrow{f} Y \xrightarrow{id_y} Y = X \xrightarrow{f} Y$
+	- inverze
+		- $X \xrightarrow{f} Y \xrightarrow{f^{-1}} X = X \xrightarrow{f^{-1}} Y \xrightarrow{f} X = X \xrightarrow{\id_x} X$
+			- nakreslit tzv. *komutativní diagram*
+		- ne každá $f$ má inverzi (např. prázdná funkce $\varnothing \to Y$)
+- vlastnosti zobrazení
+	- $X \xrightarrow[\text{prosté}]{f} Y \implies f(x_1) = f(x_2) \iff x_1 = x_2$
+		- zobrazení *prosté* = **injektivní** zobrazení (zkr. injekce)
+		- $\card{X} \le \card{Y}$
+	- $X \xrightarrow[\text{na}]{f} Y \implies \forall{(y \in Y)}\exists{(x \in X)}:x \mapsto y$
+		- zobrazení *na* = **surjektivní** zobrazení (zkr. surjekce)
+		- $\card{X} \ge \card{Y}$
+	- $X \xrightarrow[\text{prosté a na}]{f} Y$
+		- zobrazení *prosté* a *na* = **bijektivní** zobrazení (zkr. bijekce)
+		- $\card{X} = \card{Y}$
+			- pro důkaz pro obecné množiny (vč. nekonečných) viz Cantor-Bernsteinova věta
+		- např. $\tan: \intvloo{-\frac{\pi}{2}}{\frac{\pi}{2}} \to \R$
+	- složení dvou zobrazení stejné vlastnosti (prosté/na/prosté a na) vlastnost zachová
+- "slepování komutativních čtverců"
+	- TODO: dopsat
+	- TODO: jak musí vypadat ctverce slepitelne zleva i zprava
+- zobrazení $\mathbf{f}: L_1 \to L_2$ nazýváme *lineární*, pokud splňuje následující podmínky $\forall a \in \F, \forall{\vec{x},\vec{x}' \in L_1}$:
+	- $\mathbf{f}(\vec{x} + \vec{x}') = \mathbf{f}(\vec{x}) + \mathbf{f}(\vec{x}')$
+	- $\mathbf{f}(a \cdot \vec{x}) = a \cdot \mathbf{f}(\vec{x})$
+	- alternativní formulace: **princip superpozice**
+		- $\mathbf{f}\text{ lineární} \iff {\forall a_i \in \F,\vec{x_i} \in L_1}:{\mathbf{f}\left(\sum_{i \in I}{a_i \vec{x_i}}\right) = \sum_{i \in I}{a_i \mathbf{f}(\vec{x_i})}}$
+		- tzn. důkaz platného principu superpozice je důkaz linearity zobrazení $\ref{AKLA 2.1.3}$
+- kompozice lineárních zobrazení je také lineární
+	- $L_1 \xrightarrow[lin.]{f} L_2 \xrightarrow[lin.]{g} L_3 \implies L_1 \xrightarrow[lin.]{g \cdot f} L_3$
+	- $(g \cdot f)\left(\sum_{i \in I}{a_i \vec{x_i}}\right)$
+		- $= g \left(f \left(\sum_{i \in I}{a_i \vec{x_i}}\right)\right)$
+		- $= g \left(\sum_{i \in I}{a_i f(\vec{x_i})}\right) \mid f\text{ lineární}$
+		- $= \sum_{i \in I}{a_i g(f(\vec{x_i}))} \mid g\text{ lineární}$
+		- $\QED$
+- $\forall L: \id_L\text{ je lineární}$
+	- $\id_L\left(\sum_{i \in I}{a_i \vec{x_i}}\right) = \sum_{i \in I}{a_i \vec{x_i}} \mid\text{def. id}$
+	- $\forall \vec{x} \in L: \id_L(\vec{x}) = \vec{x}\mid\text{def. id}$
+	- $\therefore \sum_{i \in I}{a_i \id_L(\vec{x_i})} = \sum_{i \in I}{a_i \vec{x_i}}$
+	- $\id_L\left(\sum_{i \in I}{a_i \vec{x_i}}\right) = \sum_{i \in I}{a_i \id_L(\vec{x_i})}$
+		- tzn. platí princip superposice
+	- $\QED$
+- TODO: doplnit značení aritmetiky lineárních zobrazení
+- $L_1 \xrightarrow[lin.]{f} L_2, L_1 \xrightarrow[lin.]{g} L_2 \implies L_1 \xrightarrow[lin.]{f + g} L_2$
+	- $(f + g)\left(\sum_{i \in I}{a_i \vec{x_i}}\right) = f\left(\sum_{i \in I}{a_i \vec{x_i}}\right) + g\left(\sum_{i \in I}{a_i \vec{x_i}}\right)$
+	- $= \sum_{i \in I}{a_i f(\vec{x_i})} + \sum_{i \in I}{a_i g(\vec{x_i})}$
+	- $= \sum_{i \in I}{a_i (f(\vec{x_i}) + g(\vec{x_i}))}$
+	- $= \sum_{i \in I}{a_i (f + g)(\vec{x_i}))} \QED$
+- $L_1 \xrightarrow[lin.]{f} L_2, a \in \F  \implies L_1 \xrightarrow[lin.]{af} L_2$
+	- analog. dle předchozího důkazu
+- věta: $B$ báze prostoru $L_1$, libovolný prostor $L_2$; zadání libovolného zobrazení $f: B \to L_2$ je totéž co zadání lineárního zobrazení $\mathbf{f}: L_1 \to L_2$ pro které platí $\forall \vec{b_i} \in B:\mathbf{f}(\vec{b_i}) = f(\vec{b_i})$
+	- důkaz pro prostor konečné dimense:
+		- $\vec{v} \in L_1 = \sum_{i \in I}a_i\vec{b_i}$
+		- $f: \vec{b_i} \mapsto f(\vec{b_i}) \in L_2$
+		- $\mathbf{f}: \sum_{i \in I}a_i\vec{b_i} \mapsto \mathbf{f}\left(\sum_{i \in I}a_i\vec{b_i}\right)$
+			- $= \sum_{i \in I}a_i\mathbf{f}(\vec{b_i}) \mid \text{princip superposice}$
+			- $= \sum_{i \in I}a_if(\vec{b_i})$
+		- $\QED$
+	- obecný prostor: abstraktnější

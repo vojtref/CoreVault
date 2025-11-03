@@ -1,0 +1,51 @@
+- epilepsie
+	- souhrnný název pro >60 onemocnění
+	- příčiny (vrozené i získané)
+		- vaskulární
+		- traumatická
+		- novotvarová
+		- infekční
+		- neurodegenerativní
+		- kongenitální
+		- idiopatická (~50%)
+	- 0.5%-1% populace (v ČR cca 70 000 pacientů)
+- antiepileptika
+	- cca 30% pacientů bez efektu
+	- nízká kvalita života
+	- snížená kognice
+- chirurgická péče
+	- odstranění epileptogenního ložiska
+	- úspěšnost cca. 70%-80%
+		- 0.5% smrt následkem chirurgické komplikace (v ČR o něco méně)
+- vyšetření
+	- EEG + semiologie záchvatů
+	- neurozobrazení
+		- MRI, PET, SISCOM
+	- genetické vyšetření (globální i lokální)
+	- neuropsychologické vyšetření
+		- epileptogenní ložisko patologicky aktivní i mimo záchvat, může mít psychologické projevy (např. narušení paměti malformací v frontotemporální oblasti)
+- počítačové zpracování obrazů
+	- fúze obrazů
+		- zarovnání různých snímků např. z různých pracovišť
+	- zlepšení kvality
+		- např. kompenzace pro fyzikální omezení zobrazovacích metod (např. PET - časová odezva před anihilací pozitronu → rozmazání ...)
+- invazivní EEG
+	- indikováno předchozími vyšetřeními, rizikovými oblastmi
+	- až 18 elektrod (256 kanálů)
+	- stereochirurgická navigace, přesně měřené trajektorie zavedení
+	- záznam 24/7 po 7-14 dní, >100 GB/den
+		- není možná "ruční" analýza
+	- data z jednotlivých kanálů lze zobrazovat i prostorově, umístění patologické elektrické aktivity
+		- přesnější lokace epileptogenního ložiska
+		- mapování šíření lokalizované epileptiformní aktivity (fokální záchvat) na generalizované
+			- popsatelné skrze analýzu topologie sítí, teorii grafů
+- EpiReC - Epilepsy Research Centre in Prague
+	- vědecké týmy
+		- klinická elektrofyziologie
+			- Ing. Janča, Ph.D. - vedoucí skupiny
+			- Ing. Ježdíl, Ph.D. - vědecký pracovník
+			- Ing. Macková - vědecká pracovnice, Ph.D. studentka
+		- neurozobrazení
+		- neurokognitivní skupina
+		- neurogenetická skupina
+	- laboratoř optofyziologie neuronálních okruhů - myšky s fosforeskujícími neurony

@@ -1,0 +1,3 @@
+- aplikace informačních technologií v biologii
+	- analýza a srovnávání biologických dat (zejm. sekv. DNA a RNA, proteinů...) pomocí počítačového hardwaru, softwaru
+	- vytváření databází pro biologická data

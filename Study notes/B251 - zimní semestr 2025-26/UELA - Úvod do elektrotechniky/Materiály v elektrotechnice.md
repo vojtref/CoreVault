@@ -1,0 +1,103 @@
+- základní dělení
+	- vodiče
+	- polovodiče
+	- izolanty (= dielektrika)
+	- různá kritéria dělení (odpor, struktura pásů valenčních elektronů...)
+- vodiče
+	- vodivost
+		- závislá na struktuře jednotlivých atomů a jejich uspořádání
+			- TODO: checknout https://astronuklfyzika.cz/JadRadFyzika.html
+			- např. kovalentní × iontové vazby
+		- pohyb elektrického náboje ≠ pohyb elektronů
+			- elektrony se navzájem "tlačí," čímž se náboj přenáší
+			- rychlost náboje zlomek $c$, rychlost elektronů pouhých pár mm/s
+		- plošná hustota proudu $J = \frac{I}{S} = \gamma E$
+			- $I$ - el. proud
+			- $S$ - příčná plocha vodiče
+			- $\gamma = n e \mu$ - měrná vodivost
+				- $n$ - počet elektronů v jednotce objemu materiálu
+				- $e$ - elementární náboj elektronu
+				- $\mu$ - pohyblivost elektronu v materiálu
+		- $R=\frac{U}{I} \text{ (Ohmův zákon)} = \frac{\rho l}{S}$
+			- $\rho$ - rezistivita (= měrný elektrický odpor)
+			- $l$ - délka vodiče
+			- teplotní závislost odporu
+				- teplota mění šířku elektronových pásem, čímž mění vodivost potažmo odpor
+				- $R_\vartheta = R_{20}[1 + \alpha_{20}(\vartheta - \vartheta_{20})]$
+					- $\vartheta$ - teplota
+					- $R_\vartheta$ - odpor při teplotě $\vartheta$
+					- $R_{20}$ - odpor při teplotě 20 °C
+					- $\alpha_{20}$ - teplotní součinitel, závislý na materiálu
+	- příklady vodičů
+		- zlato - horší vodič než měď nebo stříbro, ale velmi nereaktivní (a lepší vodič než oxidy mědi), proto užíván na pozlacené kontakty, výborná kujnost umožňuje výrobu zlatých folií, mikroskopických drátů (např. připojení kontaktů na silikonu v mikročipech)
+		- měď - výborný vodič, relativně dostupná, tvárná a dobře zpracovatelná, obecně používána na vodiče (dráty, pásky, plechy...)
+			- velmi dobře recyklovatelná, jeden z nejuzavřenějších průmyslových cyklů
+		- hliník - horší vodič než měď, horší mechanické vlastnosti (výrazný workhardening), ale velmi levný a lehký, odolnější vůči korozi (Al2O3 vytváří ochrannou vrstvu)
+			- užíván i ve slitinách, např. dural
+	- tažení drátu
+		- tažené přes dies (TODO: najít český překlad), materiál vychází rychleji (princip kontinuity), pro zachování rychlosti natáčeno na tzv. průvlaky
+	- AlFe lano
+		- používáno na vysokonapěťové rozvody
+		- ocelová žíla opletená hliníkovými dráty
+		- https://oenergetice.cz/elektroenergetika/vodice-venkovnich-elektrickych-vedeni
+	- rtuť
+		- jedovatá, těkavá
+		- za normální teploty tekutá
+		- dobrý vodič
+		- dříve užívána do skláněcích spínačů ("prasátka")
+			- např. termostaty, časovače, aktivátory bomb
+	- železo
+		- čisté železo velmi vzácné, vysoce reaktivní a prudce oxiduje
+		- lidové "železo" = ocel, slitina Fe + C (+ další prvky)
+			- poměr uhlíku určuje mechanické vlastnosti
+		- konstrukční prvky
+		- magnetické obvody
+			- slitiny s křemíkem
+- izolanty
+	- za normálních podmínek nevedou el. proud, příliš velká šířka zakázaného pásma
+	- základní vlastnosti
+		- mechanické vlastnosti
+		- elektrické vlastnosti
+		- chemické vlastnosti
+			- žádoucí stabilnější materiály
+		- kombinované vlivy prostředí
+			- např. UV degradace, změny teplot...
+	- příklady izolantů
+		- porcelán
+			- dříve nejrozšířenější izolační materiál (zejm. na vysokonapěťové izolátory)
+			- vstupní surovina kaolin
+				- zpracování tvárněním, litím
+				- vysušení, příp. další opracování
+				- výpal na 800 °C až 1520 °C
+				- glazurování
+				- finální opracování, řezání, leštění
+			- výhody
+				- velmi stabilní, vnějším vlivům velmi odolný desítky let
+				- 100% recyklovatelnost nevyužitého materiálu
+			- nevýhody
+				- výstupní produkt velice závislý na kvalitě vstupního materiálu
+				- porcelán jako takový vysoce porózní, nutná glazura
+				- velmi těžký
+				- křehký, na mechanické připojení nutné armatury, mechanicky velmi málo odolný
+			- dnes nahrazován plastem
+		- plasty
+			- velmi široký, objemný termín
+			- dnes extrémně běžný, zdaleka nejčastější izolační materiál
+			- trade-off mezi fixními a variabilními náklady
+				- injection molding - velmi vysoké fixní náklady (forma *velmi* drahá), velmi nízké variabilní náklady
+				- 3D tisk - nízké fixní náklady, vysoké variabilní náklady (filament dražší než granulát, ...)
+			- typy a druhy
+				- standardní, konstrukční, vysoce odolné
+				- amorfní × s krystalickým podílem
+				- https://www.multiplast.cz/poradna/rozdeleni-a-charakteristika-plastu-26
+			- environmentální zátěž z výroby
+				- neznámé efekty mikroplastů
+					- výrazná nevýhoda mnohých "biodegradabilních" plastů, které akorát rychleji degradují na mikroplasty
+- polovodiče
+	- šířka zakázaného pásma menší než u izolantů, mění se v závislosti na vnějších podmínkách
+		- za stanovených podmínek vede elektrický proud
+	- vlastní polovodič - "čistý" materiál
+		- nejedná se např. o N, P dopovaný křemík
+	- na rozdíl od kovů s rostoucí teplotou *klesá* rezistivita, *stoupá* vodivost; má opačný teplotní koeficient
+	- např. suché dřevo je izolant, vlhké dřevo polovodič
+	- extrémně složité téma na vlastní předmět

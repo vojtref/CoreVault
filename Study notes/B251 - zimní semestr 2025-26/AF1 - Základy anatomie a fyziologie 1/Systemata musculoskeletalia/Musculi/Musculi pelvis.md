@@ -1,0 +1,19 @@
+- pánevní svaly
+- mm. diaphragmae pelvis - svaly pánevního dna
+	- inerv: plexus sacralis
+	- f: tlak břišní dutiny, součást hlubokého stabilizačního systému trupu
+	- tvar nálevky
+	- m. levator ani
+		- m. iliococcygeus
+		- m. pubococcygeus
+		- m. puborectalis
+		- f: svěrač orgánů pánevního východu
+		- TODO
+	- m. coccygeus (= ischiococcygeus)
+		- f: stahuje kostrč ventrálně od původní polohy (porod, defekace)
+- mm. perinei
+	- m. sphincter ani externus
+		- pars subcutanea
+		- pars superficialis
+		- pars profunda
+		- f: svírá canalis analis, udržuje kontinenci

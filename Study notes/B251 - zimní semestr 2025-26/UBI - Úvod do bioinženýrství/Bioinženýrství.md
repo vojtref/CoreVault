@@ -1,0 +1,26 @@
+- široký pojem
+- biologické inženýrství
+- biomedicínské inženýrství
+	- aplikace inženýrských principů v lékařské a zdravotnické oblasti
+	- podobory
+		- klinické inženýrství, elektrická bezpečnost v nemocničním prostředí
+		- biomechanika
+		- biomateriály
+		- biomedicínská optika a lasery
+		- bioinformatika
+		- zobrazovací metody
+		- neuroinženýrství
+		- rehabilitační inženýrství, asistivní technologie
+		- tkáňové inženýrství
+		- genetické inženýrství
+		- farmakologické inženýrství
+	- role
+		- klinický inženýr
+			- udržování stavu vybavení "v terénu" (např. v nemocnici), servis
+		- biomedicínský inženýr pro průmysl
+			- vývoj
+			- výroba
+			- prodej
+		- výzkumný pracovník
+	- vznik v 50.-60. letech, zaměření zejm. na vývoj medicínského vybavení
+	- vysoce interdisciplinární

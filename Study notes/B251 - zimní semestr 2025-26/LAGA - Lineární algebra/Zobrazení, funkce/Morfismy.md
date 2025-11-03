@@ -1,0 +1,51 @@
+- $L_1 \xrightarrow[\text{mono}]{f} L_2 \iff L_1 \xrightarrow[\text{lin \& injekce}]{f} L_2$ - monomorfismus
+	- injekce - "různá x → různá y"
+- $L_1 \xrightarrow[\text{epi}]{f} L_2 \iff L_1 \xrightarrow[\text{lin \& surjekce}]{f} L_2$ - epimorfismus
+	- surjekce - "každé y má nějaké x"
+- $L_1 \xrightarrow[\text{iso}]{f} L_2 \iff L_1 \xrightarrow[\text{lin \& bijekce}]{f} L_2$ - isomorfismus
+	- $\id$ vždy isomorfní
+- tvrz.: dána uspořádaná báze $B=(\vec{b_1}, \ldots, \vec{b_n})$ pro $L$ nad $\F$, pak $L \xrightarrow{\coord_B} \F^n$ je isomorfismus
+	- TODO: dokázat skrze lineární nezávislost báze a tudíž zobrazení, jedině triviální lineární kombinace ve všech bázích dává $\pmatrix{0 \\ 0 \\ \vdots \\ 0}$ a je zachován princip superpozice
+- zobrazení $P$ nad $L$
+	- $\im P = \{P\vec{x} \mid \vec{x} \in L\}$ - odraz $P$ (angl. image)
+		- množina všech funkčních hodnot
+		- slogan: říká, jak moc je $P$ epimorfní
+		- $\rank P = \dim(\im P)$ - hodnost
+	- $\ker P = \{\vec{x} \mid P\vec{x} = \vec{o}\}$ - jádro $P$ (angl. kernel)
+		- množina všech argumentů s nulovou funkční hodnotou
+		- slogan: říká, jak moc je $P$ monomorfní
+		- $\def P = \dim(\ker P)$ - defekt
+	- $\dim L = \rank P + \def P$
+		- důkaz $\ref{AKLA 3.3.6}$
+- $\mathbf{f}: L_1 \to L_2$
+	- (1) $\ker \mathbf{f}$ je podprostor v $L_1$
+		- $\ $
+	- (2) $\im \mathbf{f}$ je podprostor v $L_2$
+		- $\span(\im \mathbf{f}) \subseteq \im \mathbf{f} \mid$ definice LP
+		- $\vec{v} \in \span(\im \mathbf{f}) \implies \vec{v} = \sum_{i \in I}a_i \mathbf{f}(\vec{x_i}) = \mathbf{f}\left(\sum_{i \in I}a_i \vec{x_i}\right)$
+		- $\therefore \vec{v} \in \im \mathbf{f} \QED$
+	- $\mathbf{f}$ lineární, $L_1$ konečná dimenze
+	- ekvivalentní:
+		- (1) $\mathbf{f}$ je monomorfismus
+		- (2) $\def \mathbf{f} = 0 \iff \ker \mathbf{f} \subseteq \{\vec{o}\}$
+			- tzn. $\mathbf{f}(\vec{x}) = \vec{o} \implies \vec{x} = \vec{o}$
+		- (3) $\mathbf{f}$ respektuje lineární nezávislost, tzn. $\im \mathbf{f}$ lineárně nezávislý v $L_2$
+		- důsledek: $\dim L_1 \le \dim L_2$
+			- př. báze $\vec{x_i}$ generují $L_1$ ⇒ $f(\vec{x_i})$ generují $\im \mathbf{f} \subseteq L_2$
+	- ekvivalentní:
+		- $\mathbf{f}$ je epimorfismus
+		- $\forall \vec{b} \in L_2 \exists\vec{x} \in L_1:\mathbf{f}(\vec{x})=\vec{b}$
+		- důsledek: $\dim L_1 \ge \dim L_2$
+	- ekvivalentní $\text{ỽ}$:
+		- $\mathbf{f}$ je isomorfismus
+		- $\mathbf{f}$ je monomorfismus a epimorfismus současně
+		- $\def \mathbf{f} = 0 \land \im \mathbf{f} = L_2$
+		- $\def \mathbf{f} = 0 \land \dim L_1 = \dim L_2$
+			- tzn. isomorfismy jsou zapsatelné jako čtvercové matice
+		- $\forall \vec{b} \in L_2 \exists!\vec{x} \in L_1: \mathbf{f}(\vec{x})=\vec{b}$ - právě jedno řešení
+	- dáno $\dim L_1 = \dim L_2 = n$ ("čtvercová situace"), z toho jsou ekvivalentní:
+		- $\mathbf{f}$ je isomorfismus
+		- $\mathbf{f}$ je monomorfismus
+		- $\mathbf{f}$ je epimorfismus
+		- TODO: doplnit dukaz z tabule + emailu
+

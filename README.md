@@ -1,0 +1,5 @@
+- závisí na následujících Obsidian pluginech:
+	- Extended MathJax
+		- umožňuje použití `preamble.sty` na vlastní LaTeXové zápisy
+	- Folder Notes
+		- dovoluje pěknější strukturu zápisek

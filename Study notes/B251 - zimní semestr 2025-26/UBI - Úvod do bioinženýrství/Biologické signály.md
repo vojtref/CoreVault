@@ -1,0 +1,135 @@
+- signál
+	- funkce jedné nebo více nezávislých proměnných nesoucí informaci o vlastnostech a podstatě svého zdroje
+	- dělení:
+		- dle předvídatelnosti
+			- deterministický
+				- přesně popsatelný matematickou funkcí
+			- stochastický (náhodný)
+				- z části nebo z celku náhodný, popsatelný pouze pravděpodobnostně
+		- dle spojitosti
+			- spojitý
+			- diskrétní
+				- např. data vzorkovaná v čase
+				- digitální data zároveň diskretizovaná i v amplitudě
+		- dle číslování
+			- analogové
+			- digitální
+		- dle rozměru
+			- jednorozměrné
+			- dvourozměrné
+			- trojrozměrné
+			- $\vdots$
+			- vícerozměrné
+		- dle periodicity
+			- periodický
+				- dle energie
+					- výkonové
+						- nekonečná energie v čase, např. sinusoida
+						- energie na periodu
+					- energetické
+						- konečná energie v čase, decaying signal
+				- dle harmonicity
+					- harmonický
+						- má i násobky nulové/základní frekvenční složky
+					- neharmonický
+			- aperiodický
+- biologické
+	- prostorové, časové, či časoprostorové záznamy biologické události
+	- spojité, analogové, periodické i aperiodické, spíše nondeterministické
+	- získání:
+		- rozhovor s pacientem (např. bolest, vertigo...)
+		- fyzické vyšetření (5P: pohled, poslech, pohmat, poklep, per rectum)
+		- záznam biologické aktivity skrze senzory
+	- charakteristika
+		- spontánní
+			- periodické
+				- EKG
+				- respirace
+			- aperiodická
+				- EEG
+				- EMG
+		- reakční
+			- EEG
+				- viz Pokémon epileptická epizoda, Pikachu vs. Porygon
+			- usilovný výdech (spirometrie, měř. vitálního objemu)
+	- původy
+		- biochemické
+			- pH krve
+			- obsah iontů
+			- obsah glukózy
+			- saturace kyslíku
+			- $\vdots$
+		- biomechanické
+			- pohyb
+			- vyvrácení
+			- tlak
+				- sphygmomanometr
+			- síla
+			- tah
+			- tok
+				- laminarita/turbulence
+				- měření např. skrz Dopplerův jev
+			- $\vdots$
+		- bioakustické
+			- signály vznikající třením a vibrací
+			- př.:
+				- fonokardiogram
+				- dýchání
+				- auskultace
+				- GIT
+				- pohybový aparát (např. synoviální)
+		- biooptické
+			- př.:
+				- červenost tkáně na vyhodnocení krevní perfuze
+				- SpO2
+					- poměr pohlcení IR a R světla
+				- fluorescenční vyšetření plodové vody
+				- diluční měření srdečního výdeje barvivem
+		- biotermální
+			- vznik změnou tepelných vlastností
+			- př.:
+				- tělesná teplota
+					- \>44 ⁰C denaturace a koagulace mozkových bílkovin
+				- termodiluční měření srdečního výdeje
+		- biomagnetické
+			- magnetická pole vznikající změnami elektrických veličin v organismu, příp. odezvou na vnější stimulus
+			- př.:
+				- magnetoencefalografie
+				- MRI
+					- magnet o síle 5 Tesla dnes standard
+		- bioelektrické
+			- signály vznikající z akčních potenciálů nervů, svalů, příp. bioelektrických epitelů
+			- př.
+				- elektroencefalografie (EEG)
+				- elektrokardiografie (EKG)
+				- elektromyografie (EMG)
+				- elektrogastrografie (EGG)
+				- elektrookulografi (EOG)
+				- elektroretinografie (ERG)
+			- bioelektrický jev
+				- akční potenciály udržovány koncentračními spády $Na^+$, $K^+$, $Cl^-$
+				- klidový akční potenciál na membráně neuronu cca. -70 mV
+				- akční potenciál dostatečně převyšující klidový (vyšší než tzv. prahový potenciál) spustí zvýší propustnost iontových kanálů ($Na^+$ kanály až 600x)
+				- Hodgkin-Huxley (1952)
+					- dostali Nobelovu cenu 1963
+- senzor
+	- širší smysl: zdroj informací pro řídící systém
+	- užší smysl: součástka či obvod měřící danou veličinu
+	- schema:
+		- $\array{[\text{převodník neel. veličiny}] \\ \downarrow \\ [\text{zesílení + filtrace}] \\ \downarrow \\ [\text{A/D převodník}] \\ \downarrow \\ [\text{počítačová analýza}]}$
+	- typy:
+		- elektroda
+			- přechod elektrolytu a kovu
+			- půlčlánkový potenciál - nelze přímo změřit
+				- lze určit pomocí Nernstovy rovnice
+			- např. EKG nalepovací a svorkové elektrody, EMG jehlové elektrody, EEG povrchové, intrakraniální elektrody
+		- elektrochemické
+			- provádí chemickou reakci, ze které je produkt elektricky aktivní a tudíž detekovatelný (např. oxidace glukózy na H2O2)
+		- optické
+			- např. SpO2 senzor na pulzním oxymetru (IR a R diody, příslušné fotodiody)
+		- termoelektrické
+			- rtuťové, lihové teploměry
+			- termistorové digitální teploměry
+		- piezoelektrické
+		- magnetické
+		- bioanalytické

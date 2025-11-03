@@ -1,0 +1,6 @@
+- Eulerovo číslo
+- $\lim\limits_{n \to \infty}(1 + \frac{1}{n})^n = e \approx 2.718...$
+	- $n=1 \to (1 + \frac{1}{2})^2 = 1.5^2 = 2.25$
+	- $n=2 \to (1 + \frac{1}{3})^3 = (\frac{4}{3})^{3} = 2.\overline{370}$
+	- $\vdots$
+- $\sum_{n=0}^{\infty}\frac{1}{n!}=e$

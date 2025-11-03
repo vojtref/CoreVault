@@ -1,0 +1,10 @@
+- = dynamické pole
+- předem neznámá velikost
+- interně data v [[Array|poli]], při přidání a odebrání prvků se dynamicky realokuje
+	- přístup na i-tý prvek stále velmi rychlý, $O(1)$
+	- typicky se alokuje dvojnásobek aktuální velikosti - není třeba realokovat tak často
+---
+- např. `std::vector` v C++
+- v Python nesprávně nazváno `List`
+
+#B3B33ALP

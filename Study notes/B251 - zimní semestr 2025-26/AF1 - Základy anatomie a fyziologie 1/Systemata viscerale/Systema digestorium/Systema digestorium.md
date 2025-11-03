@@ -1,0 +1,7 @@
+- trávení
+	- mechanické, chemické zpracování potravy
+		- chemické zpracování zprostředkovávají enzymy
+- struktura
+	- trávicí trubice
+	- trávicí žlázy
+		- 

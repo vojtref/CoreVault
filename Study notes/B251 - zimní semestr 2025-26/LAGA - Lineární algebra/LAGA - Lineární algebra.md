@@ -1,0 +1,14 @@
+- testy
+	- 8. týden
+		- lineární prostor
+		- báze
+		- dimenze
+		- souřadnice
+		- lineární zobrazení, matice
+		- tj. témata 01A—05B
+		- min. 10 b
+	- 12. týden
+		- determinanty
+		- soustavy lineárních rovnic
+		- tj. témata 06A—07B
+		- min. 10 b

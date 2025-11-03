@@ -1,0 +1,74 @@
+- genetická disciplína zabývající se chromosomy, jejich stavbou, funkcí, aberacemi, variantami eukaryotických chromosomů
+	- ne buňkami!!!
+	- blbý název oboru, měl by se spíš jmenovat "chromosomogenetika," ale cytogenetika již zažitá
+	- klinická cytogenetika
+		- studuje chromosomální aberace s patologickými projevy
+			- mechanické či biochemické poškození chromosomů, přebytečný či chybějící chromosom, apod
+			- např. Downův syndrom, Terneův syndrom, syndrom kočičího křiku...
+- Eukaryota mají DNA ve dvou hlavních strukturách:
+	- mitochondrie
+		- pouze 37 genů ve dvou vláknech ("light" a "heavy" neboli L- a H-vlákno)
+			- 2 kódují rRNA
+			- 22 kóduje tRNA
+			- 13 kóduje proteiny
+		- u eukaryot jediný mimojaderný genom
+			- u rostlin i genom chloroplastů
+	-  jádro
+		- struktura
+			- jaderný obal
+				- fosfolipidová dvojvrstva
+				- vmezeřené jaderné póry
+			- chromatin
+				- hlavní jaderná hmota
+				- tvořena chromosomy
+			- nucleolus (= jadérko)
+				- syntéza rRNA
+- chromosom
+	- hlavní složka chromatinu
+	- vlákno DNA obtočené kolem proteinů zvaných histony (resp. s histonových oktamerů)
+		- zákl. stavební jednotka tzv. **nukleosom** - DNA dvakrát obtočené okolo jednoho histonu
+		- chemické modifikace histonů rozhodují i o transkripci genů na nich naléhajících
+			- methylace histonů
+	- struktura
+		- chromatida - chromosomové vlákno
+			- běžný chromosom jednochromatidový, po replikaci DNA v přípravě na buněčné dělení (před dělením samotným) dvouchromatidový
+				- jedna chromatida odpovídá jedné molekule DNA
+			- centromera - dělí chromatidu, umožňuje vázání vláken dělících vřetének při buněčném dělení
+				- dle umístění se rozlišují chromosomy metacentrické (přesný střed), submetacentrické (poblíž středu), akrocentrické (znatelně od středu), telocentrické (na konci chromatidy - pouze jedno raménko)
+				- p-raménko - krátké
+				- q-raménko - dlouhé
+			- telomery - na koncích ramének
+				- formovány repetetivní DNA
+				- zprostředkovávají ochranu chromosomu před enzymy
+				- zabraňují fúzím, translokacím chromosomů
+				- při mitóze a během života se postupně zkracují
+					- "biologické hodiny," buňka detekuje přílišné zkrácení a spouští apoptózu
+- karyotyp
+	- chromosomové složení buňky
+	- časté užití v klinické cytogenetice
+	- karyogram - tabulka chromosomového složení buňky pacienta (resp. subjektu)
+		- ![[karyogram.png]]
+		- umožňuje přímé nahlédnutí na mnohé chromozomální aberace (např. chybějící raménka chromozomů...)
+	- lidský karyotyp
+		- 22 párů autosomálních chromosomů
+		- 1 pár gonosomálních chromosomů
+			- také zvané heterochromosomy
+- chromozomové určení pohlaví
+	- u člověka typ XY, neboli typ Drosophila
+		- ♂ XY - samec je *heterogametní* pohlaví
+		- ♀ XX - samice je *homogametní* pohlaví
+	- u některých jiných druhů, např. ptáků, typ ZW
+		- ♂ ZZ - samec je *homogametní* pohlaví
+		- ♀ ZW - samice *heterogametní* pohlaví
+	- u dalších organismů i typy X0 a Z0
+		- respektivní heterogametní pohlaví pouze jedna kopie gonosomálního chromozomu
+			- ♂ X0, ♀ Z0
+			- může se patologicky vyskytnout u člověka, tzv. Turnerův syndrom (incidence 0.02%–0.05% narozených dětí)
+				- pacienti ženského fenotypu
+		- respektivní homogametní pohlaví dvě kopie
+			- ♀ XX, ♂ ZZ
+		- např. někteří kaloňovití, mnohé druhy hmyzu (rybenky, vážky...), většina pavoukovců (krom roztočů), aj.
+	- některé druhy haplodiploidní určení pohlaví - nerozhodují 
+		- samci haploidní
+		- samice diploidní
+	- vyjma vad exprese apod.

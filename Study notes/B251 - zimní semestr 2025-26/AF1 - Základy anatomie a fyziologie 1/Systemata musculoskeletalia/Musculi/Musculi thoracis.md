@@ -1,0 +1,45 @@
+- hrudní svaly
+- mm. thoracohumerales
+	- inerv: plexus brachialis
+	- m. pectoralis major
+		- pars clavicularis
+		- pars sternocostalis
+		- pars abdominalis
+		- f: addukce, flexe, vnitřní rotace paže v ramenním kloubu; pomocný nádechový sval
+	- m. pectoralis minor
+		- f: protrakce, deprese scapulae, pomocný nádechový sval
+	- m. serratus anterior
+		- f: protrakce, vnější rotace (výtáčí dolní úhel ven) lopatky; pomocný dýchací sval
+		- inerv: n. thoracicus longus
+	- m. subclavius
+		- f: elevace 1. žebra, deprese claviculae, fixuje art. sternoclavicularis
+- mm. autochthonicae
+	- f: hlavní dýchací svaly
+	- mm. intercostales
+		- mm. intercostales externi
+			- zadní ⅔ mezižeberního prostoru
+			- f: elevace žeber, nádechové svaly
+		- mm. intercostales interni
+			- přední ⅔ mezižeberního prostoru
+			- f: deprese žeber, výdechové svaly
+		- mm. intercostales intimi
+			- kopírují mm. intercost. interni
+			- f: deprese žeber, výdechové svaly
+	- m. transversus thoracis
+		- f: deprese žeber
+	- mm. levatores thoracis
+		- breves
+			- 12 svazků
+		- longi
+			- 4 svazky
+- diaphragma - bránice
+	- hierarchicky řazena samostatně
+	- inerv: n. phrenicus
+	- plochý sval tvořící přepážku mezi hrudní, břišní dutinou
+	- pars lumbalis
+	- pars costalis
+	- pars sternalis
+	- střední část spojena ve šlachovitém svazku - *centrum tendineum*
+	- vyklonuje se do dvou kopulovitých bráničních klenb (levá a pravá), při nádechu se oplošťuje a centrum tendineum klesá
+	- f: hlavní nádechový sval, významný posturální sval, stabilizuje thorakolumbální páteř
+	- foramen venae, hiatus oesophagus, hiatus aorticus

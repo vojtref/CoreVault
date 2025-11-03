@@ -1,0 +1,75 @@
+- materiálem cokoli co obsahuje genetickou informaci
+	- nejčastěji periferní krev, stěr bukálního epitelu, vlasové kořínky
+	- jiné vzorky obsahující buněčná jádra
+	- prenatálně i buňky z plodové vody (amniocyty), buňky z plodových obalů (choriové klky)
+		- fetální DNA se též dostane přes placentu do krevního oběhu matky
+	- vzorek materiálu nutno homogenizovat, ošetřit detergentem, proteolytiky, dále centrifugovat
+	- vzorky velmi malé, řádově 0.1 µL – 1000 µL
+		- malé množství DNA
+		- drahé chemikálie (zejm. u modifikovaného DNA)
+		- technické důvody
+- nástroje
+	- mikrozkumavky
+		- zejm. eppendorfky (dnes i jiní výrobci než Eppendorf)
+	- mikropipety
+		- špička na jedno použití
+		- velmi přesně nastavitelný objem (např. po 0.5 µL)
+	- centrifugy
+	- chladničky, mrazničky
+	- termocyklery
+		- zejm. u techniky PCR
+	- zařízení pro elektroforézu
+	- mikroskopy
+		- optické či fluorescenční
+		- hlavně v cytogenetických laboratořích
+	- laminární boxy (angl. laminar flow hood)
+	- $\vdots$
+- možná rizika
+	- jedovaté chemikálie
+		- příp. karcinogeny, např. fluorescenční barviva
+		- některé laboratoře využívají i radioaktivní značení molekul
+			- dnes převážně měkké β-zářiče
+	- hořlaviny, žíraviny
+	- vzorky lidské DNA mohou obsahovat i infekční patogeny
+		- zejm. virová onemocnění
+- zachování mlčenlivosti!
+	- vzorky DNA jsou kriticky důležitá osobní informace pacienta
+	- mlčenlivost vitální součást systému prevence genetické diskriminace
+	- vztahuje se i na veškerou okolní dokumentaci práce, výzkumu (fotodokumentace...)
+		- data a dokumentaci vždy anonymizovat co nejvíce možno
+		- publikovat pouze s explicitním informovaným souhlasem pacienta i po anonymizaci
+			- neudávat ani iniciály (pouze pořadové číslo), ani rok narození (pouze věk při vyšetření) - zveřejňovat co nejméně o pacientech
+- izolace DNA
+	- precipitace ethanolem (příp. jiným alkoholem, např. izopropanolem)
+		- historicky jedna z nejstarších metod
+		- časté laboratorní cvičení (možné i kvalitní ministerskou slivovicí!)
+		- chlazený 50%+ alkohol se přidá do roztoku, dojde k vysrážení DNA
+			- "Ty genetici mají takovej chrchel ve zkumavce a jsou z toho celý pryč"
+		- oddělená DNA se oddělí, rozpustí v pufru, využije k další analýze
+	- purifikace na silikátovém povrchu
+		- angl. spin column-based nucleic acid purification
+			- také DNA separation by silicate adsorption
+		- roztok se nechá protékat skrz filtr/membránu se silikátovými kanálky
+		- DNA se naváže na silikátový povrch
+		- skrz membránu se poté nechá protékat roztok chaotropní soli, DNA se odváže a uvolní (tzv. eluce)
+	- elektroforéza
+		- gelová
+			- elektroforetický gel funguje jako "molekulární síto"
+				- hustá chaotická síť makromolekulových vláken
+			- na gely pro oddělování DNA využívány zejm. agaróza či polyakrylamid
+				- agaróza využívá zejm. horizontální elektroforézu, umožňuje rozlišení stovek až desítek nukleotidů
+				- polyakrylamid zejm. vertikální, rozlišení i jednotlivé báze
+			- na začátek plochy gelu (u katody) vytvořeny rezervoáry na vzorky
+			- elektrické pole mezi anodou a katodou poté nabité molekuly "protahuje" skrz gel
+			- po určité době se elektrické pole opět vypne, molekuly posunuty o určitou vzdálenost
+			- DNA obarvena fluorescenčním barvivem a zobrazena tzv. transiluminátorem, který gelem pouští UV světlo
+			- dle posunutí molekul (např. úseků DNA) lze určit jejich velikost
+				- krátké molekuly se anodě přiblíží více (snadno prostoupí skrz "síto")
+				- dlouhé molekuly zůstanou blíže katodě (na "síto" více naráží)
+- vizualizace DNA
+	- používána zejm. fluorescenční barviva (angl. stains)
+	- většina barviv specifická pro DNA, některá specifická barviva obarvují i RNA
+	- většina tzv. interkalátory = "vmezeřovače", molekuly barviva se vmezeřují mezi páry bazí
+		- v živé tkáni působí mutace, silný karcinogen
+		- např. ethidiumbromid
+	- dále např. diamidinofenylindol (barvivo používáno na chromozomy), SYBR Green

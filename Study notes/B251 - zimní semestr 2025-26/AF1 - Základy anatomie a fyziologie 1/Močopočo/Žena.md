@@ -1,0 +1,56 @@
+- ovarium
+	- ovariální cyklus - 28 dní
+	- folikuly obsahují oocyty, množství proměnlivé
+	- v 5.-6. měsíci vývoje 1-2 mil. folikulů
+	- menarche - 1. menstruace - 500 000 folikulů
+		- menarche precox - předčasná menarche, výrazně zvyšuje riziko rakoviny pohlavních orgánů, nutný monitoring
+	- TODO: doplnit fáze cyklu
+- tuba uterina
+	- infundibulum
+		- fimbriae
+- uterus
+	- stěna
+		- endometrium - sliznice
+			- část se odlučuje během menstruace, poté se obnovuje
+			- klinika: patologická lokalizace endometria mimo dělohu = endometrióza
+				- i mimo dělohu endometrium prodělává menstruační cyklus, což způsobuje zánětlivé reakce a extrémně bolestivé menstruace; může vést až k neplodnosti
+		- myometrium - hladká svalovina
+		- perimetrium - epitel, de facto peritoneum
+	- fundus uteri
+	- corpus uteri
+	- isthmus uteri
+	- cervix uteri
+		- portio vaginalis cervicis uteri - děložní čípek
+		- roztah na 10 cm na konci první/začátku druhé doby porodní
+	- ligamentum cardinale uteri
+	- ligamentum teres uteri
+- menstruační cyklus
+	- TODO: doplnit
+- excavatio vesicouterina
+- excavatio rectouterina - Douglasův prostor
+	- největší peritoneální prostor
+	- prováděny punkce např. při ascites
+- fornix vaginae
+- myom
+	- benigní svalovinový nádor, může být na myometriu ale i mimo
+	- nebývá nutné odstranit (častá abnormalita), ale nutná monitorace, riziko krvácení a malignizace
+- ektopické těhotenství
+	- uhnízdění oplodněného vajíčka mimo uterus
+	- možné uhnízdění ve vejcovodu, na vnější straně vejcovodu, i mimo, např. v peritoneu... (TODO: obrázek z Radiopaedia plodu na játrech)
+	- vždy! nutná terminace, plod není viabilní
+	- lithopedion
+		- částečný vývoj plodu, samovolná terminace a kalcifikace
+		- dříve ne tak vzácné, dnes předtím terminováno a chirurgicky odstraněno
+- vnější ústrojí
+	- mons pubis
+	- vulva
+		- glans clitoris
+			- topořivá tělesa, vývojový analog penisu
+		- labia majora pudendi
+		- labia minora pudendi
+		- ostium urethrae externum
+		- ostium vaginae
+			- hymen - panenská blána
+	- perineum - hráz
+		- klinika: episiotomie - preventivní nastřih hráze při porodu pro vyhnutí-se roztržení
+- Alcockův kanál

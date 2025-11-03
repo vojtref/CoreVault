@@ -1,0 +1,111 @@
+- svaly horní končetiny
+- inervace z plexus brachialis
+- i spinohumerální a torakohumerální svaly
+- pletenec
+	- m. deltoideus
+		- funkce
+			- pars spinalis: dorzální flexe, vnější rotace
+			- pars acromialis: abdukce
+			- pars clavicularis: ventrální flexe, abdukce, vnitřní rotace
+	- m. supraspinatus
+		- funkce: abdukce, vnější rotace; stabilizace capitis humeri v kloubní jamce
+		- součást rotační manžety
+		- nejčastější poškození
+	- m. infraspinatus
+		- funkce: addukce, vnější rotace
+	- m. teres major
+		- funkce: addukce, dorziflexe, vnitřní rotace
+	- m. subscapularis
+		- funkce: vnitřní rotace
+- brachium - TODO: doplnit o i f
+	- přední skupina
+		- flexory lokte
+		- inervace n. musculocutaneus
+		- m. biceps brachii
+			- o:
+				- caput longum
+				- caput breve
+			- i:
+			- f:
+		- m. coracobrachialis
+			- o: processus coracoideus scapulae
+			- i:
+			- f:
+			- skrz prochází n. musculocutaneus
+		- m. brachialis
+			- o: přední plocha humeri
+			- i: tuberositas ulnae
+			- f: flexe předloktí
+	- zadní skupina
+		- extenze lokte
+		- inervace n. radialis
+		- m. triceps brachii
+			- o:
+				- caput longum: tuberculum infraglenoidale scapulae
+				- caput laterale:
+				- caput mediale
+			- i: olecranon ulnae
+			- f:
+		- m. anconeus
+			- o:
+			- i:
+			- f:
+- antebrachium - TODO: doplnit o i f
+	- přední skupina
+		- hlavně flexe zápěstí a prstů, pronace
+		1. vrstva
+			- m. pronator teres
+			- m. flexor carpi radialis
+			- m. palmaris longus
+			- m. flexor carpi ulnaris
+		2. vrstva
+			- m. flexor digitorum superficialis
+				- o: caput humeroulnare
+					- humerus - epicondylus medialis
+					- ulna - med. od proc. coronaideus
+					- lig. collaterale ulnae
+				- i: čtyři šlachy k 2.-5. prstu tvoří tzv. chiasma tendineum
+				- f: flexe 2.-5. prstu
+		3. vrstva
+			- m. flexor digitorum profundus
+			- m. flexor pollicis longus
+		4. vrstva
+			- m. pronator quadratus
+	- zadní skupina
+		- extense zápěstí, prstů
+		- povrchová vrstva
+			- m. extensor digitorum
+			- m. extensor digiti minimi
+			- m. extensor carpi ulnaris
+		- hluboká vrstva
+			- m. abductor pollicis longus
+			- m. extensor pollicis longus
+			- m. extensor pollicis brevis
+			- m. extensor indicis
+	- laterální skupina
+		- extense zápěstí, flexe lokte, supinace
+		- povrchová vrstva
+			- m. brachioradialis
+			- m. extensor carpi radialis longus
+			- m. extensor carpi radialis brevis
+		- hluboká vrstva
+			- m. supinator
+				- o:
+				- i:
+				- f: supinace předloktí
+- manus - TODO: doplnit vsechno T-T
+	- převážně n. ulnaris, někdy n. medianus
+	- thenar - (PAFO)
+		- m. opponens pollicis
+		- m. adductor pollicis
+	- hypothenar - **m**alíková skupina (MAFO)
+		- m. **a**bductor digiti minimi
+		- m. **f**lexor digiti minimi brevis
+		- m. **o**pponens digiti minimi
+		- m. palmaris brevis
+	- mm. interossei
+		- mm. interossei palmares
+			- f: svírání vějíře prstů
+		- mm. interossei dorsales
+			- f: rozevírání vějíře prstů
+	- mm. lumbricales

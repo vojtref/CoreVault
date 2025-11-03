@@ -1,0 +1,4 @@
+- typy
+	- svalové × elastické
+- arteriae → arteriolae → vasa capillaria → venulae → venae
+	- převážně ve vasa capillaria dochází k plynové a látkové výměně s tkáněmi, do menší míry i v arteriolách a venulách

@@ -1,0 +1,12 @@
+- centrální dogma molekulární biologie
+	- genetická informace přechází z nukleových kyselin do proteinů, nikdy naopak
+	- takto nazváno Francisem Crickem v roce 1957 (publikováno 1958)
+		- kontroverzní volba slova "dogma" jakožto základní fakt, fundament ze kterého všechno vychází, pro který není známé odůvodnění
+			- Crick později přiznal že termín "dogma" v té době nechápal dostatečně, použil ho spíše protože se mu líbilo, jak zní; jako lepší slovo uznal "hypotéza" (příp. "axiom")
+	- základní model:
+		- DNA se [[Replikace DNA, PCR|replikuje]]
+			- RNA se též replikuje (zejm. u RNA virů, např. virus influenzae, coronaviridae, ...)
+		- DNA se [[Transkripce|transkribuje]] (přepisuje) na RNA
+			- RNA se příp. reverzně transkribuje na DNA (zejm. u retrovirů, např. HIV, HTLV-1, HTLV-2, ...)
+		- RNA se [[Translace|translatuje]] (překládá) na proteiny
+			- z proteinů se gen. informace již nedostane (alespoň ne biologicky)

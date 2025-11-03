@@ -1,0 +1,30 @@
+- Leibnizův vzorec$$\det A = \sum_{\pi \in S_n} \sign \pi \prod_{n=1}^{s} a_{\pi(n),n}$$
+- $S_n$ - množina všech permutací $n$-prvkové množiny
+	- $\card S_n = n!$
+	- př. $S_2$
+		- $\mathbf{A} = \pmatrix{a_{11} & a_{12} \\ a_{21} & a_{22}}$
+		- $\det \mathbf{A} = \begin{vmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{vmatrix}$
+		- TODO: doplnit mapping $\pi$ atd
+	- př. $S_3$
+		- TODO: doplnit, 3 věže
+	- Sarrusovo pravidlo, snadný pattern dle hlavní a vedlejší diagonály neplatí pro $n \ge 4$
+- TODO: doplnit kosodélníky v $\R^2$
+- determinant počítá *orientovaný obsah* rovnoběžníku (resp. *orientovaný objem* rovnoběžnostěnu) se stranami ze sloupců matic
+	- $P(\vec{e_1}, \vec{e_2}) = 1$
+		- konvence
+		- zavádí jednotku orientované plochy v $\R^2$
+		- proti směru hodinových ručiček → +
+- tvrzení: $\det \mathbf{A} = \det \mathbf{A}^T$
+	- TODO: důkaz skrz komutativitu sčítání, a $\pi \to \pi^{-1}$ pouze přehodí pořadí (vše se stejně sečte)
+- př.
+	- $\mathbf{A}$ je čtvercová matice v horním blokovém tvaru
+		- $\mathbf{A} = \pmatrix{a_{11} & & & \\ 0 & a_{22} & &  \\ 0 & 0 & a_{33} & \\ \vdots & \vdots & \vdots & \ddots}$
+		- $\therefore$
+		- $\det \mathbf{A} = a_{11} \cdots a_{nn}$
+- při počítání determinantu převedením do horního blokového tvaru skrz GEM nutno kompenzovat elementární řádkové úpravy korekčními faktory (**"opatrná" GEM**)
+	- prohození řádků (prohození) os mění znaménko permutace (šroubujeme opačným směrem), nutno kompenzovat $-1$
+	- násobení řádků (= škálování os, změna měřítka) inverzním skalárem
+		- roztáhnutí osy vynásobí objem, proto $\sim \; \ne \; =$
+	- zkosení (přičtení násobku řádku) není nutno kompenzovat
+- jiný způsob: vnější mocniny $\ref{AKLA 5}$
+	- moderní způsob

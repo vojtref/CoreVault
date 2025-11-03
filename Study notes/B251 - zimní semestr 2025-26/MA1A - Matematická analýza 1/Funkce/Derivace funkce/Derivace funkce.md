@@ -1,0 +1,111 @@
+- funkce $f$ má *derivaci* v bodě $x_0$ značenou $f'(x)$ rovnu $a$ právě tehdy, pokud existuje $$f'(x) =\lim_{x \to x_0}\frac{f(x) - f(x_0)}{x - x_0}=a$$ nebo pokud položíme $h = x - x_0$, tak $\lim_{h \to 0}\frac{f(x_0 + h) - f(x_0)}{h}$, index $0$ u $x_0$ v tomto zápisu většinou vynecháván, tedy $$f'(x) = \lim_{h \to 0}\frac{f(x + h) - f(x)}{h}$$
+	- analog. pro derivaci *zleva* $f'_{-}(x)$, *zprava* $f'_{+}(x)$ s limitami zleva, zprava
+		- jako u limit, oboustranná derivace existuje právě tehdy kdy derivace zleva a zprava obě existují a jsou si rovny
+	- také další značení, $f'(x)=\dot{f}(x)=\frac{df}{dx}(x)=\frac{d}{dx}f(x)$
+	- $a \in \R$ - vlastní derivace
+	- $a = \pm \infty$ - nevlastní derivace
+	- jako funkce je $f'$ definována pouze pokud má $f$ vlastní derivaci, platí tedy $D(f') \subseteq D(f)$
+- na grafu funkce tečny v bodě $[x, f(x)]$
+- derivace pomocí definice
+	- a) $f(x) = c, c \in \R$
+		- $\lim_{x \to x_0}\frac{c - c}{x - x_0} = \lim_{x \to x_0}\frac{0}{x - x_0} = 0\ \forall x$
+	- b) $f(x) = x$
+		- $\lim_{x \to x_0}\frac{x - x_0}{x - x_0} = \lim_{x \to x_0} 1\ (\forall x) = 1$
+	- c) $f(x) = e^x$
+		- $$\lim_{h \to 0}\frac{e^{x+h}-e^{x}}{h}=\lim_{h \to 0}\frac{e^he^x-e^x}{h}=\lim_{h \to 0}e^x\frac{(e^h - 1)}{h}=\lim_{h \to 0}e^x\cdot1=e^x$$
+			- viz skripta 3, přehled užit. funkcí
+	- d) $f(x) = \cos(x), D(f)=\R$
+		- $$\lim_{x \to x_0}\frac{\cos x - \cos x_0}{x - x_0}=\lim_{x \to x_0}\frac{-2 \sin \frac{x + x_0}{2} \cdot \sin \frac{x-x_0}{2}}{x - x_0} = \cdots = -\sin x$$
+			- viz rozdíl kosinů
+			- TODO: doplnit z foto
+		- analog. pro $f(x) = \sin x \implies f'(x) = \cos x$
+- tečna, normála v bodě $\left[x_0, f(x_0)\right]$ (zkráceně "v bodě $x_0$")
+	- $f'(x_0) \in \R \setminus \{0\}$
+		- t: $y=f(x_0) + f'(x_0)(x-x_0)$
+			- $k_t = f'(x_0)$
+		- n: $y=f(x_0) - \frac{1}{f'(x_0)}(x-x_0)$
+			- $k_n = -\frac{1}{f'(x_0)}$
+	- $f'(x_0)=0$
+		- t: $y=f(x_0)$
+		- n: $x=x_0$
+		- $k_t = 0$
+	- $f'(x_0)=\pm \infty$
+		- t: $x=x_0$
+		- n: $y=f(x_0)$
+		- $k_n = 0$
+- věta 4.1: má-li funkce $f$ v bodě $x_0$ *vlastní* derivaci $a$, je v $x_0$ spojitá
+	- důkaz
+		- $\lim_{x \to x_0}\frac{f(x) - f(x_0)}{x - x_0} = a \in \R$
+		- $\lim_{x \to x_0}(f(x) - f(x_0)) = \lim_{x \to x_0}a({x - x_0})$
+		- $\lim_{x \to x_0}(f(x) - f(x_0)) = a \cdot 0 = 0 \mid$ $a$ je konečné, součin definovaný
+		- $\lim_{x \to x_0}f(x) = f(x_0) \QED$
+	- funkce $f(x) = \sgn{x}$ není v $x_0 = 0$ spojitá, má tam ale *nevlastní* derivaci; pouhá existence derivace nezaručuje spojitost
+- věta 4.2: aritmetika vlastních derivací $f'(x_0), g'(x_0) \in \R$
+	- $(f \pm g)' = f'(x_0) \pm g'(x_0)$
+		- $(\sum_i^n f_i)' = \sum_i^n f'_i$
+	- $(f \cdot g)' = f'(x_0)g(x_0) + f(x_0)g'(x_0)$
+		- $\forall c \in \R:(cf)'(x_0)=cf'(x_0)$
+		- TODO: dopsat důkaz 4.2 z foto
+		- $(f_1 \cdot f_2 \cdots f_n)$
+	- $$\left(\frac{f}{g}\right)'(x_0) = \frac{f'(x_0) \cdot g(x_0) - f(x_0) \cdot g'(x_0)}{g^2(x_0)} \iff g(x_0) \ne 0$$
+		- TODO: ukázat na $(\tan{x})'$, $(\cot{x})'$
+- př. 4.5
+	- $n \in \N_+: (x^n)'=nx^{n-1}$
+	- důkaz indukcí
+		- pro $n=1$:
+			- $(x^1)' = x' = 1 \cdot x^{1 - 1} = 1 \cdot 1 = 1$
+		- předpokládáme, že platí pro $n$; pro $n+1$
+			- $(x^{n+1})' = (x \cdot x^n)'$
+			- $= 1 \cdot x^n + x \cdot (x^n)'$
+			- $= x^n + x \cdot n \cdot x^{n-1}$
+			- $= x^n + n \cdot x^n = (n+1)x^n$
+- věta 4.3 (o derivaci složené funkce)
+	- $f'(x_0), g'(f(x_0)) \in \R \implies (g \circ f)'(x_0) = g'(f(x_0)) \cdot f'(x_0)$
+	- analogicky pro více funkcí:
+		- $(h \circ g \circ f)'(x_0)=h'(g(f(x_0))) \cdot g'(f(x_0)) \cdot f'(x_0)$
+		- "loupání cibule," derivujeme vnější "slupku"
+- věta 4.4 (o derivaci inverzní funkce)
+	- $f$ prostá, spojitá na $\intvloo{a}{b}$, $x_0 \in \intvloo{a}{b}, f(x_0)=y_0$
+	- $\exists f'(x_0) \ne 0 \implies \exists f_{-1}'(y_0)=\frac{1}{f'(x_0)}$
+	- TODO: dopsat důkaz přes větu 4.1
+- př. $f(x) = e^x = y$
+	- $D(f) = \R, y>0$
+	- $f$ prostá, spojitá
+	- $f'(x) = e^x$
+	- $f_{-1}(x) = \ln y = x$
+	- $(\ln y)'=\frac{1}{e^x} = \frac{1}{e^{\ln y}} = \frac{1}{y} \Leftarrow y>0$
+- př. $f(x) = \sin x = y, x \in \intvloo{-\frac{\pi}{2}}{\frac{\pi}{2}}=I,y \in \intvloo{-1}{1}$
+	- $f$ spojitá na $\R$, prostá na $I$
+	- TODO: dopsat z foto
+- TODO: př. 4.6 - 4.7
+- př. 4.7:
+	- a) $a>0, f(x)=a^x$
+		- $D(f) = \R$
+		- $f(x) = a^x = e^{x \ln a}$
+		- $f'(x) = e^x \ln a \cdot (x \cdot \ln a)' = a^x \cdot (x \cdot \ln a)'$
+			- $= a^x \cdot (x)' \cdot \ln a \mid$ $\ln a$ je konstanta
+		- $f'(x) = a^x \cdot \ln a$
+	- b) $f(x) = x^\alpha, \alpha \in \R$
+		- $f(x) = x^\alpha = e^{\alpha \ln x}$
+		- $f'(x) = e^{\alpha \ln x} \cdot (\alpha \ln x)' = x^\alpha \cdot \alpha \cdot \frac{1}{x} = \alpha x^{\alpha - 1}$
+- log. derivování
+	- $h(x) = \left(u(x)\right)^{v(x)}$
+	- $h'(x) = e^{v(x) \cdot \ln u(x)} \cdot (v(x) \cdot \ln u(x)) \mid u(x) > 0$
+		- $= h(x) \left(v'(x) \ln u(x) + v(x) \frac{u'(x)}{u(x)}\right)$
+- věta 4.5:
+	- $f$ spojitá na intervalu $\intvlco{x_0}{x_0 + \delta}$ a existuje $\lim_{x \to x_0}f'(x) = a$
+	- poté $f_+'(x_0) = a$
+	- analog. pro $f_-'(x_0)$
+	- př. 4.8: neexistuje $\lim_{x \to x_0}f'(x)$, ale existuje $f'(x_0)$ - tvrzení nelze obrátit
+		- $f(x) = \begin{cases}x^2 \cdot \cos \frac{1}{x} & x \ne 0 \\ 0 & x = 0\end{cases}$
+			- $f(0)$ dopočítáno skrz limitu $\langle\!\langle0 \cdot \text{omezená}\rangle\!\rangle$, proto spojitá na $\R$
+		- TODO: doplnit z foto
+			- omezuje parabola z $x^2$ která má vrchol v $[0,0]$, ale $\cos \frac{1}{x}$ je prudce "rozkmitaný" poblíž nuly, tudíž nelze určit limitu derivace
+- TODO: dopsat $f_+'(-1)$ pro $f(x) = \arcsin x$
+- TODO: doplnit derivace elementárních a goniometrických funkcí
+- L'Hôpitalovo pravidlo
+	- $x_0 \in \ER$
+	- $\lim_{x \to x_0}f(x) = 0 = \lim_{x \to x_0}g(x) \lor \lim_{x \to x_0}g(x)=\pm\infty$
+		- tzn. u výrazů typu $\langles\frac{0}{0}\rangles$ nebo $\langles\frac{\infty}{\infty}\rangles$
+	- $\exists\lim_{x \to x_0}\frac{f(x)}{g(x)} = A \implies \lim_{x \to x_0}\frac{f'(x)}{g'(x)} = A$
+	- užíváme i opakovaně

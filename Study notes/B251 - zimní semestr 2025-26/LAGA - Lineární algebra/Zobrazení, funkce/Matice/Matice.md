@@ -1,0 +1,92 @@
+- lineární zobrazení $\mathbf{A}: \F^s \to \F^r$ lze zapsat jako **matici**
+- matice $\mathbf{A}$ nad $\F$ o $r$ řádcích a $s$ sloupcích
+	- $\pmatrix{a_{11} & a_{12} & \cdots & a_{1s} \\ a_{21} & a_{22} & \cdots & a_{2s} \\ \vdots & \vdots & \ddots & \vdots \\ a_{r1} & a_{r_2} & \cdots & a_{rs}}$
+	- matice není pouze hřbitov skalárů!
+	- každý sloupec v tomto *sloupcovém zápisu* odpovídá vektoru uspořádané báze daného zobrazení
+		- funkční hodnoty v bodech kanonické báze
+	- sčítání matic: $\mathbf{A} + \mathbf{B} = \left(\vec{a_1} + \vec{b_1}, \ldots, \vec{a_s} + \vec{b_s}\right)$
+	- škálování matic: $n \mathbf{A} = \left(n\cdot\vec{a_1}, \ldots, n\cdot\vec{a_s}\right)$
+	- jak sčítání tak škálování de facto po položkách, $(\mathbf{A} + \mathbf{B})_{rs} = a_{rs} + b_{rs}$
+	- násobení matic:
+		- odpovídá kompozici zobrazení (viz níže)
+		- $\mathbf{B} \cdot \mathbf{A} = \left(\mathbf{B} \vec{a_1}, \mathbf{B} \vec{a_2}, \ldots, \mathbf{B} \vec{a_s}\right)$
+			- položkový zápis užívaný jinde je černokněžnický trik který nebudeme používat
+		- pro definované součiny matic platí asociativita, $(\mathbf{C} \cdot \mathbf{B}) \cdot \mathbf{A} = \mathbf{C} \cdot (\mathbf{B} \cdot \mathbf{A})$
+		- obecně neplatí komutativní zákon $\mathbf{B} \cdot \mathbf{A} = \mathbf{A} \cdot \mathbf{B}$
+			- např. $\mathbf{P}_x \cdot \mathbf{R}_\alpha \ne \mathbf{R}_\alpha \cdot \mathbf{P}_x$
+		- $\forall n \exists (\mathbf{E}_n: \F^n \to \F^n)=(\vec{e}_1, \vec{e}_2, \ldots, \vec{e}_n)$ - jednotková matice
+			- jinými slovy matice kde sloupce jsou vektory kanonické báze
+- příklady některých zobrazení $\R^2 \to \R^2$ v maticovém tvaru
+	- projekce na osu $x$: $\mathbf{P}_x=\pmatrix{1 & 0 \\ 0 & 0}$
+	- projekce na osu $y$: $\mathbf{P}_y=\pmatrix{0 & 0 \\ 0 & 1}$
+	- změna měřítka $\mathbf{M}_{a,b}=\pmatrix{a & 0 \\ 0 & b}$
+	- rotace kolem počátku úhlem $\alpha$ proti směru hodinových ručiček
+		- $\mathbf{R}_\alpha = \pmatrix{\cos{\alpha} & -\sin{\alpha} \\ \sin{\alpha} & \cos{\alpha}}$
+			- odvozeno ze základní trigonometrie
+		- vlastnosti
+			- $\mathbf{R}_{\alpha + \beta} = \mathbf{R}_\beta \cdot \mathbf{R}_\alpha$
+			- $\mathbf{R}_0 = \pmatrix{1 & 0 \\ 0 & 1} = \id_{\R^2}$
+			- $(\mathbf{R}_\alpha)^{-1}=\mathbf{R}_{-\alpha}$
+			- TODO: rozepsat
+	- zkosení (angl. shear) $\mathbf{S}_{a,b} = \pmatrix{1 & b \\ a & 1}$
+		- bude užitečné u soustav rovnic
+- $\R^3 \xrightarrow{\mathbf{A}} \R^2$
+	- matice o třech sloupcích a dvou řádcích
+	- s kanonickou bází těžko čitelné, trade-off mezi (ne)pěknou bází a (ne)pěknou maticí
+		- $[\mathbf{A}]_{B_1}^{B_2}$ - transformace $\mathbf{A}$ vzhledem k bázím $B_1$ ("vstupní" souřadnicový systém) a $B_2$ ("výstupní" souřadnicový systém)
+- kompozice zobrazení jakožto násobení matic
+	- $\R^2 \xrightarrow{\pmatrix{1 & 2 \\ 0 & 1}} \R^2 \xrightarrow{\pmatrix{\cos{\alpha} & -\sin{\alpha} \\ \sin{\alpha} & \cos{\alpha}}} \R^2 = \R^2 \xrightarrow{\pmatrix{\cos{\alpha} & -\sin{\alpha} \\ \sin{\alpha} & \cos{\alpha}} \pmatrix{1 & 2 \\ 0 & 1}} \R^2$
+		- zkosení, poté rotace
+		- $\pmatrix{\cos{\alpha} & -\sin{\alpha} \\ \sin{\alpha} & \cos{\alpha}} \pmatrix{1 & 2 \\ 0 & 1} = \pmatrix{\cos \alpha & 2 \cos \alpha - \sin \alpha \\ \sin \alpha & 2 \sin \alpha + \cos \alpha}$
+	- reflexe podle osy svírající úhel $\alpha$ s osou $x$
+		- transformaci nazveme $M$ 
+		- $\R^2 \xrightarrow{M} \R^2$
+		- $M$ lze brát jako složenou operaci, a to rotace o $-\alpha$, reflexe, poté rotace zpět o $\alpha$
+			- $\R^2 \xrightarrow{\mathbf{R}_{-\alpha}} \R^2 \xrightarrow{\pmatrix{1 & 0 \\ 0 & -1}} \R^2 \xrightarrow{\mathbf{R}_\alpha} \R^2$
+			- $M = \mathbf{R}_\alpha\cdot\pmatrix{1 & 0 \\ 0 & -1}\cdot\mathbf{R}_{-\alpha}$
+		- TODO: dopočítat
+- $\F^s \xrightarrow[\text{lin}]{\mathbf{A}} \F^r$
+	- $\def \mathbf{A} = 0 \text{ }\land s = r = n$ ("čtvercová situace")
+		- $\F^n \xrightarrow[\text{lin}]{\mathbf{A}} \F^n$
+	- $\mathbf{A} \vec{x} = \vec{o}$ má právě jedno řešení
+	- $\mathbf{A}$ je *regulární*, když existuje jednoznačná matice $\mathbf{A}^{-1}$ (zvaná inverze) taková, že $\mathbf{A} \cdot \mathbf{A}^{-1} = \mathbf{A}^{-1} \cdot \mathbf{A} = \mathbf{E}_n$
+		- $\mathbf{A}$ také zvaná *invertibilní*, či zkrátka *isomorfismus*
+		- invertibilní lin. zobrazení je vždy regulární matice
+	- $\mathbf{A}$ je *singulární* právě tehdy, když není regulární
+- rozšířená matice soustavy rovnic
+	- $\F^s \xrightarrow{\mathbf{A}} \F^r \xrightarrow[\text{iso}]{P} \F^r$
+	- $\mathbf{A} = \left(\vec{a_1}, \ldots,\vec{a_s}\right)$, hledáme $\vec{w}$ takové aby $\mathbf{A}\vec{w}=\vec{b}$
+		- množina všech řešení: $\{\vec{w} \mid \mathbf{A}\vec{w}=\vec{b}\}$
+	- $(\vec{a_1}, \ldots,\vec{a_s} \mid \vec{b})$
+		- ekvivalentní soustavě $r$ rovnic o $s$ neznámých
+		- řešením je vektor v $\F^s$
+	- např. $\amatrix{ 1 & 1 \\ 2 & 3}{-1 \\ 0}$
+		- $x + y = -1$
+		- $2x + 3y = 0$
+	- Frobeniova věta
+		- (1) soustava $(\mathbf{A} \mid \vec{b})$ má řešení $\iff \rank \mathbf{A} = \rank(\mathbf{A} \mid \vec{b})$
+			- tzn. $\vec{b}$ je lineární kombinace sloupců $\mathbf{A}$
+		- (2) pokud má řešení, tak pro libovolné *partikulární řešení* $\vec{p}$ platí, že $\vec{p} + \ker \mathbf{A} = \{\vec{p} + \vec{x} \mid \vec{x} \in \ker \mathbf{A} \}$ je množina všech řešení
+			- důkaz $\vec{p} + \ker \mathbf{A} \subseteq \{\vec{w} \mid \mathbf{A}\vec{w} = \vec{b}\}$
+				- $\vec{v} \in \vec{p} + \ker \mathbf{A}$
+				- $\vec{v} = \vec{p} + \vec{x},\ \vec{x} \in \ker\mathbf{A}$
+				- $\mathbf{A}\vec{v} = \mathbf{A}\vec{p} + \mathbf{A}\vec{x} \mid \mathbf{A} \text{ je lineární zobrazení}$
+				- $\mathbf{A}\vec{v} = \mathbf{A}\vec{p} + \vec{o} \mid \text{def. prvku } \ker\mathbf{A}$
+				- $\mathbf{A}\vec{v} = \mathbf{A}\vec{p} = \vec{b} \mid \text{def. řešení}$
+				- $\therefore \vec{v} \in \{\vec{w} \mid \mathbf{A}\vec{w} = \vec{b}\}$
+				- $\QED$
+			- důkaz $\vec{p} + \ker \mathbf{A} \supseteq \{\vec{w} \mid \mathbf{A}\vec{w} = \vec{b}\}$
+				- $\vec{v} \in \{\vec{w} \mid \mathbf{A}\vec{w} = \vec{b}\}$
+				- $\mathbf{A}\vec{v} = \vec{b} = \mathbf{A}\vec{p}$
+				- $\vec{x} = \vec{v} - \vec{p}$
+				- $\mathbf{A}\vec{x} = \mathbf{A}\vec{v} - \mathbf{A}\vec{p} = \vec{b} - \vec{b} = \vec{o} \implies \vec{x} \in \ker \mathbf{A}$
+				- $\vec{v} = \vec{p} + (\vec{v} - \vec{p})$
+				- $\vec{v} = \vec{p} + \vec{x},\ \vec{x} \in \ker\mathbf{A}$
+				- $\therefore \vec{v} \in \vec{p} + \ker \mathbf{A}$
+				- $\QED$
+			- $\text{mňau}\; \subseteq \land \supseteq \;\Rightarrow\; = \QED$
+		- v různých formulacích také známa jako Rouché-Frobeniova věta, Rouché-Capelliho věta, Kronecker-Capelliho věta, Rouché-Fonteného věta... Frobenius jí však nedokázal, jenom diskutoval o výsledku
+	- značení:
+		- $(\mathbf{A} \mid \vec{b}) \sim (\mathbf{A}' \mid \vec{b}') \text{ (tzn. jsou ekvivalentní)}\iff \mathbf{A}$ a $\mathbf{A}'$ mají stejné rozměry, a platí $\mathbf{A}\vec{x}=\vec{b} \iff \mathbf{A}'\vec{x}=\vec{b}'$
+			- $\mathbf{A}' = P\mathbf{A}$, $P$ je isomorfismus takže dodržuje dané vlastnosti
+

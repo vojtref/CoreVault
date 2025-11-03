@@ -1,0 +1,10 @@
+- $f$ nabývá na množině $M \subseteq D(f)$ v bodě $x_0 \in M$ svého **globálního maxima** $f(x_0)=A$ právě tehdy, kdy platí $$\forall x \in M: f(x) \le f(x_0)$$ nebo **globálního minima** pokud platí $$\forall x \in M: f(x) \ge f(x_0)$$
+	- globální maximum a minimum společně nazýváme extrema (sg. extremum) či extrémy
+	- spojitá funkce na *uzavřeném* intervalu nabývá svých extrem na tomto intervalu
+- $f$ nabývá **lokálního maxima** $f(x_0)$ v bodě $x_0$ právě tehdy, kdy existuje okolí $U_\varepsilon(x_0)$ takové, že platí $$\forall x_0 \in U_\varepsilon(x_0): f(x) \le f(x_0)$$ nebo **lokálního minima** pokud platí $$\forall x_0 \in U_\varepsilon(x_0): f(x) \ge f(x_0)$$
+- **ostrá extrema**: jen $<$ resp. $>$, tzn. $f(x) \ne f(x_0)$
+- věta 6.1: jestliže $f$ nabývá lokálního extrema v bodě $x_0$ a $\exists f'(x_0)$, pak $f'(x_0)=0$
+	- $f'(x_0)=0 \quad \implies \quad x_0 \text{ stacionární bod}$
+		- může v něm být extremum, ale nemusí
+- $f$ je **rostoucí v bodě** $x_0 \in D(f)$, pokud existuje jeho okolí $U(x_0)$ pro které ve všech bodech $x \in U(x_0)$ platí $$\array{x < x_0 \implies f(x) < f(x_0) \\ x > x_0 \implies f(x) > f(x_0)}$$ a **klesající v bodě** $x_0$ pokud platí $$\array{x < x_0 \implies f(x) > f(x_0) \\ x > x_0 \implies f(x) < f(x_0)}$$
+	- analog. neklesající, nerostoucí

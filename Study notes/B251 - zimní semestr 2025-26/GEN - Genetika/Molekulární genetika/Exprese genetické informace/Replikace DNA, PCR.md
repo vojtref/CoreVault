@@ -1,0 +1,52 @@
+- semikonzervativní proces
+	- obě dceřiné dvojšroubovice obsahují jednu šroubovici z té původní, tj. dceřiné dvojšroubovice jsou z jednoho starého řetězce (tzv. templátu, příp. mateřského řetězce) a jednoho nového řetězce
+- replikace jaderné DNA předchází buněčnému dělení
+- velmi komplexní proces s mnoha enzymy, ale stručně: DNA helikáza "rozplete" dvojšroubovici na jednotlivé řetězce, DNA polymerázy vytvoří ke každému řetězci nový komplementární
+- DNA polymerázy
+	- ne jen jeden enzym, více variant
+	- nový řetězec tvoří ve směru 5'→3'
+	- "napojuje" komplementární báze ve volné formě v jádře, deoxyribonukleosidtrifosfát (dNTP)
+		- odštěpí se pyrofosfátová skupina, zbytek (dMNP) se zasadí do řetězce přes fosfodiesterovou vazbu
+- nukleotidy jako léčiva
+	- syntetické deriváty nukleotidů mohou replikační proces narušit až zastavit
+	- užívány medicinálně jako virostatika, cytostatika
+	- např. acyclovir
+- **p**olymerase **c**hain **r**eaction (**PCR**) - polymerázová řetězová reakce
+	- replikace DNA prováděna in vitro
+	- důvody užití
+		- nízké množství DNA ve vzorku (např. forenzní genetika)
+		- detekce genetických mutací
+			- odhalení přítomnosti nádorových buněk ve vzorku
+				- např. reziduální rakovinné buňky, metastázy..., viz [MRD](https://en.wikipedia.org/wiki/Minimal_residual_disease)
+		- detekce patogenů (např. PCR test na COVID-19, toxoplasma Gondii...)
+	- nutné materiály a vybavení
+		- vzorek DNA
+		- tepelně odolná DNA polymeráza - zejm. tzv. Taq polymeráza, z druhu bakterií *Thermus aquaticus* žijícího v horkých pramenech v Yellowstoneském parku
+		- nukleosidtrifosfáty (dATP, dTTP, dGTP, dCTP)
+		- primery - krátké jednořetězcové úseky DNA vymezující amplifikovaný úsek
+		- thermocykler
+			- umožňuje velmi prudké změny teplot
+	- proces klasického PCR
+		- ohřev na denaturaci DNA (typicky ~95 °C) na ssDNA
+		- ochlazení (~40 °C) na annealing primerů k ssDNA
+		- Taq polymeráza syntetizuje nové řetězce, prodlužující primery
+		- cyklus probíhá znovu, využívající i nově vytvořené úseky
+	- výhody
+		- extrémně vysoká citlivost
+		- rychlost
+		- možnost automatizace (dnes i plně robotizované systémy)
+		- relativní finanční nenáročnost (oproti jiným mol.gen. technikám)
+	- využíváno jako součást mnoha dalších molekulárně genetických technik (např. genové sekvenování)
+	- modifikace PCR
+		- reverzně transkripční PCR (RT-PCR)
+			- slouží k analýze RNA přepisem reverzní transkriptázou do stabilnější komplementární DNA (cDNA)
+			- cDNA se dále amplifikuje klasickým PCR
+			- umožňuje efektivní vyšetřování RNA virů
+		- kvantitativní fluorescenční PCR (QF-PCR)
+			- sleduje množství produktů PCR na základě fluorescenčního značení (např. skrze fluorescenční nukleosidtrifosfáty)
+			- např. primery označující dané geny, úseky chromozomů či celé chromozomy
+				- užíváno v amnioPCR - vyšetření plodové vody, např. při detekci Downova syndromu a podobných poruch
+		- real time PCR
+			- sledování nárůstu produktů v reálném čase
+			- např. DNA polymeráze "podstrčené" fluorescenčně značené nukleotidy
+				- jiné fluorescenční vlastnosti v závislosti zda je v řetězci či ne

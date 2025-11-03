@@ -1,0 +1,53 @@
+- obecná myologie
+	- typy svalů
+		- dle histologické charakteristiky
+			- hladké svalstvo
+				- neovladatelné vůlí
+				- neunavitelné
+			- srdeční svalstvo
+				- neovladatelné vůlí
+				- neunavitelné
+			- příčně pruhované svalstvo, kosterní svalstvo
+				- ovladatelné vůlí
+				- unavitelné
+				- červené
+					- více myoglobinu
+					- pomalejší, ~75 µs
+				- bílé
+					- méně myoglobinu
+					- rychlejší, ~25 µs
+		- dle stavby
+			- dlouhý
+			- kruhové
+			- dvojhlavý
+			- jednozpeřený
+			- dvouzpeřený
+			- plochý
+			- plochý s vloženými šlachami
+	- pomocná zařízení
+		- tendo - šlacha
+			- aponeurosis - vmezeřená šlacha ve svalu
+		- fascie
+			- osteofasciální septum
+			- osteofibrózní kanálek
+		- retinaculum
+		- bursae mucosae
+	- svalová kontrakce
+		- izotonická
+			- stejný tonus, zvýšená délka
+		- izometrická
+			- zvýšený tonus, stejná délka
+	- pohyby
+		- flexe, extenze
+		- abdukce, addukce
+		- supinace, pronace
+			- ruka
+		- plantární flexe, dorsiflexe
+		- vnitřní rotace, vnější rotace
+		- elevace, deprese
+		- protrakce, retrakce
+			- čelist
+		- everze, inverze
+			- chodidlo
+		- anteflexe, dorsiflexe, extenze
+			- páteř

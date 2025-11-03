@@ -1,0 +1,152 @@
+- stavba stěny
+	- tunica mucosa - sliznice
+	- tunica submucosa - podslizniční vazivo
+	- tunica muscularis - svalová vrstva
+		- hladké svalstvo, příp. kosterní či mix (např. část jícnu, pharynx)
+	- tunica adventitia nebo tunica serosa
+		- záleží na konkrétní části
+- peritoneum
+	- výstelka prostoru mezi bránicí a pánevním dnem
+	- tvořena jednovrstevným dlaždicovým epitelem
+	- nástěnné
+	- závěsy (mezo-)
+	- viscerální = tunica serosa
+	- dělení břišní dutiny
+		- peritoneum
+		- retroperitoneum
+			- orgány buď primárně nebo sekundárně retroperitoneální
+		- subperitoneum
+- 
+- cavum oris - ústní dutina
+	- vestibulum oris - předsíň - prostor mezi zuby a rty
+	- cavum oris proprium - vlastní ústní dutina
+	- 
+	- palatum durum - tvrdé patro
+		- kostní podklad, maxilla et os palatinum
+	- palatum molle - měkké patro
+		- svalový podklad
+		- patrové oblouky
+		- uvula - čípek
+	- dentes - zuby
+		- dentes permanentes - trvalý chrup (32)
+			- incisores - řezáky (2 na kvadrant)
+			- canines - špičáky (1 na kvadrant)
+			- praemolares - třenové zuby (2 na kvadrant)
+			- molares - stoličky (3 na kvadrant)
+				- variabilita, možné nevyvinutí 3. moláru, či vzácné vyvinutí 9. moláru
+		- dentes decidui - dočasný chrup
+			- incisores (2 na kvadrant)
+			- canines (1 na kvadrant)
+				- zaoblenější
+			- molares (2 na kvadrant)
+			- tj. o stoličku méně, chybí třenové zuby
+		- stavba
+			- vnější
+				- corona - korunka
+				- cervix (= collum) - krček
+				- radix - kořen
+			- vnitřní
+				- enamelum - sklovina - velmi tvrdá vrstva hydroxyapatitu
+				- dentinum
+				- pulpa - inervace a perfuze zubu, vyplňuje cavitas pulpares
+				- cement - vrstva umožnující úpony zubních vazů
+	- lingua (= glossa αβ) - jazyk
+		- corpus
+		- dorsum
+		- apex
+		- radix
+			- sulcus terminalis
+			- papillae vallatae
+		- tonsilla lingualis
+		- plicae glossoepigloticae
+		- složitá inervace - n. V3, n. VII, n. IX, n. X
+		- 
+		- papillae
+			- papillae vallatae
+			- papillae fungiformes
+			- papillae filiformes
+			- papillae foliatae
+		- svalstvo
+			- inervace n. XII
+			- intraglossální svaly
+			- extraglossální svaly
+	- 
+	- glandulae salivariae - slinné žlázy
+		- produkují sliny obsahující ptyalin, štěpí škroby na jednoduché cukry
+		- glandula parotidea - příúšní žláza
+			- ductus parotideus - průběh podél m. masseter, ústí v papilla parotidea - vývod ve vestibulo oris, u 2. horního moláru
+		- glandula parotidea accessoria
+		- glandula sublingualis
+		- glandula submandibularis
+			- společný vývod s gl. sublingualis v caruncula sublingualis
+	- tonsilla palatina
+	- tonsilla lingualis
+- pharynx - hltan
+	- nasopharynx (= pars nasalis pharyngis)
+	- komunikace s cavum nasi
+	- oropharynx (= pars oralis pharyngis)
+		- komunikace s cavum oris
+	- laryngopharynx (= pars laryngea pharyngis)
+		- epiglottis - hrtanová příklopka
+	- zavěšený na lebce
+		- konstriktory, levatory pharyngu
+- oesophagus - jícen
+	- pars cervicalis
+	- pars thoracica
+	- pars abdominalis
+	- zůžená místa u štítné chrupavky, poblíž aorty, překřížení s levým bronchem principalis, hiatus oesophagus diaghragmatis
+- gaster - žaludek
+	- hlavní místo chemického trávení
+		- produkce HCl, pepsin, lipáza, mucin
+	- partes
+		- cardia - česlo
+		- fundus - strop žaludku
+		- corpus
+		- pylorus
+			- velmi tuhé místo, komunikace s duodenem
+	- lig. hepatoduodenale
+		- žlučovod
+	- omentum minus et majus - malá a velká předstěra
+		- tukovitý závěs
+	- sulcus salivatorius - Waldayerova cesta
+		- rychlý průběh tekutin skrze žaludek
+- intestinum tenue - tenké střevo
+	- stěna
+		- plicae - řasy
+		- villi - klky
+		- glandulae
+		- folliculi lymphatici
+	- duodenum
+		- papilla Vateri (= papilla duodeni major)
+			- ústí zde ductus choledochus et pancreaticus
+		- papilla Santorini (= papilla duodeni minor)
+			- spíše vestigiální, příp. dodatečný vývod z pancreatu skrze ductus pancreaticus accessorius - výrazná variabilita, nemusí být funkční
+	- jejunum et ileum - lačník a kyčelník
+		- vstřebávání živin
+		- radix mesenterii - kořen mesenteria
+- intestinum crassum
+	- hlenové žlázky
+	- funkce
+		- dodatečná resorpce vody a v ní rozpuštěných minerálů
+		- zahuštění nestrávených zbytků potravy
+		- defekace
+	- znaky
+		- haustra (sg. haustrum)
+		- taeniae - stuhy
+			- svalové pruhy podél střeva
+		- appendices omentales (= epiploicae)
+	- části
+		- caecum - slepé střevo
+			- appendix vermiformis - červovitý přívěšek
+		- colon - tračník
+			- colon ascendens - vzestupný tračník
+			- colon transversum - příčný tračník
+			- colon descendens - sestupný tračník
+			- colon sigmoideum - esovitá klička
+		- rectum - konečník
+			- Kohlrauschova řasa
+			- žilní pleteň
+	- meteorismus - TODO: dopsat
+	- appendicitis - zánět červovitého přívěšku
+		- McBurneyho bod a znak
+		- Rovsingův znak

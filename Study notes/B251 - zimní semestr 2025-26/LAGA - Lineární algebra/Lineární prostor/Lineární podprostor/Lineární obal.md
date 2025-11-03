@@ -1,0 +1,13 @@
+- $$\span M = \bigcap_{P \subseteq L}{P}\text{ kde }P\text{ jsou podprostory }L, M \subseteq L$$
+	- průnik všech [[Lineární podprostor|podprostorů]] $P \subseteq L$ obsahující $M$, neboli nejmenší podprostor $L$ obsahující $M$
+		- tzn. $\span M$ je *vždy* podprostor $L$
+- $\vec{x} \in \span M \iff \vec{x} = \sum_{i=1}^{n}{a_i\vec{x_i}}$ pro nějaké $n$, nějaké $a_1...a_n$, nějaké $\vec{x_1}...\vec{x_n}$
+- vlastnosti
+	- (1) $M \subseteq N \implies \span M \subseteq \span N$
+		- $\vec{v} \in \span M$
+		- $\vec{v} = \sum_{i=1}^{n}{a_i\vec{x_i}},\ x_i \in M$
+		- $M \subseteq N \implies x_i \in N$
+		- $\therefore \vec{v} \in \span N$
+	- (2) $\forall M:M \subseteq \span M$
+	- (3) $\forall M:\span \span M \subseteq \span M$
+		- TODO: napsat důkaz skrz distributivitu

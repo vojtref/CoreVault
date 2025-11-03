@@ -1,0 +1,78 @@
+
+- světlo charakterizované kmitočtem $\nu$, vlnovou délkou $\lambda$
+	- častěji užívána vlnová délka
+	- $\lambda_{vis} \in \intvlcc{380}{770} \text{ nm}$
+	- citlivost lidského oka
+		- skotopické vidění
+			- "noční," lepší vnímání pohybu, omezené vnímání barev
+			- citlivost tyčinek
+			- max 1700 lm/W @ 507 nm
+		- fotopické vidění
+			- pod dobře osvětlenými podmínkami
+			- barevné vnímání
+			- citlivost čípků
+				- L: max 564 nm
+				- M: max 534 nm
+				- S: 420 nm
+			- komb. max 683 lm/W @ 555 nm
+		- mezopické vidění
+			- kombinovaná účast tyčinek i čípků
+			- TODO: doplnit
+- světlo - činitel tvorby životního prostředí
+- oko - zrakový orgán
+	- části
+		- optická
+		- nervová
+		- viz AF1
+	- sítnice
+- TODO: doplnit... this is so fucking boring jfc
+- vlivy a účinky viditelného záření
+	- TODO: doplnit
+- světelně technické veličiny
+	- zářivý tok $\Phi_e = \frac{dW_e}{dt}$ \[W\] - světelná energie přenesena za jednotku času
+	- světelný tok $\Phi(\lambda) = K(\lambda) \cdot \Phi_e(\lambda)$ \[lm\] - zářivý tok vyhodnocený lidským okem
+	- prostorový úhel $\Omega = A_k / r^2$ \[sr, steradián\]
+		- velikost plochy vyťaté kuželovou plochou na povrchu jednotkové koule - střed jednotkové koule, kuželové plochy, prostorového úhlu totožné
+		- max. $4\pi$
+	- svítivost $I_{\gamma\zeta} = \frac{d\Phi}{d\Omega_{\gamma\zeta}}$ \[cd, kandela\]
+		- svítidlo umístěno ve vrcholu prostorového úhlu, teoreticky v bodě → svítivost definována jen pro bodový zdroj světla
+		- cd základní jednotka SI
+			- původní definice užívala svíčku daného materiálu jako referenční bodový zdroj
+	- čára svítivosti
+		- měřena na goniofotometru
+		- $I_\gamma = I_0 \cdot f_I(\gamma)$
+			- $I_0$ - svítivost ve vztažném úhlu
+			- $f_I(\gamma)$ - charakteristická funkce svítivosti na daném úhlu (tzv. indikatrix) popisující křivku svítivosti
+	- osvětlenost $E = \frac{d\varPhi}{dA}$ \[lx, lux\]
+		- plošná hustota toku $d\varPhi$ dopadajícího na plochu $dA$
+		- $E_{P_\rho} = \frac{I_\gamma}{l^2} \cdot \cos \beta$ - osvětlenost $E_{P_\rho}$ v bodě $P$ roviny $\rho$
+		- nepřímo úměrná čtverci vzdálenosti $l$ zdroje od bodu $P$
+			- inverse square law
+		- přímo úměrná úhlu $\beta$ dopadajících paprsků
+			- Lambertův kosinový zákon
+	- $L_\gamma$
+		- TODO: doplnit
+		- $L_{OP} = \frac{d^2\varPhi}{d\Omega_1 \cdot dA_2 \cdot \cos \beta} = \frac{dE_N}{d\Omega_1}$ - jas paprsků sbíhajících se v úhlu $d\Omega_1$ z plošky $dA_1$ do bodu $P$
+			- $dE_N$ - normálová osvětlenost
+		- $L_{OP}$ - jas paprsků rozbíhajících se z bodu $O$ v úhlu $d\Omega_2$
+	- průměr plochy do směru $A' = A \cos u$
+	- $\eta_E = \frac{\varPhi}{P_p}$ - měrný výkon světelného zdroje
+		- $P_p$ - příkon
+	- doba života
+		- fyzický život
+		- užitečný život
+			- typicky definováno pro jako doba po kterou je světelný výkon alespoň 50% původního 
+- podání barev
+	- charakterizuje vliv spektrálního složení světla na vjem barvy osvětlených předmětů
+		- vjem barvy v mozku neustále srovnáván se vzhledem v denním světle
+	- věrně barvy vnímány v denním světle a ve světle tepelných žárovek
+	- $R_a$ - index podání barev (color rendering index, CRI), hodnota 0 až 100
+		- 100 - vjem barev plně věrný
+		- 0 - barvy nelze rozlišit
+			- např. monofrekvenční světlo (nízkotlaková sodíková výbojka^[technicky vzato není monofrekvenční, produkuje dvě vlnové délky velmi blízko sobě, ale neva])
+- všeobecné osvětlování
+	- teplotní
+	- výbojové
+		- např. Hg, Na výbojky
+	- polovodičové
+	- TODO: doplnit

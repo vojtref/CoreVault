@@ -1,0 +1,62 @@
+- horní blokový tvar (angl. reduced row echelon form)
+	- matice $\mathbf{M}$ je v horním blokovém tvaru pokud splňuje tyto podmínky:
+		- každý nenulový řádek je nad jakýmkoli řádkem samých nul
+		- každý *pivot* (první nenulová položka zleva) libovolného řádku je vždy více napravo než pivot předchozího řádku
+			- $\rank \mathbf{M} =$ počet pivotů $\mathbf{M}$
+	- patrné že $\mathbf{M}$ je v horním blokovém tvaru $\iff (\mathbf{M} \mid \vec{o})$ je v horním blokovém tvaru
+		- např. $\mathbf{M} = \pmatrix{1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0},\ (\mathbf{M} \mid \vec{o}) = \amatrix{1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\ 0}$
+- Gaussova eliminační metoda
+	- jakoukoli matici $\mathbf{M}$ nad $\F$ můžeme upravit tzv. *elementárními řádkovými úpravami*
+		- (I) prohození řádků
+		- (II) škálování řádku
+		- (III) přičtení násobku jednoho řádku k jinému
+		- všechny tyto úpravy jsou isomorfismy
+			- (I) = prohození os
+			- (II) = změna měřítka
+			- (III) = zkosení
+		- TODO: doplnit značení, foto
+	- skrze tyto úpravy postupně převádíme do horního blokového tvaru
+- př.
+	- $X, \mathbf{R}_\alpha$ lin. zobrazení
+	- $X \cdot \mathbf{R}_\alpha = \mathbf{R}_\alpha \cdot X$
+	- "hádání":
+		- $X = \id_{\R^2} = \mathbf{E}_2$
+		- $X = \mathbf{R}_\beta$
+	- obecná metoda:
+		- rozměrová zkouška: musí platit $X: \R^2 \to \R^2$
+		- $X = \pmatrix{x_{11} & x_{12} \\ x_{21} & x_{22}}$
+		- $X \cdot \mathbf{R}_\alpha = \mathbf{R}_\alpha \cdot X$
+		- $\therefore X \cdot \mathbf{R}_\alpha - \mathbf{R}_\alpha \cdot X = \mathbf{O}_{2,2}$
+		- $\therefore \sim \amatrix{\sin \alpha & 0 & 0 & -\sin \alpha \\ 0 & \sin \alpha & \sin \alpha & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\0}$
+		- $\therefore$
+			- $\sin \alpha = 0 \iff \alpha \in \{0, \pi\}$
+			- $\amatrix{0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\0}$
+			- partikulární řešení $\vec{o}$
+			- $\pmatrix{0 \\ 0 \\ 0 \\ 0} + \span(\pmatrix{1 \\ 0 \\ 0 \\ 0}, \pmatrix{0 \\ 1 \\ 0 \\ 0}, \pmatrix{0 \\ 0 \\ 1 \\ 0}, \pmatrix{0 \\ 0 \\ 0 \\ 1})$
+			- $= \span(\pmatrix{1 & 0 \\ 0 & 0}, \pmatrix{0 & 0 \\ 1 \underline{}& 0}, \pmatrix{0 & 1 \\ 0 & 0}, \pmatrix{0 & 0 \\ 0 & 1}) = \mathrm{Lin}(\R^2, \R^2)$
+		- $\lor$
+			- $\sin \alpha \ne 0 \iff \alpha \in \intvlco{0}{2\pi} \setminus \{0, \pi\}$
+			- $\amatrix{\sin \alpha & 0 & 0 & -\sin \alpha \\ 0 & \sin \alpha & \sin \alpha & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\0} \sim \amatrix{1 & 0 & 0 & -1 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\0}$
+				- vydělit $\sin \alpha$ (resp. škálovat inverzí) můžeme, jelikož $\ne 0$
+			- $\amatrix{1 & 0 & 0 & -1 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\0}$
+			- partikulární řešení $\vec{o}$
+			- $\vec{o} + \ker X =$
+			- TODO: doplnit
+		- univerzální metoda, v mnohých případech zbytečně zdlouhavá
+- př.
+	- $\mathbf{A}X = \mathbf{B}$
+	- $\F^p \xrightarrow{X} \F^s \xrightarrow{\mathbf A} \F^r = \F^p \xrightarrow{B} \F^r$
+	- $\therefore \mathbf{A}(\vec{x_i}) = (\mathbf{A}\vec{x_i}) = (\vec{b_i})$
+	- $\sim (\mathbf{A} \mid \vec{b_1}), (\mathbf{A} \mid \vec{b_2}), \ldots, (\mathbf{A} \mid \vec{b_p})$
+	- $\sim (\mathbf{A} \mid \vec{b_1}, \vec{b_2}, \ldots, \vec{b_p})$
+	- $\sim (\mathbf{A} \mid \mathbf{B})$
+	- spustíme GEM, první sloupec $X$ je řešení $(\mathbf{A} \mid \vec{b_1})$, druhý $(\mathbf{A} \mid \vec{b_2})$, $\ldots$, $p$-tý $(\mathbf{A} \mid \vec{b_p})$
+	- pro $\mathbf{B} = \mathbf{E}_n$ a čtvercovou matici $\mathbf{A}$ způsob, jak hledat $\mathbf{A}^{-1}$, neboli $(\mathbf{A} \mid \mathbf{E}_n) \sim (\mathbf{E}_n \mid \mathbf{A}^{-1})$
+- př.
+	- hledáme soustavu $(\mathbf{A} \mid \vec{b})$ takovou, aby množinou všech řešení bylo $\vec{p} + \ker \mathbf{A} = \pmatrix{3 \\ 2 \\ 6} + \span(\pmatrix{1 \\ 2 \\ 0}, \pmatrix{2 \\ 0 \\ 4})$
+	- $\def \mathbf{A} = \dim(\ker \mathbf{A}) = 2 \implies \rank \mathbf{A} = 1$
+	- $\therefore \R^3 \xrightarrow{\mathbf{A}} \R^1$
+	- $\therefore \mathbf{A} = \pmatrix{\ast & \ast & \ast}$
+	- TODO: doplnit
+- Gaussova eliminační metoda je sice univerzální a elegantní, ale **numericky nestabilní**, i malé nepřesnosti v hodnotách mohou způsobovat obrovské rozdíly (změny pivotů), takže v inženýrské praxi de facto nepoužitelná a nahrazena jinými metodami
+- Householderovy reflexe

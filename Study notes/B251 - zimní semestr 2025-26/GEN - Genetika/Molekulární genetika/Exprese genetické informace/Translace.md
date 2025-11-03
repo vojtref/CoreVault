@@ -1,0 +1,42 @@
+#BAB31GEN 
+- přeložení maturovaného mRNA na protein
+- probíhá v buněčné cytoplasmě a na hrubém endoplazmatickém retikulu (v omezené míře i na hladkém) 
+- iniciační, terminační faktory
+- tRNA (transfer RNA)
+	- složitá terciární struktura, sekundární struktura má 4 duplexní části
+	- T smyčka
+	- D smyčka
+	- akceptorové rameno
+		- místo vazby aminokyseliny na 3' konci
+	- antikodonové rameno
+		- na antikodonové smyčce *trojice* nukleotidů, tzv. antikodon
+		- určuje ke kterým úsekům mRNA je komplementární, a tudíž na které se váže
+- ribosom
+	- komplex proteinů a funkční rRNA (ribosomal RNA)
+	- 2 podjednotky
+		- malá - vazné místo pro mRNA
+		- velká - napojí se po navázání tRNA a váže aminokyselin z nich do peptidového řetězce, poté odpojí tRNA
+	- přítomny u prokaryot i eukaryot, liší se však velikostí
+- mRNA "přečtena" po tripletech nukleotidů, tedy po kodonech
+	- **stop kodon** - koncový UTR, signalizující místo na konec translace, aktivuje rozpojení ribosomových podjednotek a uvolnění koncového peptidového řetězce
+		- 3 stop kodony: UAA, UAG, UGA
+- genetický kód - de facto systém "zápisu" aminokyselin v genomu
+	- tripletový
+	- nepřekryvný - triplety jsou čteny za sebou, nukleotid náleží vždy právě jednomu tripletu
+	- degenerovaný/redundantní - jedna aminokyselina může být kódována více kodony, ale každý kodon kóduje právě jednu aminokyselinu
+	- "univerzální" - převážně stejný pro všechny organismy
+		- plná univerzalita dříve převládající myšlenka, od 80. let však objeveny odchylky např. u mitochondrií, prvoků, kvasinek, bakterií...
+			- lišit se mohou i stop kodony (např. UAG v lidských mitochondriích kóduje thyrosin, v ciliatech glutamin)
+		- standardní RNA kodonová tabulka
+			- někdy také označována jako univerzální
+			- $$\begin{array}{c|c|} & \textbf{U} & \textbf{C} & \textbf{A} & \textbf{G} \\ \hline\textbf{U} & \begin{array}{l:l} \texttt{UUU} & \texttt{Phe} \\ \texttt{UUC} & \texttt{Phe} \\ \texttt{UUA} & \texttt{Leu} \\ {\color{Cerulean}\texttt{UUG}} & \texttt{Leu} \end{array} & \begin{array}{l:l} \texttt{UCU} & \texttt{Ser} \\ \texttt{UCC} & \texttt{Ser} \\ \texttt{UCA} & \texttt{Ser} \\ \texttt{UCG} & \texttt{Ser} \end{array} & \begin{array}{l:l} \texttt{UAU} & \texttt{Tyr} \\ \texttt{UAC} & \texttt{Tyr} \\ \texttt{UAA} & \texttt{\color{Goldenrod}stp} \\ \texttt{UAG} & \texttt{\color{Orange}stp} \end{array} & \begin{array}{l:l} \texttt{UGU} & \texttt{Cys} \\ \texttt{UGC} & \texttt{Cys} \\ \texttt{UGA} & \texttt{\color{#afafff}stp} \\ \texttt{UGG} & \texttt{Trp} \end{array} \\ \hline\textbf{C} & \begin{array}{l:l} \texttt{CUU} & \texttt{Leu} \\ \texttt{CUC} & \texttt{Leu} \\ \texttt{CUA} & \texttt{Leu} \\ \texttt{CUG} & \texttt{Leu} \end{array} & \begin{array}{l:l} \texttt{CCU} & \texttt{Pro} \\ \texttt{CCC} & \texttt{Pro} \\ \texttt{CCA} & \texttt{Pro} \\ \texttt{CCG} & \texttt{Pro} \end{array} & \begin{array}{l:l} \texttt{CAU} & \texttt{His} \\ \texttt{CAC} & \texttt{His} \\ \texttt{CAA} & \texttt{Gln} \\ \texttt{CAG} & \texttt{Gln} \end{array} & \begin{array}{l:l} \texttt{CGU} & \texttt{Arg} \\ \texttt{CGC} & \texttt{Arg} \\ \texttt{CGA} & \texttt{Arg} \\ \texttt{CGG} & \texttt{Arg} \end{array} \\ \hline\textbf{A} & \begin{array}{l:l} \texttt{AUU} & \texttt{Ile} \\ \texttt{AUC} & \texttt{Ile} \\ \texttt{AUA} & \texttt{Ile} \\ {\color{Cerulean}\texttt{AUG}} & \texttt{Met} \end{array} & \begin{array}{l:l} \texttt{ACU} & \texttt{Thr} \\ \texttt{ACC} & \texttt{Thr} \\ \texttt{ACA} & \texttt{Thr} \\ \texttt{ACG} & \texttt{Thr} \end{array} & \begin{array}{l:l} \texttt{AAU} & \texttt{Asn} \\ \texttt{AAC} & \texttt{Asn} \\ \texttt{AAA} & \texttt{Lys} \\ \texttt{AAG} & \texttt{Lys} \end{array} & \begin{array}{l:l} \texttt{AGU} & \texttt{Ser} \\ \texttt{AGC} & \texttt{Ser} \\ \texttt{AGA} & \texttt{Arg} \\ \texttt{AGG} & \texttt{Arg} \end{array} \\ \hline\textbf{G} & \begin{array}{l:l} \texttt{GUU} & \texttt{Val} \\ \texttt{GUC} & \texttt{Val} \\ \texttt{GUA} & \texttt{Val} \\ {\color{Cerulean}\texttt{GUG}} & \texttt{Val} \end{array} & \begin{array}{l:l} \texttt{GCU} & \texttt{Ala} \\ \texttt{GCC} & \texttt{Ala} \\ \texttt{GCA} & \texttt{Ala} \\ \texttt{GCG} & \texttt{Ala} \end{array} & \begin{array}{l:l} \texttt{GAU} & \texttt{Asp} \\ \texttt{GAC} & \texttt{Asp} \\ \texttt{GAA} & \texttt{Glu} \\ \texttt{GAG} & \texttt{Glu} \end{array} & \begin{array}{l:l} \texttt{GGU} & \texttt{Gly} \\ \texttt{GGC} & \texttt{Gly} \\ \texttt{GGA} & \texttt{Gly} \\ \texttt{GGG} & \texttt{Gly} \end{array} \\ \hline \end{array}$$
+				- ${\texttt{stp}} - \text{stop kodon}$
+				- ${\color{Cerulean}\texttt{XXX}} - \text{možný start kodon}$
+- TODO: doplnit historii
+- post-translační modifikace
+	- probíhají v Golgiho komplexu
+	- chemické úpravy proteinů po dokončení translace
+	- změna proteinu na aktivní/maturovanou formu
+	- např. alkylace (zejm. methylace), glykosylace, hydroxylace, fosforylace, odštěpení (e.g. odštěpení C řetězce proinsulinu...)
+	- úprava terciární, kvarterní struktury
+		- účastní se proteiny zvané **chaperony**, zamezují špatnému skládání větších proteinů a proteinových komplexů

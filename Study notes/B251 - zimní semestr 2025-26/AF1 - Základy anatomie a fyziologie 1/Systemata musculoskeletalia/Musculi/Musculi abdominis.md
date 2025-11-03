@@ -1,0 +1,26 @@
+- mm. abdominales anteriores
+	- m. rectus abdominis
+		- inerv: nn. intercostales, plexus lumbalis
+		- f: břišní lis, anteflexe páteře, podsazení pánve, kaudální stahování žeber (pomocný výdechový sval)
+		- linea alba - šlachovité spojení dextrální a sinistrální části
+			- klinika: diastáza - rozestup, linea alba nenávratně narušena; např. při extrémní zátěži, po porodu
+	- m. pyramidalis
+		- f: napnutí fascie m. recti abdominis
+- mm. abdominales laterales
+	- m. obliquus externus abdominis
+		- f: anteflexe trupu, lateroflexe páteře, rotace na protilehlou stranu, břišní lis, pomocný výdechový sval
+		- kryt aponeurózou
+	- m. obliquus internus abdominis
+		- ventrokraniální průběh
+		- f: 
+	- m. transversus abdominis
+		- příčný průběh
+		- f: rotace trupu, fixace žeber, pomocný dýchací sval, břišní lis
+	- m. cremaster
+		- f: zdvyhač varlete a šourku
+		- oddělené snopce m. obliquus internus abdominis a m. transversus abdominis
+		- prochází skrz aponeurózu m. obliqui ext. abd.
+			- zeslabené místo, klinicky rizikové místo pro kýlu
+- mm. abdominales posteriores
+	- m. quadratus lumborum
+		- f: extenze, lateroflexe páteře, elevace crista iliaca, fixace 12. žebra, interakce s pohyby bránice (řeč, zpěv), silný výdech (kašlání)

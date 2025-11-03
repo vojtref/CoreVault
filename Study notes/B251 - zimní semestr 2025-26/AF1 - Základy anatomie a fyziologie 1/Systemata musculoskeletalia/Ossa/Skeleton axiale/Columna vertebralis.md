@@ -1,0 +1,39 @@
+- páteř
+- curvaturae
+	- lordosis cervicalis
+	- kyphosis thoracica
+	- lordosis lumbalis
+	- kyphosis sacralis
+	- 
+	- kyphoses - curvaturae primariae
+	- lordoses - curvaturae secundariae
+- canalis vertebralis - páteřní kanál
+	- probíhá zde mícha s míšními obaly (sakrálně cauda equina)
+- ossa columnae vertebralis
+	- vertebrae - obratle
+		- partes
+			- corpus vertebrae
+			- arcus vertebrae - obratlový oblouk
+				- pediculus arcus vertebrae
+					- nejtenčí místo na obratlovém oblouku
+					- incisura superior et inferior vertebrae
+						- ohraničují foramina intervertebrale, kterými probíhají míšní nervy a cévní zásobení
+				- lamina arcus vertebrae
+			- processus spinosus
+				- u cervikálních obratlů C2–C6 vidlicovitý tvar
+			- processus transversus
+				- párový laterálně směřující proces
+		- vertebrae cervicales (C1–C7)
+			- atlas (C1) a axis (C2) prenatálně částečně srostlé
+			- atlas (C1) - nosič
+				- nemá corpus vertebrae
+				- arcus anterior et posterior
+			- axis (C2) - čepovec
+				- dens axis - zub
+					- pozůstatek corpus atlantis, který se prenatálně odděluje od nosiče
+		- vertebrae thoracicae (Th1–Th12)
+		- vertebrale lumbales (L1–L5)
+	- os sacrum - kost křížová
+		- vertebrae sacrales (S1–S5)
+	- os coccygis - kost kostrční
+		- vertebrae coccygeae (Co1–Co4)

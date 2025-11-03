@@ -1,0 +1,80 @@
+- prostor $L$ nad $\F$
+- $G \subseteq L: \span{G} = L$ - tzv. množina generátorů $L$
+	- tzn $\vec{v} \in L \to \vec{v} = \sum_{i=1}^{n}{a_i\vec{g_i}},\ \vec{g_1} \ldots \vec{g_n} \in G$
+- $L$ generuje $L$
+	- typicky nekonečná
+	- **vždy** lineárně závislá protože $\vec{o} \in L$ (viz def. prostoru)
+- př.
+	- $L=\{\vec{o}\}$
+		- $G_1 = L$
+		- $G_2 = \O$
+			- viz def. lineární kombinace prázdné množiny
+	- $\R^2\text{ nad }\R$, $W = \left\{\begin{pmatrix}x \\ x\end{pmatrix}\mid x \in \R\right\} = \span \begin{pmatrix}1 \\ 1\end{pmatrix}$
+		- $G_1 = \left\{\begin{pmatrix}1 \\ 1\end{pmatrix},\begin{pmatrix}-1 \\ -1\end{pmatrix}\right\}$ - lin. závislá množina generátorů $W$
+		- $G_2 = \left\{ \begin{pmatrix}1 \\ 1\end{pmatrix} \right\}$ - lin. nezávislá množina generátorů $W$
+- $B \subseteq L\text{ nad }\F$
+	- $B \subseteq L$ je **báze** prostoru $L$ $\iff$ $B$ generuje $L$ $\land$ $B$ je lineárně nezávislá
+- př.
+	- $L = \{\vec{o}\}$
+		- $B = \O$
+			- generuje $L$ a je lin. nezávislá $\implies$ $B$ je báze $L$
+			- jediná báze triviálního prostoru
+	- $L = \R^2$ nad $\R$
+		- $B_1 = \left\{\begin{pmatrix}1 \\ 0\end{pmatrix},\begin{pmatrix}0 \\ 1\end{pmatrix}\right\}$
+			- lin. nezávislá, generuje $\R^2$ $\implies$ $B_1$ je báze
+		- $B_2 = \left\{\begin{pmatrix}1 \\ 2\end{pmatrix},\begin{pmatrix}3 \\ -4\end{pmatrix}\right\}$
+			- lin. nezávislá, generuje $\R^2$ $\implies$ $B_2$ je také báze
+		- $\vdots$
+	- $L = \R[x]$ nad $\R$
+		- $B = \left\{x^k \mid k \in \N_0\right\} = \left\{1, x, x^2, x^3, \ldots\right\}$
+			- lin. nezávislá, generuje $L$ $\implies$ $B$ je bází
+	- $L = \F^n$ nad $\F$
+		- $\vec{e_1} = \begin{pmatrix}1 \\ 0 \\ 0 \\ \vdots \\ 0 \end{pmatrix},\vec{e_2} = \begin{pmatrix}0 \\ 1 \\ 0 \\ \vdots \\ 0 \end{pmatrix},\vec{e_3} = \begin{pmatrix}0 \\ 0 \\ 1 \\ \vdots \\ 0 \end{pmatrix},\cdots,\vec{e_n} = \begin{pmatrix}0 \\ 0 \\ 0 \\ \vdots \\ 1 \end{pmatrix}$
+		- $K_n = \left\{\vec{e_1}, \vec{e_2}, \vec{e_3},\ldots ,\vec{e_n}\right\}$ - **kanonická báze** $\F^n$ nad $\F$
+	- dále např. Fourierova báze pro $n=4$
+- tvrzení: $L = \span G$, $G$ konečná
+	1. $L$ má konečnou bázi
+	2. $\exists B_1,B_2 \implies |B_1| = |B_2|$
+	3. toto číslo značíme $\dim L$, tedy **dimenze** $L$
+		- $\dim L = n \Leftarrow \exists B \subseteq L:\span B = L \land B\ \text{lineárně nezávislá} \land |B|=n$   
+		- slogany:
+			- dimenze je "tloušťka" prostoru (wtf does that mean)
+			- počet prvků množiny je "tloušťka" množiny (what)
+			- dimenze je "něco jako" počet prvků
+			- dimenze je počet souřadnicových os
+			- velikost nejmenší možné množiny generující $L$
+			- velikost největší možné lin. nezávislé množiny
+		- $\dim L$ je konečná, $M$ lineárně nezávislá $\implies |M| \le \dim L$
+		- $\dim L$ je konečná, $|M| = \dim L$
+			- $\span M = L \iff M\ \text{lineárně nezávislá}$
+			- !!!
+			- domácí cvičení: dokázat
+- věta: každý prostor $L$ má bázi 
+	- velmi obtížné dokázat, bereme axiomaticky $\ref{AKLA 3.6}$
+	- předpokládá axiom výběru, angl. axiom of choice
+		- kartézský součin libovolného systému neprázdných množin je neprázdná množina
+		- ve skriptech i ek
+- stejný prostor nad různými tělesy může mít různé dimenze!
+	- např. $\C$ má dimenzi 1 nad $\C$ ale 2 nad $\R$, $\R$ má dimenzi 1 nad $\R$ ale nekonečnou nad $\Q$
+- souřadnice vzhledem k uspořádané bázi $B$
+	- $\coord_B{\vec{x}}$
+	- existence
+		- $\vec{x} \in L \land B \text{ generuje } L\implies \vec{x} = \sum_{i \in I}{a_i \vec{b_i}}\,\ \vec{b_i} \in B$
+	- jednoznačnost
+		- $\sum_{i \in I}{a_i \vec{b_i}} = \vec{x} = \sum_{i \in I}{a_i^\star \vec{b_i}}$
+		- $\therefore \vec{x} - \vec{x} = \vec{o} \implies \sum_{i \in I}{a_i \vec{b_i}} - \sum_{i \in I}{a_i^\star \vec{b_i}}$
+		- $\therefore \sum_{i \in I}{(a_i - a_i^\star) \vec{b_i}} = \vec{o}$
+		- $B\text{ lin. nezávislá, jedině triviální kombinace je nulová} \implies \forall{i \in I}: a_i - a_i^\star = 0$
+		- $\therefore a_i = a_i^\star,\text{ tedy právě jedna kombinace koeficientů kombinace }B\text{ tvoří }\vec{x}$
+		- $\QED$
+	- př. souřadnicových vektorů v $\R[x]$
+		- u nekonečné dimenze nemožné mít kanonickou bázi
+		- u prostoru polynomů omezeného stupně jsou možné "pěkné" báze
+			- $\R^{\le 2}[x]$
+				- $B_1 = \{1, x, x^2\}$
+				- $B_2 = \{x^2, x, 1\}$
+				- $\coord_{B_1}{(x^2-2x+3)} = \begin{pmatrix}3 \\ -2 \\ 1\end{pmatrix}$
+				- $\coord_{B_2}{(x^2-2x+3)} = \begin{pmatrix}1 \\ -2 \\ 3\end{pmatrix}$
+	- tvrzení: pokud $B = \{b_1, b_2, b_3, \ldots, b_n\}$ je uspořádaná báze $L$ nad $\F$, pak $L \xrightarrow{\coord_B} \F^n$ (lineární zobrazení $\coord_B{}$) má následující vlastnosti
+		- $\coord_B{(\vec{x} + \vec{y})}=\coord_B{\vec{x}} + \coord_B{\vec{y}}$
+		- $\coord_B{a \vec{x}} = a \cdot \coord_B{\vec{x}}$

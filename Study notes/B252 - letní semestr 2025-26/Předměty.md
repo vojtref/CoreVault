@@ -1,0 +1,6 @@
+- #BAB31AF2 — Základy anatomie a fyziologie II.
+- #B0B01DRN — Diferenciální rovnice a numerika
+- #B0B01MA2 — Matematická analýza 2
+- #B3B02FY1A — Fyzika 1
+- #B2B31ZEOA — Základy elektrických obvodů
+- #BAB36PRGA — Programování v C

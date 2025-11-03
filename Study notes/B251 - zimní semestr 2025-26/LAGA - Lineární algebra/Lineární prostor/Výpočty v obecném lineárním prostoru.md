@@ -1,0 +1,27 @@
+- věta: $0 \ne 1$
+	- $\F$ je těleso
+	- $\therefore \forall a \in \F: a \ne 0 \iff a^{-1} \in \F\ \land\ 1 \in \F$
+	- $1^{-1} = 1$
+	- $\therefore 1^{-1} \in \F$
+	- $\therefore 1 \ne 0\ Q.E.D.$
+- věta: $ab=0 \iff a=0\ \lor\ b=0$
+	- Řekněme, že $ab=0, a \ne 0$
+	- $a^{-1}(ab)=0a^{-1}\ |$
+	- $(aa^{-1})b=0\ |$ asociativita $\cdot$
+	- $1b=0\ |$ def. inverzního prvku
+	- $b=0\ |$ neutralita $1$ vzhledem k $\cdot$
+	- Obdobně pro $a = 0$ za předpokladu $b \ne 0$
+- **lineární kombinace** konečného seznamu vektorů
+	- $\sum_{i=1}^{n}{a_i\vec{x_i}}$ vektorů $\vec{x}=(\vec{x_1}, \vec{x_2}, \ldots, \vec{x_n})$ a skalárních koeficientů $a=(a_1, a_2, \ldots, a_n)$
+	- lineární kombinace prázdného seznamu definována jako nulový vektor $\vec{o}$ (AKLA 1.5)
+	- trivialita a netrivialita lineární kombinace
+		- lineární kombinace je *triviální* právě tehdy, když $\forall a_i \in a: a_i = 0$
+			- výsledkem triviální lineární kombinace je vždy $\vec{o}$
+		- lineární kombinace je *netriviální* právě tehdy, když není triviální (lol), tedy alespoň jeden koeficient $a_i$ je nenulový
+- **lineární (ne)závislost**
+	- seznam vektorů $\vec{x}=(\vec{x_1},\ldots,\vec{x_n})$ je *lineárně nezávislý* právě tehdy, když platí jedna z následujících podmínek
+		- $\vec{x} = ()$ - $x$ je prázdný seznam, ten je vždy lineárně nezávislý
+		- $\sum_{i=1}^{n}{a_i\vec{x_i}}=\vec{o} \iff \forall{a_i \in a}: a_i = 0$ - tzn. pouze triviální lineární kombinace seznamu $\vec{x}$ je nulová
+	- pokud seznam $\vec{x}$ není lineárně nezávislý, je *lineárně závislý*
+		- seznam $(\vec{o})$ je vždy lineárně závislý
+			- škálováním nulového vektoru dostaneme opět nulový vektor, tzn. všechny lineární kombinace seznamu (nejen triviální) jsou nulové

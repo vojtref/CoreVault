@@ -1,0 +1,175 @@
+- diagnóza
+	- proces stanovení onemocnění či stavu pacienta odpovídající symptomům, projevům
+	- založena především na fyz. vyšetření, osobní anamnéze (rodinné, pracovní...), následných diagnostických procedurách
+	- klinická diagnóza
+		- přímé přiřazení symptomů k nemoci
+		- ne vždy jasná u nespecifických symptomů (e.g. rýma, bolest hlavy, nevolnost, vertigo...)
+	- diferenciální diagnóza
+		- proces rozlišování různých odpovídajících nemocí
+	- post mortem diagnóza
+		- určena pitevními metodami, nekropsií po úmrtí
+- výzvy diagnostiky
+	- nespecifické symptomy
+	- čas potřebný ke stanovení
+		- stanovení definitivní diagnózy často pomalejší než nutná rychlost léčby, rychleji tedy stanoveny pracovní diagnózy a započata symptomatická péče
+	- přediagnostikovanost (overdiagnosis)
+		- např. whole body scans - benigní nálezy často zbytečně léčeny, léčba může celkový stav naopak zhoršit
+	- velké množství dat
+		- zdravotnická data nutno ukládat a evidovat, na což je potřeba významná infrastruktura na uložení a zpracování
+- vliv biomedicínského inženýrství na diagnostiku
+	- inženýr nediagnostikuje
+	- příprava diagnostických dat pro lékaře
+		- získání dat
+			- systémy nahrávání biosignálů apod
+			- biosignály často velmi slabé, zašuměné, maskované jinými biosignály
+			- zachování informační hodnoty signálu při sběru a analýze je základním předpokladem
+			- nutná správná metodika
+			- signály často nutné zesilovat, příp. analogově filtrovat (obvykle low-pass)
+				- low-pass filtrování na eliminaci aliasingu
+					- Shanon-Kotělnik-Nyquistova věta - na rekonstrukci signálu musí být vstupní vzorkovací frekvence alespoň 2x vzorkovací frekvence rekonstruovaného signálu
+					- v případě porušení tohoto pravidla dochází k nenávratnému narušení signálu 
+			- kvantizace signálu A/D převodníkem
+				- např. (viz prez)
+					- komparační A/D převodník
+						- rozlišení: 6 – 10 bit
+						- rychlost převodu: 10 MHz – 3 GHz
+					- kompenzační A/D převodník
+						- rozlišení: 8 – 16 bit
+						- rychlost: 30 kHz – 3 MHz
+					- integrační A/D převodník
+						- rozlišení: 10 – 18 bit
+						- rychlost: 0.1 Hz - 100 Hz
+						- stabilní vůči šumu
+					- σ-δ A/D převodník
+						- rozlišení: 16–24 bit
+						- rychlost: 10 Hz – 100 kHz
+						- často užívaný ve zdravotnictví
+				- vztahy rozlišení převodníku a přesnosti převodu
+					- 8-bit → 0.4%
+					- 16-bit → 0.0015%
+					- 32-bit → 0.000006%
+				- efektivní počet bitů - kolik bitů využito při kvantování pro užitečný signál
+					- závisí na odstupu signál-šum-zkreslení (signal-to-noise and distortion)
+		- signal processing
+			- transformace signálu na extrakci relevantních dat
+			- cílem je zobrazení jevů které nemusí být viditelné v časové doméně
+			- např. Fourierova analýza
+			- konvoluce
+				- matematická operace dvou funkcí popisující jak jedna funkce ovlivní tvar druhé
+			- Fourierova transformace
+				- převádí signál z časové domény do frekvenční
+				- komplexní, výsledkem amplitudové (magnituda) a fázové (argument) spektrum
+				- aproximace pomocí Fourierovy řady (discrete Fourier transform) $$x(t) = a_0 + \sum_{k = -\infty}^\infty{c_k e^{i k \omega_0 t}}$$
+					- TODO: doplnit z prezentace
+				- biologický ekvivalent je kochlea vnitřního ucha
+				- vzorkovaný signál bude své spektrum opakovat po násobcích vzorkovací frekvence
+					- viz https://youtu.be/eBHbCZo9QrM
+				- TODO: doplnit vztahy mezi vstupy a výstupy z prez
+				- spektrální průsak
+					- TODO: doplnit z učebnice
+				- krátkodobá Fourierova transformace (short time FT)
+					- užívána na krátké časové úseky (např. kvaziperiodické signály)
+					- např. v akustice
+					- nízké časové rozlišení, vysoké frekvenční rozlišení
+					- tvorba např. časofrekvenčního spektrogramu
+			- vlnková transformace (wavelet transform)
+				- podobné krátkodobé Fourierovy transformaci
+				- pro vyšší frekvence používá kratší časové úseky
+			- filtrace
+				- funkce
+					- omezení signálu na požadované frekvenční pásmo
+					- rozložení na různá frekvenční pásma (e.g. frekv. multiplexy, banky filtrů)
+					- modifikace frekvenčního spektra (e.g. ekvalizéry)
+				- typy
+					- lineární × nelineární
+					- časově invariantní × časově proměnné
+					- adaptivní × neadaptivní
+					- rekurzivní × nerekurzivní
+						- nerekurzivní
+							- konečná impulzní odezva (finite impulse response)
+							- stabilní
+							- velká odezva, musí se naplnit celý buffer
+						- rekurzivní
+							- nekonečná impulzní odezva (infinite impulse response)
+							- velmi rychlé
+							- kvůli zpětné vazbě nestabilní, možný signal runoff
+					- přímá topologie, kaskáda, paralelní zapojení, diferenciální filtr...
+			- průměrování
+				- využívá periodicity signálů
+					- dech, EKG...
+				- odstraňuje rozdíly mezi jednotlivými periodami a tím vzniklé "nahodilé" jevy
+					- vlastní variabilita
+					- externí šumy
+					- rušení jiných biosignálů, životních funkcí
+			- extrakce příznaků
+				- redukce počtu proměnných definující události v signálu
+				- prováděna na základě znalosti signálu
+					- příp. rozeznané vzorce skrze machine learning
+				- např.
+					- extrakce vycházející z klinické zkušenosti
+					- redukce dimenzionality
+						- principal component analysis
+						- autoencodes
+					- separace signálů
+						- independent component analysis
+					- zpracování obrazů
+						- detekce hran
+						- detekce shluků
+						- detekce pohybu
+						- TODO: doplnit kernely
+		- vhodné zobrazení dat
+			- vizualizační a interpretační systémy
+			- grafická úprava
+			- nutno se držet zaběhlých konvencí
+				- např. EKG, dřívější mechanická ruka vykreslující výstup fungovala jako dolní propusť, širší spektrum vykreslené elektronickým výstupem neodpovídalo zkušenostem kliniků, kteří jej nasléze odmítali použít
+			- zvýraznění důležitých oblastí, zobrazování dějů
+				- barvení fMRI, diffMRI, Dopplerovské sonografie
+			- registrace - zarovnání snímků
+	- "expertní" systémy poskytující návrhy, upozornění
+		- klasifikace
+			- binární klasifikace - rozděluje data do dvou tříd
+			- diskrétní klasifikace - 3 a více tříd
+				- aplikace v diferenciální diagnostice
+		- doporučení - poskytování přímé pomoci při diagnóze
+			- podle klasifikace
+			- návrhy sběru dalších dat
+			- předvýběr/"vypíchnutí" důležitých dat
+			- návrh diagnózy, vhodných terapeutických postupů
+			- detekce patologických oblastí, rysů
+			- detekce pacientů s rizikem rozvoje nemoci
+		- metody
+			- pattern recognition
+			- machine learning
+				- např. histologické rozpoznávací systémy (hit or miss, i dnes dělají spoustu chyb)
+				- učení s učitelem - dodávána i správně označená data 
+					- lineární regrese
+						- proložení dat přímkou
+						- velice jednoduchá metoda, snadný popis a implementace
+						- nehrozí overfitting (přetrénování)
+					- support vector machine
+						- snaží se rozdělit dva shluky dat, vložit mezi ně rozhodovací úroveň
+						- případné transformace prostoru
+							- čím komplexnější transformace, tím vyšší riziko overfittingu
+					- umělé neuronové sítě
+						- v podstatě vícevrstvá lineární regrese (záleží na aktivační funkci)
+							- perceptron jednovrstvá
+							- v 80. letech vrstvení
+						- nutné velké množství trénovacích dat
+							- čím méně dat, tím větší riziko overfittingu
+						- učitelem je trénovací funkce, od 80. let na bázi zpětné propagace
+				- učení bez učitele - hledání podobností v neoznačených datech
+					- K-means
+						- určen počet clusterů a středy clusterů v daném datovém prostoru
+						- datové body přiřazeny nejbližšímu středu, přepočítán střed daných bodů, opět přiřazeny...
+						- po době neurčité ukončeno
+					- mixture model
+						- TODO: doplnit
+					- principal component analysis
+						- transformace souřadnicového systému tak, aby podél první osy byla co nejvyšší variace
+					- outlier detection
+						- vyčlenění datových bodů, které statisticky "vystupují z řady" přes více než danou míru
+					- autoencoder
+						- neuronová síť zužující topologii pro zvýšení obecnosti charakterizace
+						- decoder zúženou topologii poté opět rozšíří, výstup decoderu by měl zachycovat hlavní a nejdůležitější rysy vstupu
+						- užíváno např. při zpracování obrazu
+					- generative adversarial neural networks (GANs)

@@ -1,0 +1,22 @@
+- permutace množiny $\{1,2,\ldots,n\}$ je jakákoli bijekce $\pi: \{1,2,\ldots,n\} \to \{1,2,\ldots,n\}$
+	- zápisy
+		- výčtem:
+			- $\pi: 1 \mapsto 2, 2 \mapsto 3, 3 \mapsto 4, 4 \mapsto 1$
+		- tabulkou:
+			- $\pi = \left[\;\matrix{1 & 2 & 3 & 4 \\ 2 & 3 & 4 & 1}\;\right]$
+		- strunovým diagramem:
+			- TODO: doplnit diagram
+			- umožňuje snadné a rychlé skládání permutací, follow the line
+	- vlastnosti:
+		- asociativní $(\sigma \cdot \rho) \cdot \pi = \sigma \cdot (\rho \cdot \pi)$
+		- $\exists$identická permutace $\id$
+		- inverzní permutace $\pi \cdot \pi^{-1} = \id = \pi^{-1} \cdot \pi$
+			- strunový diagram vzhůru nohama
+- $\sign \pi = \cases{+1 & \text{pokud počet překřížení str. diagr. sudý (sudá permutace)} \\ \\ -1 & \text{pokud počet překřížení str. diagr. lichý (lichá permutace)}}$
+	- $\sign \id = +1$
+	- $\sign (\sigma \cdot \pi) = \sign \sigma \cdot \sign \pi$
+	- $\sign \pi^{-1} = \sign \pi$
+	- triviální dokázat skrz strunové diagramy, obtížné konvenčními
+	- TODO: doplnit $\sign (\text{(překřížení i, j)}\cdot \pi) = -\sign \pi$
+- $S_n$ - množina všech permutací $n$-prvkové množiny
+	- $\card S_n = n!$

@@ -1,0 +1,7 @@
+- = pole
+- pevně daná délka, dopředu známa, nelze změnit
+- součást valné většiny jazyků
+- v RAM data typicky těsně za sebou, viz C-style arrays
+	- přístup na i-tý prvek je možný skrz prostý offset, proto $O(1)$
+
+#B3B33ALP

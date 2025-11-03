@@ -1,0 +1,117 @@
+- obecná osteologie
+	- kostní tkáň typ pojivové tkáně
+		- osteoblasty
+			- nezralé buňky hojně produkující ECM
+		- osteocyty
+		- osteoklasty
+			- odbourávají kostní tkáň
+		- ECM převážně z hydroxyapatitu, kolagenu typu I
+	- typy kostní tkáně
+		- kompaktní kost
+			- typická převážně pro dlouhé kosti
+			- osteony, Haversovy systémy
+				- Haversovy kanálky - probíhá zde cévní zásobení osteocytů a cavitas medullaris
+				- Haversovy lamely - vrstvy kostní ECM
+					- lacunae - dutinky na okraji lamel obsahující osteocyty (resp. nezralé osteoblasty)
+				- vzájemné propojení Haversových kanálků skrz Volkmannovy kanálky
+		- trámčitá kost
+
+- !! TODO - zorganizovat
+
+- skeleton
+	- skeleton membrorum
+		- membra inferiores
+			- tibia
+			- fibula
+			- pes
+				- hallux
+				- tarsales
+					- talus
+					- calcaneus
+					- os naviculare
+				- metatarsales
+				- ossa sesamoidea
+			- vazy
+				- lig. collaterale mediale et laterale
+				- lig. collaterale tibiale (deltoideum)
+				- tendo calcaneus - Achillova šlacha
+				- membrana interossea cruris
+			- klouby
+				- art. tarsi transversa - Chopartův kloub
+				- art. tarsometatarsae - Lisfrankův kloub
+				- využívány chirurgicky k otevření, amputaci
+			- nožní klenba
+				- brání utlačování měkkých tkání
+				- podélná
+					- klenutí ossa cuneiforma
+					- mezikostní vazy
+					- m. fibularis longus
+					- m. adductor hallucis
+				- příčná
+					- vrcholem talus
+					- aponeurosa
+					- lig. plantare longum
+					- m. tibialis anterior et posterior
+					- m. flexor hallucis longus
+				- hroucení klenby → pes planovalgus
+	- skeleton axiale
+		- columna vertebralis
+			- vertebra
+				- corpus vertebrae
+				- arcus vertebrae
+				- processi
+					- processus spinosus
+					- processus transversi
+						- dva, směřují laterálně
+			- artt. intervertebrales
+				- synoviales, artt. planae
+				- disci intervertebrales
+					- synchondroses
+					- annulus fibrosus
+					- nucleus pulposus
+				- foramina intervertebrales
+					- vychází míšní ganglia, nervy
+				- lig. longitudinale anterius et posterius - přední a zadní dlouhý vaz
+			- vertebrae cervicales (7)
+				- C1-C7
+				- C1 (atlas, nosič) a C2 (axis) specifická stavba (prenatální vývoj, částečný srůst)
+					- atlas
+						- arcus anterior et posterior
+					- axis
+						- dens axis, čepovec
+				- lordosis
+				- artt.
+					- cranium-C1: lig. cruciforme atlantis
+					- C1-C2: lig. transversum atlantis
+			- vertebrae thoracicae (12)
+				- Th1-Th12
+				- kyphosis
+			- vertebrae lumbales (5)
+				- L1-L5
+				- lordosis
+			- vertebrae sacrales, os sacrum (5)
+				- S1-S5
+				- kyphosis
+				- synostóza
+			- vertebrae coccygeae, coccyx, os coccygis (3-5)
+				- Co1-Co5
+		- thorax
+			- ossa
+				- sternum
+					- manubrium sternum
+					- corpus sterni
+					- processus xiphoideus (sterni), mečovitý výběžek
+				- costae
+					- stavba
+						- caput costae
+						- collum costae
+						- tuberculum costae
+						- corpus costae
+					- costae verae (7), pravá žebra
+					- costae spuriae (3), nepravá žebra
+						- na sternum napojeny nepřímo
+					- costae fluctuantes (2), volná žebra
+						- nenapojeny na sternum
+			- artt.
+				- artt. costovertebralis
+				- artt. sternocostales

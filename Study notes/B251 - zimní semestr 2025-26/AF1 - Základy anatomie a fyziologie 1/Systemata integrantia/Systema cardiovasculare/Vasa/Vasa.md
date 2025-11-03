@@ -1,0 +1,9 @@
+- stavba
+	- vrstvy
+		- tunica intima
+		- tunica media
+			- hladká svalovina
+			- tlustší u arterií
+		- tunica externa
+			- vasa vasorum
+			- nervi vasorum

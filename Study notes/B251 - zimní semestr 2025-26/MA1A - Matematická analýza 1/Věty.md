@@ -1,0 +1,14 @@
+- věta 1.1
+	- $\sqrt{2} \notin \Q$
+	- důkaz sporem
+		- $P1:$ $\sqrt{2} \in \Q \implies \sqrt{2} = \frac{p}{q}\land p,q \in \Z\ \text{nesoudělná (zlomek je v základním tvaru)}$
+		- $\therefore$ $2=\frac{p^2}{q^2}$
+		- $\therefore$ $2q^2 = p^2$
+		- $\therefore$ $p^2\ \text{sudé} \implies p\ \text{sudé}$
+		- $\therefore \exists{k \in \Z}:p=2k$
+		- $\therefore$ $2q^2=(2k)^2=4k^2 \implies q^2 = 2k^2$
+		- $\therefore$ $q^2\ \text{sudé} \implies q\ \text{sudé}$ 
+		- $p\ \text{sudé} \land q\ \text{sudé} \land P1 \ \text{(nesoudělnost p a q}) \implies \bot$
+		- $\therefore \sqrt{2} \notin \Q\ Q.E.D.$
+- věta 1.3
+	- interval $(a,b)$ kde $a, b \in \R$ obsahuje alespoň jedno číslo racionální a alespoň jedno iracionální

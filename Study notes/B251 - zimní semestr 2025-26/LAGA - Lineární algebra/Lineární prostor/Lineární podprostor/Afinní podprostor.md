@@ -1,0 +1,5 @@
+- $\mathcal{L} = \F^s$
+- $\vec{p} + \span{(\vec{x_1}, \ldots, \vec{x_d})},\ \vec{p},\vec{x_i} \in \mathcal{L}$ je tzv. afinní podprostor dimense $d$
+	- $d=1$ - přímka
+	- $d=2$ - rovina
+	- patrné, že $d \le s$

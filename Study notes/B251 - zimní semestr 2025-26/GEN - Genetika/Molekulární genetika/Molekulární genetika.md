@@ -1,0 +1,68 @@
+- vysvětluje biochemickou podstatu genetiky
+- sleduje přenos genetické informace na molekulární úrovni
+- základní makromolekuly
+	- nukleové kyseliny
+		- biopolymery složeny z tzv. nukleotidů
+			- cukr
+				- ribóza (RNA)
+					- hydroxylová skupina na uhlíku C$^{2'}$
+				- deoxyribóza (DNA)
+					- pouze vodík na uhlíku C$^{2'}$
+				- syntetické NK (tzv. XNA) mohou mít i další cukry, či jiné druhy strukturních podjednotek
+					- např. TNA (threóza), HNA (1,5-anhydrohexitol), GNA (propylenglykol), PNA (N-(2-aminoethyl)-glycin, peptidové vazby)
+			- uhlíky cukrů číslovány → rozlišován konec 3' a konec 5'
+				- určuje směr činnosti enzymů jako transkriptázy, helikázy aj
+			- dusíkatá heterocyklická báze - **a**denin, **c**ytosin, **g**uanin, **t**hymin/**u**racil
+				- puriny - adenin, guanin
+				- pyrimidiny - cytosin, thymin, uracil
+				- typické párování A·T/U, C·G, tzv. Watson-Crick párování (příp. Watson-Crick-Franklin)
+			- fosfát (= fosforečnan).
+			- cukr a báze (bez fosfátu) společně někdy označovány jako nukleosid
+			- mezi nukleotidy *fosfodiesterová* vazba, tj. přes fosfát a jeho kyslíky, mezi uhlíky C$^{3'}$ a C$^{5'}$
+		- deoxyribonukleová kyselina (DNA)
+			- dva řetězce deoxyribózových nukleotidů
+			- přes náležité dusíkaté báze řetězce propojeny do dvojšroubovice
+			- denaturace a reasociace/renaturace
+				- při zvýšení teplody dsDNA (doublestranded) denaturuje na ssDNA (single stranded)
+					- denaturace
+				- při pomalém opětovném snížení teploty se dvojšroubovice dsDNA spontánně obnoví
+					- renaturace, reasociace, angl. též annealing
+				- důležitá součást molekulárně-genetických vyšetřovacích technik
+		- ribonukleová kyselina (RNA)
+			- řetězec ribózových nukleotidů
+			- báze AGCU (vzácně ve velmi malém množství i T)
+			- chemicky méně stabilní
+			- různé typy různých funkcí
+				- mRNA - messenger, mediátorové RNA
+				- hnRNA - heterogenní nukleární
+				- rRNA - ribozomové
+				- tRNA - transferové
+				- snRNA - malé jaderné
+				- snoRNA - malé jadérkové
+				- vRNA - vault RNA
+				- $\vdots$
+			- obecná struktura
+				- struktura většinou volné prosté vlákno
+					- vzácně i dvojřetězcové RNA (dsRNA, double stranded), např. u některých virů
+				- vlákno se může "smotat" na úseku i do dvojvlákna samo s sebou - tzv. duplexní struktura 
+	- proteiny
+		- česky bílkoviny, překladem z německého "Eiweisskörper" ("tělíska vaječného bílku")
+		- protein z řeckého "πρώτειος" ("první" či "vedoucí"), vycházející z mylného přesvědčení, že první organismy byly z jednotlivých proteinových makromolekul
+			- momentální vůdčí teorie je, že počátky života byly v tzv. RNA světě, kde první formy života byly sebereplikující makromolekuly RNA (ne bílkovin)
+		- řetězce aminokyselin, příp. dalších dílčích molekul (glykoproteiny apod.)
+		- 20-22 proteinogenních aminokyselin
+			- zákl. 20 + selenocystein (velmi vzácný) + pyrrolysin (pouze bakteriální)
+			- 2 z nich thioaminokyseliny - cystein a methionin
+				- cystein umožňuje disulfidické můstky v terciární struktuře
+			- každá má 3-písmenný a 1-písmenný kód/zkratku (IUPAC)
+		- aminokyseliny vzájemně propojeny peptidovou vazbou
+		- struktura
+			- primární
+				- sekvence AK
+			- sekundární
+				- α-helix, β-list (resp. β-skládaný list)
+			- terciární
+			- kvarterní
+				- více složených bílkovin
+- sekvence bází typicky zapisována ve směru 5'→3'
+	- dle směru biosyntézy a exprese nukleových kyselin

@@ -1,0 +1,57 @@
+- vývoj
+	- vzniká z dvou srdečních trubic, přiloží se k sobě a vzájemně propojí (22. den)
+	- zakřivení do S (31. den)
+	- atriální septa (35. den)
+	- ventrikulární septa ()
+	- TODO: doplnit
+- stavba
+	- vrstvy
+		- endocardium
+			- dutinová výstelka
+		- myocardium
+			- srdeční svalstvo
+		- pericardium
+			- viscerální list
+	- basis cordis
+	- apex cordis
+	- auriculae
+		- auricula dextra et sinistra
+			- turbulentní tok v aurikulách může vést ke trombóze a následné tormboembolii (auricula dx. → cerebrální, auricula sin. → pulmonární)
+	- napojení na malý oběh
+		- truncus pulmonalis
+		- vv. pulmonales
+	- napojení na velký oběh
+		- arcus aortae
+		- v. cava superior et inferior
+	- atrium dextrum - pravá síň
+		- přijímá odkysličenou krev tělního oběhu, z v. cava superior et inferior
+			- valva tricuspidalis - trojcípá chlopeň
+		- fossa ovalis - pozůstatek zarostlého foramen ovale
+	- ventriculus dexter - pravá komora
+		- posílá krev skrz truncus pulmonalis do plic
+	- atrium sinistrum - levá síň
+		- přijímá okysličenou krev z plicního oběhu, z vv. pulmonales
+		- valva bicuspidalis (= valva mitralis)
+	- ventriculus sinister
+		- valvae semilunares aortae
+		- posílá krev skrz arcus aortae do tělního oběhu
+	- srdeční skelet
+		- anulus fibrosus dexter et sinister
+	- aa. et vv. coronariae
+		- cévní zásobení myokardu
+		- a. coronaria dextra (ACD) et sinistra (ACS)
+		- dále se větví na menší ramena (rami)
+	- převodní systém srdeční
+		- nodus sinoatrialis - SA uzel
+			- také zvaný pacemaker, určuje klidový (sinusový) rytmus
+				- u mužů ~75 BPM
+				- u žen ~82 BPM
+		- nodus atrioventricularis - AV uzel
+		- fasciculus atrioventricularis - Hisův svazek
+		- Tawarova raménka (levé a pravé)
+		- Purkyněho vlákna
+	- projekce auskultačních bodů chlopní
+		- A - valva aortae - 2. mezižebří, 1 cm vpravo od sterna
+		- P - valva trunci pulmonalis - 2. mezižebří, 2 cm vlevo od sterna
+		- T - valva tricuspidalis - 5. mezižebří, vpravo od sterna
+		- M - valva bicuspidalis (= mitralis) - 5. mezižebří, levá medioklavikulární linie

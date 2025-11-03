@@ -1,0 +1,51 @@
+- obecně
+	- začínají slepě ve tkáních
+	- tenká stěna, tenčí než žíly
+	- nesouvislá bazální lamina
+	- větší množství chlopní
+	- u vasae lymphaticae majores dobře vyvinuta tunica media
+	- do průběhu cév vloženy mízní uzliny (nodi lymphatici)
+		- funkce:
+			- aktivace T a B lymfocytů → obranyschopnost
+			- filtrace lymfy
+- truncus lymphaticus dexter
+	- vlévá se do vena brachiocephalica dextra
+- ductus thoracicus
+	- hrudní mízovod
+
+- TODO: doplnit popis nodi lymphatici
+
+- odtok lymfy z mléčné žlázy
+	- nodi lymphatici axillares
+	- nodi lymphatici parasternales
+	- nodi lymphatici supraclaviculares
+- mízní orgány
+	- thymus - brzlík
+		- primární lymfatický orgán
+		- lobus dexter et sinister
+		- obalen vazivem
+		- vnitřně dělen na lalůčky (lobuli)
+		- aktivní v dětství, v dospělosti podléhá involuci a přeměně na tuk
+			- relativně největší při narození (12-14g)
+	- splen (= lien) - slezina
+		- nepárový orgán
+		- levá klenba brániční, v kontaktu s 9.-11. žebrem
+		- na povrchu capsula fibrosa, pevný vazivový obal
+		- dvě hlavní plochy
+			- facies diaphragmatica
+			- facies visceralis
+				- facies renalis
+				- facies gastrica
+				- facies colica
+				- facies pancreatica
+		- vnitřní struktura
+			- trámce bílé pulpy (folliculi lymphatici)
+			- mezi nimi červená pulpa tvořena cévami
+		- funkce
+			- odbourávání starých erytrocytů
+			- tvorba lymfocytů v mízních uzlíčcích
+	- nodi lymphatici
+	- tonsillae - mandle
+		- nepravé uzliny
+
+- TODO: doplnit všechno T_T

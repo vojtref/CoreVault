@@ -1,0 +1,13 @@
+- zabývá se jevy, kdy vznik či změna dědičného znaku není vyvolána změnou genetické sekvence, ale změnou *epigenetickou*, zejm.:
+	- methylace DNA
+	- chemická modifikace histonů
+	- $\vdots$
+- obecně zkoumá změny genetické exprese které nejsou vyvolány změnou DNA
+- využití poznatků
+	- epigenetické změny mohou měnit projevy geneticky podmíněných chorob, např. může záviset, zda dostal pacient poškozený gen od otce či matky (tzv. genetický imprinting)
+	- epigenetické změny se uplatňují při vzniku nádorů
+	- některé karcinogeny mění methylaci DNA určitých buněk, zejm. na genech řídící buněčné dělení
+	- možnost epigenetické léčby
+		- deaktivace určitých onkogenů
+		- např. 5-azacytidin (Vidava; užíváno na maligní onemocnění krve)
+	- možné vysvětlení určitých evolučních dějů, modifikace míry methylace DNA a methylačního profilu

@@ -1,0 +1,9 @@
+- játra
+- "laboratoř těla"
+- detoxikace - zneškodnění jedovatých látek, toxinů
+	- např. alkohol na kys. octovou 
+- největší žláza v těle
+	- endokrinní sekrece
+	- exokrinní sekrece
+		- produkce žluči
+			- funkce: emulgace tuků a nepolárních složek tráveniny

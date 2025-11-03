@@ -1,0 +1,56 @@
+- medicinální a asistivní praktika už od prehistorie
+	- zubní vrty
+	- trepanace
+- Mezopotámie
+	- proces diagnózy, prognózy, vyšetření, léčby
+	- chirurgické zákroky
+- Egypt
+	- proces diagnózy, prognózy, vyšetření, léčby
+	- základy lidské anatomie
+	- chirurgie, protetika
+- antické Řecko
+	- empirický způsob, hledání biologické příčiny
+		- stále však způsobena bohy
+	- čtyři základní tekutiny
+	- Asklépios, Hippokratés
+- antický Řím
+	- čtyři základní tekutiny
+	- vyšší míra specializace
+- středověk
+	- Byzantská říše - pokračuje v řeckořímské tradici
+	- Evropa lehce pozadu, východ další pokroky (např. tzv. zlatý věk islámu)
+- renesance
+	- návrat k empirismu
+	- posun v experimentování
+	- Galileo Galilei v Padově představuje kyvadlo, teploměr, teleskopický dalekohled
+	- srovnávání lidského tepu, teploty
+- humanismus
+- 19. stol.
+	- vysoká míra úmrtnosti v nemocnicích a špitálech - 25% pacientů, 6-12% lékařů
+	- Florence Nightingale
+		- zakladatelka lékařské statistiky a moderního sesterství, ošetřovatelství
+	- v Česku
+		- síť obecních a obvodních lékařů
+		- zákon o povinném nemocenském a úrazovém pojištění dělnictva
+		- první vakcíny (PN, TB...)
+- 20. stol.
+	- modely financování zdravotní péče
+		- pojištění
+			- veřejné povinné - tzv. Bismarckovský model
+			- soukromé dobrovolné
+		- státní
+			- Beveridgeův model
+				- v UK: NHS
+			- Semaškův model
+				- v SSSR
+	- 1903 - EKG (Einthoven)
+	- 1927 - respirátor
+	- 1928 - penicilin (Fleming)
+	- 1937 - srdeční bypass
+	- 1930s - bariové soli, sulfonamid
+	- 1940-
+	- rozvoj jaderné medicíny
+	- rozvoj zobrazovacích metod
+	- 
+	- definován obor biomedicínského inženýrství
+	- 

@@ -1,0 +1,61 @@
+- zádové svaly
+- inervace: plexus brachialis, n. accessorius (n. XI)
+- mm. hypaxiales (= mm. superficiales dorsi)
+	- mm. spinoscapulares dorsi
+		- m. rhomboideus major
+			- f: dolní fixace, elevace, vnější, vnitřní rotace, lopatky
+		- m. rhomboideus minor
+			- f: dolní fixace, elevace, retrakce, vnitřní rotace lopatky
+		- m. levator scapulae
+			- f: elevace, vnitřní rotace lopatky; lateroflexe páteře; antagonista m. serratus anterior et m. trapezius
+	- mm. spinohumerales dorsi
+		- m. trapezius
+			- pars descendens
+				- f: elevace, fixace lopatky, retroflexe, lateroflexe hlavy
+			- pars transversa
+				- f: retrakce, fixace lopatky
+			- pars ascendens
+				- f: deprese, fixace lopatky
+			- f: kontrakce partis ascendens et descendens → vnější rotace lopatky
+		- m. latissimus dorsi
+			- f: vnitřní rotace, addukce, flexe paže; pomocný nádechový sval při fixaci HK; pomocný výdechový sval
+	- mm. spinocostales dorsi
+		- úpony na žebra
+		- pomocné svaly dýchací nádechové
+		- m. serratus posterior superior
+		- m. serratus posterior inferior
+- mm. epaxiales dorsi (= mm. dorsi proprii)
+	- inervace: zadní větve míšních nervů
+	- 6 systémů
+		- mm. suboccipitales
+			- m. rectus capitis posterior major et minor
+			- m. rectur capitis superior et inferior
+		- m. erector spinae
+			- mm. iliocostales
+			- mm. longissimi
+				- m. longissimus thoracis
+				- m. longissimus cervicis (= m. longissimus colli)
+				- m. longissimus capitis
+				- f: retroflexe, lateroflexe páteře
+			- mm. spinales
+		- mm. spinotransversales
+			- m. splenius
+				- m. splenius capitis
+				- m. splenius cervicis (= m. splenius colli)
+			- m. iliocostalis
+				- f: retroflexe, lateroflexe páteře
+		- mm. transversospinales
+			- m. semispinalis
+				- m. semispinalis thoracis et cervicis et capitis
+				- f: retroflexe, lateroflexe páteře a hlavy, rotace páteře hlavy
+			- mm. multifidi
+				- laterálně od proc. spinosus
+				- f: retroflexe páteře
+			- mm. rotatares
+				- f: retroflexe, rotace páteře
+		- krátké zádové
+			- mm. interspinales
+				- f: retroflexe, stabilizace páteře
+			- mm. intertransversarii
+				- mezi proc. transversii
+				- f: lateroflexe páteře

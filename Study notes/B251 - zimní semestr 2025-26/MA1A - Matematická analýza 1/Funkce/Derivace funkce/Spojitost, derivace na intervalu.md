@@ -1,0 +1,20 @@
+- př. 5.3:
+	- $\lim_{x \to 0}\left(\frac{1}{x} - \cot x\right)$
+- TODO: doplnit 
+- věta 5.8: Rolleova věta
+	- $f$ spojitá na intervalu $\intvlcc{a}{b}$
+	- $\forall x \in \intvloo{a}{b}: \exists f'(x) \in \ER$
+	- $f(a) = f(b)$
+	- $\therefore$
+	- $\exists c \in \intvloo{a}{b}: f'(c) = 0$
+- věta 5.9: Lagrangeova věta o střední hodnotě; o přírůstku funkce
+	- $f$ spojitá na intervalu $\intvlcc{a}{b}$
+	- $\forall x \in \intvloo{a}{b}: \exists f'(x) \in \ER$
+	- $\therefore$
+	- $\exists c \in \intvloo{a}{b}: f'(c) = \frac{f(b) - f(a)}{b - a}$
+	- zobecnění Rolleovy věty
+	- důsledek 5.10:
+		- $f$ spojitá na intervalu $\intvlcc{a}{b}$
+		- $\forall x \in \intvloo{a}{b}: f'(x) = 0$
+		- $\therefore$
+		- $f$ konstantní na intervalu $\intvlcc{a}{b}$

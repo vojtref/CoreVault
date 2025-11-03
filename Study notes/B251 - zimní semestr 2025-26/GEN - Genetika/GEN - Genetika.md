@@ -1,0 +1,10 @@
+- konzultace, dotazy apod mailem (eduard.kocarek@lfmotol.cuni.cz)
+- materiály na Moodle
+- zkouška
+	- řádný termín písemně
+		- 10 krátkých otázek
+		- min. 5 správně
+	- opravný termín ústně
+		- 2 otázky na delší slovní odpověď
+	- předtermíny dohodou, pouze při dostatečném zájmu (10+ studentů)
+		- předběžný cca po první přednášce před Vánocemi

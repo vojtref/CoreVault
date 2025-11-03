@@ -1,0 +1,14 @@
+- lineární prostor $L$ nad obecným [[Těleso|tělesem]] $\F$ dán trojicí $(\F, +, \cdot)$
+- prvky v $L$ tzv. vektory, $+: L^2 \to L$ (sčítání vektorů), a $\cdot: \F \times L \to L$ (škálování/násobení vektorů skalárem), splňující dané axiomy:
+	- vlastnosti $+$
+		- existence nulového vektoru $\vec{o}$ neutrálního vzhledem ke sčítání: $\vec{x} + \vec{o} = \vec{x}$
+		- komutativita: $\vec{a} + \vec{b} = \vec{b} + \vec{a}$
+		- asociativita: $(\vec{a} + \vec{b}) + \vec{c} = \vec{a} + (\vec{b} + \vec{c})$
+		- existence opačného vektoru: pro každé $\vec{x}$ existuje právě jedno $\vec{y}$, kde platí $\vec{x} + \vec{y} = \vec{o}$
+	- vlastnosti $\cdot$
+		- neutralita $1$ vzhledem ke škálování: $1 \cdot \vec{x} = \vec{x}$
+		- asociativita: $a \cdot (b \cdot \vec{x}) = (a \cdot b) \cdot \vec{x}$
+	- distributivita
+		- distributivita sčítání vektorů: $a \cdot (\vec{x} + \vec{y}) = a \cdot \vec{x} + a \cdot \vec{y}$
+		- distributivita sčítání skalárů: $(a + b) \cdot \vec{x} = a \cdot \vec{x} + b \cdot \vec{x}$
+- př. $Z_5[x]$, množina polynomů o neurčité $x$ s koeficienty v $Z_5$

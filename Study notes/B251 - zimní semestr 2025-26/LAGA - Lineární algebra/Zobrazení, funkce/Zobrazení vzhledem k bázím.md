@@ -1,0 +1,25 @@
+- zobrazení vzhledem k bázím
+	- jedno zobrazení
+		- $\mathbf{f}: L_1 \to L_2$
+		- $B = (\vec{b_1}, \ldots, \vec{b_s}), C = (\vec{c_1}, \ldots, \vec{c_r})$
+		- $L_1 \xrightarrow{\coord_B} \F^s$
+		- $L_2 \xrightarrow{\coord_C} \F^r$
+		- $\exists \mathbf{A}: \F^s \xrightarrow{\mathbf{A}} \F^r$
+			- $\mathbf{A}$ je $\mathbf{f}$ vzhledem k bázím $B$ a $C$, tedy $\mathbf{A} = [\mathbf{f}]_B^C$
+		- $i$-tý sloupec hledané matice $\mathbf{A}$ = $\coord_C(\mathbf{f}(\vec{b}_i))$
+			- $\mathbf{A} = \left(\coord_C\left(\mathbf{f}(\vec{b}_1)\right),\cdots,\coord_C\left(\mathbf{f}(\vec{b}_s)\right)\right)$
+	- výpočet matice složeného zobrazení vzhledem k bázím $B,C,D$: $[\mathbf{g \cdot f}]_B^D = [\mathbf{g}]_C^D \cdot [\mathbf{f}]_B^C$
+		- podoba $C$ nepodstatná, ale musí být mezi jednotlivými zobrazeními společná
+			- často nejpraktičtější $K_n$
+- $\mathbf{der}: \R^{\le 3}[x] \to \R^{\le 3}[x]$ - matice derivace polynomu stupně nejvýše 3
+	- $\mathbf{A}_{\mathbf{der}}$ vzhledem k bázi $B=(x^3, x^2, x^1, 1)$
+		- $\mathbf{A}_\mathbf{der} = \pmatrix{0 & 0 & 0 & 0 \\ 3 & 0 & 0 & 0 \\ 0 & 2 & 0 & 0 \\ 0 & 0 & 1 & 0}$
+		- pro druhou derivaci součin $\mathbf{A}_\mathbf{der} \cdot \mathbf{A}_\mathbf{der}$, atd...
+- transformace bází
+	- také zvané matice přechodu od báze k bázi $\ref{P. Olšák}$
+	- $T_{B \mapsto C}$ - transformace z báze $B$ do $C$
+		- $(T_{B \mapsto C})^{-1} = T_{C \mapsto B}$
+		- $T_{B \mapsto C} = \left(\coord_C(\vec{b}_1),\cdots,\coord_C(\vec{b}_i)\right)$
+			- de facto případ zobrazení $\id$ vzhledem k bázím $B$ a $C$
+	- $T_{B \mapsto B} = \mathbf{E}_n$
+	- jakoukoli čtvercovou matici $n \times n$ lze považovat jako transformaci $T_{B \mapsto K_n}$

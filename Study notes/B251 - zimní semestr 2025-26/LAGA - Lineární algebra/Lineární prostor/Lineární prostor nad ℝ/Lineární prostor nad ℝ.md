@@ -1,0 +1,22 @@
+- příklady [[Lineární prostor|lineárních prostorů]] nad reálnými čísly pro začátek
+- trojice $L=\left(\R, +, \cdot\right)$, prvky v $L$ vektory, $+: L^2 \to L$ (sčítání vektorů), a $\cdot: \R \times L \to L$ (škálování/násobení vektorů skalárem), splňující dané axiomy:
+	- vlastnosti $+$
+		- existence nulového vektoru $\vec{o}$ neutrálního vzhledem ke sčítání: $\vec{x} + \vec{o} = \vec{x}$
+		- komutativita: $\vec{a} + \vec{b} = \vec{b} + \vec{a}$
+		- asociativita: $(\vec{a} + \vec{b}) + \vec{c} = \vec{a} + (\vec{b} + \vec{c})$
+		- existence opačného vektoru: pro každé $\vec{x}$ existuje právě jedno $\vec{y}$, kde platí $\vec{x} + \vec{y} = \vec{o}$
+	- vlastnosti $\cdot$
+		- neutralita $1$ vzhledem ke škálování: $1 \cdot \vec{x} = \vec{x}$
+		- asociativita: $a \cdot (b \cdot \vec{x}) = (a \cdot b) \cdot \vec{x}$
+	- distributivita
+		- distributivita sčítání vektorů: $a \cdot (\vec{x} + \vec{y}) = a \cdot \vec{x} + a \cdot \vec{y}$
+		- distributivita sčítání skalárů: $(a + b) \cdot \vec{x} = a \cdot \vec{x} + b \cdot \vec{x}$
+- $\R^n$
+	- př. $n=5$
+		- $L = \R^5$
+		- $\begin{pmatrix} -1 \\ \sqrt{2} \\ 0 \\ 4 \\ 3 \end{pmatrix} \in \R^5$
+		- $\vec{x}=\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{pmatrix}$
+	- prvek v $\R^n$ možné znázornit nejen jako klasický vektor v $n$-dimenzionálním prostoru (v podstatě nemožné pro $n > 3$), ale i jako $n$-krát vzorkovaný signál $\ref{AKLA 1.1.8}$
+- $\R[x]$ - množina všech polynomů o neurčité $x$ s reálnými koeficienty
+	- prvky např. $a(x) = \sqrt{2}x + 4$, $b(x) = 3x^2 - 4 + 5$...
+	- platnost axiomů lineárního prostoru triviální dokázat

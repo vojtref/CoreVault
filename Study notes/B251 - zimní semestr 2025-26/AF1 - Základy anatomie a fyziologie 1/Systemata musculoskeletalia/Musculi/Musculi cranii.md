@@ -1,0 +1,102 @@
+- hlavové svaly
+- mm. faciei - obličejové svaly
+	- inervace: n. facialis (n. cr. VII)
+	- i: kůže hlavy, obličeje
+	- nejsou kryté fascií
+	- svaly lebeční klenby
+		- m. epicranius
+			- m. occipitofrontalis
+				- venter occipitalis
+				- vmezeřená aponeuróza
+				- venter frontalis
+			- m. temporoparietalis
+				- 
+	- svaly oční štěrbiny
+		- m. orbicularis oculi
+			- pars orbitalis
+			- pars palpebralis
+			- 
+			- f: tvoří víčka, otevírá a zavírá oční štěrbinu
+		- m. procerus
+			- f: vytváří příčnou vrásku vnějšího koutku
+		- m. 
+	- svaly ústní štěrbiny
+		- m. orbicularis oris
+		- m. risorius
+		- m. zygomaticus major
+		- m. zygomaticus minor
+		- m. mentalis
+		- m. buccinator
+- mm. masticatorii - žvýkací svaly
+	- inervace: n. mandibularis (3. větev n. trigemini = n. V3)
+	- i: mandibula
+	- f: žvýkání
+	- m. temporalis
+		- f: elevace a retrakce mandibuly, udržování klidové polohy (generátor klidového napětí)
+	- m. masseter
+		- pars superficialis
+			- f: elevace a protrakce mandibuly
+		- pars profunda
+			- f: elevace mandibuly
+	- m. pterygoideus medialis
+		- pars superficialis
+		- pars profunda
+		- f: elevace mandibuly, lateropulze, třecí žvýkací pohyby
+	- m. pterygoideus lateralis
+		- caput superius
+		- caput inferius
+		- f: protrakce, lateropulze
+- mm. colli - svaly krku
+	- platysma
+		- inerv: n. facialis (n. VII)
+		- f: napětí kůži na krku, deprese mandibuly a koutku
+		- vývojově se řadí mezi mm. faciei, později descenduje
+	- m. sternocleidomastoideus
+		- inerv: n. accessorius (n. XI)
+		- f: anteflexe, retroflexe, předsun, lateroflexe hlavy
+		- pars sternalis
+		- pars clavicularis
+		- klinika: torticollis - vrozené zkrácení m. sternocleidomastoidei, hlava nakloněná na postiženou stranu
+	- mm. suprahyoidei
+		- f: pohyb jazylky, pomocné svaly pohybu čelisti
+		- m. digastricus
+			- venter posterior
+				- f: elevace jazylky
+			- venter anterior
+				- f: elevace jazylky, deprese mandibuly
+		- m. stylohyoideus
+			- o: proc. styloideus ossis temporalis
+			- 
+		- m. mylohyoideus
+			- f: elevace jazylky, deprese mandibuly, vyklenutí dna úst při polykání
+		- m. geniohyoideus
+			- f: elevace jazylky, deprese mandibuly, vyklenutí dna úst při polykání
+	- mm. infrahyoidei
+		- inerv: ansa cervicalis profunda
+		- f: fixace jazylky, polohování laryngu
+		- m. sternohyoideus
+			- f: deprese jazylky, napínání krční fascie
+		- m. sternothyroideus
+			- f: deprese štítné chrupavky
+		- m. thyrohyoideus
+			- f: deprese laryngeální chrupavky
+		- m. omohyoideus
+			- venter superior
+			- venter inferior
+			- f: deprese jazylky, napětí pretracheálního listu krční fascie
+				- tah *vagina carotica*, zvýšení průtoku krve
+	- mm. scaleni
+		- laterokaudální průběh od 1., 2. žebra
+		- f: pomocné nádechové svaly, lateroflexe hlavy
+		- m. scalenus anterior
+		- m. scalenus medius
+		- m. scalenus posterior
+		- m. scalenus minimus
+			- f: napíná cupuli pleurae
+	- mm. colli profundi
+		- m. longus capitis
+			- f: anteflexe hlavy
+		- m. longus colli
+			- f: anteflexe, lateroflexe, rotace hlavy
+		- m. rectus capitis anterior
+		- m. rectus capitis lateralis
