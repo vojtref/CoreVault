@@ -22,10 +22,11 @@
 		- $\mathbf{A} = \pmatrix{a_{11} \\ 0 & a_{22} \\ 0 & 0 & a_{33} \\ \vdots & \vdots & \vdots & \ddots \\ 0 & 0 & 0 & 0 & a_{nn}}$
 		- $\therefore$
 		- $\det \mathbf{A} = a_{11} \cdots a_{nn}$
-- při počítání determinantu převedením do horního blokového tvaru skrz GEM nutno kompenzovat elementární řádkové úpravy korekčními faktory (**"opatrná" GEM**)
+			- všechny ostatní součiny jsou s min. jednou nulou, hlavní diagonála jediná nenulová
+- při počítání determinantu převedením do horního blokového tvaru skrz [[Gaussova eliminační metoda|GEM]] nutno kompenzovat elementární řádkové úpravy korekčními faktory (takřeč. **"opatrná" GEM**) danými před determinant
 	- prohození řádků (prohození) os mění znaménko permutace (šroubujeme opačným směrem), nutno kompenzovat $-1$
 	- násobení řádků (= škálování os, změna měřítka) inverzním skalárem
 		- roztáhnutí osy vynásobí objem, proto $\sim \; \ne \; =$
-	- zkosení (přičtení násobku řádku) není nutno kompenzovat
+	- zkosení (přičtení násobku řádku) není nutno kompenzovat, zkosení plochu nemění
 - jiný způsob: vnější mocniny $\ref{AKLA 5}$
 	- moderní způsob
