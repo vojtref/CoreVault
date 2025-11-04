@@ -38,9 +38,9 @@
 - "slepování komutativních čtverců"
 	- TODO: dopsat
 	- TODO: jak musí vypadat ctverce slepitelne zleva i zprava
-- zobrazení $\mathbf{f}: L_1 \to L_2$ nazýváme *lineární*, pokud splňuje následující podmínky $\forall a \in \F, \forall{\vec{x},\vec{x}' \in L_1}$:
-	- $\mathbf{f}(\vec{x} + \vec{x}') = \mathbf{f}(\vec{x}) + \mathbf{f}(\vec{x}')$
-	- $\mathbf{f}(a \cdot \vec{x}) = a \cdot \mathbf{f}(\vec{x})$
+- zobrazení $\mathbf{f}: L_1 \to L_2$ nazýváme *lineární*, pokud splňuje následující podmínky $\forall a \in \F, \forall{\vec{x_1},\vec{x_2} \in L_1}$:
+	- $\mathbf{f}(\vec{x_1} + \vec{x_2}) = \mathbf{f}(\vec{x_1}) + \mathbf{f}(\vec{x_2})$
+	- $\mathbf{f}(a \cdot \vec{x_1}) = a \cdot \mathbf{f}(\vec{x_1})$
 	- alternativní formulace: **princip superpozice**
 		- $\mathbf{f}\text{ lineární} \iff {\forall a_i \in \F,\vec{x_i} \in L_1}:{\mathbf{f}\left(\sum_{i \in I}{a_i \vec{x_i}}\right) = \sum_{i \in I}{a_i \mathbf{f}(\vec{x_i})}}$
 		- tzn. důkaz platného principu superpozice je důkaz linearity zobrazení $\ref{AKLA 2.1.3}$
