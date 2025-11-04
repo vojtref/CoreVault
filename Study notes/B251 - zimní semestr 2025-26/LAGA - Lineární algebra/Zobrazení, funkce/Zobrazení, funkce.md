@@ -38,7 +38,7 @@
 - "slepování komutativních čtverců"
 	- TODO: dopsat
 	- TODO: jak musí vypadat ctverce slepitelne zleva i zprava
-- zobrazení $\mathbf{f}: L_1 \to L_2$ nazýváme *lineární*, pokud splňuje následující podmínky $\forall a \in \F, \forall{\vec{x_1},\vec{x_2} \in L_1}$:
+- zobrazení $\mathbf{f}: L_1 \to L_2$ nazýváme **lineární**, pokud splňuje následující podmínky $\forall a \in \F, \forall{\vec{x_1},\vec{x_2} \in L_1}$:
 	- $\mathbf{f}(\vec{x_1} + \vec{x_2}) = \mathbf{f}(\vec{x_1}) + \mathbf{f}(\vec{x_2})$
 	- $\mathbf{f}(a \cdot \vec{x_1}) = a \cdot \mathbf{f}(\vec{x_1})$
 	- alternativní formulace: **princip superpozice**
