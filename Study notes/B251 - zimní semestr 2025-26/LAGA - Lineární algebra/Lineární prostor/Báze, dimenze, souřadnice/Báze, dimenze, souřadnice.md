@@ -64,8 +64,8 @@
 		- $\sum_{i \in I}{a_i \vec{b_i}} = \vec{x} = \sum_{i \in I}{a_i^\star \vec{b_i}}$
 		- $\therefore \vec{x} - \vec{x} = \vec{o} \implies \sum_{i \in I}{a_i \vec{b_i}} - \sum_{i \in I}{a_i^\star \vec{b_i}}$
 		- $\therefore \sum_{i \in I}{(a_i - a_i^\star) \vec{b_i}} = \vec{o}$
-		- $B\text{ lin. nezávislá, jedině triviální kombinace je nulová} \implies \forall{i \in I}: a_i - a_i^\star = 0$
-		- $\therefore a_i = a_i^\star,\text{ tedy právě jedna kombinace koeficientů kombinace }B\text{ tvoří }\vec{x}$
+		- $B\text{ lin. nezávislá} \implies \forall{i \in I}: a_i - a_i^\star = 0$
+		- $\therefore a_i = a_i^\star,\text{ právě jedna kombinace koeficientů kombinace }B\text{ tvoří }\vec{x}$
 		- $\QED$
 	- př. souřadnicových vektorů v $\R[x]$
 		- u nekonečné dimenze nemožné mít kanonickou bázi

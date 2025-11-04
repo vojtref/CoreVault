@@ -18,13 +18,16 @@
 	- $\dim L = \rank P + \def P$
 		- důkaz $\ref{AKLA 3.3.6}$
 - $\mathbf{f}: L_1 \to L_2$
+	- $\mathbf{f}$ lineární, $L_1$ konečná dimenze
 	- (1) $\ker \mathbf{f}$ je podprostor v $L_1$
-		- $\ $
+		- $\vec{v_1}, \vec{v_2} \in \ker \mathbf{f}, a \in \F$
+		- $\mathbf{f}(\vec{v_1} + \vec{v_2}) = \mathbf{f}(\vec{v_1}) + \mathbf{f}(\vec{v_2}) = \vec{o} + \vec{o} = \vec{o} \mid \text{uzavřené nad }+$
+		- $\mathbf{f}(a \cdot \vec{v_1}) = a \cdot \mathbf{f}(\vec{v_1}) = a \cdot \vec{o} = \vec{o} \therefore \text{uzavřené nad }\cdot$
+			- $\mathbf{f}(\vec{o}) = \mathbf{f}(0 \cdot \vec{v_1}) = 0 \cdot \mathbf{f}(\vec{v_1}) = 0 \cdot \vec{o} = \vec{o} \therefore \text{uzavřené nad }\vec{o}$
 	- (2) $\im \mathbf{f}$ je podprostor v $L_2$
 		- $\span(\im \mathbf{f}) \subseteq \im \mathbf{f} \mid$ definice LP
 		- $\vec{v} \in \span(\im \mathbf{f}) \implies \vec{v} = \sum_{i \in I}a_i \mathbf{f}(\vec{x_i}) = \mathbf{f}\left(\sum_{i \in I}a_i \vec{x_i}\right)$
 		- $\therefore \vec{v} \in \im \mathbf{f} \QED$
-	- $\mathbf{f}$ lineární, $L_1$ konečná dimenze
 	- ekvivalentní:
 		- (1) $\mathbf{f}$ je monomorfismus
 		- (2) $\def \mathbf{f} = 0 \iff \ker \mathbf{f} \subseteq \{\vec{o}\}$
