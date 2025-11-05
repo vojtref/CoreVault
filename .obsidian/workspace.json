@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "a81cc8961c7c40c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "4dc16d2725647f05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a556462d26db0e7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study notes/B251 - zimní semestr 2025-26/ALP - Algoritmy a programování/List/Double linked list.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Double linked list"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16e94fb6d554fa96",
+    "type": "split",
+    "children": [
+      {
+        "id": "be64cb84dc5f1900",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a5aa6ba7eaf7066",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0af8ca0adbbdfc42",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 376.5
+  },
+  "right": {
+    "id": "bf147c25ea7d996c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bdcc54f873d15e07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cf7317cc86c117d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study notes/B251 - zimní semestr 2025-26/ALP - Algoritmy a programování/List/Double linked list.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Double linked list"
+            }
+          },
+          {
+            "id": "ece26e8790af3c31",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Množiny/Permutace.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "8a85c20be87ec7d9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 373.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "obsidian-git:Open Git source control": false,
+      "workspaces:Manage workspace layouts": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6cf7317cc86c117d",
+  "lastOpenFiles": [
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Zobrazení, funkce/Matice/Determinant.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Zobrazení, funkce/Zobrazení, funkce.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Zobrazení, funkce/Morfismy.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Zobrazení, funkce/Zobrazení vzhledem k bázím.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Lineární prostor/Lineární prostor nad ℝ.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Lineární prostor/Báze, dimenze, souřadnice/Báze, dimenze, souřadnice.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Lineární prostor/Lineární podprostor/Lineární obal.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Zobrazení, funkce/Matice/Gaussova eliminační metoda.md",
+    "Study notes/B251 - zimní semestr 2025-26/GEN - Genetika/sedhSFt8H",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Lineární prostor/Lineární podprostor/Afinní podprostor.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Lineární prostor/Výpočty v obecném lineárním prostoru.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Množiny/Permutace.md",
+    "Study notes/B251 - zimní semestr 2025-26/ALP - Algoritmy a programování/Cvika/sedo9OWuW",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Zobrazení, funkce/sedkxu5UZ",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Zobrazení, funkce/Matice/sedgqkBwm",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Zobrazení, funkce/Matice/sedcboKC2",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Lineární prostor/Báze, dimenze, souřadnice/sedCoiaxo",
+    "Study notes/B251 - zimní semestr 2025-26/GEN - Genetika/sedhUSlWj",
+    "Study notes/B251 - zimní semestr 2025-26/GEN - Genetika/Molekulární genetika/Exprese genetické informace/sedELnKIi",
+    "Study notes/B251 - zimní semestr 2025-26/AF1 - Základy anatomie a fyziologie 1/Systemata viscerale/Systema digestorium/sedkvEznZ",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Lineární prostor/Báze, dimenze, souřadnice/sedm3TfmR",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Zobrazení, funkce/Matice/Matice.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Důkaz.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Definice.md",
+    "Study notes/B251 - zimní semestr 2025-26/MA1A - Matematická analýza 1/Funkce/Extrema, monotonie.md",
+    "Study notes/B251 - zimní semestr 2025-26/MA1A - Matematická analýza 1/Funkce/Derivace funkce/Taylorův polynom.md",
+    "Study notes/B251 - zimní semestr 2025-26/MA1A - Matematická analýza 1/Funkce/Derivace funkce/Spojitost, derivace na intervalu.md",
+    "Study notes/B251 - zimní semestr 2025-26/MA1A - Matematická analýza 1/Funkce/Derivace funkce/Derivace funkce.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Množiny/Množiny.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Lineární prostor/Lineární podprostor/Lineární podprostor.md",
+    "Study notes/B251 - zimní semestr 2025-26/LAGA - Lineární algebra/Lineární prostor/Lineární prostor.md",
+    "Study notes/B252 - letní semestr 2025-26/B252 - letní semestr 2025-26.md",
+    "Study notes/B251 - zimní semestr 2025-26/AF1 - Základy anatomie a fyziologie 1/Systemata musculoskeletalia/Musculi/Musculi membrorum/Musculi membri superioris.md",
+    "Study notes/B251 - zimní semestr 2025-26/AF1 - Základy anatomie a fyziologie 1/Systemata musculoskeletalia/Musculi/Musculi abdominis.md",
+    "Study notes/B251 - zimní semestr 2025-26/AF1 - Základy anatomie a fyziologie 1/Systemata musculoskeletalia/Musculi/Musculi membrorum/Musculi membri inferioris.md",
+    "res/karyogram.png",
+    "res/photo51.jpg",
+    "res/slozeni_genomu.png",
+    "Untitled.canvas",
+    "Study notes/B251 - zimní semestr 2025-26/GEN - Genetika/Cytogenetika/karyogram.png",
+    "Study notes/B251 - zimní semestr 2025-26/GEN - Genetika/Cytogenetika/slozeni_genomu.png"
+  ]
+}

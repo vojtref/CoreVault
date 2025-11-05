@@ -1,0 +1,34 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "neat-things": 1,
+    "B3B33ALP": 2,
+    "BAB31AF1": 3,
+    "BAB31UBI": 4,
+    "B2B15UELA": 5,
+    "B0B01LAGA": 6,
+    "B0B01MA1A": 7,
+    "BEZB": 8,
+    "BEZZ": 9,
+    "B0B04B1K": 10,
+    "B0B04B2Z": 11,
+    "BAB31GEN": 12,
+    "B0B01DRN": 13,
+    "B0B01MA2": 14,
+    "B3B02FY1A": 15,
+    "BAB31AF2": 16,
+    "B2B31ZEOA": 17,
+    "BAB36PRGA": 18,
+    "-": 19
+  },
+  "_version": 3
+}

@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "livePreview": false,
+  "strictLineBreaks": false,
+  "showUnsupportedFiles": true,
+  "autoConvertHtml": false,
+  "tabSize": 3
+}
