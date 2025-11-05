@@ -57,5 +57,3 @@ class DoubleLinkedList:
 			print(fromNode.data)
 			fromNode = fromNode.prev
 ```
-
-#B3B33ALP
