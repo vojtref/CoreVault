@@ -50,7 +50,7 @@
 			- !!!
 			- domácí cvičení: dokázat
 - věta: každý prostor $L$ má bázi 
-	- velmi obtížné dokázat, bereme axiomaticky $\ref{AKLA 3.6}$
+	- velmi obtížné dokázat, bereme axiomaticky $\viz{AKLA 3.6}$
 	- předpokládá axiom výběru, angl. axiom of choice
 		- kartézský součin libovolného systému neprázdných množin je neprázdná množina
 		- ve skriptech i ek

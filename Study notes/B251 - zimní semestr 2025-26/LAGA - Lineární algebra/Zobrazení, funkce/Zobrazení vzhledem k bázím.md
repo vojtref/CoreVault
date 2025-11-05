@@ -16,7 +16,7 @@
 		- $\mathbf{A}_\mathbf{der} = \pmatrix{0 & 0 & 0 & 0 \\ 3 & 0 & 0 & 0 \\ 0 & 2 & 0 & 0 \\ 0 & 0 & 1 & 0}$
 		- pro druhou derivaci součin $\mathbf{A}_\mathbf{der} \cdot \mathbf{A}_\mathbf{der}$, atd...
 - transformace bází
-	- také zvané matice přechodu od báze k bázi $\ref{P. Olšák}$
+	- také zvané matice přechodu od báze k bázi $\viz{P. Olšák}$
 	- $T_{B \mapsto C}$ - transformace z báze $B$ do $C$
 		- $(T_{B \mapsto C})^{-1} = T_{C \mapsto B}$
 		- $T_{B \mapsto C} = \left(\coord_C(\vec{b}_1),\cdots,\coord_C(\vec{b}_i)\right)$

@@ -43,7 +43,7 @@
 	- $\mathbf{f}(a \cdot \vec{x_1}) = a \cdot \mathbf{f}(\vec{x_1})$
 	- alternativní formulace: **princip superpozice**
 		- $\mathbf{f}\text{ lineární} \iff {\forall a_i \in \F,\vec{x_i} \in L_1}:{\mathbf{f}\left(\sum_{i \in I}{a_i \vec{x_i}}\right) = \sum_{i \in I}{a_i \mathbf{f}(\vec{x_i})}}$
-		- tzn. důkaz platného principu superpozice je důkaz linearity zobrazení $\ref{AKLA 2.1.3}$
+		- tzn. důkaz platného principu superpozice je důkaz linearity zobrazení $\viz{AKLA 2.1.3}$
 - kompozice lineárních zobrazení je také lineární
 	- $L_1 \xrightarrow[lin.]{f} L_2 \xrightarrow[lin.]{g} L_3 \implies L_1 \xrightarrow[lin.]{g \cdot f} L_3$
 	- $(g \cdot f)\left(\sum_{i \in I}{a_i \vec{x_i}}\right)$

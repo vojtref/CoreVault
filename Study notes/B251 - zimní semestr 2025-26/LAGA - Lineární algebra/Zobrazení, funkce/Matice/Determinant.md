@@ -30,11 +30,11 @@
 	- násobení řádků (= škálování os, změna měřítka) inverzním skalárem
 		- roztáhnutí osy vynásobí objem, proto $\sim \; \ne \; =$
 	- zkosení (přičtení násobku řádku) není nutno kompenzovat, zkosení plochu nemění
-- jiný způsob: vnější mocniny $\ref{AKLA 5.2}$
+- jiný způsob: vnější mocniny $\viz{AKLA 5.2}$
 	- moderní způsob
 - TODO: doplnit Laplaceův rozvoj determinantu
 - algebraický doplněk pozice $A_{i,j}$
-- TODO: dopsat "rekurzivní" postup rozvoje dle sloupce $\ref{AKLA 8.3.4}$
+- TODO: dopsat "rekurzivní" postup rozvoje dle sloupce $\viz{AKLA 8.3.4}$
 	- výhodné v případě že zvolený sloupec obsahuje jednu či více nul, není nutno počítat příslušný algebraický doplněk
 - strukturální vlastnosti $\det \mathbf{A}$ o rozměrech $n \times n$
 	- $\det \mathbf{E}_n = 1$

@@ -16,7 +16,7 @@
 		- slogan: říká, jak moc je $P$ monomorfní
 		- $\def P = \dim(\ker P)$ - defekt
 	- $\dim L = \rank P + \def P$
-		- důkaz $\ref{AKLA 3.3.6}$
+		- důkaz $\viz{AKLA 3.3.6}$
 - $\mathbf{f}: L_1 \to L_2$
 	- $\mathbf{f}$ lineární, $L_1$ konečná dimenze
 	- (1) $\ker \mathbf{f}$ je podprostor v $L_1$
