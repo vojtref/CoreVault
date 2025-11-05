@@ -1,0 +1,52 @@
+###### Obecný úvod
+- obor soustředěný na získávání, ukládání, analýzu, vizualizaci a pochopení biologických dat
+- molekulárně-biologická data
+	- popisují biologické procesy a funkci organismu na molekulární úrovni
+	- typicky se jedná o funkce makromolekul (NK, proteiny)
+	- v dnešní době high-throughput
+		- až v řádu petabajtů
+		- objemy neustále rostou
+		- měření často nepřesná, nízké SNR
+		- odlišné datové typy
+- bioinformatika × molekulární biologie
+	- bioinformatika "inženýrštější"
+	- větší zaměření na sběr dat, na vybavení
+	- cíle
+		- rozumět vztahu mezi genomem a projevy znaků (např. nemocí)
+		- veřejná dostupnost SW nástrojů (např. webtools, pracovní toky)
+	- základní technické výzvý bioinf.
+		- ukládání, sdílení dat
+		- škálování dat a pracovních procesů
+		- robustnost algoritmů vůči šumu
+		- důraz na metody integrativní napříč datovými typy
+- interdisciplinární, na pomezí molekulární biologie a počítačových věd
+	- čerpá z matematiky, statistiky, strojového učení, dolování dat...
+	- obsahově se překrývá se systémovou biologií, výpočetní biologií, strukturní biologií
+	- není však totéž co medicínská informatika nebo biologicky inspirované výpočty
+- biologická motivace
+	- [[Exprese genetické informace | centrální dogma molekulární biologie]]
+		- postup z genotypu do fenotypu, popis jednotlivých stadií (DNA, RNA, proteiny, molekulární sítě, buňky, tkáně, organismy)
+	- postup informací
+		- získání a uložení dat
+		- výpočetní zpracování dat
+		- data mining
+		- modelování, simulace
+###### DNA sekvenování
+- základní cíl: zjištění přesného pořadí nukleových bází v molekule DNA
+- následné analytické cíle
+	- rozpoznání informační struktury (geny, introny, exony, promotory, regulační oblasti, fRNA geny...)
+	- studium rozdílů mezi druhy, organismy, jednotlivci
+	- pochopení funkce
+- kategorizace metod
+	- de novo
+		- velmi obtížné, např. Human Genome Project
+	- resekvenování
+		- daleko snazší, vychází z předchozích sekvencí které využívá jako "šablonu"
+- základní kroky
+	- laboratorní příprava vzorku
+	- dlouhé vlákno nemožno číst celé souvisle, rozbito na tzv. fragmenty (v řádu stovek bp)
+		- nutno "nasekat" více totožných vláken s různými (typ. náhodnými) offsety, aby bylo shodami možné rekonstruovat pořadí fragmentů
+			- množství nutných shod závislé např. na přesnosti čtení, ale s bezchybným čtením stačí např. 4 shodné bp
+			- ani bezchybné čtení nedovoluje kompletní rekonstrukci, statisticky budou vždy mezery
+- Sangerovo sekvenování
+	- 1977, používáno ještě pro HGP do roku 2004, dnes však zastaralé

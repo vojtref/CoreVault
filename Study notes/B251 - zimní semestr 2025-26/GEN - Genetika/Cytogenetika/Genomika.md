@@ -11,7 +11,7 @@
 			- kompetice se soukromou společností i z důvodu snahy zamezit duševnímu vlastnictví lidského genomu jako takového
 		- výsledky
 			- lidský genom tvoří >3.2 mld. bp, cca. **20 000** genů kódujících proteiny (původní odhad byl cca. 100 000; porovnání s Drosophila s ~10 000 geny)
-				- odhad genů kódujících funkční RNA obtížný\
+				- odhad genů kódujících funkční RNA obtížný
 				- podíl exonů těchto genů pouhých **1.5%**
 					- "poušť s oázami genů"
 			- projekt neodhalil význam mnohých záhadných sekvencí, ani složité intergenové interakce
