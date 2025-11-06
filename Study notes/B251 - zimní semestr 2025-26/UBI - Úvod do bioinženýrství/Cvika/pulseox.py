@@ -61,7 +61,6 @@ led = Pin("LED", Pin.OUT)
 i2c = I2C(id=0, sda=Pin(16), scl=Pin(17), freq=400000)
 pulseox = i2c.scan()[0] # Automaticka detekce adresy, predpoklada ze je to jedina I2C periferie
 
-
 REGISTER_FIFO_CONFIG = 0x08
 REGISTER_MODE_CONFIG = 0x09
 REGISTER_SPO2_CONFIG = 0x0a
@@ -90,10 +89,7 @@ while True:
 
 	num_samples = (FIFO_WR_POINTER - FIFO_RD_POINTER) % 32
 
-
-	OVF_COUNTER = 0 #int.from_bytes(get_register(pulseox, 0x05))
-
-	for i in range(max(num_samples, OVF_COUNTER)):
+	for i in range(num_samples):
 		sample_value = int.from_bytes(get_register(pulseox, 0x07, 3))
 
 		# Prilis nizke hodnoty budeme brat jako 0 ("prilis nizke" urceno experimentalne)
