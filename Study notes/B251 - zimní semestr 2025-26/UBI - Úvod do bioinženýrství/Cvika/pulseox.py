@@ -108,7 +108,7 @@ while True:
 		                 width=100),
 		      abs(sample_value - median) / max(deviation, 1)) # Pomer odchylky daneho samplu od stredu ku prumerne odchylce
 
-		# Zvazujeme pouze hodnoty vyrazne nizsi (proto - misto abs), pri tepu se hodnota detekcniho ADC snizuje (okyslicena krev viditelne cervene svetlo lepe absorbuje)
+		# Zvazujeme pouze hodnoty vyrazne nizsi (proto - misto abs), pri tepu se hodnota z ADC snizuje
 		if -(sample_value - median) > 2 * deviation:
 			debounce.insert(1)
 		else:
@@ -118,3 +118,5 @@ while True:
 			led.on()
 		else:
 			led.off()
+
+	time.sleep(0.01)
