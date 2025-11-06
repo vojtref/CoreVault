@@ -1,0 +1,19 @@
+- soubor všech dějů udržující kontinuitu genetické informace při buněčném dělení
+	- tedy od konce jednoho buněčného dělení do konce dalšího
+- dceřiné buňky mají genetický materiál jako mateřské
+- 4 základní fáze
+	- M
+		- mitóza
+			- μίτος, "vlákno"
+	- G0
+		- "gap 0"
+		- klidové stadium, buňka nedělá nic
+	- G1 (40%)
+		- "gap 1"
+		- shromažďování a syntéza faktorů a látek nutných na replikaci DNA
+	- S (39%)
+		- syntetická fáze
+		- probíhá [[Replikace DNA, PCR|replikace DNA]]
+	- G2 (19%)
+		- "gap 2"
+		- preparace na mitózu

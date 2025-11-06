@@ -71,4 +71,24 @@
 	- některé druhy haplodiploidní určení pohlaví - nerozhoduje přítomnost heterochromosomu, ale celkové párování chromosomů
 		- samci haploidní
 		- samice diploidní
-	- vyjma vad exprese apod.
+	- **lyonizace**
+		- inaktivace chromosomu X
+		- objevena u myší 1961 Mary Frances Lyonovou, později popsána u dalších druhů vč. člověka
+		- umožňuje kompenzaci tzv. *genové dávky* u žen, které X mají 2 kopie
+			- bez tohoto procesu by buď muži nebo ženy měli chromozomální vady z důvodu přílišné♀ resp. nedostatečné♂ exprese genů vázaných na X
+		- probíhá na základě methylace histonů a DNA (a dalších procesů)
+			- TODO: zjistit, doplnit
+		- zahuštěný chromatin deaktivovaného chromosomu X vytváří tzv. **Barrovo tělísko**, viditelné i pod světelným mikroskopem
+			- také zvané sex-chromatin
+			- objeveno kanadským lékařem a cytologem Murray L. Barrem výzkumem kočičích neuronů, který jej nazval "nukleolární satelit"
+		- deaktivace konkrétní kopie chromosomu X (otcovské či mateřské) většinou *náhodná*
+			- v ženském těle proto genetický mosaicismus
+				- viditelné u koček (např. calico cats, tortoiseshell cats)
+		- od konce 60. let 20. stol. Olympijský výbor praktikuje "gender verification test" založený na identifikaci Barrova tělíska
+			- Maria Patino
+				- diskvalifikována z Olympických her 1986
+				- chromozomálně XY, ale měla syndrom androgenní necitlivosti, tudíž se mužské znaky neprojevily
+				- její diskvalifikace a následně její boj proti diskriminaci vedl k upuštění od těchto testů 
+	- vyjma vad exprese apod. (intersex)
+		- Zdeněk Koubek
+		- Renee Richards
