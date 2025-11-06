@@ -1,7 +1,7 @@
 - funkce $F$ je **primitivní funkcí** k funkci $f$ na intervalu $I$ pokud platí $\forall x \in I: F'(x) = f(x)$
 	- obsahuje-li $I$ některý z krajních bodů, rozumíme pod $F'(x)$ příslušnou jednostrannou derivaci
 	- $F$ je spojitá na $I$ $\because \forall x \in I: \exists F'(x)$
-- věta 7.1:
+- **věta 7.1**:
 	- A) $F$ primitivní funkce k $f$ na $I$ $\implies$ $\forall c \in \R: F + c$ také primitivní funkce k $f$ na $I$
 		- důsledek: primitivní funkce buď neexistuje, nebo existuje nekonečně mnoho
 	- B) $F$ a $G$ primitivní f.ce k $f$ na $I$ $\implies$ $\exists c \in \R: G = F + c$
@@ -14,7 +14,7 @@
 	- není spojitá nad $\R$, ale má primitivní funkci!
 		- spojitost tedy není nutná
 	- $F(x) = \cases{x^2 \cos\frac{1}{x} & x \ne 0 \\ 0 & x=0}$
-- věta 7.2: je-li $f$ spojitá na $I$, pak existuje $F$ primitivní k $f$ na $I$
+- **věta 7.2**: je-li $f$ spojitá na $I$, pak existuje $F$ primitivní k $f$ na $I$
 	- pro primitivní funkce k funkcím $e^{-x^2}$, $\sin x^2$, $\cos x^2$, $\frac{e^x}{x}$, $\frac{\sin x}{x}$, $\frac{\cos x}{x}$, $\frac{1}{\ln x}, \cdots$ **neexistuje** konečné vyjádření elementárními funkcemi
 		- tzn. integrování daleko záludnější než derivování
 - TODO: doplnit tabulkové integrály elementárních a goniometrických funkcí (hyperbolické funkce nepovinné)
@@ -25,3 +25,4 @@
 		- $\int{\alpha \cdot f(x) \dx} = \alpha \cdot \int{f(x) \dx}$
 	- **věta 7.4**: integrace per partes
 		- $\int{u \cdot v'\dx} = u \cdot v - \int{u' \cdot v \dx}$
+		- cokoli lze na součin převést, vždy lze položit $u = 1$
