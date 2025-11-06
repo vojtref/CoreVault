@@ -82,7 +82,7 @@ def get_register(add, reg, length=1):
 	return i2c.readfrom(add, length)
 
 buffer = CircularBuffer(20)
-debounce = CircularBuffer(5) # Debouncing bufferer aby ledka prilis neblikala ze sumu
+debounce = CircularBuffer(5) # Debouncing bufferer aby LEDka prilis neblikala
 while True:
 	FIFO_WR_POINTER = int.from_bytes(get_register(pulseox, 0x04))
 	FIFO_RD_POINTER = int.from_bytes(get_register(pulseox, 0x06))
@@ -114,7 +114,7 @@ while True:
 		else:
 			debounce.insert(0)
 
-		if debounce.sum >= debounce.size / 2: # Pokud debounce buffer prevazne plny, zapneme LED (trochu se tim vyvazi blikani z sumu)
+		if debounce.sum >= debounce.size / 2: # Pokud debounce buffer prevazne plny jednicek, zapneme LED (trochu se tim vyvazi blikani z sumu)
 			led.on()
 		else:
 			led.off()
