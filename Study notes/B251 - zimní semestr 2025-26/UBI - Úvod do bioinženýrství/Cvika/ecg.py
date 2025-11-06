@@ -22,4 +22,4 @@ def read_and_print(t):
 	reading = ecg_adc.read_u16()
 	print(u16_to_bar(reading, res=256))
 
-timer = Timer(mode=Timer.PERIODIC, freq=50, callback=read_and_print)
+timer = Timer(mode=Timer.PERIODIC, freq=500, callback=read_and_print)

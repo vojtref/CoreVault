@@ -50,3 +50,52 @@
 			- ani bezchybné čtení nedovoluje kompletní rekonstrukci, statisticky budou vždy mezery
 - Sangerovo sekvenování
 	- 1977, používáno ještě pro HGP do roku 2004, dnes však zastaralé
+	- TODO: doplnit
+	- poslední krok: elektroforéza
+	- elektroforéza snižuje citlivost na téměř nulovou při délce sekvenovaného úseku >800 bp
+- second generation sequencing
+	- tzv. massive parallel sequencing
+	- čte fragmenty o délce ~100 bp
+	- přes adaptory napojení na sklíčko (flow cell), druhý konec na primer na sklíčku
+	- PCR prodloužení fragmentů na amplifikaci
+	- opakováním se tvoří clustery amplifikovaných fragmentů
+	- skrz flow cell se postupně propouští polymeráza a nukleosidtrifosfáty
+- moderní sekvenování
+	- nanopore sequencing
+		- elektrochemické vlastnosti nanoporového proteinu se mění v závislosti na bazického páru, který jim právě prochází, slouží jako signál
+		- signál silně zašuměný
+- srovnání přístupů (metoda: délka fragmentu, chybovost, cena za Mbp, rychlost v bp/den)
+	- Sangerovo sekv.: 500-800 bp, 1%, $2400, cca 1 Mbp/den
+	- massive parallel sequencing: 250-600 bp, 1%, $10, cca 1Gbp/den
+	- Oxford nanopore:
+	- TODO: doplnit z prez
+
+|Metoda|Délka fragmentu|Chybovost|cena / Mbp|rychlost čtení|
+|:-----|--------------:|--------:|---------:|-------------:|
+|Sanger|     500-800 bp|       1%|     $2400|     1 Mbp/den|
+|2nd gen.|   250-600 bp|       1%|       $10|     1 Gbp/den|
+|nanopore| 
+
+- sestavování sekvencí
+	- TODO: doplnit naivní hladový algoritmus
+- analýza sekvencí
+	- srovnání s jinými (ideálně známými) sekvencemi
+		- z podobnosti usuzujeme na funkční příbuznosti
+		- BLAST jeden z nejčastějších algoritmů
+	- anotace sekvencí, identifikace klíčových sekvencí
+	- pochopení evoluce a genetické diverzity organismů
+		- fylogenetické stromy, genetická taxonomie
+###### Proteinové inženýrství
+- návrh, modifikace a syntéza proteinů s konkrétními vlastnostmi
+	- např. různá farmaka, syntetické enzymy...
+- řízená evoluce jedna z hlavních strategií, napodobuje evoluci přirozenou
+	- vezme se původní gen, vytvoří se vhodné mutace
+	- screening zda mutované proteiny mají žádoucí vlastnosti, výběr těch nejvhodnějších a vyřazení nežádoucích
+		- screening náročný
+	- opakování až do získání dostatečného proteinu
+	- Frances Arnoldová, Nobelova cena za chemii 2018
+	- TODO: doplnit
+- strojové učení v řízené evoluci
+	- TODO: doplnit
+	- Bayesovská optimalizace
+	- Gaussovské procesy
