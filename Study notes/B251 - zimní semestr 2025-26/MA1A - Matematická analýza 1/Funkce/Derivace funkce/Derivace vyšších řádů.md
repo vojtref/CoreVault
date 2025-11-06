@@ -5,7 +5,7 @@
 	-  $n=4 \Rightarrow f^{\mathrm{IV}}$
 	- $\vdots$
 - definujeme indukci pro $n \in \N_+$
-	- $f^{(n)} = \begin{cases} f' & n = 1 \\ (f^{(n - 1)})' & n>1\end{cases}$
+	- $f^{(n)} = \cases{f' & n = 1 \\ (f^{(n - 1)})' & n>1}$
 - věta 4.6: Leibnizův vzorec
 	- $x_0 \in \R,\exists f^{(n)}(x_0), g^{(n)}(x_0)$
 	- $\Downarrow$

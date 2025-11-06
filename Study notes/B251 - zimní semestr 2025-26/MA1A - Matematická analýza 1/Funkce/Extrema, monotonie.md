@@ -36,8 +36,8 @@
 - př. 6.1:
 	- $f(x) = (x + 2|x|) - x^3$
 	- pro abs. hodnotu pouze derivace zleva a zprava
-	- $f(x) = \begin{cases}(x + 2x) - x^3 = {\color{Goldenrod}3x - x^3} & x \ge 0 \\ (x - 2x) - x^3 = {\color{cyan}-x - x^3} & x \le 0 \end{cases}$
-	- $f'(x) = \begin{cases}3 - 3x^2 = 3(1 - x^2) & x > 0 \\ -1 - 3x^2 & x < 0 \end{cases}$
+	- $f(x) = \cases{(x + 2x) - x^3 = {\color{Goldenrod}3x - x^3} & x \ge 0 \\ (x - 2x) - x^3 = {\color{cyan}-x - x^3} & x \le 0}$
+	- $f'(x) = \cases{3 - 3x^2 = 3(1 - x^2) & x > 0 \\ -1 - 3x^2 & x < 0}$
 	- TODO: doplnit
 - hledání globálních extrem
 	- A) na intervalu $I = \intvlcc{a}{b}$
@@ -79,6 +79,7 @@
 			- $\lim_{x \to x_0^-}f(x) = \pm \infty$ - zleva
 		- rovnice asymptoty: $x = x_0$
 	- $f$ má v bodě $x_0 = \pm \infty$ asymptotu $y = kx + q\quad (k,q \in \R)$  jestliže $\lim_{x \to x_0}\Big(f(x) - (kx + q)\Big) = 0$
-		- $\begin{rcases}k = 0 & \text{vodorovná}\\ k \ne 0 & \text{šikmá}\end{rcases}\;\text{asymptota}$
+		- $\rcases{k = 0 & \text{vodorovná}\\ k \ne 0 & \text{šikmá}}\;\text{asymptota}$
 		- v nekonečnech se $f$ přímce asymptoty přibližuje, ale nikdy jí nedosáhne
 - věta 6.5: směrnice asymptoty
+	- TODO: dopsat

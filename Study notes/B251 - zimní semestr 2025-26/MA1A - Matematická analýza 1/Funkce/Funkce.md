@@ -9,7 +9,7 @@
 	- $D(g) = A_1 \subset A_2 = D(f),\ f(x) = g(x)\ \forall x \in D(g)$
 		- $g$ - zůžení funkce $f$
 		- $f$ - rozšíření funkce $g$
-- $\sgn x = \begin{cases}-1 & x<0 \\ 0 & x=0 \\ 1 & x>0\end{cases}$
+- $\sgn x = \cases{-1 & x<0 \\ 0 & x=0 \\ 1 & x>0}$
 	- signum (znaménko)
 
 - operace s funkcemi

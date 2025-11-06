@@ -97,7 +97,7 @@
 	- poté $f_+'(x_0) = a$
 	- analog. pro $f_-'(x_0)$
 	- př. 4.8: neexistuje $\lim_{x \to x_0}f'(x)$, ale existuje $f'(x_0)$ - tvrzení nelze obrátit
-		- $f(x) = \begin{cases}x^2 \cdot \cos \frac{1}{x} & x \ne 0 \\ 0 & x = 0\end{cases}$
+		- $f(x) = \cases{x^2 \cdot \cos \frac{1}{x} & x \ne 0 \\ 0 & x = 0}$
 			- $f(0)$ dopočítáno skrz limitu $\langle\!\langle0 \cdot \text{omezená}\rangle\!\rangle$, proto spojitá na $\R$
 		- TODO: doplnit z foto
 			- omezuje parabola z $x^2$ která má vrchol v $[0,0]$, ale $\cos \frac{1}{x}$ je prudce "rozkmitaný" poblíž nuly, tudíž nelze určit limitu derivace
