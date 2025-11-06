@@ -6,4 +6,5 @@
 	- $T_n$ - Taylorův polynom řádu $n$ (neboli stupně $\le n$) funkce $f$ v bodě $x_0$
 - Maclaurinova řada - zvláštní případ pro $x_0 = 0$
 - $T_n = ? \qquad g(x) = e^{-x} \sin(x) - 5 \qquad n=3 \qquad x_0 = \frac{\pi}{2}$
-	- TODO: dodělat, postupně spočítat derivace, evaluovat v $x_0$ a sečíst
+	- TODO: dodělat; postupně spočítat derivace, evaluovat v $x_0$ a sečíst
+- 

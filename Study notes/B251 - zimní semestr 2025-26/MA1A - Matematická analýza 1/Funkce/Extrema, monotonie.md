@@ -61,10 +61,24 @@
 	- spojnici lze zapsat i pomocí derivace
 		- $\forall x_0, x \in I, x \ne x_0$
 		- $f(x) \ge f(x_0) + f'(x_0)(x - x_0) \implies \text{konvexní}$
+			- analog. pro (ryze) konkávní a ryze konvexní
 			- TODO: graf
 - $[x_0, f(x_0)]$ je **inflexní bod** $f$ (neboli $f$ má v $x_0$ **inflexi**) pokud platí:
 	- $f$ spojitá v $x_0$
 	- $\exists f'(x_0)$
 	- $\exists \delta > 0: f$ ryze konvexní na $P_\delta^-(x_0)$ a ryze konkávní na $P_\delta^+(x_0)$, nebo naopak
 		- TODO: grafy
+		- bod mezi konvexním a konkávním intervalem funkce
 	- inflexní tečna je tečna v inflexi (lol)
+- věta 6.4:
+	- TODO: doplnit
+- **asymptoty** grafu funkce
+	- $f$ má v bodě $x_0 \in \R$ **svislou asymptotu** pokud existuje alespoň jedna jednostranná nevlastní limita v $x_0$
+		- tzn. platí alespoň jedno:
+			- $\lim_{x \to x_0^+}f(x) = \pm \infty$ - zprava
+			- $\lim_{x \to x_0^-}f(x) = \pm \infty$ - zleva
+		- rovnice asymptoty: $x = x_0$
+	- $f$ má v bodě $x_0 = \pm \infty$ asymptotu $y = kx + q\quad (k,q \in \R)$  jestliže $\lim_{x \to x_0}\Big(f(x) - (kx + q)\Big) = 0$
+		- $\begin{rcases}k = 0 & \text{vodorovná}\\ k \ne 0 & \text{šikmá}\end{rcases}\;\text{asymptota}$
+		- v nekonečnech se $f$ přímce asymptoty přibližuje, ale nikdy jí nedosáhne
+- věta 6.5: směrnice asymptoty
