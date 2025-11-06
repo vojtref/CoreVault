@@ -1,5 +1,5 @@
 - genetická disciplína zabývající se chromosomy, jejich stavbou, funkcí, aberacemi, variantami eukaryotických chromosomů
-	- ne buňkami!!!
+	- ne buňkami!!
 	- blbý název oboru, měl by se spíš jmenovat "chromosomogenetika," ale cytogenetika již zažitá
 	- klinická cytogenetika
 		- studuje chromosomální aberace s patologickými projevy
@@ -68,7 +68,7 @@
 		- respektivní homogametní pohlaví dvě kopie
 			- ♀ XX, ♂ ZZ
 		- např. někteří kaloňovití, mnohé druhy hmyzu (rybenky, vážky...), většina pavoukovců (krom roztočů), aj.
-	- některé druhy haplodiploidní určení pohlaví - nerozhodují 
+	- některé druhy haplodiploidní určení pohlaví - nerozhoduje přítomnost heterochromosomu, ale celkové párování chromosomů
 		- samci haploidní
 		- samice diploidní
 	- vyjma vad exprese apod.
