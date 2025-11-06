@@ -71,7 +71,7 @@ REGISTER_LED2_PA = 0x0d
 i2c.writeto_mem(pulseox, REGISTER_FIFO_CONFIG, bytearray([0b11100000])) # Datasheet str. 17, zvoleny 32x downsampling
 i2c.writeto_mem(pulseox, REGISTER_MODE_CONFIG, bytearray([0b00000010])) # Datasheet str. 18, heartbeat mode
 i2c.writeto_mem(pulseox, REGISTER_SPO2_CONFIG, bytearray([0b00011000])) # Datasheet str. 18, zvolen raw sample rate 1.6 kS/s (downsampling na 50 S/s)
-i2c.writeto_mem(pulseox, REGISTER_LED1_PA, bytearray([0x10])) # Nastavime LED amplitudu (hodnota urcena experimentalne, prilis nizka je zasumena, prilis vysoka peakuje fotosenzor)
+i2c.writeto_mem(pulseox, REGISTER_LED1_PA, bytearray([0x07])) # Nastavime LED amplitudu (hodnota urcena experimentalne, prilis nizka je zasumena, prilis vysoka peakuje fotosenzor)
 i2c.writeto_mem(pulseox, REGISTER_LED2_PA, bytearray([0x00])) # IR LED nechame vyplou
 
 def set_register(add, reg, val):
