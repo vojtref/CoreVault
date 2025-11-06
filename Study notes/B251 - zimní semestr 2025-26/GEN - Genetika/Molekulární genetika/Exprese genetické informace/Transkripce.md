@@ -15,7 +15,7 @@
 		- hnRNA může být rovnou využito (tzv. funkční RNA, např. tRNA), nebo dále modifikováno
 	- post-transkripční modifikace
 		- tzv. splicing (= sestřih), "vystříhání" intronů z pre-mRNA
-			- označeny určitými sekvencemi nukleotidů
+			- introny označeny určitými sekvencemi nukleotidů
 			- odstraněny pomocí snRNP
 				- small nuclear ribonucleoprotein
 				- ribonukleoproteiny obsahující snRNA (small nuclear RNA)

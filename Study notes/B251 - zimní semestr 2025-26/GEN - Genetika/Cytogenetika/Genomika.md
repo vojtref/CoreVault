@@ -51,7 +51,7 @@
 				- kódující!
 		- rozptýlené sekvence (angl. interspersed repeats)
 			- **transpozony**
-				- objevitelka Barbara McClintock ve 40. a 50. letech
+				- objevitelka Barbara McClintock ve 40. a 50. letech 20. stol.
 				- tzv. transpozabilní elementy neboli "jumping genes"
 				- sekvence které *mění pozici v genomu*
 				- celkem asi 44% lidského genomu?????

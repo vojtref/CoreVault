@@ -9,31 +9,35 @@ class CircularBuffer:
 		self.pointer = 0
 
 		self.sum = 0
+		self.sum2 = 0
 
 		self.mean = 0
+		self.median = 0
 		self.sigma = 0
 
-	def insert(self, n):
-		self.sum -= self.data[self.pointer]
-		self.sum += n
+	def insert(self, new):
+		old = self.data[self.pointer]
 
-		self.mean = self.sum / self.size
-
-		self.data[self.pointer] = n
+		self.data[self.pointer] = new
 		self.pointer = (self.pointer + 1) % self.size
 
-	def median(self):
+		self.sum += new - old # Suma se meni o rozdil
+		self.sum2 += (new * new) - (old * old)
+		self.mean = self.sum / self.size
+
 		sorteddata = sorted(self.data)
 		if self.size % 2 == 0:
-			return (sorteddata[self.size // 2] + sorteddata[self.size // 2 + 1]) / 2
+			self.median = (sorteddata[self.size // 2] + sorteddata[self.size // 2 + 1]) / 2
 		else:
-			return sorteddata[self.size // 2]
+			self.median = sorteddata[self.size // 2]
+		
+		del old, sorteddata
 
 	# Prumerna absolutni odchylka
 	def aad(self):
 		tmp = 0
 		for x in self.data:
-			tmp += abs(x - self.median())
+			tmp += abs(x - self.median)
 		tmp /= self.size
 		return tmp
 
@@ -71,7 +75,7 @@ REGISTER_LED2_PA = 0x0d
 i2c.writeto_mem(pulseox, REGISTER_FIFO_CONFIG, bytearray([0b11100000])) # Datasheet str. 17, zvoleny 32x downsampling
 i2c.writeto_mem(pulseox, REGISTER_MODE_CONFIG, bytearray([0b00000010])) # Datasheet str. 18, heartbeat mode
 i2c.writeto_mem(pulseox, REGISTER_SPO2_CONFIG, bytearray([0b00011000])) # Datasheet str. 18, zvolen raw sample rate 1.6 kS/s (downsampling na 50 S/s)
-i2c.writeto_mem(pulseox, REGISTER_LED1_PA, bytearray([0x07])) # Nastavime LED amplitudu (hodnota urcena experimentalne, prilis nizka je zasumena, prilis vysoka peakuje fotosenzor)
+i2c.writeto_mem(pulseox, REGISTER_LED1_PA, bytearray([0x1f])) # Nastavime LED amplitudu (hodnota urcena experimentalne, prilis nizka je zasumena, prilis vysoka peakuje fotosenzor)
 i2c.writeto_mem(pulseox, REGISTER_LED2_PA, bytearray([0x00])) # IR LED nechame vyplou
 
 def set_register(add, reg, val):
@@ -99,7 +103,7 @@ while True:
 		buffer.insert(sample_value)
 
 		deviation = buffer.aad()
-		median = buffer.median()
+		median = buffer.median
 
 		# Automaticke vycentrovani a zuzeni grafu
 		print(num_to_bar(sample_value,
