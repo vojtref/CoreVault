@@ -43,7 +43,7 @@
 - věta 4.2: aritmetika vlastních derivací $f'(x_0), g'(x_0) \in \R$
 	- $(f \pm g)' = f'(x_0) \pm g'(x_0)$
 		- $(\sum_i^n f_i)' = \sum_i^n f'_i$
-	- $(f \cdot g)' = f'(x_0)g(x_0) + f(x_0)g'(x_0)$
+	- $(fg)' = f'(x_0)g(x_0) + f(x_0)g'(x_0)$
 		- $\forall c \in \R:(cf)'(x_0)=cf'(x_0)$
 		- TODO: dopsat důkaz 4.2 z foto
 		- $(f_1 \cdot f_2 \cdots f_n)$

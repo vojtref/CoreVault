@@ -1,0 +1,19 @@
+- linearita derivací
+	- $(f \pm g)'(x) = f'(x) \pm g'(x)$
+		- neboli $(\sum_{i \in I}{f_i})' = \sum_{i \in I}{f_i'}$
+	- $(fg)' = f'(x)g(x) + f(x)g'(x)$
+		- $c \in \R: (cf)'(x) = cf'(x)$
+- $$\left(\frac{f}{g}\right)'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{g^2(x)}$$
+	- často snazší převést na součin a pak dle předchozího
+- $c \in \R:(x^c)' = cx^{c-1}$
+- $(\ln x)' = \frac{1}{x}$
+- goniometrické funkce
+	- $\array[|c|c|]{\hline f & f' \\ \hline \sin x & \cos x \\ \cos x & -\sin x \\ \tan x & \frac{1}{\cos^2 x} \\ \cot x & -\frac{1}{\sin^2 x} \\ \hline}$
+- cyklometrické funkce
+	- $\array[|c|c|]{\hline f & f' \\ \hline \arcsin x & \frac{1}{\sqrt{1 - x^2}} \\ \arccos x & -\frac{1}{\sqrt{1 - x^2}} \\ \arctan x & \frac{1}{1 + x^2} \\ \mathop{\mathrm{arccot}} x & -\frac{1}{1 + x^2} \\ \hline}$
+- $c>0: (c^x)' = c^x \cdot \ln c$
+- $(g \circ f)' = (g(f(x)))' = g'(f(x)) \cdot f'(x)$
+	- $(h \circ g \circ f)'(x) = h'(g(f(x))) \cdot g'(f(x)) \cdot f'(x)$
+	- "loupání cibule"
+	- "svlékání holky (nebo kluka)"
+- $(f(x)^{g(x)})' = (e^{g(x) \ln f(x)})' = f(x)^{g(x)}\left(g'(x) \ln f(x) + g(x)\frac{f'(x)}{f(x)}\right)$
