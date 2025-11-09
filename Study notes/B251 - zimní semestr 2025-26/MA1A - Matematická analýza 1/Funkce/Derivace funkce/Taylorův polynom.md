@@ -2,9 +2,10 @@
 - hledáme polynom $$T_n(x)= a_0 + a_1(x - x_0) + a_2(x - x_0)^2 + \cdots + a_n(x - x_0)^n$$ takový, aby $$T_n^{(k)}(x_0) = f^{(k)}(x_0)\qquad k\in\{0, \ldots, n\}$$
 - z postupné derivace polynomu vyplývá $$T_n^{(k)}(x_0)=k! \cdot a_k \quad \implies \quad a_k = \frac{f^{(k)}(x_0)}{k!}$$
 - odtud tzv. Taylorova řada $$T_n = \sum_{k=0}^{n}{\frac{f^{(k)}(x_0)}{k!}(x - x_0)^k}$$
-	- pozor, v sumě $x_{\color{#7fffff}0}$
+	- pozor, v sumě $x_{\color{Red}0}$, studenti často chybně dávají $x$
 	- $T_n$ - Taylorův polynom řádu $n$ (neboli stupně $\le n$) funkce $f$ v bodě $x_0$
+	- nejlepší možná (lokální) aproximace dané funkce poblíž bodu $x_0$ pomocí polynomů, de facto základ numeriky
+		- Pepa Dvořák: "Hodně věcí v numerice je prostě ožužlávání Taylora"
 - Maclaurinova řada - zvláštní případ pro $x_0 = 0$
 - $T_n = ? \qquad g(x) = e^{-x} \sin(x) - 5 \qquad n=3 \qquad x_0 = \frac{\pi}{2}$
-	- TODO: dodělat; postupně spočítat derivace, evaluovat v $x_0$ a sečíst
-- 
+	- TODO: dodělat; postupně spočítat derivace, vyhodnotit v $x_0$ a sečíst

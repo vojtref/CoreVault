@@ -1,25 +1,25 @@
 - linearita derivací
 	- $(f \pm g)'(x) = f'(x) \pm g'(x)$
-		- neboli $\left(\sum_{i \in I}{f_i}\right)' = \sum_{i \in I}{f_i'}$
 	- $(fg)' = f'(x)g(x) + f(x)g'(x)$
 		- $c \in \R: (cf)'(x) = cf'(x)$
+	- neboli $\left(\sum_{i \in I}{c_i f_i}\right)'(x) = \sum_{i \in I}{c_i f_i'(x)}$, Velebilův princip superpozice
 - $\left(\frac{f}{g}\right)'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{g^2(x)}$
 	- často snazší převést na součin a pak dle předchozího
 - $c \in \R:(x^c)' = cx^{c-1}$
 - $(\ln x)' = \frac{1}{x}$
 - goniometrické funkce
 	- $\array[|c|c|]{\hline f & f' \\ \hline \sin x & \cos x \\ \cos x & -\sin x \\ \tan x & \frac{1}{\cos^2 x} \\ \cot x & -\frac{1}{\sin^2 x} \\ \hline}$
-	- derivace $\sin$ a $\cos$ "cyklické," $(\sin x)^{\mathrm{IV}} = \sin x$ a $(\cos x)^{\mathrm{IV}} = \cos x$, tzn. L'Hôpital často nepomáhá když jsou v limitě a je ještě třeba nějaká algebraická úprava
+	- derivace $\sin$ a $\cos$ "cyklické," $(\sin x)^{\mathrm{IV}} = \sin x$ a $(\cos x)^{\mathrm{IV}} = \cos x$, tzn. L'Hôpital často s limitou nepomáhá a může být potřeba ještě nějaká algebraická úprava
 - cyklometrické funkce
-	- $\array[|c|c|]{\hline f & f' \\ \hline \arcsin x & \frac{1}{\sqrt{1 - x^2}} \\ \arccos x & -\frac{1}{\sqrt{1 - x^2}} \\ {\color{Cyan}\arctan x} & {\color{Cyan}\frac{1}{1 + x^2}} \\ \mathop{\mathrm{arccot}} x & -\frac{1}{1 + x^2} \\ \hline}$
-	- $\arctan$ dost častý, Pepa Dvořák ho má rád
+	- $\array[|c|c|]{\hline f & f' \\ \hline \arcsin x & \frac{1}{\sqrt{1 - x^2}} \\ \arccos x & -\frac{1}{\sqrt{1 - x^2}} \\ {\color{OliveGreen} \arctan x} & {\color{OliveGreen} \frac{1}{1 + x^2}} \\ \arccot x & -\frac{1}{1 + x^2} \\ \hline}$
+	- $\arctan$ dost častý, Pepa Dvořák ho má rád a dává ho kde může
 - $(g \circ f)' = (g(f(x)))' = g'(f(x)) \cdot f'(x)$
 	- $(h \circ g \circ f)'(x) = h'(g(f(x))) \cdot g'(f(x)) \cdot f'(x)$
-		- analogicky pro $\left(\compose[i \in I] f_i\right)'$, ale víc než 3 funkce se spíš neobjeví $\Sigma$
-	- "loupání cibule," derivujeme vnější slupky
+		- analogicky pro libovolné složení $\left(\compose_{i \in I} f_i\right)'$, ale víc než 3 funkce se spíš neobjeví
+	- "loupání cibule," pokaždé derivujeme vnější slupku
 	- "svlékání holky (nebo kluka)"
 		- "s každou sundanou vrstvou se vzrušení násobí"
-- $\displaystyle(f(x)^{g(x)})' = (e^{g(x) \ln f(x)})' = f(x)^{g(x)}\left(g'(x) \ln f(x) + g(x)\frac{f'(x)}{f(x)}\right)$
+- $(f(x)^{g(x)})' = (e^{g(x) \ln f(x)})' = f(x)^{g(x)}\left(g'(x) \ln f(x) + g(x)\frac{f'(x)}{f(x)}\right)$
+	- pozor, $\color{Red}f(x) > 0$, ověřit $H(f)$ a kdyžtak omezit interval na kterém derivace platí
 	- $(c \in \R)>0: (c^x)' = c^x \cdot \ln c$
-	- $(x^x)' = x^x(\ln x + 1)$ 
-- $\circ\limits_{s}\sigma$
+	- $(x^x)' = x^x(\ln x + 1)$

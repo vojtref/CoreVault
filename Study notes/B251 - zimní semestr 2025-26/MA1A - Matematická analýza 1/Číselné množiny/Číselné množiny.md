@@ -1,14 +1,14 @@
 - $\N$ - přirozená čísla
 	- $\N_+ = \{1,2,3,\ldots\}$
-	- $\N_0 = \N_+ \cup \{0\} = \{0,1,2,3,\ldots\}$
-	- definice př. č. záleží na autorovi, v MA $\N = \N_+$
+	- $\N_0 = \{0,1,2,3,\ldots\} = \N_+ \cup \{0\}$
+	- definice záleží na autorovi, v matematické analýze $\N = \N_+$
+		- Pepa Dvořák: "Záleží na autorovi a na čase, když učím analýzu tak $\N_+$, o hodinu a půl později učím lineárku a tam je to $\N_0$"
 - $\Z$ - celá čísla
 	- $\Z = \{\ldots,-2,-1,0,1,2,\ldots\}$
 - $\Q$ - racionální čísla
 	- $\Q = \{\frac{p}{q}:p,q \in \Z, q \ne 0\}$
 - $\R$ - [[ℝ|reálná čísla]]
 	- $\R \setminus \Q$ - iracionální čísla
-- 
 - intervaly
 	- $a,b \in \R$
 	- $\intvloo{a}{b} = \{x \in \R:a \lt x \lt b\}$
