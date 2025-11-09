@@ -7,7 +7,7 @@
 		- $\exists \mathbf{A}: \F^s \xrightarrow{\mathbf{A}} \F^r$
 			- $\mathbf{A}$ je $\mathbf{f}$ vzhledem k bázím $B$ a $C$, tedy $\mathbf{A} = [\mathbf{f}]_B^C$
 		- $i$-tý sloupec hledané matice $\mathbf{A}$ = $\coord_C(\mathbf{f}(\vec{b}_i))$
-			- $\mathbf{A} = \left(\coord_C\left(\mathbf{f}(\vec{b}_1)\right),\cdots,\coord_C\left(\mathbf{f}(\vec{b}_s)\right)\right)$
+			- ve sloupcovém zápisu: $[\mathbf{f}]_B^C = \left(\coord_C\left(\mathbf{f}(\vec{b}_1)\right),\cdots,\coord_C\left(\mathbf{f}(\vec{b}_s)\right)\right)$
 	- výpočet matice složeného zobrazení vzhledem k bázím $B,C,D$: $[\mathbf{g \cdot f}]_B^D = [\mathbf{g}]_C^D \cdot [\mathbf{f}]_B^C$
 		- podoba $C$ nepodstatná, ale musí být mezi jednotlivými zobrazeními společná
 			- často nejpraktičtější $K_n$
