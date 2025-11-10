@@ -32,4 +32,44 @@
 	- $\mathbf{f}(\vec{x}) - \lambda\id_\L\vec{x} = \vec{o}$
 	- $(\mathbf{f} - \lambda\id_\L)(\vec{x}) = \vec{o}$
 	- $\vec{x} \in \ker(\mathbf{f} - \lambda\id_\L)$
-		- $\ker(\mathbf{f} - \lambda\id_\L) = \eigen{\lambda}{\mathbf{f}}$
+		- $\ker(\mathbf{f} - \lambda\id_\L) = \eigen(\lambda,\mathbf{f})$ - **vlastní podprostor** (angl. *eigenspace*)
+			- "lingvistický guláš"
+- ať $\mathbf{A}$ je matice $n \times n$
+- $\char_\mathbf{A}(x)= \det(\mathbf{A} - x\mathbf{E}_n)$
+	- **charakteristický polynom** matice $\mathbf{A}$
+	- $\char_\mathbf{A}(x) \in \F^{=n}[x]$
+		- nejen nejvýše stupně $n$, ale přesně $n$
+	- $\mathbf{A} \approx \mathbf{B} \implies \char_\mathbf{A}(x) = \char_\mathbf{B}(x)$
+		- $\char_\mathbf{B}(x) = \det(\mathbf{B} - x\mathbf{E}_n)$
+		- $=\det(T^{-1}\mathbf{A}T-x\mathbf{E}_n)$
+		- $=\det(T^{-1}\mathbf{A}T - T^{-1}(x\mathbf{E}_n)T)$
+		- $=\det(T^{-1}(\mathbf{A} - x\mathbf{E}_n)T)$
+			- determinant součinu = součin determinantů
+		- $=\det(T^{-1})\det(\mathbf{A} - x\mathbf{E}_n)\det(T)$
+			- $\det(T^{-1})\det(T) = 1$
+		- $=\det(\mathbf{A} - x\mathbf{E}_n)$
+		- $=\char_\mathbf{A}(x)$
+		- $\qed$
+- příklad (stejné vlastní hodnoty, různé vlastní prostory)
+	- $\mathbf{A} = \pmatrix{5 & -2 & 2 \\ -1 & 4 & -1 \\ -4 & 4 & -1}$
+	- $\char_\mathbf{A}(x) = -(x-3)^2(x-2)$
+		- vlastní hodnoty v kořenech, tedy $\lambda=3$ a $\lambda=2$
+	- $\eigen(3, \mathbf{A}) = \span(\pmatrix{1 \\ 1 \\ 0}, \pmatrix{1 \\ 0 \\ 1})$
+		- $\dim \eigen(3, \mathbf{A}) = 2$ - násobnost kořene $x=3$
+	- $\eigen(2, \mathbf{A}) = \span\pmatrix{-2 \\ 1 \\ 4}$
+		- $\dim \eigen(2, \mathbf{A}) = 1$ - násobnost kořene $x=2$
+	- TODO: doplnit z foto
+		- "lineární kombinace broučků"
+	- $\mathbf{B} = \pmatrix{2 & 4 & -3 \\ -1 & 10 & -6 \\ -1 & 8 & -4}$
+	- $\char_\mathbf{B}(x)= -(x-3)^2(x-2)$
+		- pozor, předchozí implikace byla obrácená, rovnost charakteristických polynomů nic neříká o podobnosti matic!
+	- $\eigen(3, \mathbf{B}) = \span\pmatrix{1 \\ 1 \\ 1}$
+		- $\dim = 1 \ne 2$ (woah), tedy nerovno násobnosti kořene $x=3$ char. polynomu
+	- $\eigen(2, \mathbf{B}) = \span\pmatrix{0 \\ 3 \\ 4}$
+		- $\dim = 1$, rovno násobnosti kořene $x=2$ char. polynomu
+- věta o diagonalizaci
+	- máme matici $\mathbf{M}$, hledáme $\pmatrix{\lambda_1 & 0 & \cdots & 0 \\ 0 & \lambda_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n}$
+	- spočteme $\char_\mathbf{M}(x)$, tedy diagonální matici k $\mathbf{M}$
+	- najdeme kořeny, tedy vlastní hodnoty $\lambda_i$
+		- nemusí být, v takovém případě to skončí brzo
+	- matici lze diagonalizovat právě tehdy, kdy dimenze každéhp vlastního podprostoru $\dim\eigen(\lambda_i, \mathbf{M})$ je rovna násobnosti $\lambda_i$ jakožto kořenu charakteristického polynomu $\char_\mathbf{M}(x)$
