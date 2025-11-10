@@ -1,0 +1,35 @@
+- příklad na úvod
+	- nad $\R$ matice $\mathbf{A}= \pmatrix{0.3 & 0.7 \\ 0.8 & 0.2}$
+	- hledáme $\vec{q}$ takové, aby $\mathbf{A}\vec{q} = \vec{q}$
+	- jeden příklad patrný vzhledem k tomu, že oba řádkové součty rovny $1$ $\therefore$ hádáme a uhádneme $\vec{q} = \pmatrix{1 \\ 1}$
+	- obecněji: hledáme $\vec{v} \ne \vec{o}$ tak, že $\mathbf{A} \vec{v} = \lambda \vec{v}$
+		- $\mathbf{A} \vec{v} - \lambda \mathbf{E}_2 \vec{v} = \vec{o}$
+		- $(\mathbf{A} - \lambda \mathbf{E}_2)\vec{v} = \vec{v}$
+		- $\therefore$
+		- $(\mathbf{A} - \lambda \mathbf{E}_2)$ musí být singulární matice, tzn. $\det(\mathbf{A} - \lambda \mathbf{E}_2) = 0$
+			- odečítáme $\lambda$ od hlavní diagonály $\mathbf{A}$
+			- TODO: rozepsat výpočet
+			- $= \lambda^2 - 0.5\lambda - 0.5\lambda = 0$
+			- $= (\lambda - 1)(\lambda + 0.5) = 0$
+			- $\therefore \lambda = 1 \quad\lor\quad \lambda = -0.5$
+			- $\lambda=1$
+				- $\amatrix{-0.7 & 0.7 \\ 0.8 & 0.8}{0 \\ 0}$
+				- řeš. $\span\pmatrix{1 \\ 1}$
+			- $\lambda = -0.5$
+				- $\amatrix{0.8 & 0.7 \\ 0.8 & 0.7}{0 \\ 0}$
+				- řeš. $\span\pmatrix{-7 \\ 8}$
+			- můžeme vytvořit bázi $B = (\pmatrix{1 \\ 1}, \pmatrix{-7 \\ 8})$
+				- $T_{B \mapsto K_2} = \pmatrix{1 & -7 \\ 1 & 8}$
+			- $\pmatrix{0.3 & 0.7 \\ 0.8 & 0.2} \pmatrix{1 & -7 \\ 1 & 8} = \pmatrix{1 & -7 \\ 1 & 8} \pmatrix{1 & 0 \\ 0 & -0.5}$, neboli $\mathbf{A} T_{B \mapsto K_2} = T_{B \mapsto K_2} \pmatrix{1 & 0 \\ 0 & -0.5}$
+			- $\mathbf{A} = T_{B \mapsto K_2} \pmatrix{1 & 0 \\ 0 & -0.5} T_{K_2 \mapsto B}$
+				- tzv. **diagonální matice** k matici $\mathbf{A}$
+				- "zákon zachování krásy" lol
+- $\L$ lineární prostor nad tělesem $\F$, $\dim \L = n$, $\L \xrightarrow[\text{lin}]{\mathbf{f}} \L$
+- hledáme $\vec{x} \ne \vec{o}$ takový, že $\mathbf{f} \vec{x} = \lambda \vec{x}$
+	- $\lambda$ - **vlastní hodnota** (angl. *eigenvalue*) zobrazení $\mathbf{f}$ příslušná $\vec{x}$
+	- $\vec{x}$ - **vlastní vektor** (angl. *eigenvector*) zobrazení $\mathbf{f}$ příslušný $\lambda$
+	- $\mathbf{f}(\vec{x}) - \lambda\vec{x} = \vec{o}$
+	- $\mathbf{f}(\vec{x}) - \lambda\id_\L\vec{x} = \vec{o}$
+	- $(\mathbf{f} - \lambda\id_\L)(\vec{x}) = \vec{o}$
+	- $\vec{x} \in \ker(\mathbf{f} - \lambda\id_\L)$
+		- $\ker(\mathbf{f} - \lambda\id_\L) = \eigen{\lambda}{\mathbf{f}}$
