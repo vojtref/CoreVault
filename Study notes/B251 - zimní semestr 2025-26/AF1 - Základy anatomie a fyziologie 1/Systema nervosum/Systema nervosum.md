@@ -1,0 +1,56 @@
+- zákl. funkční jednotka: neuron
+	- vzrušivost a vodivost
+		- udržení a vytváření akčních potenciálů 
+	- 5-150 μm
+	- stavba
+		- soma
+		- neurit = axon
+		- dendrit(y)
+	- synapse
+		- TODO: 
+	- typy
+		- dle tvaru
+			- multipolární
+				- většina
+			- bipolární
+				- sítnice, ganglia n. VIII, čichová sliznice
+			- pseudounipolární
+				- somatosensitivní a viscerosensitivní ganglia
+			- unipolární
+				- tyčinky a čípky sítnice
+		- dle funkce
+			- motorické (eferentní) - axony z CNS do periferie
+				- somatomotorické - kosterní svaly
+				- TODO
+			- sensorické (aferentní) - z periferie do CNS
+				- somatosensitivní - exterocepce
+				- viscerosensitivní - interocepce
+				- proprioceptivní
+				- oko, ucho, jazyk, čichová sliznice - speciální sensorické
+			- interneurony - vzájemné propojení motorických a sensorických neuronů
+- neuroglie - "chůvičky" neuronů
+	- nutritivní, podpůrná, imunitní funkce
+	- CNS: makroglie (astrocyty, oligodendroglie, ependym...), mikroglie
+	- PNS: Schwannovy buňky, satelitové buňky (obklopují somata senzitivních a vegetativních ganglií)
+- nuclei et ganglia
+	- nahromadění těl neuronů
+	- ganglion
+		- mimo CNS
+		- všechny krom somatomotorických
+		- sensorická ganglia
+		- autonomní ganglia
+	- nucleus
+		- uvnitř CNS
+- dělení nerv. soustavy
+	- CNS
+		- mozek
+		- mícha
+	- PNS
+		- somatický
+			- hlavové nervy
+			- míšní nervy
+		- autonomní
+			- sympatikus
+			- parasympatikus
+			- enterický nerv. systém
+			- 

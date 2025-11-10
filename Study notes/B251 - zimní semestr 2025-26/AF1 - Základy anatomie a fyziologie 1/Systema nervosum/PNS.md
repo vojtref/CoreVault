@@ -1,0 +1,140 @@
+- stavba perif. nervu
+	- ![[stavba_nervu.png]]
+- hlavové nervy
+	- ![[vystupy_hl_nerv.png]]
+	- cerebrum
+		- n. olfactorius - čichový nerv
+			- techn. vzato není nerv, ale výchlipka mozku
+			- sensorická dráha - čich
+		- n. opticus - zrakový nerv
+			- sensorická dráha - zrak
+	- mesencephalon
+		- n. oculomotorius - okohybný nerv
+			- motorická
+				- při poruše
+			- parasympatická
+				- zúžení zornice, akomodace
+				- při obrně: mydriáza
+		- n. trochlearis - kladkový nerv
+			- motorická dráha
+			- jediný obtáčí mozek
+	- pons
+		- n. trigeminus - trojklonný nerv
+			- ganglion Gasseri, ze kterého vystupují 3 větve
+			- n. ophthalmicus
+			- n. maxillaris
+			- n. mandibularis
+			- sensitivní, motorická
+			- maseterový reflex, rohovkový reflex
+			- přes něj se může šířit pásový opar, Herpes zoster
+		- n. abducens
+			- motorická
+			- jediná funkce, inervace m. rectus lateralis - abdukce oka
+			- porucha: konvergentní strabismus, omezený pohyb bulbu, diplopie
+		- n. facialis - obličejový nerv
+			- motorická část
+				- mimické svaly, tvorba slz a slin, aj.
+			- sensorická část
+				- část jazyka
+			- parasympatická část
+			- porucha: narušení mimiky, problém se sliněním a tvorbou slz, ...
+		- n. vestibulocochlearis (= statoacusticus)
+			- sensorická - sluch, rovnováha
+			- n. vestibularis
+			- n. cochlearis
+	- medulla oblongata
+		- n. glossopharyngeus - jazykohltanový nerv
+			- motorická
+		- n. vagus - bloudivý nerv
+			- motorická, sensitivní, parasympatická, sensorická (chuť)
+		- n. accessorius - přídatný nerv
+			- = n. Willisi
+			- motorická
+				- m. sternocleidomastoideus
+				- m
+		- n. hypoglossus - podjazykový nerv
+			- motorická
+	- "**O**h **o**h **o**h, **t**o **t**ake **a** **f**amily **v**a**c**ation! **G**o **V**egas **a**fter **h**ours!"
+- míšní nervy
+	- nervi cervicales (8 párů)
+	- nervi thoracici (12 párů)
+	- nervi lumbales (5 párů)
+	- nervi sacrales (5 párů)
+	- nervi coccygeus (1 pár)
+	- mícha jako taková končí na úrovni L1/L2 v conus medullaris, kaudálně pouze svazek zbylých nervů (tzv. **cauda equina**)
+	- ganglion spinale
+		- TODO: doplnit
+		- zprostředkují reflexní oblouky - částečné, velmi rychlé zpracování sensorického signálu na motorický v reflexním centru ganglia, umožňuje rychlejší reflexy
+	- obrny
+		- periferní (= chabá) obrna
+			- postižení 2. motoneuronu předního míšního rohu
+			- hypotonie
+			- paréza
+			- hypo- až areflexie
+		- centrální (= spastická) obrna
+			- postižení 1. centrálního kortikálního motoneuronu
+			- spasticita
+			- paréza
+			- hyperreflexie
+	- rami dorsales
+		- zadní větve míšních nervů
+		- inervace kůže zad, hlubokých zádových svalů
+	- rami ventrales
+		- tvoří pleteně - plexi
+- plexus cervicalis
+	- TODO: doplnit
+- plexus brachialis (C5-Th1)
+	- ![[brachial_plexus.jpg]]
+	- pars supraclavicularis
+		- n. dorsalis scapulae
+		- n. thoracicus longus
+		- n. suprascapularis
+		- nn. pectorales
+		- n. subscapularis
+		- n. subclavius
+		- n. thoracodorsalis
+	- pars infraclavicularis
+		- n. axillaris
+		- n. musculocutaneus
+		- n. medianus
+		- n. ulnaris
+		- n. radialis
+		- nn. cutanei
+	- prochází skrz fissura scalenorum spolu s a. subclavia
+- v oblasti hrudníku segmentální inervace skrz nn. intercostales
+- plexus lumbalis
+	- L1-L3 (+ spojky z Th12, L4)
+	- n. iliohypogastricus
+	- n. ilioinguinalis
+	- n. genitofemoralis
+	- n. cutaneus femoris lateralis
+	- n. femoralis
+	- n. obturatorius
+	- **I**n **India**, **g**irls **c**ollect **f**resh **o**ranges
+- plexus sacralis
+	- S1-S5 (+ spojky L4, L5; truncus lumbosacralis)
+	- n. ischiadicus
+		- nejmohutnější nerv v lidském těle
+	- n. gluteus superior
+	- n. cutaneus femoris posterior
+	- n. pudendus
+	- n. gluteus inferior
+	- **I**diot **G**ustav **m**ěl **c**elý **p**rst v **G**ibsu
+- autonomní systém
+	- sympatikus
+		- aktivační účinek, "fight, flight, fright"
+			- sympathoadrenální reakce
+		- thorakolumbální systém
+		- jádra v postranních rozích thorakální a lumbální míchy
+		- paravertebrální ganglia
+			- truncus sympathicus - "provázek s korálky"
+		- prevertebrální ganglia
+			- ganglion coeliacum - solar plexus
+	- parasympatikus
+		- tlumivý účinek, "rest and digest"
+		- TODO: doplnit
+	- enterický systém
+		- hlavní funkce: mimovolní (viscero)motorika
+		- kontrakce a relaxace hladkého svalstva
+		- funkce endo- a exokrinních žláz
+		- srdeční rytmus (zejm. sinusový)
