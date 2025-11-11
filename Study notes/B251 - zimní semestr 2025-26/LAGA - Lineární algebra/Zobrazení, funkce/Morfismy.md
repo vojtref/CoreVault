@@ -9,6 +9,7 @@
 - zobrazení $P$ nad $L$
 	- $\im P = \{P\vec{x} \mid \vec{x} \in L\}$ - odraz $P$ (angl. image)
 		- množina všech funkčních hodnot
+			- z pohledu souřadnic (matice zobrazení vzhledem k bázím): $\im$ množina všech lin. kombinací sloupců matice, neboli lineární obal sloupců
 		- slogan: říká, jak moc je $P$ epimorfní
 		- $\rank P = \dim(\im P)$ - hodnost
 	- $\ker P = \{\vec{x} \mid P\vec{x} = \vec{o}\}$ - jádro $P$ (angl. kernel)

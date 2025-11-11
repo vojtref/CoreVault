@@ -71,5 +71,5 @@
 	- máme matici $\mathbf{M}$, hledáme $\pmatrix{\lambda_1 & 0 & \cdots & 0 \\ 0 & \lambda_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n}$
 	- spočteme $\char_\mathbf{M}(x)$, tedy diagonální matici k $\mathbf{M}$
 	- najdeme kořeny, tedy vlastní hodnoty $\lambda_i$
-		- nemusí být, v takovém případě to skončí brzo
+		- nemusí mít kořeny v tělese, v takovém případě to skončí brzo
 	- matici lze diagonalizovat právě tehdy, kdy dimenze každéhp vlastního podprostoru $\dim\eigen(\lambda_i, \mathbf{M})$ je rovna násobnosti $\lambda_i$ jakožto kořenu charakteristického polynomu $\char_\mathbf{M}(x)$
