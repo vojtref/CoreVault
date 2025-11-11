@@ -22,7 +22,7 @@
 - př. 6.1:
 	- $f(x) = (x + 2|x|) - x^3$
 	- pro abs. hodnotu pouze derivace zleva a zprava
-	- $f(x) = \cases{(x + 2x) - x^3 = {\color{Goldenrod}3x - x^3} & x \ge 0 \\ (x - 2x) - x^3 = {\color{cyan}-x - x^3} & x \le 0}$
+	- $f(x) = \cases{(x + 2x) - x^3 = {\color{RedOrange}3x - x^3} & x \ge 0 \\ (x - 2x) - x^3 = {\color{Cyan}-x - x^3} & x \le 0}$
 	- $f'(x) = \cases{3 - 3x^2 = 3(1 - x^2) & x > 0 \\ -1 - 3x^2 & x < 0}$
 	- TODO: doplnit
 - hledání globálních extrem

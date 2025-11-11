@@ -11,10 +11,10 @@
 	- $\array[|c|c|]{\hline f & f' \\ \hline \sin x & \cos x \\ \cos x & -\sin x \\ \tan x & \frac{1}{\cos^2 x} \\ \cot x & \frac{-1}{\sin^2 x} \\ \hline}$
 	- derivace $\sin$ a $\cos$ "cyklické," $(\sin x)^{\mathrm{IV}} = \sin x$ a $(\cos x)^{\mathrm{IV}} = \cos x$, tzn. L'Hôpital často s limitou nepomáhá a může být potřeba ještě nějaká algebraická úprava
 - cyklometrické funkce
-	- $\array[|c|c|]{\hline f & f' \\ \hline \arcsin x & \frac{1}{\sqrt{1 - x^2}} \\ \arccos x & \frac{-1}{\sqrt{1 - x^2}} \\ {\color{OliveGreen} \arctan x} & {\color{OliveGreen} \frac{1}{1 + x^2}} \\ \arccot x & \frac{-1}{1 + x^2} \\ \hline}$
+	- $\array[|c|c|]{\hline f & f' \\ \hline \arcsin x & \frac{1}{\sqrt{1 - x^2}} \\ \arccos x & \frac{-1}{\sqrt{1 - x^2}} \\ {\color{RedOrange} \arctan x} & {\color{RedOrange} \frac{1}{1 + x^2}} \\ \arccot x & \frac{-1}{1 + x^2} \\ \hline}$
 	- $\arctan$ dost častý, Pepa Dvořák ho má rád a dává ho kde může
 - hyperbolické funkce
-	- $\array[|c|c|]{\hline f & f' \\ \hline \sinh x & \cosh x \\ \cosh x & \sinh x \\ \tanh x & \frac{1}{\cosh^2 x} \\ \coth x & \frac{-1}{\sinh^2 x}}$
+	- $\array[|c|c|]{\hline f & f' \\ \hline \sinh x & \cosh x \\ \cosh x & \sinh x \\ \tanh x & \frac{1}{\cosh^2 x} \\ \coth x & \frac{-1}{\sinh^2 x} \\ \hline}$
 - $(g \circ f)' = (g(f(x)))' = g'(f(x)) \cdot f'(x)$
 	- $(h \circ g \circ f)'(x) = h'(g(f(x))) \cdot g'(f(x)) \cdot f'(x)$
 		- analogicky pro libovolné složení $\left(\compose_{i \in I} f_i\right)'$, ale víc než 3 funkce se spíš neobjeví
@@ -22,6 +22,6 @@
 	- "svlékání holky (nebo kluka)"
 		- "s každou sundanou vrstvou se vzrušení násobí"
 - $(f(x)^{g(x)})' = (e^{g(x) \ln f(x)})' = f(x)^{g(x)}\left(g'(x) \ln f(x) + g(x)\frac{f'(x)}{f(x)}\right)$
-	- pozor, $\color{Red}f(x) > 0$, ověřit $H(f)$ a kdyžtak omezit interval na kterém derivace platí
+	- pozor, $\color{WildStrawberry}f(x) > 0$, ověřit $H(f)$ a kdyžtak omezit interval na kterém derivace platí
 	- $(c \in \R)>0: (c^x)' = c^x \cdot \ln c$
 	- $(x^x)' = x^x(\ln x + 1)$

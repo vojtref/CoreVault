@@ -59,12 +59,13 @@
 			- $= 1 \cdot x^n + x \cdot (x^n)'$
 			- $= x^n + x \cdot n \cdot x^{n-1}$
 			- $= x^n + n \cdot x^n = (n+1)x^n$
-- věta 4.3 (o derivaci složené funkce)
+- **věta 4.3**: o derivaci složené funkce
 	- $f'(x_0), g'(f(x_0)) \in \R \implies (g \circ f)'(x_0) = g'(f(x_0)) \cdot f'(x_0)$
 	- analogicky pro více funkcí:
 		- $(h \circ g \circ f)'(x_0)=h'(g(f(x_0))) \cdot g'(f(x_0)) \cdot f'(x_0)$
 		- "loupání cibule," derivujeme vnější "slupku"
-- věta 4.4 (o derivaci inverzní funkce)
+	- angl. "chain rule"
+- **věta 4.4**: o derivaci inverzní funkce
 	- $f$ prostá, spojitá na $\intvloo{a}{b}$, $x_0 \in \intvloo{a}{b}, f(x_0)=y_0$
 	- $\exists f'(x_0) \ne 0 \implies \exists f_{-1}'(y_0)=\frac{1}{f'(x_0)}$
 	- TODO: dopsat důkaz přes větu 4.1

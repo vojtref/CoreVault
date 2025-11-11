@@ -32,19 +32,31 @@
 	- $=\cases{u = \ln x & v' = \frac{1}{x} \\ u' = \frac{1}{x} & v = \ln x}$
 	- $= \ln^2 x - \int{\frac{1}{x} \ln x \dx} = \ln^2 x - I$
 	- $2I = \ln^2 x + {\color{RedOrange}C}$
-		- integrál dává množinu všech možných prim. funkcí, takže v každém kroku můžou být s různými konstantními členy
+		- integrál dává množinu všech možných prim. funkcí, takže v každém kroku můžou být s různými konstantními členy, proto nějaké $C$-čko zůstane
 	- $I = \int{\frac{\ln x}{x} \dx} = \frac{\ln^2 x}{2} + C$
+		- $C$ děleno dvěma je jen jiné $C$
 - **věta 7.5**: o substituci
 	- a)
 		- dáno $I, J$ otevřené intervaly, $\varphi$ spojitá (= má vlastní derivaci) na $I$, $\varphi(I) \subseteq J$, $F$ primitivní k $f$ na $J$
 		- $\big\Downarrow$
-		- $(F \circ \varphi)'(t) = F'(\varphi(x))\cdot\varphi'(t)$
+		- $(F \circ \varphi)'(t) = F'(\varphi(x))\cdot\varphi'(t)$ | chain rule
 		- $F' = f$
 		- $(F \circ \varphi)'(t) = f(\varphi(t)) \cdot \varphi'(t)$
-		- $\int{f(\varphi(t)) \cdot \varphi'(t) \dx} = F(\varphi(x)) + {\color{RedOrange}C}$
+		- $\int{f(\varphi(t)) \cdot \varphi'(t) \d[t]} = F(\varphi(x)) + {\color{RedOrange}C}$
 	- b)
 		- dáno i $\varphi$ prostá na $I$, a existuje funkce $G$ primitivní k $f(\varphi(t)) \cdot \varphi'(t)$ na $I$, pak:
 		- $\int{f(x) \dx} = G(\varphi_{-1}(x)) + C$
 	- neboli $\int{f(x) \dx} \quad x=\varphi(t), t\in I$
-	- jiný zápis:
-		- $\int{\cos(\ln t)\cdot\frac{1}{t} \d}$
+	- ekvivalent pro chain rule u integrace 
+- př. 7.6a
+	- $\int{f(x + B) \dx} \quad B \in \R$
+	- $= \int{F'(x + B) \dx}$
+	- $= \cases{x + B = z \\ 1\dx = \d[z]}$
+	- $= \int{F'(z) \d[z]} = F(z) + C$
+	- $= F(x + B) + C$
+- doplnit $\int{\frac{f'(x)}{f(x)}\dx}$
+- integrace racionální funkce
+	- $P, Q \in \R[x], Q \ne 0$
+	- $R = \frac{P}{Q}$ - racionální funkce
+	- $\exists Y,Z \in \R[x]: P(x) = Y(x) \cdot Q(x) + Z(x)$ $\forall x \in \R$
+		- $\trac$
