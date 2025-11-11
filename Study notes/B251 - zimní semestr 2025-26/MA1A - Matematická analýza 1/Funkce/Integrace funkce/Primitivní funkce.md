@@ -6,7 +6,7 @@
 		- důsledek: primitivní funkce buď neexistuje, nebo existuje nekonečně mnoho
 	- B) $F$ a $G$ primitivní f.ce k $f$ na $I$ $\implies$ $\exists c \in \R: G = F + c$
 		- nemohou být různé $c$ v různých částech $D(f)$!
-- značení: $F(x) = \int{f(x)\dx}$
+- značení: $F(x) + {\color{RedOrange}C} = \int{f(x)\dx}$
 	- neurčitý integrál, dává množinu všech primitivních funkcí
 	- $\int$ - integrační znak
 	- $f(x)$ - integrand
@@ -33,8 +33,8 @@
 	- $= \ln^2 x - \int{\frac{1}{x} \ln x \dx} = \ln^2 x - I$
 	- $2I = \ln^2 x + {\color{RedOrange}C}$
 		- integrál dává množinu všech možných prim. funkcí, takže v každém kroku můžou být s různými konstantními členy, proto nějaké $C$-čko zůstane
-	- $I = \int{\frac{\ln x}{x} \dx} = \frac{\ln^2 x}{2} + C$
-		- $C$ děleno dvěma je jen jiné $C$
+	- $I = \int{\frac{\ln x}{x} \dx} = \frac{\ln^2 x}{2} + {\color{Dandelion}C}$
+		- ${\color{RedOrange}C}$ z předchozí rovnice děleno dvěma je jen jiné ${\color{Dandelion}C}$
 - **věta 7.5**: o substituci
 	- a)
 		- dáno $I, J$ otevřené intervaly, $\varphi$ spojitá (= má vlastní derivaci) na $I$, $\varphi(I) \subseteq J$, $F$ primitivní k $f$ na $J$
@@ -54,9 +54,14 @@
 	- $= \cases{x + B = z \\ 1\dx = \d[z]}$
 	- $= \int{F'(z) \d[z]} = F(z) + C$
 	- $= F(x + B) + C$
-- doplnit $\int{\frac{f'(x)}{f(x)}\dx}$
+- TODO: doplnit $\int{\frac{f'(x)}{f(x)}\dx}$
 - integrace racionální funkce
 	- $P, Q \in \R[x], Q \ne 0$
 	- $R = \frac{P}{Q}$ - racionální funkce
 	- $\exists Y,Z \in \R[x]: P(x) = Y(x) \cdot Q(x) + Z(x)$ $\forall x \in \R$
-		- $\trac$
+		- $\deg Z < \deg Q$
+	- TODO: doplnit
+	- **ryze lomené** $R = \frac{P}{Q} \quad \deg{P} < \deg{Q}$
+	- **jednoduché zlomky** (též **parciální**)
+			- $\frac{A}{(x - \alpha)^k} \quad A, \alpha \in \R;\; k \in \N_+$
+	- TODO: doplnit větu 7.6, zakrývací pravidlo
