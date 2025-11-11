@@ -8,11 +8,13 @@
 - $c \in \R:(x^c)' = cx^{c-1}$
 - $(\ln x)' = \frac{1}{x}$
 - goniometrické funkce
-	- $\array[|c|c|]{\hline f & f' \\ \hline \sin x & \cos x \\ \cos x & -\sin x \\ \tan x & \frac{1}{\cos^2 x} \\ \cot x & -\frac{1}{\sin^2 x} \\ \hline}$
+	- $\array[|c|c|]{\hline f & f' \\ \hline \sin x & \cos x \\ \cos x & -\sin x \\ \tan x & \frac{1}{\cos^2 x} \\ \cot x & \frac{-1}{\sin^2 x} \\ \hline}$
 	- derivace $\sin$ a $\cos$ "cyklické," $(\sin x)^{\mathrm{IV}} = \sin x$ a $(\cos x)^{\mathrm{IV}} = \cos x$, tzn. L'Hôpital často s limitou nepomáhá a může být potřeba ještě nějaká algebraická úprava
 - cyklometrické funkce
-	- $\array[|c|c|]{\hline f & f' \\ \hline \arcsin x & \frac{1}{\sqrt{1 - x^2}} \\ \arccos x & -\frac{1}{\sqrt{1 - x^2}} \\ {\color{OliveGreen} \arctan x} & {\color{OliveGreen} \frac{1}{1 + x^2}} \\ \arccot x & -\frac{1}{1 + x^2} \\ \hline}$
+	- $\array[|c|c|]{\hline f & f' \\ \hline \arcsin x & \frac{1}{\sqrt{1 - x^2}} \\ \arccos x & \frac{-1}{\sqrt{1 - x^2}} \\ {\color{OliveGreen} \arctan x} & {\color{OliveGreen} \frac{1}{1 + x^2}} \\ \arccot x & \frac{-1}{1 + x^2} \\ \hline}$
 	- $\arctan$ dost častý, Pepa Dvořák ho má rád a dává ho kde může
+- hyperbolické funkce
+	- $\array[|c|c|]{\hline f & f' \\ \hline \sinh x & \cosh x \\ \cosh x & \sinh x \\ \tanh x & \frac{1}{\cosh^2 x} \\ \coth x & \frac{-1}{\sinh^2 x}}$
 - $(g \circ f)' = (g(f(x)))' = g'(f(x)) \cdot f'(x)$
 	- $(h \circ g \circ f)'(x) = h'(g(f(x))) \cdot g'(f(x)) \cdot f'(x)$
 		- analogicky pro libovolné složení $\left(\compose_{i \in I} f_i\right)'$, ale víc než 3 funkce se spíš neobjeví

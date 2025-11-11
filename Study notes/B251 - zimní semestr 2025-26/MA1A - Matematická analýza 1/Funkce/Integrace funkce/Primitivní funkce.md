@@ -10,6 +10,7 @@
 	- neurčitý integrál, dává množinu všech primitivních funkcí
 	- $\int$ - integrační znak
 	- $f(x)$ - integrand
+	- $x$ - integrační proměnná
 - $f(x) = \cases{2x \cos\frac{1}{x} + \sin\frac{1}{x} & x \ne 0 \\ 0 & x=0}$
 	- není spojitá nad $\R$, ale má primitivní funkci!
 		- spojitost tedy není nutná
@@ -26,3 +27,24 @@
 	- **věta 7.4**: integrace per partes
 		- $\int{u \cdot v'\dx} = u \cdot v - \int{u' \cdot v \dx}$
 		- cokoli lze na součin převést, vždy lze položit $u = 1$
+- př. 24: $I = \int{\frac{\ln x}{x} \dx}$
+	- $= \int{\frac{1}{x} \ln x \dx}$
+	- $=\cases{u = \ln x & v' = \frac{1}{x} \\ u' = \frac{1}{x} & v = \ln x}$
+	- $= \ln^2 x - \int{\frac{1}{x} \ln x \dx} = \ln^2 x - I$
+	- $2I = \ln^2 x + {\color{RedOrange}C}$
+		- integrál dává množinu všech možných prim. funkcí, takže v každém kroku můžou být s různými konstantními členy
+	- $I = \int{\frac{\ln x}{x} \dx} = \frac{\ln^2 x}{2} + C$
+- **věta 7.5**: o substituci
+	- a)
+		- dáno $I, J$ otevřené intervaly, $\varphi$ spojitá (= má vlastní derivaci) na $I$, $\varphi(I) \subseteq J$, $F$ primitivní k $f$ na $J$
+		- $\big\Downarrow$
+		- $(F \circ \varphi)'(t) = F'(\varphi(x))\cdot\varphi'(t)$
+		- $F' = f$
+		- $(F \circ \varphi)'(t) = f(\varphi(t)) \cdot \varphi'(t)$
+		- $\int{f(\varphi(t)) \cdot \varphi'(t) \dx} = F(\varphi(x)) + {\color{RedOrange}C}$
+	- b)
+		- dáno i $\varphi$ prostá na $I$, a existuje funkce $G$ primitivní k $f(\varphi(t)) \cdot \varphi'(t)$ na $I$, pak:
+		- $\int{f(x) \dx} = G(\varphi_{-1}(x)) + C$
+	- neboli $\int{f(x) \dx} \quad x=\varphi(t), t\in I$
+	- jiný zápis:
+		- $\int{\cos(\ln t)\cdot\frac{1}{t} \d}$
