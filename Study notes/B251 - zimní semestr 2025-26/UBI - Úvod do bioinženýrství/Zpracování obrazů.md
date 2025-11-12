@@ -1,0 +1,17 @@
+- zpracování
+	- rekonstrukce
+		- kompenzace pro zkreslení dat skrze fyzikální jevy
+		- např.
+			- z paralelní MRI
+				- paralelní MRI - více snímacích cívek, urychluje snímání ale zvyšuje četnost artefaktů
+			- z EEG/EMG
+	- segmentace
+		- rozlišení jednotlivých útvarů na snímku
+		- dnes často užívány konvoluční neuronové sítě
+		- ![[cnn_histo_segmentation.png]]
+	- klasifikace
+	- registrace
+		- hledání geometrických transformací na kompenzaci posunů, prostorových zkreslení
+		- "zarovnání"
+- nedílná součást samotných zobrazovacích přístrojů
+	- téměř žádné nedávají raw data

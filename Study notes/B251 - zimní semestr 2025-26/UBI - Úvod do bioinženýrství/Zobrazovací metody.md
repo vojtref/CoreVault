@@ -1,0 +1,96 @@
+- obecně: zobrazování částí lidského těla
+	- popis vnější podoby a vnitřního uspořádání
+		- anatomický popis
+		- popis fyziologické/patologické funkce části těla, tkáně
+	- 2D zobrazení, 3D zobrazení, sekvence (časové i prostorové)
+- motivace
+	- screening
+	- diagnostika
+	- monitoring
+		- sledování průběhu nemoci
+	- koordinace chirurgických zákroků
+		- pre- i perioperativní
+- modality
+	- mikroskopie
+		- optická
+			- od 17. století (Jensen, Leeuwenhoek, i Galileo Galilei...)
+			- mikroskopie světlého pole (lightfield)
+				- klasická mikroskopie, prosvícení preparátu
+			- mikroskopie tmavého pole (darkfield)
+				- do cesty světla umístěna clona, nasvícení preparátu nepřímé
+			- fluorescenční
+				- ozáření pomocí UV, fluoreskující látky (ať již původní, gen. mod. proteiny či barviva) viditelné
+				- ve světelné cestě UV filtr na zamezení poškození oka laboranta
+			- dvoufotonová excitační mikroskopie
+				- Maria Goeppert-Mayer, Nobelova cena 1963
+				- spec. typ fluorescenční mikroskopie
+			- konfokální laserová mikroskopie
+				- laserový paprsek nasvěcuje pouze konkrétní hloubku preparátu
+				- TODO: dopsat
+			- polarizační mikroskopie
+				- nasvícení polarizovaným světlem (typ. lineárně)
+				- ve světelné cestě polarizační filtr orientovaný kolmo (u cirk. pol. opačně) na původní polarizaci světla
+			- optická koherenční tomografie
+				- TODO: dopsat
+			- superrozlišovací mikroskopie (superresolution microscopy)
+				- STED, STORM, PALM
+				- umožňuje snímání násobně menší než vlnová délka světla, cca 2­–80 nm
+				- Betzig, Moerner, Hell - Nobelova cena 2014
+		- elektronová
+			- počátky v 1930's, Nobelova cena 1986
+			- umožňuje snímání struktur mnohonásobně menší než světlo
+			- elektronový paprsek postupně poškozuje preparát
+				- prodloužení životnosti napuštěním těžkým kovem (e.g. osmium) či pokovením (e.g. zlato)
+			- rozlišení nepřímo úměrné energii elektronů, typ. v řádu jednotlivých nm
+	- Röntgenovy paprsky
+		- elektromagnetické paprsky, vlnová délka cca. 10$^{-12}$ až 10$^{-8}$ m
+			- 4×10$^{1}$ - 4×10$^{4}$ eV
+		- objeveny Wilhelmem Röntgenem v pol. 19. stol.
+		- röntgenka vyzařuje paprsky preparátem resp. pacientem, prozářené paprsky zachyceny detektorem (dříve film, dnes polovodiče, scintilátory)
+			- dříve snímky pozitivy, dnes negativy
+		- často využití kontrastních látek, zejm. při zobrazování měkkých tkání
+		- diagnostické příklady
+			- angiografie - zobrazení průtoku cévami
+				- DSA (digital subtraction angiography)
+			- fluoroskopie - zobrazení prostupu katetru, prováděno např. při zavádění centrálního katetru
+			- mammografický rentgen
+		- CT (computational tomography)
+			- různé röntgenové projekce kombinovány do trojrozměrné rekonstrukce
+				- Radonova transformace
+				- možné poté zobrazovat libovolné řezy (transversální, sagitální, koronální, aj.)
+	- ultrazvuk
+		- v lékařství typ. frekvence v řádu MHz
+		- podle časové odezvy odražení signálu možné určit hloubku dané tkáně, podle intenzity odražení tvrdost tkáně
+		- Dopplerovská sonografie
+			- změna frekvence umožňuje určení rychlosti pohybu
+			- např. průtok krve cévami, srdcem
+			- směr pohybu typicky barevně označován, odtud název CDI (color Doppler imaging)
+				- analog. k red- a blueshifting
+			-  CDI trikuspidální regurgitace ![[doppler_sono_tricusp_regurg.mp4]]
+	- magnetická resonance
+		- počátky v radioastronomii, Nobelova cena 1952
+			- Nobelova cena za využití v medicíně 2003
+		- vysílány magnetické pulsy, detekována následná resonance atomů
+			- atomy s vyšší hmotností resonují s nižší amplitudou
+			- umožňuje rozlišení hustoty tkání
+			- síla elektromagnetu typ. v řádu desítky tesla, např. 11.7 T
+		- o něco horší rozlišení, pomalejší, dražší než CT, ale bez radiační dávky pacientovi
+		- MRI angiografie
+			- s kontrastní látkou, nebo na rozdíl od röntgenové i bez
+		- DTI (diffuse tensor imaging)
+		- fMRI
+	- jaderné
+		- narozdíl od např. röntgenu nejsou jaderné metody transmisní ale emisní
+		- do pacienta vpraven radionuklid (např. fluor-18 FDG), snímáno vyzařování
+		- PET (positronová emisní tomografie)
+		- SPECT (single photon emission computational tomography)
+		- časté fúze s jinými metodami, např. MRI
+			- některá zařízení provádějí např. PET a MRI zároveň, s okamžitou registrací snímků
+	- další
+		- sonoelastografie
+			- ultrazvukové zobrazení tuhosti tkání
+			- při zatlačení sondy se tužší tkáně budou deformovat méně, dojde k odlišnému Dopplerově posunu
+		- termografie
+			- mapování tělesné teploty ve tkáních
+			- indikátor perfuze, metabolické aktivity
+		- aj.
