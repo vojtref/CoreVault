@@ -77,9 +77,9 @@
 		- nemusí mít kořeny v tělese, v takovém případě to "skončí brzo"
 	- matici lze diagonalizovat právě tehdy, kdy dimenze každéhp vlastního podprostoru $\dim\eigen(\lambda_i, \mathbf{M})$ je rovna násobnosti $\lambda_i$ jakožto kořenu charakteristického polynomu $\char_\mathbf{M}(x)$
 - př. Pauliho matice
-	- různí autoři ⇒ různé názvy, zde $X, Y, Z$
+	- různí autoři ⇒ různé názvy (často $\sigma_{1,2,3}$ nebo $\sigma_{x,y,z}$), zde zkrátka $X, Y, Z$
 	- $X = \pmatrix{0 & 1 \\ 1 & 0}$
-		- $\char_X(x) = \det\pmatrix{0 - x & 1 \\ 1 & 0 - x} = x^2 - 1$
+		- $\char_X(x) = \dmatrix{0 - x & 1 \\ 1 & 0 - x} = (0-x)^2 - 1^2 = x^2 - 1$
 		- kořeny $\lambda_1 = 1$, $\lambda_2 = -1$
 			- pořadí lze měnit, ale mění se tím i pořadí vlastních vektorů, tudíž pořadí sloupců transformace do báze vlastních vektorů
 		- $\lambda_1 = 1$
@@ -96,9 +96,39 @@
 			- tzn. vlastní vektor $t_2 = \pmatrix{-1 \\ 1}$
 		- $T = (\vec{t}_1, \vec{t_2}) = \pmatrix{1 & -1 \\ 1 & 1}$
 		- $X = T \pmatrix{1 & 0 \\ 0 & -1}T^{-1}$
-			- TODO: zkusit spočítat
+			- TODO: roznásobit, ukázat že platí
 	- $Y = \pmatrix{0 & -i \\ i & 0}$
-		- $\$
+		- $\char_Y(x) = \dmatrix{0 - x & -i \\ i & 0-x} = (0 - x)^2 - i(-i) = x^2 - 1$
+		- kořeny $\lambda_1 = 1$, $\lambda_2 = -1$
+		- $\lambda_1 = 1$
+			- $\eigen(1, Y) = \ker(Y - 1\mathbf{E}_2)$
+				- $\amatrix{Y - 1\mathbf{E}_n}{\vec{o}}$
+			- TODO: rozepsat!!
+			- $= \span\pmatrix{-i \\ 1}$
+			- tzn. vlastní vektor $t_1 = \pmatrix{-i \\ 1}$
+		- $\lambda_2 = -1$
+			- $\eigen(-1, Y) = \ker(Y - (-1)\mathbf{E}_2)$
+				- $\amatrix{Y - (-1)\mathbf{E}_n}{\vec{o}}$
+			- TODO: opět rozepsat!!!
+			- $= \span\pmatrix{i \\ 1}$
+			- tzn. vlastní vektor $t_2 = \pmatrix{i \\ 1}$
+		- $T = \pmatrix{-i & i \\ 1 & 1}$
+		- $Y = T\pmatrix{-1 & 0 \\ 0 & 1}T^{-1}$
 	- $Z = \pmatrix{1 & 0 \\ 0 & -1}$
 		- zřejmé že již diagonální, $\lambda_1 = 1$, $\lambda_2 = -1$, $T = \mathbf{E}_2$
-		- libovolná matice s nenulovými hodnotami pouze na hlavní diagonále je již diagonální
+		- libovolná matice s nenulovými hodnotami pouze na hlavní diagonále je již diagonální, a $T = \mathbf{E}_n$
+- př. nad $\R$ matice $A = \pmatrix{a & -b \\ b & a}$
+	- "vypadá jako" rotace $R_\alpha = \pmatrix{\cos \alpha & -\sin \alpha \\ \sin \alpha & \cos \alpha}$
+		- ALE např. $a=10, b=8$ není, $\cos$ a $\sin$ omezené $\intvlcc{1}{1}$
+	- $\char_A(x) = \dmatrix{a - x & -b \\ b & a-x} = (a-x)^2 + b^2 = x^2 + (-2a) + (a^2 + b^2)$
+		- TODO: doplnit, nemá kořeny v $\R$ pro $b \ne 0$
+			- TODO: doplnit z foto, přes řešení v $\C$ krásně ukázáno, že jde o rotaci a škálování
+- $\mathbf{M}: \R^2 \to \R^2$ regulární a nemá 2-násobnou vlastní hodnotu, pak je podobná buď $\pmatrix{a & 0 \\ 0 & b}$, nebo $\pmatrix{r & 0 \\ 0 & r}\cdot R_\alpha$ kde $r \in \R$, $\alpha \in \intvlco{0}{2 \pi}$
+	- slogan: izomorfismy na rovině bez 2-násobných vlastních hodnot jsou buď změna měřítka, nebo rotace a změna měřítka
+	- důkaz:
+		- TODO: doplnit $\viz{prez. 8B 11/16}$
+- výpočet mocniny diagonalisovatelné matice $\mathbf{A}$ rozměru $n \times n$
+	- $\mathbf{A}^2 = (TDT^{-1}) \cdot (TDT^{-1}) = TD^2T^{-1}$
+	- analog. pro $\mathbf{A}^k = TD^kT^{-1}$ kde $k \ge 0$
+	- velmi výpočetně nenáročné! $D^k = \pmatrix{\lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n^k}$
+	- diagonalisovatelné matice tedy extrémně snadné mocnit pomocí přechodu do báze vlastních vektorů
