@@ -41,7 +41,7 @@
 \newcommand{\adj}{\mathop{\mathrm{adj}}}
 \newcommand{\eigen}{\mathop{\mathrm{eigen}}}
 \newcommand{\char}{\mathop{\mathrm{char}}}
-\newcommand{\char}{\mathop{\mathrm{tr}}}
+\newcommand{\tr}{\mathop{\mathrm{tr}}}
 
 \DeclareMathOperator*{\compose}{\bigcirc}
 
@@ -71,4 +71,12 @@
 	\right)
 	\hspace{9px}
 	\begin{array}{} #1 \end{array}
+}
+
+\newcommand{\dmatrix}[1]{
+	\left|
+	\begin{array}{c}
+	#1
+	\end{array}
+	\right|
 }

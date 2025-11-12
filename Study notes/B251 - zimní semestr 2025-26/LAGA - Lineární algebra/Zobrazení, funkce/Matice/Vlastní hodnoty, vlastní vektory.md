@@ -59,6 +59,7 @@
 	- $\eigen(2, \mathbf{A}) = \span\pmatrix{-2 \\ 1 \\ 4}$
 		- $\dim \eigen(2, \mathbf{A}) = 1$ - násobnost kořene $x=2$
 	- TODO: doplnit z foto
+		- "brouček na vlastním vektoru"
 		- "lineární kombinace broučků"
 	- $\mathbf{B} = \pmatrix{2 & 4 & -3 \\ -1 & 10 & -6 \\ -1 & 8 & -4}$
 	- $\char_\mathbf{B}(x)= -(x-3)^2(x-2)$
@@ -67,9 +68,37 @@
 		- $\dim = 1 \ne 2$ (woah), tedy nerovno násobnosti kořene $x=3$ char. polynomu
 	- $\eigen(2, \mathbf{B}) = \span\pmatrix{0 \\ 3 \\ 4}$
 		- $\dim = 1$, rovno násobnosti kořene $x=2$ char. polynomu
-- věta o diagonalizaci
-	- máme matici $\mathbf{M}$, hledáme $\pmatrix{\lambda_1 & 0 & \cdots & 0 \\ 0 & \lambda_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n}$
-	- spočteme $\char_\mathbf{M}(x)$, tedy diagonální matici k $\mathbf{M}$
+- **diagonální matice**
+	- matice $D$ je diagonální k matici $\mathbf{A}$ právě tehdy, kdy platí rovnost $\mathbf{A} = TDT^{-1}$, kde $T$ je transformační matice do báze vlastních vektorů $\mathbf{A}$
+- **věta o diagonalizaci**
+	- máme matici $\mathbf{A}$, hledáme $\pmatrix{\lambda_1 & 0 & \cdots & 0 \\ 0 & \lambda_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n}$
+	- spočteme $\char_\mathbf{A}(x)$, tedy charakteristický polynom $\mathbf{A}$
 	- najdeme kořeny, tedy vlastní hodnoty $\lambda_i$
-		- nemusí mít kořeny v tělese, v takovém případě to skončí brzo
+		- nemusí mít kořeny v tělese, v takovém případě to "skončí brzo"
 	- matici lze diagonalizovat právě tehdy, kdy dimenze každéhp vlastního podprostoru $\dim\eigen(\lambda_i, \mathbf{M})$ je rovna násobnosti $\lambda_i$ jakožto kořenu charakteristického polynomu $\char_\mathbf{M}(x)$
+- př. Pauliho matice
+	- různí autoři ⇒ různé názvy, zde $X, Y, Z$
+	- $X = \pmatrix{0 & 1 \\ 1 & 0}$
+		- $\char_X(x) = \det\pmatrix{0 - x & 1 \\ 1 & 0 - x} = x^2 - 1$
+		- kořeny $\lambda_1 = 1$, $\lambda_2 = -1$
+			- pořadí lze měnit, ale mění se tím i pořadí vlastních vektorů, tudíž pořadí sloupců transformace do báze vlastních vektorů
+		- $\lambda_1 = 1$
+			- $\eigen(1, X) = \ker(X - 1\mathbf{E}_2)$
+				- $\amatrix{X - 1\mathbf{E}_n}{\vec{o}}$
+			- TODO: rozepsat
+			- $= \span\pmatrix{1 \\ 1}$
+			- tzn. vlastní vektor $t_1 = \pmatrix{1 \\ 1}$
+		- $\lambda_2 = -1$
+			- $\eigen(-1, X) = \ker(X - (-1)\mathbf{E}_2)$
+				- $\amatrix{X - (-1)\mathbf{E}_n}{\vec{o}}$
+			- TODO: opět rozepsat
+			- $= \span\pmatrix{-1 \\ 1}$
+			- tzn. vlastní vektor $t_2 = \pmatrix{-1 \\ 1}$
+		- $T = (\vec{t}_1, \vec{t_2}) = \pmatrix{1 & -1 \\ 1 & 1}$
+		- $X = T \pmatrix{1 & 0 \\ 0 & -1}T^{-1}$
+			- TODO: zkusit spočítat
+	- $Y = \pmatrix{0 & -i \\ i & 0}$
+		- $\$
+	- $Z = \pmatrix{1 & 0 \\ 0 & -1}$
+		- zřejmé že již diagonální, $\lambda_1 = 1$, $\lambda_2 = -1$, $T = \mathbf{E}_2$
+		- libovolná matice s nenulovými hodnotami pouze na hlavní diagonále je již diagonální

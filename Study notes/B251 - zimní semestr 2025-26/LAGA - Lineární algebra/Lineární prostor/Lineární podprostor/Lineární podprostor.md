@@ -1,9 +1,11 @@
 - $W \subseteq L$ je lineární podprostor prostoru $L \iff \span W = W$
 	- podprostor je sám o sobě [[Lineární prostor|prostorem]] a má veškeré vlastnosti prostoru
 	- $\vec{o} \in W$ - uzavřenost na nulový vektor
+		- tzn. podprostor musí obsahovat konkrétně nulový vektor svého "nad"prostoru! Nemůže to být libovolný nulový
 	- $\forall{x,y \in W}: \vec{x} + \vec{y} \in W$ - uzavřenost na součet vektorů
 	- $\forall{a \in \F, \vec{x} \in W}: a \cdot \vec{x} \in W$ - uzavřenost na násobení skalárem
 	- z lineárního podprostoru nelze "utéct"
+		- "What happens in Vegas stays in Vegas"
 - $W_1 \vee W_2 = \span (W_1 \cup W_2)$
 	- obecněji $\bigvee_{i \in I}{W_i}=\span\left(\bigcup_{i \in I}{W_i}\right)$
 	- tzv. **spojení** neboli **join** podprostorů
@@ -17,5 +19,6 @@
 	- každá rovina procházející počátkem
 	- celá množina $\R^3$
 	- dokážeme později
+		- TODO: doplnit důkaz skrz řešení soustav rovnic, a generování soustav rovnic s daným řešením
 - každý lineární prostor je svým vlastním podprostorem
 - $\{\vec{o}\}$ je vždy podprostorem každého prostoru

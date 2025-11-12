@@ -1,6 +1,6 @@
 - $$\span M = \bigcap_{P \subseteq L}{P}\text{ kde }P\text{ jsou podprostory }L, M \subseteq L$$
-	- průnik všech [[Lineární podprostor|podprostorů]] $P \subseteq L$ obsahující $M$, neboli nejmenší podprostor $L$ obsahující $M$
-		- tzn. $\span M$ je *vždy* podprostor $L$
+	- průnik všech podprostorů $P \subseteq L$ obsahující $M$, neboli nejmenší podprostor $L$ obsahující $M$
+		- tzn. $\span M$ je *vždy* [[Lineární podprostor|podprostor]] $L$ a má veškeré příslušné vlastnosti
 - $\vec{x} \in \span M \iff \vec{x} = \sum_{i=1}^{n}{a_i\vec{x_i}}$ pro nějaké $n$, nějaké $a_1...a_n$, nějaké $\vec{x_1}...\vec{x_n}$
 - vlastnosti
 	- (1) $M \subseteq N \implies \span M \subseteq \span N$
