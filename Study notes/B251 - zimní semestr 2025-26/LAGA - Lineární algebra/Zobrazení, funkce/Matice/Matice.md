@@ -46,7 +46,7 @@
 			- $M = \mathbf{R}_\alpha\cdot\pmatrix{1 & 0 \\ 0 & -1}\cdot\mathbf{R}_{-\alpha}$
 		- TODO: dopočítat
 - $\F^s \xrightarrow[\text{lin}]{\mathbf{A}} \F^r$
-	- $\def \mathbf{A} = 0 \text{ }\land s = r = n$ ("čtvercová situace")
+	- $\def \mathbf{A} = 0 \land s = r = n$, tzn.  ("čtvercová situace")
 		- $\F^n \xrightarrow[\text{lin}]{\mathbf{A}} \F^n$
 	- $\mathbf{A} \vec{x} = \vec{o}$ má právě jedno řešení
 	- $\mathbf{A}$ je *regulární*, když existuje jednoznačná matice $\mathbf{A}^{-1}$ (zvaná inverze) taková, že $\mathbf{A} \cdot \mathbf{A}^{-1} = \mathbf{A}^{-1} \cdot \mathbf{A} = \mathbf{E}_n$
