@@ -77,7 +77,7 @@
 		- nemusí mít kořeny v tělese, v takovém případě to "skončí brzo"
 	- matici lze diagonalizovat právě tehdy, kdy dimenze každéhp vlastního podprostoru $\dim\eigen(\lambda_i, \mathbf{M})$ je rovna násobnosti $\lambda_i$ jakožto kořenu charakteristického polynomu $\char_\mathbf{M}(x)$
 - př. Pauliho matice
-	- různí autoři ⇒ různé názvy (často $\sigma_{1,2,3}$ nebo $\sigma_{x,y,z}$), zde zkrátka $X, Y, Z$
+	- různí autoři ⇒ různé značení (často $\sigma_{1,2,3}$ nebo $\sigma_{x,y,z}$), zde zkrátka $X, Y, Z$
 	- $X = \pmatrix{0 & 1 \\ 1 & 0}$
 		- $\char_X(x) = \dmatrix{0 - x & 1 \\ 1 & 0 - x} = (0-x)^2 - 1^2 = x^2 - 1$
 		- kořeny $\lambda_1 = 1$, $\lambda_2 = -1$
@@ -127,9 +127,9 @@
 	- slogan: izomorfismy na rovině bez 2-násobných vlastních hodnot jsou buď změna měřítka, nebo rotace a změna měřítka
 	- důkaz:
 		- TODO: doplnit $\viz{prez. 8B 11/16}$
-- výpočet mocniny diagonalisovatelné matice $\mathbf{A}$ rozměru $n \times n$
+- výpočet mocniny diagonalisovatelné matice $\mathbf{A}$ rozměru $n \times n$ zobrazení z prostoru $\L$ do $\L$ nad tělesem $\F$
 	- $\mathbf{A}^2 = (TDT^{-1}) \cdot (TDT^{-1}) = TD^2T^{-1}$
-		- $\array{\F^n & \stackrel{D}{\longrightarrow} & \F^n & \stackrel{\mathbf{E}_n}{\rightarrow} & \F^n & \stackrel{D}{\longrightarrow} & \F^n \\ \uparrow\rlap{\scriptstyle T^{-1}} & & \downarrow\rlap{\scriptstyle T} & & \uparrow\rlap{\scriptstyle T^{-1}} & & \downarrow\rlap{\scriptstyle T} \\ L & \stackrel{\mathbf{A}}{\longrightarrow} & L & \stackrel{\id_L}{\rightarrow} & L & \stackrel{\mathbf{A}}{\longrightarrow} & L}$
+		- $\array[ccc:c:ccc]{\F^n & \stackrel{D}{\longrightarrow} & \F^n & \stackrel{\mathbf{E}_n}{\rightarrow} & \F^n & \stackrel{D}{\longrightarrow} & \F^n \\ \uparrow\rlap{\scriptstyle T^{-1}} & & \downarrow\rlap{\scriptstyle T} & & \uparrow\rlap{\scriptstyle T^{-1}} & & \downarrow\rlap{\scriptstyle T} \\ \L & \stackrel{\mathbf{A}}{\longrightarrow} & \L & \stackrel{\id_\L}{\rightarrow} & \L & \stackrel{\mathbf{A}}{\longrightarrow} & \L}$
 	- analog. pro $\mathbf{A}^k = TD^kT^{-1}$ kde $k \ge 0$
 	- $D^k = \pmatrix{\lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n^k}$
 	- velmi výpočetně nenáročné!
