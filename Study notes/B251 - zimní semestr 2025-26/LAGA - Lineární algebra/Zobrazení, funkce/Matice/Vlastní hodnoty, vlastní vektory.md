@@ -129,6 +129,8 @@
 		- TODO: doplnit $\viz{prez. 8B 11/16}$
 - výpočet mocniny diagonalisovatelné matice $\mathbf{A}$ rozměru $n \times n$
 	- $\mathbf{A}^2 = (TDT^{-1}) \cdot (TDT^{-1}) = TD^2T^{-1}$
+		- $\array{\F^n & \stackrel{D}{\longrightarrow} & \F^n & \stackrel{\mathbf{E}_n}{\rightarrow} & \F^n & \stackrel{D}{\longrightarrow} & \F^n \\ \uparrow\rlap{\scriptstyle T} & & \downarrow\rlap{\scriptstyle T^{-1}} & & \uparrow\rlap{\scriptstyle T} & & \downarrow\rlap{\scriptstyle T^{-1}} \\ L & \stackrel{\mathbf{A}}{\longrightarrow} & L & \stackrel{\id_L}{\rightarrow} & L & \stackrel{\mathbf{A}}{\longrightarrow} & L}$
 	- analog. pro $\mathbf{A}^k = TD^kT^{-1}$ kde $k \ge 0$
-	- velmi výpočetně nenáročné! $D^k = \pmatrix{\lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n^k}$
+	- $D^k = \pmatrix{\lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n^k}$
+	- velmi výpočetně nenáročné!
 	- diagonalisovatelné matice tedy extrémně snadné mocnit pomocí přechodu do báze vlastních vektorů
