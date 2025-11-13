@@ -17,10 +17,10 @@
 \newcommand{\langles}{\langle\!\langle}
 \newcommand{\rangles}{\rangle\!\rangle}
 
-\newcommand{\intvloo}[2]{ \left( #1, #2 \right) }
-\newcommand{\intvloc}[2]{ \left( #1, #2 \right\rangle }
-\newcommand{\intvlco}[2]{ \left\langle #1, #2 \right) }
-\newcommand{\intvlcc}[2]{ \left\langle #1, #2 \right\rangle }
+\DeclarePairedDelimiter{\intvloo}{(}{)}
+\DeclarePairedDelimiter{\intvloc}{(}{\rangle}
+\DeclarePairedDelimiter{\intvlcc}{\langle}{\rangle}
+\DeclarePairedDelimiter{\intvlco}{\langle}{)}
 
 \newcommand{\d}[1][]{\mathop{\mathrm{d} #1}}
 \newcommand{\dx}{\d[x]}
