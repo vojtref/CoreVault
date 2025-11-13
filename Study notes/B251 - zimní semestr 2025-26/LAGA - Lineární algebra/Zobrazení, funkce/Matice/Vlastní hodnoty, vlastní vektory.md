@@ -131,6 +131,6 @@
 	- $\mathbf{A}^2 = (TDT^{-1}) \cdot (TDT^{-1}) = TD^2T^{-1}$
 		- $\array[ccc:c:ccc]{\F^n & \stackrel{D}{\longrightarrow} & \F^n & \stackrel{\mathbf{E}_n}{\rightarrow} & \F^n & \stackrel{D}{\longrightarrow} & \F^n \\ \uparrow\rlap{\scriptstyle T^{-1}} & & \downarrow\rlap{\scriptstyle T} & & \uparrow\rlap{\scriptstyle T^{-1}} & & \downarrow\rlap{\scriptstyle T} \\ \L & \stackrel{\mathbf{A}}{\longrightarrow} & \L & \stackrel{\id_\L}{\rightarrow} & \L & \stackrel{\mathbf{A}}{\longrightarrow} & \L}$
 	- analog. pro $\mathbf{A}^k = TD^kT^{-1}$ kde $k \ge 0$
-	- $D^k = \pmatrix{\lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n^k}$
+	- $D^k = \begin{psmallmatrix}\lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n^k\end{psmallmatrix}$
 	- velmi výpočetně nenáročné!
 	- diagonalisovatelné matice tedy extrémně snadné mocnit pomocí přechodu do báze vlastních vektorů
