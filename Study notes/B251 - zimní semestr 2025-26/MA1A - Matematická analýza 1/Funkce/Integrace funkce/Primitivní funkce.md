@@ -54,14 +54,4 @@
 	- $= \cases{x + B = z \\ 1\dx = \d[z]}$
 	- $= \int{F'(z) \d[z]} = F(z) + C$
 	- $= F(x + B) + C$
-- TODO: doplnit $\int{\frac{f'(x)}{f(x)}\dx}$
-- integrace racionální funkce
-	- $P, Q \in \R[x], Q \ne 0$
-	- $R = \frac{P}{Q}$ - racionální funkce
-	- $\exists Y,Z \in \R[x]: P(x) = Y(x) \cdot Q(x) + Z(x)$ $\forall x \in \R$
-		- $\deg Z < \deg Q$
-	- TODO: doplnit
-	- **ryze lomené** $R = \frac{P}{Q} \quad \deg{P} < \deg{Q}$
-	- **jednoduché zlomky** (též **parciální**)
-			- $\frac{A}{(x - \alpha)^k} \quad A, \alpha \in \R;\; k \in \N_+$
-	- TODO: doplnit větu 7.6, zakrývací pravidlo
+- TODO: doplnit $\int{\frac{f'(x)}{f(x)}\dx}$, př. 7.7\*

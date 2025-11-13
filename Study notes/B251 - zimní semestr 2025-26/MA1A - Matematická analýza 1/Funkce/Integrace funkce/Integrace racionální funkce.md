@@ -1,0 +1,31 @@
+- **racionální funkce** $R(x)$
+	- $P, Q \in \R[x], Q \ne 0$
+	- $R = \frac{P}{Q}$
+		- prostě podíl dvou polynomů
+	- $\exists Y,Z \in \R[x]: P(x) = Y(x) \cdot Q(x) + Z(x)$ $\forall x \in \R$
+		- $\deg Z < \deg Q$
+		- neboli $R(x) = \frac{Y(x) \cdot Q(x) + Z(x)}{Q(x)}$
+	- TODO: doplnit
+	- **ryze lomené** $R = \frac{P}{Q} \quad \deg{P} < \deg{Q}$
+	- **jednoduché zlomky** (též **parciální**)
+		- základní typy:
+			- $\frac{A}{(x - \alpha)^k}$ $A, \alpha \in \R;\; k \in \N_+$
+			- $\frac{Bx+C}{(x^2+px+q)^k}$ $B,C,p,q \in \R; k \in \N_+$
+	- **věta 7.6**: libovolnou racionální funkci lze zapsat právě jedním způsobem (až na pořadí sčítanců) jako součet polynomu a racionální funkce
+	- TODO: zakrývací pravidlo
+		- "dosazování" kořenů jmenovatele (zakryjeme nulovou část výrazu ať nedělíme nulou)
+		- lze získat pouze koeficient u parciálního zlomku s nejvyšší mocninou jmenovatele
+- důsledek věty 7.6 a linearity integrace: integraci racionálních funkcí lze rozložit na integraci polynomů + integraci jednoduchých funkcí
+- integrace typu $\int\frac{A}{(x - \alpha)^k}\dx$
+- integrace typu $\int\frac{Bx + C}{(x^2 + px + q)^k}\dx$
+- TODO: doplnit z foto, skript; prostudovat př. 7.14
+- některé důležité substituce
+	- integrály typu $\int R(e^{ax}) \dx$
+		- provedeme substituci $t = e^{ax} \quad t \in \intvloo{0}{\infty}$
+		- $\int R(e^{ax}) \dx = \cases{e^{ax} = t \\ x = \frac{\ln t}{a} \\ \dx = \frac{1}{at}\d[t]} = \int{R(t) \cdot \frac{1}{at}\d[t]}$
+		- př. 7.15
+			- TODO: doplnit, nastudovat, asi mi nedochází jak fungují substituce 'cause wtf
+		- př. 7.16
+	- integrály typu $\int \frac{R(\ln x)}{x} \dx$
+	- integrály typu $\int R(\sin x, \cos x) \dx$
+- TODO: přihlásit se na učňák sváření bo fuck this
