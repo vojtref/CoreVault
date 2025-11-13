@@ -28,7 +28,7 @@
 	- $a \in \R \mid a \ne \pm\infty$
 	- např. $\varepsilon=1$
 		- z def. limity: $\exists P(x_0) \forall x \in P(x_0): |f(x) - a| < 1 \implies a-1 < f(x) < a+1$, tzn. omezená shora i sdola $\QED$
-- věta 3.6: $f$ monotónní na $\intvloo{a}{b} \implies \exists \lim_{x \to a+}f(x) \land \exists \lim_{x \to b-}f(x)$
+- věta 3.6: $f$ monotónní na $\intvloo{a,b} \implies \exists \lim_{x \to a+}f(x) \land \exists \lim_{x \to b-}f(x)$
 - aritmetika vlastních limit
 	- $\lim_{x \to x_0}f(x)=a,\ \lim_{x \to x_0}g(x)=b$
 	- $\lim_{x \to x_0}(f(x)+g(x))=a+b$

@@ -11,13 +11,13 @@
 	- $\R \setminus \Q$ - iracionální čísla
 - intervaly
 	- $a,b \in \R$
-	- $\intvloo{a}{b} = \{x \in \R:a \lt x \lt b\}$
-	- $\intvlcc{a}{b} = \{x \in \R:a \le x \le b\}$
-	- $\intvlco{a}{b} = \{x \in \R:a \le x \lt b\}$
-	- $\intvloc{a}{b} = \{x \in \R:a \lt x \le b\}$
+	- $\intvloo{a,b} = \{x \in \R:a \lt x \lt b\}$
+	- $\intvlcc{a,b} = \{x \in \R:a \le x \le b\}$
+	- $\intvlco{a,b} = \{x \in \R:a \le x \lt b\}$
+	- $\intvloc{a,b} = \{x \in \R:a \lt x \le b\}$
 - $c,x,\varepsilon \in \R,\ \varepsilon \gt 0$
-	- $|x-c| \lt \varepsilon \iff c-\varepsilon \lt x \lt c+\varepsilon$ neboli $x \in \intvloo{c-\varepsilon}{c+\varepsilon}$
-	- $U_\varepsilon = (c-\varepsilon, c+\varepsilon)$ - **okolí** bodu $c$
-		- levé $U_{\varepsilon}^{-} = \intvloc{c - \varepsilon}{c}$, pravé $U_{\varepsilon}^{+} = \intvlco{c}{c + \varepsilon}$
+	- $|x-c| \lt \varepsilon \iff c-\varepsilon \lt x \lt c+\varepsilon$ neboli $x \in \intvloo{c-\varepsilon,c+\varepsilon}$
+	- $U_\varepsilon = \intvloo{c-\varepsilon, c+\varepsilon}$ - **okolí** bodu $c$
+		- levé $U_{\varepsilon}^{-} = \intvloc{c - \varepsilon,c}$, pravé $U_{\varepsilon}^{+} = \intvlco{c,c + \varepsilon}$
 	- $P_{\varepsilon} = U_{\varepsilon} \setminus \{c\}$ - **prstencové okolí** bodu $c$
-		- levé $P_{\varepsilon}^{-} = \intvloo{c - \varepsilon}{c}$, pravé $P_{\varepsilon}^{+} = \intvloo{c}{c + \varepsilon}$
+		- levé $P_{\varepsilon}^{-} = \intvloo{c - \varepsilon,c}$, pravé $P_{\varepsilon}^{+} = \intvloo{c,c + \varepsilon}$

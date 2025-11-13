@@ -33,9 +33,9 @@
 			- $\amatrix{0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\0}$
 			- partikulární řešení $\vec{o}$
 			- $\pmatrix{0 \\ 0 \\ 0 \\ 0} + \span(\pmatrix{1 \\ 0 \\ 0 \\ 0}, \pmatrix{0 \\ 1 \\ 0 \\ 0}, \pmatrix{0 \\ 0 \\ 1 \\ 0}, \pmatrix{0 \\ 0 \\ 0 \\ 1})$
-			- $= \span(\pmatrix{1 & 0 \\ 0 & 0}, \pmatrix{0 & 0 \\ 1 \underline{}& 0}, \pmatrix{0 & 1 \\ 0 & 0}, \pmatrix{0 & 0 \\ 0 & 1}) = \mathrm{Lin}(\R^2, \R^2)$
+			- $= \span(\pmatrix{1 & 0 \\ 0 & 0}, \pmatrix{0 & 0 \\ 1 & 0}, \pmatrix{0 & 1 \\ 0 & 0}, \pmatrix{0 & 0 \\ 0 & 1}) = \mathrm{Lin}(\R^2, \R^2)$
 		- $\lor$
-			- $\sin \alpha \ne 0 \iff \alpha \in \intvlco{0}{2\pi} \setminus \{0, \pi\}$
+			- $\sin \alpha \ne 0 \iff \alpha \in \intvlco{0,2\pi} \setminus \{0, \pi\}$
 			- $\amatrix{\sin \alpha & 0 & 0 & -\sin \alpha \\ 0 & \sin \alpha & \sin \alpha & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\0} \sim \amatrix{1 & 0 & 0 & -1 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\0}$
 				- vydělit $\sin \alpha$ (resp. škálovat inverzí) můžeme, jelikož $\ne 0$
 			- $\amatrix{1 & 0 & 0 & -1 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\0}$

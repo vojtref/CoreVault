@@ -33,7 +33,7 @@
 		- zobrazení *prosté* a *na* = **bijektivní** zobrazení (zkr. bijekce)
 		- $\card{X} = \card{Y}$
 			- pro důkaz pro obecné množiny (vč. nekonečných) viz Cantor-Bernsteinova věta
-		- např. $\tan: \intvloo{-\frac{\pi}{2}}{\frac{\pi}{2}} \to \R$
+		- např. $\tan: \intvloo{-\frac{\pi}{2},\frac{\pi}{2}} \to \R$
 	- složení dvou zobrazení stejné vlastnosti (prosté/na/prosté a na) vlastnost zachová
 - "slepování komutativních čtverců"
 	- TODO: dopsat

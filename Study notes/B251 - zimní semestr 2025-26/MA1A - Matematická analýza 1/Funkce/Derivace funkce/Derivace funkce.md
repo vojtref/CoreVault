@@ -66,7 +66,7 @@
 		- "loupání cibule," derivujeme vnější "slupku"
 	- angl. "chain rule"
 - **věta 4.4**: o derivaci inverzní funkce
-	- $f$ prostá, spojitá na $\intvloo{a}{b}$, $x_0 \in \intvloo{a}{b}, f(x_0)=y_0$
+	- $f$ prostá, spojitá na $\intvloo{a,b}$, $x_0 \in \intvloo{a,b}, f(x_0)=y_0$
 	- $\exists f'(x_0) \ne 0 \implies \exists f_{-1}'(y_0)=\frac{1}{f'(x_0)}$
 	- TODO: dopsat důkaz přes větu 4.1
 - př. $f(x) = e^x = y$
@@ -75,7 +75,7 @@
 	- $f'(x) = e^x$
 	- $f_{-1}(x) = \ln y = x$
 	- $(\ln y)'=\frac{1}{e^x} = \frac{1}{e^{\ln y}} = \frac{1}{y} \Leftarrow y>0$
-- př. $f(x) = \sin x = y, x \in \intvloo{-\frac{\pi}{2}}{\frac{\pi}{2}}=I,y \in \intvloo{-1}{1}$
+- př. $f(x) = \sin x = y, x \in \intvloo{-\frac{\pi}{2},\frac{\pi}{2}}=I,y \in \intvloo{-1,1}$
 	- $f$ spojitá na $\R$, prostá na $I$
 	- TODO: dopsat z foto
 - TODO: př. 4.6 - 4.7
@@ -94,7 +94,7 @@
 	- $h'(x) = e^{v(x) \cdot \ln u(x)} \cdot (v(x) \cdot \ln u(x)) \mid u(x) > 0$
 		- $= h(x) \left(v'(x) \ln u(x) + v(x) \frac{u'(x)}{u(x)}\right)$
 - věta 4.5:
-	- $f$ spojitá na intervalu $\intvlco{x_0}{x_0 + \delta}$ a existuje $\lim_{x \to x_0}f'(x) = a$
+	- $f$ spojitá na intervalu $\intvlco{x_0,x_0 + \delta}$ a existuje $\lim_{x \to x_0}f'(x) = a$
 	- poté $f_+'(x_0) = a$
 	- analog. pro $f_-'(x_0)$
 	- př. 4.8: neexistuje $\lim_{x \to x_0}f'(x)$, ale existuje $f'(x_0)$ - tvrzení nelze obrátit

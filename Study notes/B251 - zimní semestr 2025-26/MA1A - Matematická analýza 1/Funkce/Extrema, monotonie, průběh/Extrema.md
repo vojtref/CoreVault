@@ -26,16 +26,16 @@
 	- $f'(x) = \cases{3 - 3x^2 = 3(1 - x^2) & x > 0 \\ -1 - 3x^2 & x < 0}$
 	- TODO: doplnit
 - hledání globálních extrem
-	- A) na intervalu $I = \intvlcc{a}{b}$
+	- A) na intervalu $I = \intvlcc{a,b}$
 		- a) najdeme "body podezřelé z extrema"
 			- body $a$, $b$
 			- stacionární body $f'(x) = 0$
 			- body, kde $f$ nemá derivaci
 		- b) spočítáme funkční hodnoty v daných bodech, a vybereme největší pro globální maximum, nejmenší pro globální minimum
 	- B) na intervalu, který není uzavřený
-		- např. hledáme globální minimum v intervalu $\intvloc{a}{b}$
+		- např. hledáme globální minimum v intervalu $\intvloc{a,b}$
 		- postup jako v A), jen $f(a)$ nahradíme $\lim_{x \to a^+} f(x) = \alpha$
-		- jestli ve všech ostatních vyšetřovaných bodech větší než $\alpha$, pak na intervalu $\intvloc{a}{b}$ globálního minima nenabývá a $\alpha = \inf \{f(x) \mid x \in \intvloc{a}{b}\}$
+		- jestli ve všech ostatních vyšetřovaných bodech větší než $\alpha$, pak na intervalu $\intvloc{a,b}$ globálního minima nenabývá a $\alpha = \inf \{f(x) \mid x \in \intvloc{a,b}\}$
 		- analogicky pro maximum (jestli v ostatních bodech menší..., $\alpha = \sup\{\cdots\}$)
-		- analogicky pro otevřenou druhou stranu intervalu či obě: $\intvlco{a}{b},\ \lim_{x \to b^-} f(x) = \beta$
+		- analogicky pro otevřenou druhou stranu intervalu či obě: $\intvlco{a,b},\ \lim_{x \to b^-} f(x) = \beta$
 		- pokud limita $\alpha$ resp. $\beta$ neexistuje, situace složitější, nebudeme řešit

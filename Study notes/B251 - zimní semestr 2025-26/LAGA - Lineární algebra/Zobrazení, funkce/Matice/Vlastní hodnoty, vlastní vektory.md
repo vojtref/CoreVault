@@ -119,17 +119,17 @@
 		- libovolná matice s nenulovými hodnotami pouze na hlavní diagonále je již diagonální, a $T = \mathbf{E}_n$
 - př. nad $\R$ matice $A = \pmatrix{a & -b \\ b & a}$
 	- "vypadá jako" rotace $R_\alpha = \pmatrix{\cos \alpha & -\sin \alpha \\ \sin \alpha & \cos \alpha}$
-		- ALE např. $a=10, b=8$ není, $\cos$ a $\sin$ omezené $\intvlcc{1}{1}$
+		- ALE např. $a=10, b=8$ není, $\cos$ a $\sin$ omezené $\intvlcc{1,1}$
 	- $\char_A(x) = \dmatrix{a - x & -b \\ b & a-x} = (a-x)^2 + b^2 = x^2 + (-2a) + (a^2 + b^2)$
 		- TODO: doplnit, nemá kořeny v $\R$ pro $b \ne 0$
 			- TODO: doplnit z foto, přes řešení v $\C$ krásně ukázáno, že jde o rotaci a škálování
-- $\mathbf{M}: \R^2 \to \R^2$ regulární a nemá 2-násobnou vlastní hodnotu, pak je podobná buď $\pmatrix{a & 0 \\ 0 & b}$, nebo $\pmatrix{r & 0 \\ 0 & r}\cdot R_\alpha$ kde $r \in \R$, $\alpha \in \intvlco{0}{2 \pi}$
+- $\mathbf{M}: \R^2 \to \R^2$ regulární a nemá 2-násobnou vlastní hodnotu, pak je podobná buď $\pmatrix{a & 0 \\ 0 & b}$, nebo $\pmatrix{r & 0 \\ 0 & r}\cdot R_\alpha$ kde $r \in \R$, $\alpha \in \intvlco{0,2 \pi}$
 	- slogan: izomorfismy na rovině bez 2-násobných vlastních hodnot jsou buď změna měřítka, nebo rotace a změna měřítka
 	- důkaz:
 		- TODO: doplnit $\viz{prez. 8B 11/16}$
 - výpočet mocniny diagonalisovatelné matice $\mathbf{A}$ rozměru $n \times n$
 	- $\mathbf{A}^2 = (TDT^{-1}) \cdot (TDT^{-1}) = TD^2T^{-1}$
-		- $\array{\F^n & \stackrel{D}{\longrightarrow} & \F^n & \stackrel{\mathbf{E}_n}{\rightarrow} & \F^n & \stackrel{D}{\longrightarrow} & \F^n \\ \uparrow\rlap{\scriptstyle T} & & \downarrow\rlap{\scriptstyle T^{-1}} & & \uparrow\rlap{\scriptstyle T} & & \downarrow\rlap{\scriptstyle T^{-1}} \\ L & \stackrel{\mathbf{A}}{\longrightarrow} & L & \stackrel{\id_L}{\rightarrow} & L & \stackrel{\mathbf{A}}{\longrightarrow} & L}$
+		- $\array{\F^n & \stackrel{D}{\longrightarrow} & \F^n & \stackrel{\mathbf{E}_n}{\rightarrow} & \F^n & \stackrel{D}{\longrightarrow} & \F^n \\ \uparrow\rlap{\scriptstyle T^{-1}} & & \downarrow\rlap{\scriptstyle T} & & \uparrow\rlap{\scriptstyle T^{-1}} & & \downarrow\rlap{\scriptstyle T} \\ L & \stackrel{\mathbf{A}}{\longrightarrow} & L & \stackrel{\id_L}{\rightarrow} & L & \stackrel{\mathbf{A}}{\longrightarrow} & L}$
 	- analog. pro $\mathbf{A}^k = TD^kT^{-1}$ kde $k \ge 0$
 	- $D^k = \pmatrix{\lambda_1^k & 0 & \cdots & 0 \\ 0 & \lambda_2^k & \cdots & 0 \\ \vdots & \vdots & \ddots & 0 \\ 0 & 0 & 0 & \lambda_n^k}$
 	- velmi výpočetně nenáročné!

@@ -1,7 +1,7 @@
 
 - světlo charakterizované kmitočtem $\nu$, vlnovou délkou $\lambda$
 	- častěji užívána vlnová délka
-	- $\lambda_{vis} \in \intvlcc{380}{770} \text{ nm}$
+	- $\lambda_{vis} \in \intvlcc{380,770} \text{ nm}$
 	- citlivost lidského oka
 		- skotopické vidění
 			- "noční," lepší vnímání pohybu, omezené vnímání barev

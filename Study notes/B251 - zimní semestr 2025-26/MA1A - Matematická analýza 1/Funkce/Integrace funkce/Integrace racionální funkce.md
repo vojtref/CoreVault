@@ -21,7 +21,7 @@
 - TODO: doplnit z foto, skript; prostudovat př. 7.14
 - některé důležité substituce
 	- integrály typu $\int R(e^{ax}) \dx$
-		- provedeme substituci $t = e^{ax} \quad t \in \intvloo{0}{\infty}$
+		- provedeme substituci $t = e^{ax} \quad t \in \intvloo{0,\infty}$
 		- $\int R(e^{ax}) \dx = \cases{e^{ax} = t \\ x = \frac{\ln t}{a} \\ \dx = \frac{1}{at}\d[t]} = \int{R(t) \cdot \frac{1}{at}\d[t]}$
 		- př. 7.15
 			- TODO: doplnit, nastudovat, asi mi nedochází jak fungují substituce 'cause wtf

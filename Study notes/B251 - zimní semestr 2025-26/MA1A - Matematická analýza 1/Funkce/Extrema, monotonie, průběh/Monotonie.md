@@ -11,4 +11,4 @@
 - **věta 6.3**: nechť je $f$ spojitá na intervalu $I$ a má v každém jeho bodě derivaci, pak $f \text{ rostoucí na intervalu } I \iff \forall x \in I: f'(x) > 0$
 	- opět analog. pro klesající ($<$), neklesající ($\ge$), nerostoucí ($\le$)
 	- platí:
-		- je-li $f$ rostoucí na $\intvloo{a}{b}$ a spojitá zleva (tj. spojitá v $a$), je rostoucí $\intvlco{a}{b}$; analog. pro $\intvloc{a}{b}$
+		- je-li $f$ rostoucí na $\intvloo{a,b}$ a spojitá zleva (tj. spojitá v $a$), je rostoucí $\intvlco{a,b}$; analog. pro $\intvloc{a,b}$
