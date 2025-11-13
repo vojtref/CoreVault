@@ -5,15 +5,70 @@
 	- M
 		- mitóza
 			- μίτος, "vlákno"
+			- profáze
+			- prometafáze
+			- metafáze
+			- **M checkpoint**
+				- jsou chromozomy napojeny k dělícímu vřeténku?
+			- anafáze
+			- telofáze
+		- cytokineze
 	- G0
 		- "gap 0"
 		- klidové stadium, buňka nedělá nic
 	- G1 (40%)
 		- "gap 1"
 		- shromažďování a syntéza faktorů a látek nutných na replikaci DNA
+		- **G1 checkpoint**
+			- poškozené DNA?
+				- téměř vždy DNA lehce poškozená je → započaty reparační procesy
+				- přílišné poškození → apoptóza
+			- buňka dostatečně velká?
+			- dostatek živin?
 	- S (39%)
 		- syntetická fáze
 		- probíhá [[Replikace DNA, PCR|replikace DNA]]
 	- G2 (19%)
 		- "gap 2"
 		- preparace na mitózu
+	- **G2 checkpoint**
+		- proběhla správná replikace?
+			- DNA polymeráza velmi přesná, ale přesto kontrola nutná
+		- buňka dostatečně velká?
+- geny řídící buněčný cyklus
+	- **protoonkogeny**
+		- urychlují buněčný cyklus
+			- tzn. stimulují produkci [cyklinů](https://en.wikipedia.org/wiki/Cyclin), [CDKs (cyclin dependent kinases)](https://en.wikipedia.org/wiki/Cyclin-dependent_kinase)
+		- mezi produkty patří růstové faktory
+	- **onkosupresory** (= tumor supresorové geny, tumorsupresory)
+		- zastavují buněčný cyklus
+			- antagonisty protoonkogenů
+			- mj. inhibitory CDK
+		- např. gen RB1 (retinoblastoma protein 1)
+	- **mutátorové geny**
+		- zajišťují reparaci DNA
+			- pozor, nenechat se svést jménem!
+			- nevyvolávají mutace, naopak jim zabraňují
+		- úzce spjaté s onkosupresory
+	- poškození výše uvedených genů za určitých podmínek může vést k dysregulovanému dělení → nádor
+- pohlavní buňky, meióza
+	- pohlavní rozmnožování umožňuje daleko vyšší genetickou variabilitu mezi generacemi, nezávisle na prostých mutacích
+		- variabilita podmínka evoluce → pohlavní rozmnožování evoluci "urychluje"
+		- meióza velmi energeticky náročná a celkově komplexní, samotná existence tedy důkaz evoluční výhodnosti
+	- mitoticky vznikají diploidní buňky, na pohlavní rozmnožování však nutné haploidní
+	- cyklus pohlavních buněk tedy zakončen **meiózou**
+		- vstupní stav: 1 buňka, diploidní, dichromatidová
+		- 1\. meiotické dělení (= redukční)
+			- dichromatidové chromosomy spojeny synaptonemálními komplexy (proteinové "lepidlo")
+			- probíhá crossing over mezi příslušnými chromatidami
+				- vzácně užíván český termín překřížení
+				- "prohazování genů" v genové vazbě
+				- umožňuje vznik nových kombinací → ještě vyšší genová variabilita
+				- vznikají rekombinantní chromatidy
+			- rozpouští se synatonemální komplexy
+			- buňky se poté rozdělují na 1 dichromatidové haploidní 
+		- 2\. meiotické dělení (= ekvační)
+			- rozdělení dvou dischromatidových buňek na monochromatidové čtyři
+			- toto meiotické dělení velmi obdobné mitóze, procesově téměř identické
+		- výstupní stav: 4 buňky, haploidní, monochromatidová
+		- každé meiotické dělení má vlastní profázi, prometafázi, anafázi, telofázi, profáze I dále leptoten, zygoten, pachyten, diploten, diakinese... toto pouze zjednodušené schéma

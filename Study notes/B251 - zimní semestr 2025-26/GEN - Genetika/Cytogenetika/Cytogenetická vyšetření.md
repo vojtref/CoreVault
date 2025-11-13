@@ -1,0 +1,51 @@
+- hlavní motivací je diagnostika chromozomových aberací způsobující určité patologické stavy
+- dělení
+	- dle typu materiálu odebraného z pacienta
+		- preimplantační
+			- v reprodukční medicíně
+			- materiál odebrán již z embrya vzniklého oplodněním in vitro
+			- před implantací embrya do dělohy matky
+		- prenatální
+			- materiálem buňky plodu či buňky plodové vody
+			- choriové klky (11.–13. týden těhotenství)
+				- výběžky s chorionu "prorážející" do placenty
+				- obtížný odběr, nutné extrémně přesné zavedení bioptické jehly na nenarušení amnionu, cca. 0.5% riziko
+			- amniocyty (≥16. týden těhotenství)
+				- amniocentéza
+				- nejméně rizikový odběr, cca. 0.1%–0.5% riziko
+			- krev z pupečníkové žíly (≥20. týden těhotenství)
+				- kordocentéza
+				- nebezpečný odběr, cca. 2%–3% riziko
+					- dnes téměř není prováděn, pouze ve velmi krajních případech
+		- postnatální
+			- periferní krev
+				- nejčastěji žilní
+				- chromosomy získány kultivací bílých krvinek
+			- vzácně i biopsie jiných tkání
+				- např. cytogenetické vyšetření nádorů
+	- dle principu, techniky vyšetření
+		- klasická (= základní)
+			- ![[giemsa_stain.jpg]]
+			- k identifikaci chromosomů užity barvící metody (staining; barvivo Giemsa-Romanowski, Wrightův roztok, fluorescenční barviva...)
+				- Giemsa na bázi azuru II a eosinu Y v methanolu a glycerinu
+				- Wright na bázi methylenové modři a eosinu Y
+			- nutno získat metafázové chromozomy, tedy kondenzované dichromatidové
+			- postup
+				- odběr vzorku
+				- kultivace buněk
+				- zastavení mitotického dělení v metafázi
+				- narušení buněčných membrán hypotonickým roztokem
+				- fixace, příprava preparátu
+				- nabarvení
+				- vyhodnocení
+			- vybavení
+				- optický mikroskop
+					- chromozomy vyhodnocovány pod objektivem s 100x zvětšením, tedy nutný *imerzní* objektiv 
+				- CCD kamera
+				- vyhodnocovací software
+					- vyhledávání metafází
+					- karyotyping
+						- roztřídění chromozomů na snímku do karyogramu
+						- softwarové zpracování nedokonalé; i dnes nutno vyhodnocení odborníkem
+					- archivace snímků, tisk výsledků, apod...
+		- molekulárně cytogenetická

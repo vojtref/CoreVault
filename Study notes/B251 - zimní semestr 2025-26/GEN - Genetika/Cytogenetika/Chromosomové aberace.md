@@ -1,0 +1,15 @@
+- změny stavby nebo počtu chromosomů
+- typy
+	- strukturní
+		- změny struktury
+		- delece - ztráta části
+		- translokace - spojení částí chromosomů
+	- numerické
+		- změny počtu
+		- polydiploidie - znásobení chromosomové sady
+			- triploidie - 3n
+			- tetraploidie - 4n
+			- u člověka postnatálně neslučitelné se životem
+		- aneuploidie - počet chromosomů není celým násobkem haploidní sady, tzn. jeden chybí nebo přebývá
+			- trisomie (2n + 1, 47 chromosomů)
+			- monosomie (2n - 1, 45 chromosomů)
