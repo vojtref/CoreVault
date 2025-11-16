@@ -1,0 +1,12 @@
+Errata as of 24.9.2024
+======================
+
+str. 20, Příklad 1.1.8, část (1), Adam Kozlik
+
+           vektor x+y má správně mít v čase 6 hodnotu 4 
+
+str. 102, Příklad 4.2.3, část (2), Michal Puš
+
+                překlep: správně má vyjít (83,36,18)^T
+
+                tento překlep opravte i v celkovém výsledku pro B.A na str. 103 
