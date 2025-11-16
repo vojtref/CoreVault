@@ -6,7 +6,7 @@
 		- translokace - spojení částí chromosomů
 	- numerické
 		- změny počtu
-		- polydiploidie - znásobení chromosomové sady
+		- polyploidie - znásobení chromosomové sady
 			- triploidie - 3n
 			- tetraploidie - 4n
 			- u člověka postnatálně neslučitelné se životem
