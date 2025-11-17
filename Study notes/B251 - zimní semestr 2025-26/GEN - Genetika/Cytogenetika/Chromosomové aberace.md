@@ -11,6 +11,7 @@
 			- tetraploidie - 4n
 			- u člověka postnatálně neslučitelné se životem
 				- prenatálně ano!
+				- plod se může dožít i třetího trimestru, není však viabilní, extremní abnormality způsobí selhání životních funkcí a abortus
 		- aneuploidie - počet chromosomů není celým násobkem haploidní sady, tzn. jeden chybí nebo přebývá
 			- trisomie (2n + 1, 47 chromosomů)
 			- monosomie (2n - 1, 45 chromosomů)
