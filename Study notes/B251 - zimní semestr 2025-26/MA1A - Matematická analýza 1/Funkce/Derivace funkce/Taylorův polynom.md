@@ -3,7 +3,7 @@
 - z postupné derivace polynomu vyplývá $$T_n^{(k)}(x_0)=k! \cdot a_k \implies a_k = \frac{f^{(k)}(x_0)}{k!}$$
 - odtud tzv. Taylorova řada $$T_n = \sum_{k=0}^{n}{\frac{f^{(k)}(x_0)}{k!}(x - x_0)^k}$$
 	- pozor, v sumě $x_{\color{Red}0}$, studenti často chybně dávají $x$
-	- $T_n$ - Taylorův polynom řádu $n$ (neboli stupně $\le n$) funkce $f$ v bodě $x_0$
+	- $T_n$ - Taylorův polynom řádu $n$ (neboli stupně $\leqslant n$) funkce $f$ v bodě $x_0$
 	- nejlepší možná (lokální) aproximace dané funkce poblíž bodu $x_0$ pomocí polynomů, de facto základ numeriky
 		- Pepa Dvořák: "Hodně věcí v numerice je prostě ožužlávání Taylora"
 - Maclaurinova řada - zvláštní případ pro $x_0 = 0$

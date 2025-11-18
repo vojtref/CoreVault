@@ -40,11 +40,11 @@
 - $\lim_{x \to x_0}f(x)=0 \land (f(x) \in P(x_0)) > 0 \implies \lim_{x \to x_0}\frac{1}{f(x)} = \infty$
 	- analog. pro $-\infty$
 - věta 3.12
-	- $f \le g$ na nějakém $P(x_0)$, $\lim_{x \to x_0}f(x)=a$, $\lim_{x \to x_0}g(x)=b$ $\implies a \le b$
-	- $f \le g$ na nějakém $P(x_0)$, $\lim_{x \to x_0}f(x)=\infty \implies \lim_{x \to x_0}g(x)=\infty$
-	- $f \le g$ na nějakém $P(x_0)$, $\lim_{x \to x_0}g(x)=-\infty \implies \lim_{x \to x_0}f(x)=\infty$
-	- $f \le g \le h$ na $P(x_0) \land \lim_{x \to x_0}f(x)=\lim_{x \to x_0}h(x)=a \implies \lim_{x \to x_0}g(x)=a$
-	- $|f| \le |g| \land \lim_{x \to x_0}g(x)=0 \implies \lim_{x \to x_0}f(x)=0$
+	- $f \leqslant g$ na nějakém $P(x_0)$, $\lim_{x \to x_0}f(x)=a$, $\lim_{x \to x_0}g(x)=b$ $\implies a \leqslant b$
+	- $f \leqslant g$ na nějakém $P(x_0)$, $\lim_{x \to x_0}f(x)=\infty \implies \lim_{x \to x_0}g(x)=\infty$
+	- $f \leqslant g$ na nějakém $P(x_0)$, $\lim_{x \to x_0}g(x)=-\infty \implies \lim_{x \to x_0}f(x)=\infty$
+	- $f \leqslant g \leqslant h$ na $P(x_0) \land \lim_{x \to x_0}f(x)=\lim_{x \to x_0}h(x)=a \implies \lim_{x \to x_0}g(x)=a$
+	- $|f| \leqslant |g| \land \lim_{x \to x_0}g(x)=0 \implies \lim_{x \to x_0}f(x)=0$
 - věta 3.13 - TODO doplnit
 - věta 3.14 - TODO doplnit
 - $h(x) = (f(x))^{g(x)},\ D(h)=D(g) \cup \{x \in D(f) \mid f(x) > 0\}$

@@ -1,11 +1,11 @@
-- $f$ je **konvexní** na intervalu $I$, jestliže pro každé tři body $t, x, z \in I:t < x < z$ a číslo $k_{t,z} = \frac{f(z) - f(t)}{z - t}$ platí $f(x) \le f(t) + k_{t,z} \cdot (x - t)$
+- $f$ je **konvexní** na intervalu $I$, jestliže pro každé tři body $t, x, z \in I:t < x < z$ a číslo $k_{t,z} = \frac{f(z) - f(t)}{z - t}$ platí $f(x) \leqslant f(t) + k_{t,z} \cdot (x - t)$
 	- tzn. graf funkce probíhá *pod* spojnicí mezí $t$ a $z$
 		- TODO: graf
-	- analog. pro **konkávní** ($\ge$)
+	- analog. pro **konkávní** ($\geqslant$)
 	- **ryze** konvexní/konkávní pokud je nerovnost ostrá
 	- spojnici lze zapsat i pomocí derivace
 		- $\forall x_0, x \in I, x \ne x_0$
-		- $f(x) \ge f(x_0) + f'(x_0)(x - x_0) \implies \text{konvexní}$
+		- $f(x) \geqslant f(x_0) + f'(x_0)(x - x_0) \implies \text{konvexní}$
 			- analog. pro (ryze) konkávní a ryze konvexní
 			- TODO: graf
 - $[x_0, f(x_0)]$ je **inflexní bod** $f$ (neboli $f$ má v $x_0$ **inflexi**) pokud platí:

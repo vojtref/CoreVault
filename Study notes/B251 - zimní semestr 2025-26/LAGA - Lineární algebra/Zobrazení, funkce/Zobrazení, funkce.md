@@ -25,10 +25,10 @@
 - vlastnosti zobrazení
 	- $X \xrightarrow[\text{prosté}]{f} Y \implies f(x_1) = f(x_2) \iff x_1 = x_2$
 		- zobrazení *prosté* = **injektivní** zobrazení (zkr. injekce)
-		- $\card{X} \le \card{Y}$
+		- $\card{X} \leqslant \card{Y}$
 	- $X \xrightarrow[\text{na}]{f} Y \implies \forall{(y \in Y)}\exists{(x \in X)}:x \mapsto y$
 		- zobrazení *na* = **surjektivní** zobrazení (zkr. surjekce)
-		- $\card{X} \ge \card{Y}$
+		- $\card{X} \geqslant \card{Y}$
 	- $X \xrightarrow[\text{prosté a na}]{f} Y$
 		- zobrazení *prosté* a *na* = **bijektivní** zobrazení (zkr. bijekce)
 		- $\card{X} = \card{Y}$

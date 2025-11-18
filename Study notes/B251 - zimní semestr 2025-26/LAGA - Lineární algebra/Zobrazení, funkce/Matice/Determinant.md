@@ -9,7 +9,7 @@
 		- $\det \mathbf{A} = a_{11} \cdot a_{22} - a_{12} \cdot a_{21}$
 	- př. $S_3$
 		- TODO: doplnit, 3 věže
-	- Sarrusovo pravidlo, snadný pattern dle hlavní a vedlejší diagonály neplatí pro $n \ge 4$
+	- Sarrusovo pravidlo, snadný pattern dle hlavní a vedlejší diagonály neplatí pro $n \geqslant 4$
 - TODO: doplnit rovnoběžníky v $\R^2$
 - determinant počítá *orientovaný obsah* rovnoběžníku (resp. *orientovaný objem* rovnoběžnostěnu) se stranami ze sloupců matic
 	- $P(\vec{e_1}, \vec{e_2}) = 1$

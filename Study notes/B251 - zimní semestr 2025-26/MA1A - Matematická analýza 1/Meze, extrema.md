@@ -1,22 +1,22 @@
 - $M \subseteq \R \ne \O$
 - meze
 	- **horní mez** $K$
-		- $K \in \R \cup \{\pm\infty\}, \forall{x \in M}: x \le K$
+		- $K \in \R \cup \{\pm\infty\}, \forall{x \in M}: x \leqslant K$
 		- pokud existuje a je konečná, říkáme, že množina je *shora omezená* (také *shora ohraničená*)
 		- $\sup M$ - **supremum**, nejnižší horní mez
 		- $\sup \O = -\infty$
 	- **dolní mez** $L$
-		- $L \in \R \cup \{\pm\infty\}, \forall{x \in M}: x \ge L$
+		- $L \in \R \cup \{\pm\infty\}, \forall{x \in M}: x \geqslant L$
 		- pokud existuje a je konečná, říkáme, že množina je *sdola omezená* (také *sdola ohraničená*)
 		- $\inf M$ - **infimum**, nejvyšší dolní mez
 		- $\inf \O = \infty$
 	- meze mohou ale nemusí být v $M$
 	- pokud je $M$ omezená shora i sdola, stručně říkáme, že je *omezená*
-		- $\forall{x \in M}\ \exists S \in \R: |x| \le S$
-	- $[x] = \max\{k \in \Z:k \le x\}$ - celá část $x$
+		- $\forall{x \in M}\ \exists S \in \R: |x| \leqslant S$
+	- $[x] = \max\{k \in \Z:k \leqslant x\}$ - celá část $x$
 - extrema (sg. extremum)
 	- **minimum** $\min{M}$, nejmenší prvek $M$
-		- $\forall{x \in M}: x \ge \min{M}$
+		- $\forall{x \in M}: x \geqslant \min{M}$
 	- **maximum** $\max{M}$, největší prvek $M$
-		- $\forall{x \in M}: x \le \max{M}$
+		- $\forall{x \in M}: x \leqslant \max{M}$
 	- má-li $M$ minimum, je zároveň infimem, obdobně pro maximum a supremum

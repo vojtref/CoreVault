@@ -1,7 +1,7 @@
 - $f$ je **rostoucí v bodě** $x_0 \in D(f)$, pokud existuje jeho okolí $U(x_0)$ pro které ve všech bodech $x \in U(x_0)$ platí $$\array{x < x_0 \implies f(x) < f(x_0) \\ x > x_0 \implies f(x) > f(x_0)}$$ a **klesající v bodě** $x_0$ pokud platí $$\array{x < x_0 \implies f(x) > f(x_0) \\ x > x_0 \implies f(x) < f(x_0)}$$
 	- analog. neklesající, nerostoucí
 	- pokud $f$ rostoucí v bodě $x_0$ tak $f'(x_0) > 0$
-		- analog. pro klesající ($<$), neklesající ($\ge$), nerostoucí ($\le$)
+		- analog. pro klesající ($<$), neklesající ($\geqslant$), nerostoucí ($\leqslant$)
 - **věta 6.2**: pokud $f'(x_0) > 0$, pak $f$ rostoucí v $x_0$
 	- $0 < f'(x_0) = \lim_{x \to x_0}{\frac{f(x) - f(x_0)}{x - x_0}}$
 	- $\exists P(x_0):\frac{f(x) - f(x_0)}{x - x_0}>0 \quad \forall x \in P(x_0) \mid \text{věta o zachování znaménka}$
@@ -9,6 +9,6 @@
 	- $x>x_0 \implies f(x)-f(x_0) > 0 \implies f(x) > f(x_0)$
 	- $x<x_0 \implies f(x)-f(x_0) < 0 \implies f(x) < f(x_0)$
 - **věta 6.3**: nechť je $f$ spojitá na intervalu $I$ a má v každém jeho bodě derivaci, pak $f \text{ rostoucí na intervalu } I \iff \forall x \in I: f'(x) > 0$
-	- opět analog. pro klesající ($<$), neklesající ($\ge$), nerostoucí ($\le$)
+	- opět analog. pro klesající ($<$), neklesající ($\geqslant$), nerostoucí ($\leqslant$)
 	- platí:
 		- je-li $f$ rostoucí na $\intvloo{a,b}$ a spojitá zleva (tj. spojitá v $a$), je rostoucí $\intvlco{a,b}$; analog. pro $\intvloc{a,b}$

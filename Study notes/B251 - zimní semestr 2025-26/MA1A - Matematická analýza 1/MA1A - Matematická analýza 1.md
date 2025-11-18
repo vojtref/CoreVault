@@ -27,6 +27,6 @@
 		  f(x)=x^2
 		  f'(x)
 		  ```
-	- ústní část (body $U$; volitelná; možná pokud $P + T \ge 42$)
+	- ústní část (body $U$; volitelná; možná pokud $P + T \geqslant 42$)
 		- max. 10 b
 		- při skvělém výkonu může zkoušející zlepšit klasifikaci o další stupeň, než by daly jen body

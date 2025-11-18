@@ -4,6 +4,6 @@
 	- charakteristická vlastnost
 - př. sudost
 	- Ať je $x$ přirozené číslo. Řekněme, že $x$ je **sudé** právě tehdy, kdy platí rovnost $x = 2k$ pro nějaké přirozené číslo $k$.
-- př.
+- př. zbytečné definice
 	- Řekněme, že $x \in \N$ je **tmavě zelené** pokud $x^2 < 0$.
 	- definice jako taková plně v pořádku, ale není užitečná, protože neexistuje nic, co by všechny dané vlastnosti splňovalo

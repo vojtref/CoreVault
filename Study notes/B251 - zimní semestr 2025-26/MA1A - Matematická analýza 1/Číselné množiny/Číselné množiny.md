@@ -12,9 +12,9 @@
 - intervaly
 	- $a,b \in \R$
 	- $\intvloo{a,b} = \{x \in \R:a \lt x \lt b\}$
-	- $\intvlcc{a,b} = \{x \in \R:a \le x \le b\}$
-	- $\intvlco{a,b} = \{x \in \R:a \le x \lt b\}$
-	- $\intvloc{a,b} = \{x \in \R:a \lt x \le b\}$
+	- $\intvlcc{a,b} = \{x \in \R:a \leqslant x \leqslant b\}$
+	- $\intvlco{a,b} = \{x \in \R:a \leqslant x \lt b\}$
+	- $\intvloc{a,b} = \{x \in \R:a \lt x \leqslant b\}$
 - $c,x,\varepsilon \in \R,\ \varepsilon \gt 0$
 	- $|x-c| \lt \varepsilon \iff c-\varepsilon \lt x \lt c+\varepsilon$ neboli $x \in \intvloo{c-\varepsilon,c+\varepsilon}$
 	- $U_\varepsilon = \intvloo{c-\varepsilon, c+\varepsilon}$ - **okolí** bodu $c$

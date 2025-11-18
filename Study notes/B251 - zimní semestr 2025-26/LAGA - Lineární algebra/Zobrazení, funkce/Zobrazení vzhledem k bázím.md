@@ -11,7 +11,7 @@
 	- výpočet matice složeného zobrazení vzhledem k bázím $B,C,D$: $[\mathbf{g \cdot f}]_B^D = [\mathbf{g}]_C^D \cdot [\mathbf{f}]_B^C$
 		- podoba $C$ nepodstatná, ale musí být mezi jednotlivými zobrazeními společná
 			- často nejpraktičtější $K_n$
-- $\mathbf{der}: \R^{\le 3}[x] \to \R^{\le 3}[x]$ - matice derivace polynomu stupně nejvýše 3
+- $\mathbf{der}: \R^{\leqslant 3}[x] \to \R^{\leqslant 3}[x]$ - matice derivace polynomu stupně nejvýše 3
 	- $\mathbf{A}_{\mathbf{der}}$ vzhledem k bázi $B=(x^3, x^2, x^1, 1)$
 		- $\mathbf{A}_\mathbf{der} = \pmatrix{0 & 0 & 0 & 0 \\ 3 & 0 & 0 & 0 \\ 0 & 2 & 0 & 0 \\ 0 & 0 & 1 & 0}$
 		- pro druhou derivaci součin $\mathbf{A}_\mathbf{der} \cdot \mathbf{A}_\mathbf{der}$, atd...

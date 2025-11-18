@@ -44,8 +44,8 @@
 			- dimenze je počet souřadnicových os
 			- velikost nejmenší možné množiny generující $L$
 			- velikost největší možné lin. nezávislé množiny
-		- $\dim L$ je konečná, $M$ lineárně nezávislá $\implies |M| \le \dim L$
-		- $\dim L$ je konečná, $|M| = \dim L$
+		- $\dim L$ je konečná, $M$ lineárně nezávislá $\implies \card M \leqslant \dim L$
+		- $\dim L$ je konečná, $\card M = \dim L$
 			- $\span M = L \iff M\ \text{lineárně nezávislá}$
 			- !!!
 			- domácí cvičení: dokázat
@@ -65,16 +65,17 @@
 		- $\therefore \vec{x} - \vec{x} = \vec{o} \implies \sum_{i \in I}{a_i \vec{b_i}} - \sum_{i \in I}{a_i^\star \vec{b_i}}$
 		- $\therefore \sum_{i \in I}{(a_i - a_i^\star) \vec{b_i}} = \vec{o}$
 		- $B\text{ lin. nezávislá} \implies \forall{i \in I}: a_i - a_i^\star = 0$
-		- $\therefore a_i = a_i^\star,\text{ právě jedna kombinace koeficientů kombinace }B\text{ tvoří }\vec{x}$
+		- $\therefore a_i = a_i^\star$, tedy právě jedna kombinace koeficientů kombinace $B$ tvoří $\vec{x}$
 		- $\QED$
 	- př. souřadnicových vektorů v $\R[x]$
 		- u nekonečné dimenze nemožné mít kanonickou bázi
 		- u prostoru polynomů omezeného stupně jsou možné "pěkné" báze
-			- $\R^{\le 2}[x]$
+			- např. $\R^{\leqslant 2}[x]$
 				- $B_1 = \{1, x, x^2\}$
 				- $B_2 = \{x^2, x, 1\}$
-				- $\coord_{B_1}{(x^2-2x+3)} = \begin{pmatrix}3 \\ -2 \\ 1\end{pmatrix}$
-				- $\coord_{B_2}{(x^2-2x+3)} = \begin{pmatrix}1 \\ -2 \\ 3\end{pmatrix}$
+				- $\coord_{B_1}{(x^2-2x+3)} = \pmatrix{3 \\ -2 \\ 1}$
+				- $\coord_{B_2}{(x^2-2x+3)} = \pmatrix{1 \\ -2 \\ 3}$
+			- někdy označovány jako *standardní báze*, ale není to pevný termín (která z nich je standardní?), takže nutno definovat
 	- tvrzení: pokud $B = \{b_1, b_2, b_3, \ldots, b_n\}$ je uspořádaná báze $L$ nad $\F$, pak $L \xrightarrow{\coord_B} \F^n$ (lineární zobrazení $\coord_B{}$) má následující vlastnosti
 		- $\coord_B{(\vec{x} + \vec{y})}=\coord_B{\vec{x}} + \coord_B{\vec{y}}$
 		- $\coord_B{a \vec{x}} = a \cdot \coord_B{\vec{x}}$

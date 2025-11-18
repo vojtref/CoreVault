@@ -1,7 +1,7 @@
-- $f$ nabývá na množině $M \subseteq D(f)$ v bodě $x_0 \in M$ svého **globálního maxima** $f(x_0)=A$ právě tehdy, kdy platí $$\forall x \in M: f(x) \le f(x_0)$$ nebo **globálního minima** pokud platí $$\forall x \in M: f(x) \ge f(x_0)$$
+- $f$ nabývá na množině $M \subseteq D(f)$ v bodě $x_0 \in M$ svého **globálního maxima** $f(x_0)=A$ právě tehdy, kdy platí $$\forall x \in M: f(x) \leqslant f(x_0)$$ nebo **globálního minima** pokud platí $$\forall x \in M: f(x) \geqslant f(x_0)$$
 	- globální maximum a minimum společně nazýváme extrema (sg. extremum) či extrémy
 	- spojitá funkce na *uzavřeném* intervalu nabývá svých extrem na tomto intervalu
-- $f$ nabývá **lokálního maxima** $f(x_0)$ v bodě $x_0$ právě tehdy, kdy existuje okolí $U_\varepsilon(x_0)$ takové, že platí $$\forall x_0 \in U_\varepsilon(x_0): f(x) \le f(x_0)$$ nebo **lokálního minima** pokud platí $$\forall x_0 \in U_\varepsilon(x_0): f(x) \ge f(x_0)$$
+- $f$ nabývá **lokálního maxima** $f(x_0)$ v bodě $x_0$ právě tehdy, kdy existuje okolí $U_\varepsilon(x_0)$ takové, že platí $$\forall x_0 \in U_\varepsilon(x_0): f(x) \leqslant f(x_0)$$ nebo **lokálního minima** pokud platí $$\forall x_0 \in U_\varepsilon(x_0): f(x) \geqslant f(x_0)$$
 - **ostrá extrema**: jen $<$ resp. $>$, tzn. $f(x) \ne f(x_0)$
 - pozor, extremum je $f(x_0) = A$, nikoli $x_0$ samotné!
 - **věta 6.1**: jestliže $f$ nabývá lokálního extrema v bodě $x_0$ a $\exists f'(x_0)$, pak $f'(x_0)=0$
@@ -22,7 +22,7 @@
 - př. 6.1:
 	- $f(x) = (x + 2|x|) - x^3$
 	- pro abs. hodnotu pouze derivace zleva a zprava
-	- $f(x) = \cases{(x + 2x) - x^3 = {\color{RedOrange}3x - x^3} & x \ge 0 \\ (x - 2x) - x^3 = {\color{Cyan}-x - x^3} & x \le 0}$
+	- $f(x) = \cases{(x + 2x) - x^3 = {\color{RedOrange}3x - x^3} & x \geqslant 0 \\ (x - 2x) - x^3 = {\color{Cyan}-x - x^3} & x \leqslant 0}$
 	- $f'(x) = \cases{3 - 3x^2 = 3(1 - x^2) & x > 0 \\ -1 - 3x^2 & x < 0}$
 	- TODO: doplnit
 - hledání globálních extrem
