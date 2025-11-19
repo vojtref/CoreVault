@@ -29,6 +29,7 @@
 	- $\mathbf{f}_{\text{nil}}$ - **nilpotentní zobrazení**
 		- "příliš se neliší" od nulového zobrazení
 		- $\exists k: \mathbf{f}_{\text{nil}}^k = \mathbf{O}$
+		- rozvedeme níže
 	- $\mathbf{f}_{\text{diag}} \cdot \mathbf{f}_{\text{nil}} = \mathbf{f}_{\text{nil}} \cdot \mathbf{f}_{\text{diag}}$, komutují
 - mocnění zobrazení $\mathbf{f}^m$
 	- komutativita umožňuje prosté mocnění užitím binomické věty
@@ -36,5 +37,17 @@
 		- již víme, že $(\mathbf{f}_{\text{nil}})^{m - j} = \mathbf{O}$ pro $m - j \geqslant k$, můžeme tedy součet zkrátit
 	- $= \displaystyle\sum_{j=0}^{k - 1}{\binom{m}{j} \cdot (\mathbf{f}_{\text{diag}})^j \cdot (\mathbf{f}_{\text{nil}})^{m - j}}$
 - **nilpotentní zobrazení**
-	- $\L \xrightarrow[\text{lin}]{\mathbf{f}} \L$ kde $\dim \L$ konečná je **nilpotentní**, pokud pro nějaké $k$ je $\mathbf{f}=\mathbf{O}$
-	- toto $k$ značíme $\nil \mathbf{f}$ a nazýváme index nilpotence $f$
+	- zobrazení $\L \xrightarrow[\text{lin}]{\mathbf{f}} \L$ kde $\dim \L$ konečná je **nilpotentní**, pokud pro nějaké $k$ je $\mathbf{f}=\mathbf{O}$
+	- nilpotentní = "může být nulové"
+	- toto $k$ značíme $\nil \mathbf{f}$ a nazýváme **index nilpotence** $\mathbf{f}$
+- příklad $\mathbf{N} = \begin{psmallmatrix}0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{psmallmatrix}$
+	- $\array {\vec{e}_1 \mapsto \vec{o} \\ \vec{e}_2 \mapsto \vec{e}_1 \\ \vec{e}_3 \mapsto \vec{e}_2 \\ \vec{e}_4 \mapsto \vec{o}}$
+	- TODO: dopsat, "posouvání pásku"
+- **Jordanova buňka** rozměrů $n \times n$
+	- $(\vec{o}, \vec{e}_1, \vec{e}_2, \cdots, \vec{e}_n-1)$
+	- $\psmallmatrix{0 & 1 & 0 & \cdots & 0 \\ 0 & 0 & 1 & \cdots & 0 \\ \vdots & & & & \vdots \\ 0 & 0 & 0 & \cdots & 1 \\ 0 & 0 & 0 & \cdots & 0}$
+	- z toho jak se "pásek" "posouvá" je hned patrné, že $\nil$ Jordanových buněk je vždy roven $n$
+- nalezení Jordanova tvaru matice $M: \F^n \to \F^n$, popsáno velmi zhruba
+	- spočteme $\char_M(x)$
+		- pokud nelze v $\F[x]$ rozložit na součin kořenových činitelů, konec, Jordanův tvar neexistuje
+	- TODO: dopsat, $\viz{prez. 09A 14/19}$
