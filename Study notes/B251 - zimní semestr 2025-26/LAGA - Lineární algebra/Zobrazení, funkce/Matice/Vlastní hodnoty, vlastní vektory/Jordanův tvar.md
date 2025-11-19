@@ -1,0 +1,40 @@
+- dáno lin. zobrazení $\mathbf{f}: \L \to \L$, $\dim \L$ konečná
+- Jordanův tvar je tvar [[Vlastní hodnoty, vlastní vektory|diagonální]] a **nilpotentní**
+	- "téměř nulové zobrazení," definujeme níže
+- motivační příklad
+	- $\mathbf{A} = \pmatrix{4 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 9}$
+	- $\mathbf{B} = \pmatrix{4 & {\color{RedOrange}1} & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 9}$
+	- $\char_{\mathbf{A}}(x) = \char_{\mathbf{B}}(x) = (x-4)^2 \cdot (x-9)$
+	- $\lambda_{1,2} = 4$ násobnosti $2$, $\lambda_3=9$ násobnosti $1$
+	- $\mathbf{A}$:
+		- $\eigen(4, \mathbf{A}) = \span(\vec{e}_1, \vec{e}_2)$
+		- $\eigen(9, \mathbf{A}) = \span(\vec{e}_3)$
+		- tedy $\L$ se "rozpadá"/"rozkládá" na podstavu (osy $x, y$) a výšku (osa $z$)
+	- $\mathbf{B}$:
+		- $\eigen(4, \mathbf{B}) = \span(\vec{e}_1)$
+			- okamžitě vidíme, že $\mathbf{B}$ diagonalizovat nelze, dimenze vlastního prostoru není rovna násobnosti příslušné vlastní hodnoty
+			- tedy málo vlastních vektorů pro $\lambda_{1,2}=4$
+	- matice možné rozdělit do bloků
+		- $\mathbf{A} = \pmatrix{{\color{Cyan}4} & {\color{Cyan}0} & 0 \\ {\color{Cyan}0} & {\color{Cyan}4} & 0 \\ 0 & 0 & {\color{Dandelion}9}}$
+		- $\mathbf{B} = \pmatrix{{\color{Cyan}4} & {\color{Cyan}1} & 0 \\ {\color{Cyan}0} & {\color{Cyan}4} & 0 \\ 0 & 0 & {\color{Dandelion}9}}$
+	- $\mathbf{B}$ se příliš neliší od diagonalizovatelné matice
+	- $\mathbf{B} = \pmatrix{4 & 0 & 0 \\ 0 & 4 & 0 \\ 0 & 0 & 9} + \pmatrix{0 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0} = \mathbf{A} + \mathbf{N}$
+		- $\mathbf{N}$ - tzv. **chyba**
+		- konkrétně **chyba řádu 2**, neboť $\mathbf{N}^2 = \mathbf{O}_{3,3}$
+	- TODO: slides $\viz{09A 4/19 - 7/19}$
+	- $\mathbf{A} = \mathbf{D} + \mathbf{N}$, $\exists k: \mathbf{N}^k = \mathbf{O}_{3,3}$, $k=1$
+	- $\mathbf{B} = \mathbf{D} + \mathbf{N}$, $k=2$
+- **Jordanův tvar** tedy $\mathbf{f} = \mathbf{f}_{\text{diag}} + \mathbf{f}_{\text{nil}}$
+	- $\mathbf{f}_{\text{diag}}$ diagonalizovatelné
+	- $\mathbf{f}_{\text{nil}}$ - **nilpotentní zobrazení**
+		- "příliš se neliší" od nulového zobrazení
+		- $\exists k: \mathbf{f}_{\text{nil}}^k = \mathbf{O}$
+	- $\mathbf{f}_{\text{diag}} \cdot \mathbf{f}_{\text{nil}} = \mathbf{f}_{\text{nil}} \cdot \mathbf{f}_{\text{diag}}$, komutují
+- mocnění zobrazení $\mathbf{f}^m$
+	- komutativita umožňuje prosté mocnění užitím binomické věty
+	- $\mathbf{f}^m = (\mathbf{f}_{\text{diag}} + \mathbf{f}_{\text{nil}})^m = \displaystyle\sum_{j=0}^{m}{\binom{m}{j} \cdot (\mathbf{f}_{\text{diag}})^j \cdot (\mathbf{f}_{\text{nil}})^{m - j}}$
+		- již víme, že $(\mathbf{f}_{\text{nil}})^{m - j} = \mathbf{O}$ pro $m - j \geqslant k$, můžeme tedy součet zkrátit
+	- $= \displaystyle\sum_{j=0}^{k - 1}{\binom{m}{j} \cdot (\mathbf{f}_{\text{diag}})^j \cdot (\mathbf{f}_{\text{nil}})^{m - j}}$
+- **nilpotentní zobrazení**
+	- $\L \xrightarrow[\text{lin}]{\mathbf{f}} \L$ kde $\dim \L$ konečná je **nilpotentní**, pokud pro nějaké $k$ je $\mathbf{f}=\mathbf{O}$
+	- toto $k$ značíme $\nil \mathbf{f}$ a nazýváme index nilpotence $f$
