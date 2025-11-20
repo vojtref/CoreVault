@@ -1,0 +1,262 @@
+- souhrnný název opatření, postupů na ovlivnění stavu pacienta
+- systém zdravotní péče v ČR
+	- primární
+		- obvodní lékař
+		- generalistický přístup
+	- sekundární
+		- zařízení s bližší specializací na danou medicínskou oblast či nemoc
+	- terciární
+		- "cutting edge"
+		- fakultní nemocnice s výzkumnou činností apod.
+- formy péče
+	- neodkladná
+		- okamžité, bezprostřední ohrožení života
+	- akutní
+		- odvrácení vážného stavu či zamezení jeho zhoršení
+	- nezbytná
+		- termín v evropské legislativě
+		- péče, která musí být poskytnuta v takovém rozsahu, aby cizinec nemusel ze země dříve, než zamýšlel
+	- plánovaná
+		- jakákoli jiná (plánované kontroly atd.)
+- druhy
+	- ambulantní
+	- lůžková
+		- akutní intenzivní
+		- akutní standardní
+		- následná lůžková
+		- dlouhodobá lůžková
+	- zdravotnická záchranná služba
+	- pracovně-lékařské služby
+		- hodnocení vlivu zaměstnání na zdraví, vstupní prohlídky atd.
+	- dispenzární
+	- lázeňská, rehabilitační
+	- farmakologická
+	- preventivní
+- dle cíle
+	- preventivní
+	- abortivní
+		- přerušení určitého děje či procesu (analgetika, pyrolytika, anxiolytika)
+		- indukční
+		- přemosťující
+			- "čekací" terapie, např. umělá srdeční náhrada před dostupným transplantátem
+		- kurativní
+		- symptomatická
+			- např. levodopa u Parkinsonovy choroby
+		- "step-down"
+			- postupné vyvození pacienta z dané formy léčby
+			- např. step-down z dlouhodobého napojení na respirační přístroj
+		- paliativní
+			- zejm. u umírajících a neléčitelných pacientů
+			- umírnění bolesti, maximální zvýšení komfortu
+- přístrojová technika
+	- složité rozdělit, toto dost možná ne úplně adekvátní
+	- v terapii
+		- elektrická stimulace tkání, orgánů
+			- defibrilátory
+				- v případě nesynchronní aktivity převodního systému srdečního nastává fibrilace (chvění) síní anebo komor
+				- velký elektrický výboj způsobí synchronní depolarizaci, na což může opět začít synchronní aktivita
+				- historie
+					- 1899 — první experimenty na psech
+					- 1930 — první externí defibrilátor
+				- 3-10 ms, 3-6 kV, 50-100 A, energie do 360 J
+				- klinické × implantabilní defibrilátory
+			- kardiostimulátory
+				- kompenzují poruchy srdečního rytmu
+					- většinou bradykardii
+				- dočasná × trvalá kardiostimulace
+				- přímá × nepřímá kardiostimulace
+					- dvě či jedna srdeční dutina
+				- řízené × neřízené × programovatelné
+					- řízené - adaptují stimulaci přirozenému rytmu
+					- neřízené - stálý, pevný rytmus
+					- programovatelné
+				- uni- × bipolární elektroda
+					- unipolární - stimulují daleko větší segment srdce
+					- bipolární - oba póly na jedné elektrodě, stimulace velmi lokální
+			- hluboká mozková stimulace
+				- užití zejm. na potlačení příznaků pozdních stadií Parkinsonovy nemoci, esenciálního tremoru, dystonie
+				- motorické schopnosti zlepšeny, jiné však mohou být narušeny, např. řeč
+			- neuromuskulární stimulátory
+				- zejm. rehabilitační, či prevence svalové atrofie
+			- elektroanalgezie
+				- TODO: doplnit z prez
+				- diadynamické × interferenční proudy
+				- galvanoterapie, iontoforéza, elektroforéza
+				- nízkofrekvenční (<1 kHz)
+					- diadynamické proudy
+					- transkutánní elektroneurostimulace 1–200 Hz
+						- PWM
+						- [Träbertovy proudy](https://www.wikiskripta.eu/w/Tr%C3%A4bertovy_proudy) 142.9 Hz
+				- střídavý proud střední frekvence
+					- interferenční proudy (5000 Hz + 5001-5100 Hz)
+				- diatermie střídavým proudem
+					- vyloženě ohřev tkání
+					- krátkovlnná (27.12 MHz)
+					- ultrakrátkovlnná (433.92 MHz)
+					- mikrovlnná (2.45 GHz)
+			- urostimulátory
+				- stimulace močového měchýře
+					- pulzy 1.8–38 V, 0.5–4 ms
+					- 5–200 Hz
+				- stimulace svěračů
+					- inkontinence
+				- stimulace ejakulace
+			- gastrostimulátory
+				- stahy žaludečního svalstva
+					- fyziologicky 3 cykly / min
+					- patologicky bradygastrie 1–2.4, tachygastrie 3.6–9.9
+		- magnetoterapie
+			- magnetická pole
+				- biomagnetická 10$^{-14}$ – 10$^{-8}$ T
+				- geomagnetická 10$^{-10}$ – 10$^{-4}$ T
+				- technická 10$^{-6}$ – 10$^{2}$ T
+			- parametry
+				- stejnosměrná, střídavá, impulzní
+				- frekvence
+				- tvar, šířka impulzu
+				- doba expozice
+				- počet aplikací
+				- citlivost pacienta
+			- biologická odpověď na mag. pole
+				- žádný efekt
+					- hlava $B = 0.25 – 2.5\ T$
+					- tělo $B = 0.06 – 0.6\ T$
+				- výrazný léčivý efekt
+					- hlava $B = 2.5 – 25\ T$
+					- tělo $B = 0.6 – 6\ T$
+				- změny dráždivosti CNS
+					- hlava $B = 25 – 250\ T$
+					- tělo $B = 6 – 60\ T$
+				- možné extrasystoly, fibrilace
+					- hlava $B > 250\ T$
+					- tělo $B > 60\ T$
+			- terapeutické účinky
+				- není klinicky ověřené, spíše spekulace, ale traduje se:
+					- analgezie
+					- vazodilatace
+					- protizánětlivý efekt
+					- spasmolytický efekt
+					- akcelerace hojení
+				- transkraniální magnetická stimulace
+					- vyvolávání vířivých proudů v mozkové tkáni, která je na ně citlivá
+					- má měřitelný klinický efekt
+					- aplikace v psychiatrii
+		- ultrazvuková terapie
+			- fyzikální terapie
+				- primární × sekundární
+					- primární = přímé mechanické působení vibrací
+					- sekundární = využití vlivu na tepelné, chemické jevy
+				- podtypy
+					- kavitační terapie
+					- tepelná ultrazvuková terapie
+				- nastavení
+					- 800 kHz – 1.6 MHz
+					- poloviční hloubka vniku 5–7 cm
+					- $0.5 - 30\ kW / m^2$
+			- aerosologie
+				- inhalační terapie za užití ultrazvuku na disperzi kapének
+				- hloubka vniku dle velikosti kapének
+					- $30\ \mu m$ průdušnice
+					- $10\ \mu m$ průdušky
+					- $0.5–3\ \mu m$ plicní sklípky
+		- diatermie
+			- aplikace skoro všude
+			- choroby pohybového ústrojí
+			- nervové choroby
+			- kardiovaskulární choroby
+			- choroby GIT
+			- gynekologické a urologické choroby
+			- kožní choroby
+			- oční choroby
+			- ORL
+		- radioterapie
+			- TODO: dopsat z prez!
+			- interakce ionizujícího záření
+				- $0.1 – 10\ MeV$
+				- absorbce
+				- rozptyl
+				- záření
+					- fotoefekt
+					- Comptonův rozptyl
+					- tvorba elektron-positronového páru
+				- proud částic
+					- vznik brzdného záření
+			- účinky na tkáně
+				- α - velmi omezený, rizikové hlavně při vdechnutí
+				- β, γ - horší
+				- různé druhy → různé účinky
+				- vznik radikálů uvnitř buňky i v buněčném okolí
+				- mutace a poškození DNA, RNA
+				- akutní účinky
+					- akutní nemoc z ozáření
+					- akutní lokální změny kůže - radiační popálení
+					- poškození plodu
+				- pozdní účinky
+					- lokální změny (oko, kůže)
+					- zhoubné nádory, genetické změny
+			- principy
+				- teleterapie = zevní ozařování
+					- statická × dynamická metoda
+					- rentgentka, betatron, lineární urychlovač
+					- radionuklidové ozařovače $\ce{^226_88Ra}$, $\ce{^187_55Cs}$, $\ce{^60_27Co}$
+				- brachyterapie = vnitřní ozařování
+					- radionuklidové ozařovače vpraveny do pacienta přímo v místě ořazování
+	- v chirurgii
+		- ventilační anesteziologické systémy
+			- zachování zákl. životních funkcí
+				- dýchání, resp. okysličení krve
+			- ventilační systémy
+				- spontánní
+					- pacient dýchá sám
+				- podpůrná
+					- ventilátor pacientovi pouze pomáhá
+				- řízená
+					- veškerá ventilace ovládána přístrojem dle nastavení
+				- vysokofrekvenční
+					- snížení inspiračních tlaků, objemů
+			- anesteziologické systémy
+				- určeny pro podávání anestetik
+				- odpařovače - termostabilní, termokompenzované, vstřikovací
+				- součástí i monitorační systémy
+					- vit. funkce
+					- EEG
+					- výdej moči
+					- $\vdots$
+		- elektrotomie, elektrokoagulace
+			- vysokofrekvenční el.mag. pole pro řezání či koagulaci
+			- hranice účinků tepla na tkáně
+				- 45 °C hranice reverzibilních změn
+				- 45–60 °C koagulace bílkovin
+				- obv. 100 °C var vody
+				- daleko nad 100 °C zuhelnatění tkání
+			- elektrotomie VF proudem
+				- monopolární
+					- na nástroji pouze jedna elektroda, druhá (indiferentní) např. na operativním stole 
+				- bipolární
+					- dvě hrotové elektrody na nástroji
+			- stereotaktická radioterapie
+				- Leksellův gamma nůž
+				- [viz Radiopaedia](https://radiopaedia.org/articles/gamma-knife-3)
+				- nitrolební operace bez otevření lebky
+			- hypertermie
+				- přehřátí tkáně k jejímu zahubení
+				- zejm. onkologická chirurgie
+				- horký vzduch, horký vosk (??? wax play???), ohřev krve, IR záření, ultrazvuk, vysokofrekvenční a mikrovlnné el.mag. pole
+		- ultrazvuková chirurgie
+			- ultrazvuková chirurgie oka
+				- spíše historická záležitost, dnes především laserová
+				- zejm. léčba šedého zákalu
+				- plastické operace víček
+				- bodování odchlíplé sítnice
+			- odstraňování zubního kamene
+				- kavitační uvolnění zubního kamene od skloviny 
+			- drcení konkrementů
+				- např. u urolitiázy, cholecystolitiázy
+				- u ultrazvuku stejný princip jako u zubního kamene, ale aplikována vyšší intenzita
+				- další drtiče:
+					- mechanické
+					- elektrohydraulické
+					- laserové
+			- ultrazvuková hypertermie
+		- aplikace laserů
+		- kryochirurgie
