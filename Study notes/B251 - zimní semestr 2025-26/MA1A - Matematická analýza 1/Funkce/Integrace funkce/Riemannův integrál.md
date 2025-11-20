@@ -1,0 +1,33 @@
+- = určitý integrál
+- motivace: výpočet obsahu plochy pod křivkou grafu funkce
+	- neboli: výpočet průměrné funkční hodnoty na daném intervalu
+- úvod
+	- $\mathcal{D} \subseteq \intvlcc{a, b}$ tzv. **dělení** intervalu, jestliže je $\mathcal{D}$ konečná množina a $a, b \in \mathcal{D}$
+- $f$ omezená na $\intvlcc{a, b}$, označíme si:
+	- $\mathcal{D} = \{x_0, x_1, \ldots, x_n\}$
+	- $m_{i, \mathcal{D}} = \inf\limits_{x \in \intvlcc{x_{i-1}, x_i}}f(x)$
+	- $M_{i, \mathcal{D}} = \sup\limits_{x \in \intvlcc{x_{i-1}, x_i}}f(x)$
+	- pak:
+	- $\underline{S}(f, \mathcal{D}) = \sum_{i=1}^n m_{i, \mathcal{D}} \cdot (x_i - x_{i - 1})$ - **dolní Riemannův součet**
+	- $\overline{S}(f, \mathcal{D}) = \sum_{i=1}^n M_{i, \mathcal{D}} \cdot (x_i - x_{i - 1})$ - **horní Riemannův součet**
+- TODO: doplnit
+- definice:
+	- $\sup\{\underline{S}(f, \mathcal{D})\mid \mathcal{D}\text{ dělení }\intvlcc{a, b}\}$ $=$ $\inf\{\overline{S}(f, \mathcal{D})\mid \mathcal{D}\text{ dělení }\intvlcc{a, b}\}$ $= I$
+	- $\therefore$
+	- $I$ je **Riemannův (určitý) integrál** funkce $f$ na intervalu $\intvlcc{a, b}$
+	- zapisujeme $\displaystyle I=\int_a^b{f(x) \dx}$
+- **věta 8.3**:
+	- $\int_a^b f(x) \dx = A$ existuje právě tehdy, když existuje posloupnost $(\mathcal{D}_n)_{n=1}^\infty$ dělení intervalu $\intvlcc{a, b}$ taková, že $\lim_{n \to \infty} \underline{S}(f, \mathcal{D}_n) = \lim_{n \to \infty} \overline{S}(f, \mathcal{D}_n) = A$
+	- platí tedy $\lim_{n \to \infty} \left(\overline{S}(f, \mathcal{D}_n) - \underline{S}(f, \mathcal{D}_n)\right) = 0$
+- **věta 8.5**:
+	- $a < b < c$
+	- $\therefore$
+	- $\int_a^c f(x) \dx$ existuje právě tehdy, kdy existují $\int_a^b f(x) \dx$ a $\int_b^c f(x) \dx$
+	- rovná se $\int_a^c f(x) \dx = \int_a^b f(x) \dx + \int_b^c f(x) \dx$
+- definice:
+	- $a < b$, existuje $\int_a^b f(x) \dx$, pak:
+	- $\displaystyle\int_{\color{Orange}a}^{\color{Cyan}b} f(x) \dx = {\color{Magenta}-}\int_{\color{Cyan}b}^{\color{Orange}a} f(x) \dx$
+		- opačný směr → opačné znaménko
+	- $\displaystyle\int_{\color{Orange}a}^{\color{Orange}a} f(x) \dx = {\color{Magenta}0} = \int_{\color{Cyan}b}^{\color{Cyan}b} f(x) \dx$
+		- stání na místě tě nikam nedostane
+- 
