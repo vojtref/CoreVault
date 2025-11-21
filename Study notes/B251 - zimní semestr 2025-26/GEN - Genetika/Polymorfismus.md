@@ -1,0 +1,14 @@
+- situace, kdy se daný znak (resp. gen, sekvence, apod.) vyskytuje ve více než jedné variantě
+- typy
+	- **environmentální**
+		- vyvolaný různými vlivy vnějšího prostředí
+		- např. tělesná hmotnost a vzrůst ovlivněny výživou
+	- **genetický**
+		- podmíněný genetickým materiálem daného jedince
+		- rozdíly mezi jedinci v daném rysu jsou tedy přímo podmíněny rozdíly mezi jejich sekvencemi DNA
+	- oba typy polymorfismu se při vyjádření znaků vzájemně kombinují
+#### Genetický polymorfismus
+- výskyt dvou nebo více genetických variant v populaci
+- polymorfismus × mutace?
+- polymorfismus arbitrárně považujeme případ varianty s populačním výskytem >1%
+	- ![[polymorph_mutation.png]]

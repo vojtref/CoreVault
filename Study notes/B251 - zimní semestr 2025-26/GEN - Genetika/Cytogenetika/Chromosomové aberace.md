@@ -1,17 +1,68 @@
 - změny stavby nebo počtu chromosomů
-- typy
+- typy ^0d7923
 	- strukturní
-		- změny struktury
-		- delece - ztráta části
-		- translokace - spojení částí chromosomů
+		- změny struktury chromosomu
+		- **delece** - ztráta části
+			- např. **syndrom kočičího křiku** (cri du chat syndrome)
+				- delece ramének chromosomu 5
+					- ![[cri_du_chat_karyogram.jpg]]
+				- u novorozenců pláč podobný mňoukání
+					- způsobený malformací hlasivek
+				- zpravidla těžká mentální retardace
+		- **translokace** - spojení částí chromosomů nebo celých
+			- např. **translokační forma Downova syndromu**
+				- translokace např. chromosomů 14 a 21
+					- ![[transloc_down_karyogram.png]]
+					- na jeden chromosom 14 připojena třetí kopie chromosomu 21, neboli translokace t(14;21)
+					- t(14;21) popisována nejčastěji, ale mohou být i jiné translokace, např. t(13;21), t(15;21), t(21;22)
+						- i t(21;21), pár chromosomů 21 a jeden další "nalepený" na jeden z nich
+				- stejné projevy jako trisomická forma
+				- daleko vzácnější než trisomická forma
 	- numerické
 		- změny počtu
-		- polyploidie - znásobení chromosomové sady
+		- **polyploidie** - znásobení chromosomové sady
 			- triploidie - 3n
+				- ![[triploid_karyotype.jpg]]
 			- tetraploidie - 4n
+			- i více, penta-, oktaploidie...
 			- u člověka postnatálně neslučitelné se životem
-				- prenatálně ano!
-				- plod se může dožít i třetího trimestru, není však viabilní, extremní abnormality způsobí selhání životních funkcí a abortus
-		- aneuploidie - počet chromosomů není celým násobkem haploidní sady, tzn. jeden chybí nebo přebývá
-			- trisomie (2n + 1, 47 chromosomů)
-			- monosomie (2n - 1, 45 chromosomů)
+				- prenatálně často ano!
+				- plod se může dožít i třetího trimestru, není však viabilní, extremní abnormality a malformace způsobí selhání životních funkcí a abortus
+		- **aneuploidie** - počet chromosomů není celým násobkem haploidní sady, tzn. jeden chybí nebo přebývá
+			- **trisomie** (2n + 1, 47 chromosomů)
+				- např. **Downův syndrom**
+					- trisomie chromosomu 21
+						- ![[down_karyogram.jpg]]
+					- mentální retardace
+					- svalová hypotonie
+					- charakteristický vzhled
+						- epikantická řasa
+						- hypertelorismus
+						- níže nasedající ušní boltce
+						- velký, rozbrázděný jazyk
+							- způsobuje často polootevřená ústa
+					- vrozené srdeční vady
+					- zvýšené riziko megakaryoblastické leukemie
+				- např. **Klinefelterův syndrom**
+					- trisomie XXY
+						- tedy pouze u mužů
+					- gynekomastie
+					- hypogonadismus
+					- hypotrichie - nižší míra ochlupení
+					- rozšířená pánev
+					- poruchy reprodukce až sterilita
+						- mosaicismus může umožnit i plodnost, ale to jen vzácně
+					- jinak bez většího efektu na běžný život
+						- často zjištěno až
+			- **monosomie** (2n - 1, 45 chromosomů)
+				- např. **Turnerův syndrom**
+					- monosomie chromosomu X
+						- tedy pouze u žen/dívek
+					- malá postava z důvodu růstové retardace
+						- při včasném záchytu podáván HGH
+					- neonatálně četné otoky
+					- opožděná či chybějící menstruace
+					- většinou sterilita
+						- v ovariích nedochází k vývoji vajíček
+					- vrozené srdeční, skeletální vady
+						- např. zúžení aorty, abnormální vývoj končetin (e.g. [Madelungova deformita](https://radiopaedia.org/articles/madelung-deformity))

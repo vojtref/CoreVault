@@ -1,0 +1,54 @@
+- (trvalá) změna genetického materiálu
+- dělení dle mechanismu vzniku
+	- **spontánní mutace**
+		- vznikají samovolně, např. chybami v replikaci, zařazením transpozonu...
+	- **indukované mutace**
+		- způsobeny vnějšími faktory, tzv. **mutageny**
+			- např. UV záření, ionisující radiace, kouření, některé viry...
+- dělení dle toho, kdy/u koho k nim došlo
+	- **vrozené mutace** = germ-line mutation
+		- k mutaci došlo u některého z předků
+		- byla v pohlavní buňce min. jednoho z rodičů
+		- jedinec se s danou mutací narodí
+	- **získané mutace**
+		- jedinec je získává během života
+		- často bývají příčinou onkologických onemocnění
+			- dědičných onkologických onemocnění je velmi málo, většina tzv. sporadická
+- dělení dle rozsahu
+	- **genové**
+		- postihnuté jednotlivé geny
+	- **chromosomové**
+		- viz [[Chromosomové aberace#^0d7923|chromosomové aberace]]
+	- **genomové**
+		- okrajový termín se spornými, nejednotnými definicemi od různých autorů
+			- spíš nebudeme používat
+		- většinou se nimi míní numerické aberace, někdy pouze polyploidie, někdy jakékoli mutace v genomu
+- molekulární podstata mutací v DNA sekvenci
+	- **substituce**
+		- výměna páru či párů nukleotidů
+		- **tiché mutace** (= same sense, silent, synonymní)
+			- nový kodon kóduje stejnou aminokyselinu (viz [[Translace#^a28c51|kodonová tabulka]])
+		- **mutace s chybným smyslem** (= missense)
+			- nový kodon kóduje jinou aminokyselinu
+			- **srpkovitá anémie**
+				- substituce T → A, mutantní forma hemoglobinu (HbS, sickle cell hæmoglobin) s valinem místo glutaminu
+				- porucha přenosu kyslíku v krvi
+				- způsobuje srpkovitý tvar erytrocytů, způsobuje vyšší riziko trombóz 
+		- **nesmyslné mutace** (= nonsense)
+			- vznikne stop kodon, translace skončí předčasně (pokud vůbec začne)
+	- **delece**
+		- ztráta páru či párů nukleotidů
+	- **inserce**
+		- vložení nového páru či párů nukleotidů do sekvence
+	- inserce a delece často seskupovány do tzv. **indel mutací**
+		- mutace s posunem čtecího rámce (= frameshift mutations)
+			- připomínka že translace probíhá po tripletech
+			- indel mutace však vloží/odebere jen jeden pár
+		- genový produkt má tedy zcela změněnou translatovanou sekvenci od místa indel mutace
+	- zvláštní typ: **expanze tripletových repetic** neboli **porucha trinukleidové repetice**, např. Huntingtonova chorea
+		- způsobeno tzv. replication slippage
+			- "popletení" DNA replikázy
+		- normální gen HTT (dříve IT15) má 10-26 repeticí CAG, normální huntingtin tedy má v prim. struktuře okolo 10-26 glutaminů
+		- zmutovaná forma okolo 37-80 repetic
+		- osoba se narodí zdravá, v dospělosti zhruba okolo 40 let (30-50) dochází k těžké, progredující neurodegeneraci
+		- v pozdních stadiích čím dál vyšší riziko i infekčních onemocnění, nehod, sebevraždy...
