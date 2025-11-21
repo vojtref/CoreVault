@@ -14,10 +14,10 @@
 		- slogan: říká, jak moc je $P$ epimorfní
 	- $\ker P = \{\vec{x} \mid P\vec{x} = \vec{o}\}$ - jádro $P$ (angl. kernel)
 		- množina všech argumentů s nulovou funkční hodnotou
-		- $\def P = \dim \ker P$ - **defekt**
+		- $\defektP = \dim \ker P$ - **defekt**
 		- slogan: říká, jak moc je $P$ monomorfní
 			- TODO: spíš jak moc *není* monomorfní, ne? Ověřit, možná jsem zapsal blbě
-	- $\dim \L = \rank P + \def P$
+	- $\dim \L = \rank P + \defektP$
 		- důkaz $\viz{AKLA 3.3.6}$
 - $\mathbf{f}: \L_1 \to \L_2$
 	- $\mathbf{f}$ lineární, $\L_1$ konečná dimenze
@@ -34,7 +34,7 @@
 	- ekvivalentní:
 		- TODO: nějak v MathJax vytvořit Velebilův symbol pro TFAE (cirkulární implikace), se mi hrozně líbí, kdyžtak prostě udělat png 
 		- (1) $\mathbf{f}$ je monomorfismus
-		- (2) $\def \mathbf{f} = 0 \iff \ker \mathbf{f} \subseteq \{\vec{o}\}$
+		- (2) $\defekt\mathbf{f} = 0 \iff \ker \mathbf{f} \subseteq \{\vec{o}\}$
 			- tzn. $\mathbf{f}(\vec{x}) = \vec{o} \implies \vec{x} = \vec{o}$
 		- (3) $\mathbf{f}$ respektuje lineární nezávislost, tzn. $\im \mathbf{f}$ lineárně nezávislý v $\L_2$
 		- důsledek: $\dim \L_1 \leqslant \dim \L_2$
@@ -46,8 +46,8 @@
 	- ekvivalentní:
 		- $\mathbf{f}$ je isomorfismus
 		- $\mathbf{f}$ je monomorfismus a epimorfismus současně
-		- $\def \mathbf{f} = 0 \land \im \mathbf{f} = \L_2$
-		- $\def \mathbf{f} = 0 \land \dim \L_1 = \dim \L_2$
+		- $\defekt\mathbf{f} = 0 \land \im \mathbf{f} = \L_2$
+		- $\defekt\mathbf{f} = 0 \land \dim \L_1 = \dim \L_2$
 			- tzn. isomorfismy jsou zapsatelné jako čtvercové matice
 		- $\forall \vec{b} \in \L_2 \exists!\vec{x} \in \L_1: \mathbf{f}(\vec{x})=\vec{b}$, právě jedno řešení
 	- dáno $\dim \L_1 = \dim \L_2 = n$ ("čtvercová situace"), z toho jsou ekvivalentní:

@@ -4,7 +4,8 @@
 		- každý *pivot* (první nenulová položka zleva) libovolného řádku je vždy více napravo než pivot předchozího řádku
 			- $\rank \mathbf{M} =$ počet pivotů $\mathbf{M}$
 	- patrné že $\mathbf{M}$ je v horním blokovém tvaru $\iff (\mathbf{M} \mid \vec{o})$ je v horním blokovém tvaru
-		- např. $\mathbf{M} = \pmatrix{1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0},\ (\mathbf{M} \mid \vec{o}) = \amatrix{1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\ 0}$
+		- např. $\mathbf{M} = \pmatrix{1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0}$
+		- $(\mathbf{M} \mid \vec{o}) = \amatrix{1 & 2 & 3 & 4 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0}{0 \\ 0 \\ 0 \\ 0}$
 - Gaussova eliminační metoda
 	- jakoukoli matici $\mathbf{M}$ nad $\F$ můžeme upravit tzv. *elementárními řádkovými úpravami*
 		- (I) prohození řádků
@@ -54,7 +55,7 @@
 	- pro $\mathbf{B} = \mathbf{E}_n$ a čtvercovou matici $\mathbf{A}$ způsob, jak hledat $\mathbf{A}^{-1}$, neboli $(\mathbf{A} \mid \mathbf{E}_n) \sim (\mathbf{E}_n \mid \mathbf{A}^{-1})$
 - př.
 	- hledáme soustavu $(\mathbf{A} \mid \vec{b})$ takovou, aby množinou všech řešení bylo $\vec{p} + \ker \mathbf{A} = \pmatrix{3 \\ 2 \\ 6} + \span(\pmatrix{1 \\ 2 \\ 0}, \pmatrix{2 \\ 0 \\ 4})$
-	- $\def \mathbf{A} = \dim(\ker \mathbf{A}) = 2 \implies \rank \mathbf{A} = 1$
+	- $\defekt\mathbf{A} = \dim(\ker \mathbf{A}) = 2 \implies \rank \mathbf{A} = 1$
 	- $\therefore \R^3 \xrightarrow{\mathbf{A}} \R^1$
 	- $\therefore \mathbf{A} = \pmatrix{\ast & \ast & \ast}$
 	- TODO: doplnit
