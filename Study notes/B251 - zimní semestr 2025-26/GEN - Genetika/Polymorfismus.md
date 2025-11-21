@@ -10,5 +10,5 @@
 #### Genetický polymorfismus
 - výskyt dvou nebo více genetických variant v populaci
 - polymorfismus × mutace?
-- polymorfismus arbitrárně považujeme případ varianty s populačním výskytem >1%
+	- polymorfismus arbitrárně považujeme případ varianty s populačním výskytem >1%
 	- ![[polymorph_mutation.png]]
