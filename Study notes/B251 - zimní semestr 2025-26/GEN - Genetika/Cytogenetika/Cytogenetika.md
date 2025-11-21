@@ -48,20 +48,20 @@
 	- časté užití v klinické cytogenetice
 	- karyogram - tabulka chromosomového složení buňky pacienta (resp. subjektu)
 		- ![[karyogram.png]]
-		- umožňuje přímé nahlédnutí na mnohé chromozomální aberace (např. chybějící raménka chromozomů...)
+		- umožňuje přímé nahlédnutí na mnohé chromosomální aberace (např. chybějící raménka chromosomů...)
 	- lidský karyotyp
 		- 22 párů autosomálních chromosomů
 		- 1 pár gonosomálních chromosomů
 			- také zvané heterochromosomy
-- chromozomové určení pohlaví
-	- u člověka typ XY, neboli typ Drosophila
+- chromosomové určení pohlaví
+	- u člověka typ XY, neboli typ *Drosophila*
 		- ♂ XY - samec je *heterogametní* pohlaví
 		- ♀ XX - samice je *homogametní* pohlaví
 	- u některých jiných druhů, např. ptáků, typ ZW
 		- ♂ ZZ - samec je *homogametní* pohlaví
 		- ♀ ZW - samice *heterogametní* pohlaví
 	- u dalších organismů i typy X0 a Z0
-		- respektivní heterogametní pohlaví pouze jedna kopie gonosomálního chromozomu
+		- respektivní heterogametní pohlaví pouze jedna kopie gonosomálního chromosomu
 			- ♂ X0, ♀ Z0
 			- může se patologicky vyskytnout u člověka, tzv. Turnerův syndrom (incidence 0.02%–0.05% narozených dětí)
 				- pacienti ženského fenotypu
@@ -75,7 +75,7 @@
 		- inaktivace chromosomu X
 		- objevena u myší 1961 Mary Frances Lyonovou, později popsána u dalších druhů vč. člověka
 		- umožňuje kompenzaci tzv. *genové dávky* u žen, které X mají 2 kopie
-			- bez tohoto procesu by buď muži nebo ženy měli chromozomální vady z důvodu přílišné♀ resp. nedostatečné♂ exprese genů vázaných na X
+			- bez tohoto procesu by buď muži nebo ženy měli chromosomální vady z důvodu přílišné♀ resp. nedostatečné♂ exprese genů vázaných na X
 		- probíhá na základě methylace histonů a DNA (a dalších procesů)
 			- TODO: zjistit, doplnit
 		- zahuštěný chromatin deaktivovaného chromosomu X vytváří tzv. **Barrovo tělísko**, viditelné i pod světelným mikroskopem
@@ -87,7 +87,7 @@
 		- od konce 60. let 20. stol. Olympijský výbor praktikuje "gender verification test" založený na identifikaci Barrova tělíska
 			- Maria Patino
 				- diskvalifikována z Olympických her 1986
-				- chromozomálně XY, ale měla syndrom androgenní necitlivosti, tudíž se mužské znaky neprojevily
+				- chromosomálně XY, ale měla syndrom androgenní necitlivosti, tudíž se mužské znaky neprojevily
 				- její diskvalifikace a následně její boj proti diskriminaci vedl k upuštění od těchto testů 
 	- vyjma vad exprese apod. (intersex)
 		- Zdeněk Koubek

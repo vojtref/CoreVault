@@ -8,8 +8,8 @@
 	- poč. 19. stol. - všechny organismy složeny z buněk (Schleiden, Schwann)
 	- zakladatel jakožto vědní disciplíny Gregor J. Mendel (1822–1884)
 		- 1865 - odvodil základní zákonitosti dědičnosti z experimentů křížení různých odrůd (příp. druhů?) hrachu
-	- konec 19. stol. - chromozomová teorie dědičnosti (≈ buněčné jádro, potažmo jeho dílčí chromozomy, jsou nositelem gen. informace buňky)
-	- poč. 20. stol. - definovány pojmy *genetika*, *gen*, *alela*; prokázána platnost chromozomové teorie
+	- konec 19. stol. - chromosomová teorie dědičnosti (≈ buněčné jádro, potažmo jeho dílčí chromosomy, jsou nositelem gen. informace buňky)
+	- poč. 20. stol. - definovány pojmy *genetika*, *gen*, *alela*; prokázána platnost chromosomové teorie
 	- 1944 - důkaz, že genetickou informaci kóduje DNA
 	- 1953 - objev struktury DNA roentgenovou krystalografií (Rosalind Franklinová)
 		- počátky výzkumu Maurice Wilkins (zejm. tzv. [Photo 51](https://en.wikipedia.org/wiki/Photo_51) pořízeno členem jeho týmu Raymondem Goslingem)
@@ -20,7 +20,7 @@
 	- 1990—2003 - Human Genome Project - víceméně kompletní sekvencování lidské genetické informace
 - příklady disciplín
 	- [[Molekulární genetika|molekulární genetika]] - studium genetických mechanismů na biochemické a molekulární úrovni
-	- [[Cytogenetika|cytogenetika]] - stavba a funkce chromozomů
+	- [[Cytogenetika|cytogenetika]] - stavba a funkce chromosomů
 	- imunogenetika - genetická podmíněnost obranyschopnosti a jejích složek
 	- klinická genetika - geneticky podmíněné choroby; diagnostika, léčba, prevence (souvislost s gen. poradenstvím)
 	- farmakogenetika - studium genových variant zodpovědných za metabolismus a farmakodynamiku daných léčiv v lidském těle

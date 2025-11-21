@@ -32,7 +32,7 @@
 				- ${\texttt{stp}} - \text{stop kodon}$
 				- ${\color{Cerulean}\texttt{XXX}} - \text{možný start kodon}$
 - TODO: doplnit historii
-- post-translační modifikace
+- post-translační modifikace ^570900
 	- probíhají v Golgiho komplexu
 	- chemické úpravy proteinů po dokončení translace
 	- změna proteinu na aktivní/maturovanou formu

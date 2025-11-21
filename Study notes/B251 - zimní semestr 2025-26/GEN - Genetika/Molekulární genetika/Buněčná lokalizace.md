@@ -1,10 +1,10 @@
 - jádro
 	- jadérko
 		- syntéza rRNA, tRNA
-	- transkripce
+	- [[Transkripce|transkripce]]
 - endoplazmatické retikulum
-	- translace
+	- [[Translace|translace]]
 - Golgiho komplex
-	- post-translační změny
+	- [[Translace#^570900|post-translační změny]]
 - proteasomy, lysosomy
 	- proteolýza

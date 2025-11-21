@@ -4,12 +4,12 @@
 - 4 základní fáze
 	- M
 		- mitóza
-			- μίτος, "vlákno"
+			- etym.: μίτος, "vlákno"
 			- profáze
 			- prometafáze
 			- metafáze
 			- **M checkpoint**
-				- jsou chromozomy napojeny k dělícímu vřeténku?
+				- jsou chromosomy napojeny k dělícímu vřeténku?
 			- anafáze
 			- telofáze
 		- cytokineze

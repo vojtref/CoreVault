@@ -1,4 +1,4 @@
-- hlavní motivací je diagnostika chromozomových aberací způsobující určité patologické stavy
+- hlavní motivací je diagnostika chromosomových aberací způsobující určité patologické stavy
 - dělení
 	- dle typu materiálu odebraného z pacienta
 		- preimplantační
@@ -29,7 +29,7 @@
 			- k identifikaci chromosomů užity barvící metody (staining; barvivo Giemsa-Romanowski, Wrightův roztok, fluorescenční barviva...)
 				- Giemsa na bázi azuru II a eosinu Y v methanolu a glycerinu
 				- Wright na bázi methylenové modři a eosinu Y
-			- nutno získat metafázové chromozomy, tedy kondenzované dichromatidové
+			- nutno získat metafázové chromosomy, tedy kondenzované dichromatidové
 			- postup
 				- odběr vzorku
 				- kultivace buněk
@@ -40,12 +40,12 @@
 				- vyhodnocení
 			- vybavení
 				- optický mikroskop
-					- chromozomy vyhodnocovány pod objektivem s 100x zvětšením, tedy nutný *imerzní* objektiv 
+					- chromosomy vyhodnocovány pod objektivem s 100x zvětšením, tedy nutný *imerzní* objektiv 
 				- CCD kamera
 				- vyhodnocovací software
 					- vyhledávání metafází
 					- karyotyping
-						- roztřídění chromozomů na snímku do karyogramu
+						- roztřídění chromosomů na snímku do karyogramu
 						- softwarové zpracování nedokonalé; i dnes nutno vyhodnocení odborníkem
 					- archivace snímků, tisk výsledků, apod...
 		- molekulárně cytogenetická

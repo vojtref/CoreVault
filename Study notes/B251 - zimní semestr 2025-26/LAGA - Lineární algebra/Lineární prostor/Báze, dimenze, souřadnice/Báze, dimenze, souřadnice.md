@@ -35,13 +35,13 @@
 - tvrzení: $L = \span G$, $G$ konečná
 	1. $L$ má konečnou bázi
 	2. $\exists B_1,B_2 \implies |B_1| = |B_2|$
-	3. toto číslo značíme $\dim L$, tedy **dimenze** $L$
+	3. toto číslo značíme $\dim L$, tedy **dimense** $L$
 		- $\dim L = n \Leftarrow \exists B \subseteq L:\span B = L \land B\ \text{lineárně nezávislá} \land |B|=n$   
 		- slogany:
-			- dimenze je "tloušťka" prostoru (wtf does that mean)
+			- dimense je "tloušťka" prostoru (wtf does that mean)
 			- počet prvků množiny je "tloušťka" množiny (what)
-			- dimenze je "něco jako" počet prvků
-			- dimenze je počet souřadnicových os
+			- dimense je "něco jako" počet prvků
+			- dimense je počet souřadnicových os
 			- velikost nejmenší možné množiny generující $L$
 			- velikost největší možné lin. nezávislé množiny
 		- $\dim L$ je konečná, $M$ lineárně nezávislá $\implies \card M \leqslant \dim L$
@@ -54,7 +54,7 @@
 	- předpokládá axiom výběru, angl. axiom of choice
 		- kartézský součin libovolného systému neprázdných množin je neprázdná množina
 		- ve skriptech i ek
-- stejný prostor nad různými tělesy může mít různé dimenze!
+- stejný prostor nad různými tělesy může mít různé dimense!
 	- např. $\C$ má dimenzi 1 nad $\C$ ale 2 nad $\R$, $\R$ má dimenzi 1 nad $\R$ ale nekonečnou nad $\Q$
 - souřadnice vzhledem k uspořádané bázi $B$
 	- $\coord_B{\vec{x}}$
@@ -68,7 +68,7 @@
 		- $\therefore a_i = a_i^\star$, tedy právě jedna kombinace koeficientů kombinace $B$ tvoří $\vec{x}$
 		- $\QED$
 	- př. souřadnicových vektorů v $\R[x]$
-		- u nekonečné dimenze nemožné mít kanonickou bázi
+		- u nekonečné dimense nemožné mít kanonickou bázi
 		- u prostoru polynomů omezeného stupně jsou možné "pěkné" báze
 			- např. $\R^{\leqslant 2}[x]$
 				- $B_1 = \{1, x, x^2\}$

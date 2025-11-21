@@ -47,7 +47,7 @@
 			- satelitní DNA
 				- nekódují nic
 				- mikro-, mini- a makrosatelity
-			- **ribozomální RNA** - v krátkých raménkách akrocentrických chromozomů
+			- **ribozomální RNA** - v krátkých raménkách akrocentrických chromosomů
 				- kódující!
 		- rozptýlené sekvence (angl. interspersed repeats)
 			- **transpozony**

@@ -5,22 +5,24 @@
 		- $\id$ vždy isomorfní
 - tvrz.: dána uspořádaná báze $B=(\vec{b_1}, \ldots, \vec{b_n})$ pro $\L$ nad $\F$, pak $\L \xrightarrow{\coord_B} \F^n$ je isomorfismus
 	- TODO: dokázat skrze lineární nezávislost báze a tudíž zobrazení, jedině triviální lineární kombinace ve všech bázích dává $\pmatrix{0 \\ 0 \\ \vdots \\ 0}$ a je zachován princip superpozice
-- zobrazení $P$ nad $L$
+- zobrazení $P$ nad $\L$
 	- $\im P = \{P\vec{x} \mid \vec{x} \in \L\}$ - **obraz** $P$ (angl. image)
 		- množina všech funkčních hodnot
 			- z pohledu souřadnic (matice zobrazení vzhledem k bázím): $\im$ množina všech lin. kombinací sloupců matice, neboli lineární obal sloupců
 				- pozor, Olšákovy skripta a některá další používají řádkové vektory, takže u něj je $\im$ lineární obal řádků matice (proč se matematici aspoň tady na fakultě neshodnou jestli budou používat sloupcový nebo řádkový vektory tvl)
-		- $\rank P = \dim \im P$ - **hodnost**
+		- $\rank P = \dim(\im P)$ - **hodnost**
 		- slogan: říká, jak moc je $P$ epimorfní
-	- $\ker P = \{\vec{x} \mid P\vec{x} = \vec{o}\}$ - jádro $P$ (angl. kernel)
+	- $\ker P = \{\vec{x} \mid P\vec{x} = \vec{o}\}$ - **jádro** $P$ (angl. kernel)
+		- také zvané **nulový prostor**
 		- množina všech argumentů s nulovou funkční hodnotou
-		- $\defektP = \dim \ker P$ - **defekt**
+		- $\defekt P = \dim(\ker P)$ - **defekt**
+			- také zvaný **nulita**, značeno $\mathop{\mathrm{nul}} P$
 		- slogan: říká, jak moc je $P$ monomorfní
 			- TODO: spíš jak moc *není* monomorfní, ne? Ověřit, možná jsem zapsal blbě
-	- $\dim \L = \rank P + \defektP$
+	- $\dim \L = \rank P + \defekt P$
 		- důkaz $\viz{AKLA 3.3.6}$
 - $\mathbf{f}: \L_1 \to \L_2$
-	- $\mathbf{f}$ lineární, $\L_1$ konečná dimenze
+	- $\mathbf{f}$ lineární, $\L_1$ konečná dimense
 	- (1) $\ker \mathbf{f}$ je podprostor $\L_1$
 		- $\vec{v_1}, \vec{v_2} \in \ker \mathbf{f}, a \in \F$
 		- $\mathbf{f}(\vec{v_1} + \vec{v_2}) = \mathbf{f}(\vec{v_1}) + \mathbf{f}(\vec{v_2}) = \vec{o} + \vec{o} = \vec{o} \mid \text{uzavřené nad }+$

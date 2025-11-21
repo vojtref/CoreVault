@@ -12,7 +12,7 @@
 		- tedy $\L$ se "rozpadá"/"rozkládá" na podstavu (osy $x, y$) a výšku (osa $z$)
 	- $\mathbf{B}$:
 		- $\eigen(4, \mathbf{B}) = \span(\vec{e}_1)$
-			- okamžitě vidíme, že $\mathbf{B}$ diagonalizovat nelze, dimenze vlastního prostoru není rovna násobnosti příslušné vlastní hodnoty
+			- okamžitě vidíme, že $\mathbf{B}$ diagonalizovat nelze, dimense vlastního prostoru není rovna násobnosti příslušné vlastní hodnoty
 			- tedy málo vlastních vektorů pro $\lambda_{1,2}=4$
 	- matice možné rozdělit do bloků
 		- $\mathbf{A} = \pmatrix{{\color{Cyan}4} & {\color{Cyan}0} & 0 \\ {\color{Cyan}0} & {\color{Cyan}4} & 0 \\ 0 & 0 & {\color{Dandelion}9}}$

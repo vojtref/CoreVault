@@ -75,7 +75,7 @@
 	- spočteme $\char_\mathbf{A}(x)$, tedy charakteristický polynom $\mathbf{A}$
 	- najdeme kořeny, tedy vlastní hodnoty $\lambda_i$
 		- nemusí mít kořeny v tělese, v takovém případě to "skončí brzo"
-	- matici lze diagonalizovat právě tehdy, kdy dimenze každéhp vlastního podprostoru $\dim\eigen(\lambda_i, \mathbf{M})$ je rovna násobnosti $\lambda_i$ jakožto kořenu charakteristického polynomu $\char_\mathbf{M}(x)$
+	- matici lze diagonalizovat právě tehdy, kdy dimense každého vlastního podprostoru $\dim\eigen(\lambda_i, \mathbf{M})$ je rovna násobnosti $\lambda_i$ jakožto kořenu charakteristického polynomu $\char_\mathbf{M}(x)$
 - př. Pauliho matice
 	- různí autoři ⇒ různé značení (často $\sigma_{1,2,3}$ nebo $\sigma_{x,y,z}$), zde zkrátka $X, Y, Z$
 	- $X = \pmatrix{0 & 1 \\ 1 & 0}$

@@ -5,13 +5,16 @@
 	- předtím používán termín "pangen," čehož je "gen" zkrácení
 	- v té době ještě neznámá podstata, domněnky že se jedná o bílkovinná tělíska
 - daleko složitější struktura než pouhý řetězec aminokyselinových kodonů
-	- $\array{\text{[promotor]} \\ \text{[UTR]} \\ \text{[exon]} \\ \text{[intron]} \\ \vdots \\ \text{[intron]} \\ \text{[exon]} \\ \text{[UTR]}}$
+	- $\array{{\color{Cyan}\text{[promotor]}} \\ {\color{Periwinkle}\text{[UTR]}} \\ {\color{LimeGreen}\text{[exon]}} \\ {\color{Dandelion}\text{[intron]}} \\ {\color{LimeGreen}\text{[exon]}} \\ {\color{Dandelion}\text{[intron]}} \\ \vdots \\ {\color{Dandelion}\text{[intron]}} \\ {\color{LimeGreen}\text{[exon]}} \\ {\color{Periwinkle}\text{[UTR]}}}$
 	- promotor - netranskribuje se, vážou se na něj transkripční faktory
-		- "houslový klíč", uvádí informaci genu
-		- často obsahují např. CpG dinukleotidy 
+		- "houslový klíč"
+		- uvádí informaci genu
+		- často obsahují např. CpG dinukleotidy
 	- UTR - untranslated region, nepřekládaná oblast
 		- je transkribován, ale není translatován
 		- u promotoru, a také na konci genu
 		- důležité např. pro mechaniku ribosomů
-	- exony
 	- introny
+		- jsou transkribovány, ale během post-transkripčních změn jsou vystříhány
+	- exony
+		- udržují samotnou funkční složku genu

@@ -72,4 +72,4 @@
 	- většina tzv. interkalátory = "vmezeřovače", molekuly barviva se vmezeřují mezi páry bazí
 		- v živé tkáni působí mutace, silný karcinogen
 		- např. ethidiumbromid
-	- dále např. diamidinofenylindol (barvivo používáno na chromozomy), SYBR Green
+	- dále např. diamidinofenylindol (barvivo používáno na chromosomy), SYBR Green

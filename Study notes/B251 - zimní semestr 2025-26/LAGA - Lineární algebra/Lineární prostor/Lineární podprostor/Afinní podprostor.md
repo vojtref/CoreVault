@@ -3,3 +3,5 @@
 	- $d=1$ - přímka
 	- $d=2$ - rovina
 	- patrné, že $d \leqslant s$
+- afinní prostory nemusí být [[Lineární podprostor|podprostory]] $\L$, protože nemusí procházet počátkem
+	- valná většina podprostorem není

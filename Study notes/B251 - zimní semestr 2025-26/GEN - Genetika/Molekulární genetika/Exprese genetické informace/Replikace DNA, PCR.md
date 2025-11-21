@@ -44,7 +44,7 @@
 			- umožňuje efektivní vyšetřování RNA virů
 		- kvantitativní fluorescenční PCR (QF-PCR)
 			- sleduje množství produktů PCR na základě fluorescenčního značení (např. skrze fluorescenční nukleosidtrifosfáty)
-			- např. primery označující dané geny, úseky chromozomů či celé chromozomy
+			- např. primery označující dané geny, úseky chromosomů či celé chromosomy
 				- užíváno v amnioPCR - vyšetření plodové vody, např. při detekci Downova syndromu a podobných poruch
 		- real time PCR
 			- sledování nárůstu produktů v reálném čase
